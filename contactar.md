@@ -11,4 +11,4 @@ keywords:
     - 'contactar, jose cuellar, contacta'
 ---
 
-Si quieres ponerte en contacto conmigo por cualquier motivo o tema, puedes enviar un e-mail a <contacto@josecuellar.net>. O bien... \[contact-form-7 id="612" title="Formulario de contacto"\]
+Si quieres ponerte en contacto conmigo por cualquier motivo o tema, puedes enviar un e-mail a <contacto@josecuellar.net>.
