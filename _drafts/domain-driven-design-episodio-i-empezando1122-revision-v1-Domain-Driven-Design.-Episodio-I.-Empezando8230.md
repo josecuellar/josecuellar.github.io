@@ -10,6 +10,6 @@ permalink: '/?p=1189'
 
 Estoy inmerso en la lectura de "*Implementing Domain-Driven Design*" de Vaughn Vernon. Llevo algunos pocos capítulos y he decidido, a modo de seguimiento y aprendizaje, empezar a escribir una serie de post para compartir con la comunidad algunas reseñas de lo que creo interesante. Siéntete libre de hacer tus comentarios :)
 
-<center>![](http://josecuellar.net/wp-content/uploads/ddd.jpg)</center>> El diseño no es sólo cómo se ve o cómo se siente. El Diseño es cómo funciona. Steve Jobs
+<center>![](/wp-content/uploads/ddd.jpg)</center>> El diseño no es sólo cómo se ve o cómo se siente. El Diseño es cómo funciona. Steve Jobs
 
  [<span aria-label="Sigue leyendo Domain-Driven Design. Episodio I. Empezando…">(más…)</span>](https://josecuellar.github.io/?p=1189#more-1189)

@@ -13,4 +13,4 @@ Las retrospectivas en SCRUM son reuniones que se realizan tras finalizar el spri
 - ¿Qué debemos mejorar?
 - ¿Que acciones tomamos?
  
- Es recomendable reflejar las tres preguntas mediante un simple tablero Kanban de este tipo: ![](http://josecuellar.net/wp-content/uploads/retro.jpg) En la primera parte de la reunión se hace balance de las acciones que se indicaron en la anterior retrospectiva. 
+ Es recomendable reflejar las tres preguntas mediante un simple tablero Kanban de este tipo: ![](/wp-content/uploads/retro.jpg) En la primera parte de la reunión se hace balance de las acciones que se indicaron en la anterior retrospectiva. 
