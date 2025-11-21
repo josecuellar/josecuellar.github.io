@@ -12,4 +12,4 @@ En los últimos meses he tenido la oportunidad de leerme algunos libros. Quiero 
 
 > Muchos valores y consejos inspiradores que invitan continuamente a la reflexión, otros obvios, expresados mediante metáforas y ejemplos interesantes. Los diálogos están muy poco trabajados, la importancia reside únicamente en el mensaje, sin pulir nada del resto. Recomendable, aunque demasiada sabiduría oriental puede llegar a empalagar. **7/10**
 
- [<span aria-label="Sigue leyendo Inteligencia emocional, psicología y filosofía japonesa: libros recomendados">(más…)</span>](https://josecuellar.net/?p=1864#more-1864)
+ [<span aria-label="Sigue leyendo Inteligencia emocional, psicología y filosofía japonesa: libros recomendados">(más…)</span>](https://josecuellar.github.io/?p=1864#more-1864)

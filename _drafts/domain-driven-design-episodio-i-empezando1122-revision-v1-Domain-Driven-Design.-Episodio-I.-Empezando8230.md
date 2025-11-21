@@ -12,4 +12,4 @@ Estoy inmerso en la lectura de "*Implementing Domain-Driven Design*" de Vaughn V
 
 <center>![](http://josecuellar.net/wp-content/uploads/ddd.jpg)</center>> El diseño no es sólo cómo se ve o cómo se siente. El Diseño es cómo funciona. Steve Jobs
 
- [<span aria-label="Sigue leyendo Domain-Driven Design. Episodio I. Empezando…">(más…)</span>](https://josecuellar.net/?p=1189#more-1189)
+ [<span aria-label="Sigue leyendo Domain-Driven Design. Episodio I. Empezando…">(más…)</span>](https://josecuellar.github.io/?p=1189#more-1189)

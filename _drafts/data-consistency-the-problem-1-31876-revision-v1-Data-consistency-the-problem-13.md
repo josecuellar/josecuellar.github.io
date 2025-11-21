@@ -1,11 +1,11 @@
 ---
-id: 2066
+id: 2086
 title: 'Data consistency: the problem (1/3)'
-date: '2025-11-21T21:49:28+00:00'
+date: '2025-11-21T22:22:28+00:00'
 author: Jose
 layout: revision
-guid: 'https://josecuellar.net/?p=2066'
-permalink: '/?p=2066'
+guid: 'https://josecuellar.net/?p=2086'
+permalink: '/?p=2086'
 ---
 
 Basamos (o deberíamos) las decisiones en base a los datos que almacenamos en la interacción de los usuarios sobre nuestro producto. Guardamos toda la información necesaria para dar respuestas y elaborar predicciones en base a históricos de datos. Adaptándonos y anticipándonos así a las necesidades de nuestros usuarios.

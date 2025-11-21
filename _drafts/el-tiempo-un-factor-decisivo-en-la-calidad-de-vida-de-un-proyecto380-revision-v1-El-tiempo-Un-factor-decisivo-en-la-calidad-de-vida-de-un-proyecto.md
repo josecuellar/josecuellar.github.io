@@ -1,21 +1,11 @@
 ---
-id: 380
+id: 2092
 title: 'El tiempo: Un factor decisivo en la calidad de vida de un proyecto'
-date: '2011-01-31T17:17:35+00:00'
+date: '2025-11-21T22:25:19+00:00'
 author: Jose
-layout: post
-guid: 'http://www.josecuellar.net/?p=380'
-permalink: /el-tiempo-un-factor-decisivo-en-la-calidad-de-vida-de-un-proyecto/
-description:
-    - 'El tiempo: Un factor decisivo en la calidad de vida de un proyecto'
-keywords:
-    - 'tiempo, planning, programación, programador, timming, calidad de software, calidad, escribir, código'
-categories:
-    - General
-tags:
-    - 'ASP .NET'
-    - Optimización
-    - Rendimiento
+layout: revision
+guid: 'https://josecuellar.net/?p=2092'
+permalink: '/?p=2092'
 ---
 
 La idea es sencilla y lógica desde el punto de vista de negocio: *Si tardamos menos en el desarrollo de un proyecto: Minorizaremos recursos, recortaremos gastos y adelantaremos resultados.*  
