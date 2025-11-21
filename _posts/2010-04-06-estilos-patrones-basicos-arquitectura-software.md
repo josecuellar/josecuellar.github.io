@@ -29,7 +29,7 @@ Los principales aspectos son: **Comunicación, despliegue, dominio, interacción
 
 - **Cliente/Servidor**: Define una relación entre dos aplicaciones en las cuales una de ellas (cliente) envía peticiones a la otra (servidor y fuente de datos).   
       
-    <center>![Cliente/Servidor](/wp-content/uploads/Arquitectura/clienteservidor.png)</center>
+    <center>![Cliente/Servidor](http://www.josecuellar.net/wp-content/uploads/Arquitectura/clienteservidor.png)</center>
 - **Basado en componentes**: Conjunto de componentes que exponen interfaces bien definidas y que colaboran entre sí para resolver el problema. Diseñado de forma que puedan ser reutilizados en distintos escenarios en distintas aplicaciones aunque algunos componentes son diseñados para tareas específicas.   
       
     <center>![Basado en componentes](http://www.josecuellar.net/wp-content/uploads/Arquitectura/componentes.png)</center>

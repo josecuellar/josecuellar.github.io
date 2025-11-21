@@ -21,7 +21,7 @@ tags:
 La idea es sencilla y lógica desde el punto de vista de negocio: *Si tardamos menos en el desarrollo de un proyecto: Minorizaremos recursos, recortaremos gastos y adelantaremos resultados.*  
   
 Esta presión se propaga desde arriba, hasta los niveles más bajos en el desarrollo:   
-*La programación de los [requisitos](/arquitectura-de-software/el-diseno-de-la-arquitectura-de-un-sistema/).*  
+*La programación de los [requisitos](http://www.josecuellar.net/arquitectura-de-software/el-diseno-de-la-arquitectura-de-un-sistema/).*  
   
 <u>En consecuencia</u>: Se codifica y se construye, dedicándole menos importancia al análisis previo, a una programación correcta, clara y fácil de mantener. Reflejando un código complejo y poco entendible.   
   
@@ -68,13 +68,13 @@ Ante análisis y contratiempos, ahorremos tiempo: **Evitemos distracciones**. Si
   
 Aún haciendo todo lo posible por priorizar y mantener una calidad óptima: Ocasionalmente debemos sacrificarla para llegar a las fechas. Especifica y comenta la causa por la que estas obligado a escribir ciertas líneas de código. Quizás en otro momento, tú u otro compañero de equipo, con más tiempo, puedan eliminarlas estableciendo una solución de calidad.   
   
-La presión contínua tras el paso del tiempo, provoca la acumulación de dichas líneas de código. Originando a su vez la **creciente acumulación de incidencias**. En esos casos, debe valorarse el [refactoring](/js-ajax/cuando-y-porque-realizar-tareas-de-refactoring), **eliminando todas las líneas innecesarias y/o con alto margen de error**. No cometas el error de continuar aplicando líneas correctivas sobre líneas de baja calidad:   
+La presión contínua tras el paso del tiempo, provoca la acumulación de dichas líneas de código. Originando a su vez la **creciente acumulación de incidencias**. En esos casos, debe valorarse el [refactoring](http://www.josecuellar.net/js-ajax/cuando-y-porque-realizar-tareas-de-refactoring), **eliminando todas las líneas innecesarias y/o con alto margen de error**. No cometas el error de continuar aplicando líneas correctivas sobre líneas de baja calidad:   
   
 > Cuando se está depurando, el programador novato introduce código correctivo; el experto elimina el código defectuoso. Richard Pattis.
 
   
   
-Ajustando el tiempo de desarrollo obtendremos antes los beneficios y resultados. Aunque a lo largo del tiempo, deben aceptarse los **costes de tiempo y recursos para la re-solución de problemas y [refactoring](/js-ajax/cuando-y-porque-realizar-tareas-de-refactoring) que ha provocado el desarrollo acelerado y de poca calidad**. Pudiéndolos haber utilizado en otros nuevos proyectos y/o mejoras.   
+Ajustando el tiempo de desarrollo obtendremos antes los beneficios y resultados. Aunque a lo largo del tiempo, deben aceptarse los **costes de tiempo y recursos para la re-solución de problemas y [refactoring](http://www.josecuellar.net/js-ajax/cuando-y-porque-realizar-tareas-de-refactoring) que ha provocado el desarrollo acelerado y de poca calidad**. Pudiéndolos haber utilizado en otros nuevos proyectos y/o mejoras.   
   
 > Cualquiera puede escribir código que un ordenador pueda entender. Los buenos programadores son aquellos que escriben código que los humanos puedan entender. Martin Fowler.
 

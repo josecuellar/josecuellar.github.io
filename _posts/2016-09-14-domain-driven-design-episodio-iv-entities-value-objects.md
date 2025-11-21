@@ -1,6 +1,6 @@
 ---
 id: 1230
-title: 'Domain-Driven Design. Entities &#038; Value Objects'
+title: 'Domain-Driven Design. Entities & Value Objects'
 date: '2016-09-14T20:56:34+00:00'
 author: Jose
 layout: post
