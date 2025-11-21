@@ -22,13 +22,15 @@ Existen dos tipos de gestión de sagas: basada en **orquestación** o **coreogra
 
 Los participantes **reaccionan de forma autónoma**. Cada servicio participa en la transacción distribuida de forma **individual**. Siendo responsable de gestionar su propia transacción local según la operación resultante de otro participante: continuar la saga o ejecutar la **transacción de compensación** (*deshaciendo cambios ya realizados*) desencadenando los **eventos de compensación**. Notificando si la transacción ha sido realizada correctamente o no, publicando el evento correspondiente.
 
-<figure class="wp-block-image size-large is-resized is-style-default">![](/wp-content/uploads/2020/04/image-29-1024x387.png)</figure>No existe un *single point of failure* y los servicios se encuentran totalmente desacoplados. Aunque (dependiendo del número de participantes o servicios que colaboren para garantizar la ejecución completa de la transacción distribuida) puede ocasionar un aumento en la **complejidad dificultando las tareas de testing, debug y monitoring**.
+![](/wp-content/uploads/2020/04/image-29-1024x387.png)
+No existe un *single point of failure* y los servicios se encuentran totalmente desacoplados. Aunque (dependiendo del número de participantes o servicios que colaboren para garantizar la ejecución completa de la transacción distribuida) puede ocasionar un aumento en la **complejidad dificultando las tareas de testing, debug y monitoring**.
 
 ## Orchestration
 
 Los **participantes son gestionados desde un único punto: el orquestador de la saga**. Mediante una primera operación orquesta las llamadas secuenciales al conjunto de participantes para llevar a cabo la transacción de negocio distribuida.
 
-<figure class="wp-block-image size-large is-resized is-style-default">![](/wp-content/uploads/2020/04/image-30-1024x721.png)</figure>Si el orquestador detecta un error en alguna respuesta en la ejecución de algún participante ejecutará las **acciones correspondientes de compensación en cada uno de los participantes ya ejecutados** hasta el momento.
+![](/wp-content/uploads/2020/04/image-30-1024x721.png)
+Si el orquestador detecta un error en alguna respuesta en la ejecución de algún participante ejecutará las **acciones correspondientes de compensación en cada uno de los participantes ya ejecutados** hasta el momento.
 
 Las ejecuciones de los participantes se realizan asíncronamente siguiendo el orden necesario si se requiere. Pueden existir varias posibilidades de implementación dependiendo del stack tecnológico, aunque recomendable usar los patrones **Remote Procedure Call** (RPC) ***request/async response*** o ***request/replay*** en las comunicaciones con los participantes.
 
@@ -47,5 +49,7 @@ Hasta aquí, de momento, los **principales patrones que nos permitirán garantiz
 - <https://microservices.io/patterns/data/saga.html>
 - <https://medium.com/@ijayakantha/microservices-the-saga-pattern-for-distributed-transactions-c489d0ac0247>
 - <https://jimmybogard.com/life-beyond-distributed-transactions-sagas/>
-
-<figure class="wp-block-embed aligncenter is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">https://www.youtube.com/watch?v=kyNL7yCvQQc </div></figure><figure class="wp-block-embed aligncenter is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">https://www.youtube.com/watch?v=aHsVsbo_VOE </div></figure><figure class="wp-block-embed-wordpress aligncenter wp-block-embed is-type-wp-embed is-provider-jose-cuellar-net"><div class="wp-block-embed__wrapper">https://josecuellar.net/data-consistency-the-problem-1-3/ </div></figure><figure class="wp-block-embed-wordpress aligncenter wp-block-embed is-type-wp-embed is-provider-jose-cuellar-net"><div class="wp-block-embed__wrapper">https://josecuellar.net/transactional-outbox-pattern-polling-publisher-pattern-2-3/ </div></figure>
+- https://www.youtube.com/watch?v=kyNL7yCvQQc
+- https://www.youtube.com/watch?v=aHsVsbo_VOE
+- https://josecuellar.net/data-consistency-the-problem-1-3/ 
+- https://josecuellar.net/transactional-outbox-pattern-polling-publisher-pattern-2-3/

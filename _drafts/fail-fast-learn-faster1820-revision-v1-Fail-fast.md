@@ -18,4 +18,5 @@ No intentes ocultarlos. A la larga es totalmente contraproducente. Quizás en al
 
 Una de las prácticas que te ayudarán y que supongo que ya conocerás, son las [guard clauses](https://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html). Olvídate de los *else* en los condicionales (harán tu código más sencillo y legible).
 
-<div class="wp-block-image"><figure class="aligncenter is-resized">![](/wp-content/uploads/2019/10/image-2.png)</figure></div> [<span aria-label="Sigue leyendo Fail-fast">(más…)</span>](https://josecuellar.github.io/?p=1836#more-1836)
+<div class="wp-block-image">![](/wp-content/uploads/2019/10/image-2.png)
+</div> [<span aria-label="Sigue leyendo Fail-fast">(más…)</span>](https://josecuellar.github.io/?p=1836#more-1836)

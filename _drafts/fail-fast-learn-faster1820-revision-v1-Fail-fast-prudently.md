@@ -32,11 +32,13 @@ Si no te has leído el libro, te lo recomiendo. [Aquí](/the-lean-startup-de-los
 
 La necesidad de fallar rápido para aprender rápido. Mediante un pequeño y barato MVP, mide los resultados y confirma las hipótesis de tu idea inicial mediante experimentación como Test A/B. Pivota o persevera a medida que confirmas dichas hipótesis. Evita el [BDUF](http://agilemodeling.com/essays/bmuf.htm) o [BMUF](http://agilemodeling.com/essays/bmuf.htm) la [sobreingeniería](https://en.wikipedia.org/wiki/Overengineering).
 
-<div class="wp-block-image"><figure class="aligncenter is-resized">![](/wp-content/uploads/2019/10/image-1.png)</figure></div>**Celebra y pierde el miedo al fallo**
+<div class="wp-block-image">![](/wp-content/uploads/2019/10/image-1.png)
+</div>**Celebra y pierde el miedo al fallo**
 
 El fallo forma parte del proceso de perfeccionamiento, aprendizaje y evolución en un determinado contexto. Sin el fallo, no aprenderíamos. Así que intentemos no fallar, pero si fallamos, celebrémoslo, ya nos queda un paso menos para el éxito. Somos humanos, culparnos por los fallos, sería culparnos por ser lo que somos.
 
-<div class="wp-block-image"><figure class="aligncenter is-resized">![](/wp-content/uploads/2019/10/image-1024x570.png)</figure></div>Asegúrate que ante un fallo, la capacidad de reacción sea inminente. Por ejemplo, si encuentras un fallo importante en la publicación de una nueva versión a producción. Deberías disponer de una estrategia de rollback inmediata. Promueve prácticas como [canary releasing](https://martinfowler.com/bliki/CanaryRelease.html) para un bajo impacto en caso de error y defiende en tu empresa una cultura que abrace el error como algo positivo y mecanismo de aprendizaje, en vez de castigarlo, generando miedo al riesgo y al cambio.
+<div class="wp-block-image">![](/wp-content/uploads/2019/10/image-1024x570.png)
+</div>Asegúrate que ante un fallo, la capacidad de reacción sea inminente. Por ejemplo, si encuentras un fallo importante en la publicación de una nueva versión a producción. Deberías disponer de una estrategia de rollback inmediata. Promueve prácticas como [canary releasing](https://martinfowler.com/bliki/CanaryRelease.html) para un bajo impacto en caso de error y defiende en tu empresa una cultura que abrace el error como algo positivo y mecanismo de aprendizaje, en vez de castigarlo, generando miedo al riesgo y al cambio.
 
 [Kent Beck en su libro Extremme Programming Explained](/extreme-programming-values/) explica la importancia del coraje como uno de los valores de un equipo.
 
