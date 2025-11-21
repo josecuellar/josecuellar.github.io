@@ -34,7 +34,7 @@ Existen dos tipos de gestión de sagas: basada en **orquestación** o **coreogra
 
 Los participantes **reaccionan de forma autónoma**. Cada servicio participa en la transacción distribuida de forma **individual**. Siendo responsable de gestionar su propia transacción local según la operación resultante de otro participante: continuar la saga o ejecutar la **transacción de compensación** (*deshaciendo cambios ya realizados*) desencadenando los **eventos de compensación**. Notificando si la transacción ha sido realizada correctamente o no, publicando el evento correspondiente.
 
-<figure class="wp-block-image size-large is-resized is-style-default">![](https://josecuellar.net/wp-content/uploads/2020/04/image-29-1024x387.png)</figure>No existe un *single point of failure* y los servicios se encuentran totalmente desacoplados. Aunque (dependiendo del número de participantes o servicios que colaboren para garantizar la ejecución completa de la transacción distribuida) puede ocasionar un aumento en la **complejidad dificultando las tareas de testing, debug y monitoring**.
+<figure class="wp-block-image size-large is-resized is-style-default">![](/wp-content/uploads/2020/04/image-29-1024x387.png)</figure>No existe un *single point of failure* y los servicios se encuentran totalmente desacoplados. Aunque (dependiendo del número de participantes o servicios que colaboren para garantizar la ejecución completa de la transacción distribuida) puede ocasionar un aumento en la **complejidad dificultando las tareas de testing, debug y monitoring**.
 
 ## Orchestration
 
