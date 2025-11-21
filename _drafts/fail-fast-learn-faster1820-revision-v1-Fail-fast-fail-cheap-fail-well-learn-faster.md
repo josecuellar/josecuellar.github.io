@@ -1,0 +1,15 @@
+---
+id: 1861
+title: 'Fail fast, fail cheap, fail well: learn faster'
+date: '2019-11-01T09:34:24+00:00'
+author: Jose
+layout: revision
+guid: 'https://josecuellar.net/1820-revision-v1/'
+permalink: '/?p=1861'
+---
+
+[Programa de forma defensiva](https://es.wikipedia.org/wiki/Programaci%C3%B3n_defensiva), estricta y rigurosa. Devuelve excepciones siempre y cuando las condiciones no son las adecuadas en un momento concreto de ejecución.
+
+Una de las prácticas que te ayudarán y que supongo que ya conocerás, son las [guard clauses](https://refactoring.com/catalog/replaceNestedConditionalWithGuardClauses.html). Olvídate de los *else* en los condicionales (harán tu código más sencillo y legible).
+
+<div class="wp-block-image"><figure class="aligncenter is-resized">![](https://josecuellar.net/wp-content/uploads/2019/10/image-2.png)</figure></div> [<span aria-label="Sigue leyendo Fail fast, fail cheap, fail well: learn faster">(más…)</span>](https://josecuellar.net/?p=1861#more-1861)
