@@ -10,7 +10,7 @@ permalink: '/?p=2082'
 
 Principles may guide your team´s practices, but these are the prinnciples that guide XP:
 
-<center>![](https://josecuellar.net/wp-content/uploads/xpprinciples.png)</center><u>Humanity</u>What do people need to be good developers? - Basic safety: Freedom from hunger, physical harm, and threats to loved ones. Fear of job loss threatens this need.
+<center>![](/wp-content/uploads/xpprinciples.png)</center><u>Humanity</u>What do people need to be good developers? - Basic safety: Freedom from hunger, physical harm, and threats to loved ones. Fear of job loss threatens this need.
 - Accomplishment: The opportunity and ability to contribute to their society.
 - Belonging: The ability to identify with a group from which they receive validation and accountability and contribute t its shared goals.
 - Growth: The opportunity to expand their skills and perspective.

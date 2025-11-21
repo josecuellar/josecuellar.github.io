@@ -34,7 +34,7 @@ Los sistemas de gestión de bases de datos relacionales o **SGBDR** *(SQL Server
 
  La principal e inicial arquitectura de alto nivel más común, extendida y que todos conocemos:
 
-<figure class="wp-block-image is-resized">![](https://josecuellar.net/wp-content/uploads/2020/04/image.png)</figure>Disponemos de un componente principal que **gestiona las transacciones realizadas a una única base de datos** por cada caso de uso de la aplicación. Como veis en este ejemplo, ejecutamos una transacción (todas las fases necesarias para completar correctamente un nuevo pedido). Efectivamente, la base de datos relacional **nos garantiza ACID ofreciéndonos consistencia, pero unos muy pobres resultados a nivel de eficiencia, escalabilidad y disponibilidad** manejando grandes cantidades de datos.
+<figure class="wp-block-image is-resized">![](/wp-content/uploads/2020/04/image.png)</figure>Disponemos de un componente principal que **gestiona las transacciones realizadas a una única base de datos** por cada caso de uso de la aplicación. Como veis en este ejemplo, ejecutamos una transacción (todas las fases necesarias para completar correctamente un nuevo pedido). Efectivamente, la base de datos relacional **nos garantiza ACID ofreciéndonos consistencia, pero unos muy pobres resultados a nivel de eficiencia, escalabilidad y disponibilidad** manejando grandes cantidades de datos.
 
 En 1998, *Carlos Strozzi* introduce el concepto de **NoSQL** para su base de datos relacional de código abierto, ya que no utiliza SQL como interfaz de consulta. *Eric Evans* y *Johan Oskarsson* (last.fm) reintroducen el concepto **NoSQL/NoREL** refiriéndose a base de datos no relacionales (denormalización o desestructuración de los datos dando una mejor eficiencia).
 
@@ -42,7 +42,7 @@ Compañías como *Twitter, Facebook, Amazon y Google* lideran la adopción de la
 
 Empezamos a evolucionar las arquitecturas. Unos de los siguientes pasos más comunes a la arquitectura sería el siguiente:
 
-<figure class="wp-block-image">![](https://josecuellar.net/wp-content/uploads/2020/04/image-1.png)<figcaption>  
+<figure class="wp-block-image">![](/wp-content/uploads/2020/04/image-1.png)<figcaption>  
 </figcaption></figure>Se empiezan a **integrar nuevas bases de datos NoSQL** (Apache Solr, ElasticSearch, Redis, etc.) incrementando la velocidad de consulta de forma exponencial. Mantenemos una réplica de los datos desde la base de datos transaccional de escritura, hacia la base de datos no relacional de lectura mediante **eventos de forma incremental** una vez suceden los cambios o mediante **tareas programadas de sincronización** (o ambas, dependiendo del caso).
 
 En este escenario se empiezan a dividir responsabilidades en modelos de lectura y escritura, **patrones como CQS o CQRS empiezan a ser muy útiles**.
@@ -55,9 +55,9 @@ En 2001, *Eric Evans* publica Domain-Driven Design: Tackling Complexity in the H
 
 Reconocidas las ventajas y sufriendo los inconvenientes, empezamos a dar pasos a los siguientes tipos de arquitecturas con objetivo de dividir el monolito:
 
-<div class="wp-block-image"><figure class="aligncenter">![](https://josecuellar.net/wp-content/uploads/2020/04/image-2.png)</figure></div>Con tal de desacoplar totalmente los contextos, necesitábamos dividir la base de datos:
+<div class="wp-block-image"><figure class="aligncenter">![](/wp-content/uploads/2020/04/image-2.png)</figure></div>Con tal de desacoplar totalmente los contextos, necesitábamos dividir la base de datos:
 
-<div class="wp-block-image"><figure class="aligncenter">![](https://josecuellar.net/wp-content/uploads/2020/04/image-3.png)</figure></div>En este momento disponemos de un **sistema distribuido aumentando la flexibilidad, escalabilidad y disponibilidad. Aunque, hemos dividido el ámbito transaccional (el sistema ya no garantiza ACID)**. Ahora simplemente disponemos de transacciones individuales, locales e independientes: hemos resuelto infinidad de problemas, pagando con la moneda de la consistencia de datos.
+<div class="wp-block-image"><figure class="aligncenter">![](/wp-content/uploads/2020/04/image-3.png)</figure></div>En este momento disponemos de un **sistema distribuido aumentando la flexibilidad, escalabilidad y disponibilidad. Aunque, hemos dividido el ámbito transaccional (el sistema ya no garantiza ACID)**. Ahora simplemente disponemos de transacciones individuales, locales e independientes: hemos resuelto infinidad de problemas, pagando con la moneda de la consistencia de datos.
 
 *Los números y los datos empiezan a ser incongruentes: ¿Cómo puede ser que haya menos stock del que nos reflejan los informes? ¿Cómo es posible que existe un pago si el pedido fue cancelado?, ¿Cómo podemos tener un pedido enviado si esta pending? etc.*
 
@@ -67,7 +67,7 @@ Por aquel momento, siguiendo la dinámica de visión y ya habiéndonos decantado
 
 Sam Newman publica *Building Microservices* en 2014 convirtiéndose en un libro de referencia en la comunidad. Empezamos a orientar nuestras arquitecturas hacia los microservicios:
 
-<figure class="wp-block-image">![](https://josecuellar.net/wp-content/uploads/2020/04/image-4.png)<figcaption> </figcaption></figure><figure class="wp-block-image">![](https://josecuellar.net/wp-content/uploads/2020/04/image-5.png)</figure>> El *bounded context* se convierte en una agrupación cohesionada de *microservicios*. Ahora ya no tenemos una única transacción que garantice ACID. Ni cuatro transacciones locales, sino doce: una por microservicio. Convirtiéndose en una transacción distribuida. El riesgo de inconsistencias de datos aumenta.
+<figure class="wp-block-image">![](/wp-content/uploads/2020/04/image-4.png)<figcaption> </figcaption></figure><figure class="wp-block-image">![](/wp-content/uploads/2020/04/image-5.png)</figure>> El *bounded context* se convierte en una agrupación cohesionada de *microservicios*. Ahora ya no tenemos una única transacción que garantice ACID. Ni cuatro transacciones locales, sino doce: una por microservicio. Convirtiéndose en una transacción distribuida. El riesgo de inconsistencias de datos aumenta.
 
 Mi intención principal en este post fue plantear y resumir el problema actual en la consistencia de los datos a lo largo del tiempo. Ya que parece que aún no somos conscientes del problema real y la falta de prácticas que nos ayuden a mitigarlo. Al fin y al cabo, la tecnología está al servicio del producto y la mejora del producto, de los datos que genera.
 
