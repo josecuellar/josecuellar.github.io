@@ -9,7 +9,7 @@ categories:
     - General
 tags:
     - Arquitectura
-    - 'Domain-Driven Design'
+    - DDD
 ---
 
 ## Factories
