@@ -4,16 +4,7 @@ title: 'Domain-Driven Design. Services & Domain Events'
 date: '2016-10-06T20:24:37+00:00'
 author: Jose
 layout: post
-guid: 'http://josecuellar.net/?p=1263'
 permalink: /domain-driven-design-episodio-v-services-domain-events/
-s4_url2s:
-    - ''
-s4_image2s:
-    - ''
-s4_ctitle:
-    - ''
-s4_cdes:
-    - ''
 categories:
     - General
 tags:
@@ -23,12 +14,18 @@ tags:
 
 ## Services
 
-Podemos definir los servicios como procesos que realizan determinadas tareas. Empleados y evolucionados desde [Service Oriented Architecture](https://es.wikipedia.org/wiki/Arquitectura_orientada_a_servicios) o [Remote Procedure Call](https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remoto). Tareas o acciones genéricas que no se asocian a una única determinada única instancia de objeto, de modo que la tendencia más habitual es crear métodos estáticos sobre la *entidad* o *agregado*. Esta práctica no se considera óptima por no seguir los [principios de desarrollo](http://josecuellar.net/principios-a-seguir-en-el-diseno-de-un-sistema/) y dificultando en gran medida el testeo, además de considerarse mala práctica acceder a *repositorios* dentro de los *agregados* o *entidades* en el modelo de dominio. La necesidad de incluir métodos estáticos en el modelo de dominio es un <u>buen indicador para crear un servicio</u>. ### Application Services
+Podemos definir los servicios como procesos que realizan determinadas tareas. Empleados y evolucionados desde [Service Oriented Architecture](https://es.wikipedia.org/wiki/Arquitectura_orientada_a_servicios) o [Remote Procedure Call](https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remoto). 
+
+Tareas o acciones genéricas que no se asocian a una única determinada única instancia de objeto, de modo que la tendencia más habitual es crear métodos estáticos sobre la *entidad* o *agregado*. Esta práctica no se considera óptima por no seguir los [principios de desarrollo](http://josecuellar.net/principios-a-seguir-en-el-diseno-de-un-sistema/) y dificultando en gran medida el testeo, además de considerarse mala práctica acceder a *repositorios* dentro de los *agregados* o *entidades* en el modelo de dominio. 
+
+La necesidad de incluir métodos estáticos en el modelo de dominio es un *buen indicador para crear un servicio*. 
+
+### Application Services
 
 - Cliente directo de Domain Services y modelo de dominio.
 - Casos de uso de la aplicación que coordina y orquesta las peticiones a la lógica de negocio y repositorios.
 - **Coordina las responsabilidades** del modelo de dominio y los servicios de dominio.
-- Alojados en [Application Layer](http://josecuellar.net/domain-driven-design-episodio-iii-arquitectura/).
+- Alojados en [Application Layer](/domain-driven-design-episodio-iii-arquitectura/).
 
 ### Domain Services
 
@@ -36,17 +33,77 @@ Podemos definir los servicios como procesos que realizan determinadas tareas. Em
 - Transforma un objeto de dominio a otro.
 - Calcula el valor mediante la entrada de objetos del modelo de dominio.
 - Pueden acceder a repositorios.
-- Alojados en [Domain Layer](http://josecuellar.net/domain-driven-design-episodio-iii-arquitectura/).
+- Alojados en [Domain Layer](/domain-driven-design-episodio-iii-arquitectura/).
 
-Con objetivo de seguir los [principios de desarrollo](http://josecuellar.net/principios-a-seguir-en-el-diseno-de-un-sistema/), declararemos interfaces para cada Servicio. Los servicios no son una *bala de plata*, si los utilizamos en exceso extrayendo toda la lógica de aplicación o dominio en servicios, podemos ocasionar un [Anemic Domain Model](http://www.martinfowler.com/bliki/AnemicDomainModel.html). Debe determinarse y decidirse correctamente si debe incluirse en el modelo de dominio un método de *entidad/agregado* o crear un servicio siguiendo en todo momento [Single Responsability Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle). Por normal general las implementaciones de los servicios se alojan en la capa de *infraestructura*, aunque en ocasiones y cuando tengamos una única implementación pueden alojarse en la misma capa donde se declara la interfaz. ## Domain Events
+Con objetivo de seguir los [principios de desarrollo](/principios-a-seguir-en-el-diseno-de-un-sistema/), declararemos interfaces para cada Servicio. Los servicios no son una *bala de plata*, si los utilizamos en exceso extrayendo toda la lógica de aplicación o dominio en servicios, podemos ocasionar un [Anemic Domain Model](http://www.martinfowler.com/bliki/AnemicDomainModel.html). 
 
-Normalmente se utilizan [procesos *batch*](https://es.wikipedia.org/wiki/Procesamiento_por_lotes) que intentan detectar cambios de estado sucedidos en un determinado intervalo de tiempo en el modelo de dominio, mediante grandes *queries* en la base de datos, para posteriormente realizar las acciones pertinentes mediante pesadas transacciones y modificaciones de datos. Normalmente procesos nocturnos largos y costosos. Los *Domain Events*, capturan y notifican un determinado evento dentro del modelo de dominio mediante información representada en un objeto. De modo que podemos realizar las acciones pertinentes o aplicar un resultado determinado en el mismo momento que sucede el cambio de estado, evitando acumularlos en el tiempo esperando a detectarlos mediante dichos pesados y largos procesos nocturnos. Los eventos sucedidos o cambios de estado de entidades o eventos pueden almacenarse a medida que vayan aconteciendo para disponer de un histórico de eventos, aplicando así [Event Sourcing](http://josecuellar.net/domain-driven-design-episodio-iii-arquitectura/). Además, nos facilitan la integración de [Bounded Contexts](http://josecuellar.net/domain-driven-design-episodio-ii-context-maps/) desacoplando estructuras o sistemas dentro de una organización. Todos los sucesos no deben considerarse como eventos a notificar en el modelo de dominio, aconsejando hablar cuidadosamente con los expertos de dominio para identificarlos correctamente. Los eventos deben de formar parte del *lenguaje ubicuo*. Las objetos que almacenan la información de un evento deben ser verbos en pasado con la propiedad mínima aconsejada de **OccurrenceOn** con la fecha/hora exacta de cuando sucede y notifica. Además necesitaremos la información necesaria relacionada con el evento, como los identificadores de las entidades que componen el agregado. Los eventos son diseñados normalmente como inmutables de igual modo que un [Value Object](http://josecuellar.net/domain-driven-design-episodio-iv-entities-value-objects/). A pesar que sean inmutables, en algunos casos es necesario establecer al evento un identificador. **Command Operation:** Backlogitem # *CommitTo***Event outcome:** *BacklogItem**Committed***. **Command Operation:** Backlogitem # *PlanTo***Event outcome:** *BacklogItem**Planned***. <center>![](http://josecuellar.net/wp-content/uploads/DomainEvent2.PNG)</center><span style="font-size: 10px;">Fuente: [Modeling Aggregates with DDD and Entity Framework](https://vaughnvernon.co/?p=879).</span>Debemos disponer de uno o varios [middleware](https://es.wikipedia.org/wiki/Middleware) que gestione los eventos, sea mediante mensajería siguiendo [publish-subscribe pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern) o mediante *API REST* (mediante un *endpoint* se realiza el *GET* por paquetes según estado para listar las notificaciones de los clientes que publican los eventos en la misma *API*). Existen varias herramientas de mensajería que nos permitirán trabajar con eventos de forma sencilla, adoptando la *consistencia eventual*: [RabbitMQ, ](https://www.rabbitmq.com/)[Akka](http://getakka.net/), [NServiceBus](https://particular.net/nservicebus), [MassTransit](https://github.com/MassTransit/MassTransit). La regla fundamental en la que basarnos para evitar realizar varias transacciones en un mismo evento, es **modificar un único agregado por una única transacción realizada**. En dicha transacción de agregado pueden modificarse los estados de todas las entidades asociadas mediante sus identificadores informados en el evento. Ya que se trata de una consistencia eventual y no inmediata, asumimos un *delay* en el resultado de la transacción. Aunque existen diversas técnicas para evitar que influya en la experiencia de usuario. Normalmente los eventos **se publican en los métodos de agregados** o entidades en el modelo de dominio **o en servicios de dominio**, guardándolos si fuese el caso en el **Event Store** que corresponda. Todo ello mediante la *infraestructura de mensajería* según el *middleware* que utilicemos en cada caso. Por otra parte la **subscripción de evento se realiza y recomienda en los servicios de aplicación**, quien manejará la transacción a efectuar ya que se trata de un concepto de aplicación siempre y cuando no concierna a otros *Bounded Context*. <center>![](http://josecuellar.net/wp-content/uploads/DomainEvent1.PNG)</center><span style="font-size: 10px;">Fuente: [Event sourcing the past and today](http://simon-says-architecture.com/2013/01/16/event-sourcing-past-and-today/).</span>Los Domain Events pueden utilizarse para la integración entre Bounded Context, alejándose del concepto de aplicación en el Bounded Context local. De este modo sería necesario registrar las subscripciones a eventos generados en otros Bounded Context en los servicios de dominio en vez de subscribirlos en los servicios de aplicación. ### Event Store / Event Sourcing
+Debe determinarse y decidirse correctamente si debe incluirse en el modelo de dominio un método de *entidad/agregado* o crear un servicio siguiendo en todo momento [Single Responsability Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle). 
 
-Manteniendo almacenados todos los eventos de dominio disfrutaremos de las siguientes ventajas: - La posibilidad de disponer de un *feed* mediante una *API REST* de notificación a clientes
+En general las implementaciones de los servicios se alojan en la capa de *infraestructura*, aunque en ocasiones y cuando tengamos una única implementación pueden alojarse en la misma capa donde se declara la interfaz. 
+
+## Domain Events
+
+Normalmente se utilizan [procesos *batch*](https://es.wikipedia.org/wiki/Procesamiento_por_lotes) que intentan detectar cambios de estado sucedidos en un determinado intervalo de tiempo en el modelo de dominio, mediante grandes *queries* en la base de datos, para posteriormente realizar las acciones pertinentes mediante pesadas transacciones y modificaciones de datos.
+Normalmente procesos nocturnos largos y costosos. 
+
+Los *Domain Events*, capturan y notifican un determinado evento dentro del modelo de dominio mediante información representada en un objeto. De modo que podemos realizar las acciones pertinentes o aplicar un resultado determinado en el mismo momento que sucede el cambio de estado, evitando acumularlos en el tiempo esperando a detectarlos mediante dichos pesados y largos procesos nocturnos. 
+Los eventos sucedidos o cambios de estado de entidades o eventos pueden almacenarse a medida que vayan aconteciendo para disponer de un histórico de eventos, aplicando así [Event Sourcing](http://josecuellar.net/domain-driven-design-episodio-iii-arquitectura/). 
+Además, nos facilitan la integración de [Bounded Contexts](http://josecuellar.net/domain-driven-design-episodio-ii-context-maps/) desacoplando estructuras o sistemas dentro de una organización. 
+
+Todos los sucesos no deben considerarse como eventos a notificar en el modelo de dominio, aconsejando hablar cuidadosamente con los expertos de dominio para identificarlos correctamente. Los eventos deben de formar parte del *lenguaje ubicuo*. 
+
+Las objetos que almacenan la información de un evento deben ser verbos en pasado con la propiedad mínima aconsejada de **OccurrenceOn** con la fecha/hora exacta de cuando sucede y notifica. 
+Además necesitaremos la información necesaria relacionada con el evento, como los identificadores de las entidades que componen el agregado. Los eventos son diseñados normalmente como inmutables de igual modo que un [Value Object](/domain-driven-design-episodio-iv-entities-value-objects/). 
+A pesar que sean inmutables, en algunos casos es necesario establecer al evento un identificador. 
+
+*Command Operation: BacklogItem -> CommitTo*
+*Event outcome: BacklogItemCommitted*. 
+
+*Command Operation: BacklogItem -> PlanTo*
+*Event outcome: BacklogItemPlanned*. 
+
+<br><center><img src="/wp-content/uploads/DomainEvent2.png"  width="600"/></center><br>
+##### Fuente: [Modeling Aggregates with DDD and Entity Framework](https://vaughnvernon.co/?p=879).
+
+Debemos disponer de uno o varios [middleware](https://es.wikipedia.org/wiki/Middleware) que gestione los eventos, sea mediante mensajería siguiendo [publish-subscribe pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern) o mediante *API REST* (mediante un *endpoint* se realiza el *GET* por paquetes según estado para listar las notificaciones de los clientes que publican los eventos en la misma *API*). 
+
+Existen varias herramientas de mensajería que nos permitirán trabajar con eventos de forma sencilla, adoptando la *consistencia eventual*: [RabbitMQ, ](https://www.rabbitmq.com/)[Akka](http://getakka.net/), [NServiceBus](https://particular.net/nservicebus), [MassTransit](https://github.com/MassTransit/MassTransit). 
+
+La regla fundamental en la que basarnos para evitar realizar varias transacciones en un mismo evento, es **modificar un único agregado por una única transacción realizada**. 
+
+En dicha transacción de agregado pueden modificarse los estados de todas las entidades asociadas mediante sus identificadores informados en el evento. Ya que se trata de una consistencia eventual y no inmediata, asumimos un *delay* en el resultado de la transacción. Aunque existen diversas técnicas para evitar que influya en la experiencia de usuario. 
+
+Normalmente los eventos **se publican en los métodos de agregados** o entidades en el modelo de dominio **o en servicios de dominio**, guardándolos si fuese el caso en el **Event Store** que corresponda. Todo ello mediante la *infraestructura de mensajería* según el *middleware* que utilicemos en cada caso. Por otra parte la **subscripción de evento se realiza y recomienda en los servicios de aplicación**, quien manejará la transacción a efectuar ya que se trata de un concepto de aplicación siempre y cuando no concierna a otros *Bounded Context*. 
+
+<br><center><img src="/wp-content/uploads/DomainEvent1.png"  width="600"/></center><br>
+##### Fuente: [Event sourcing the past and today](http://simon-says-architecture.com/2013/01/16/event-sourcing-past-and-today/).
+
+Los Domain Events pueden utilizarse para la integración entre Bounded Context, alejándose del concepto de aplicación en el Bounded Context local. De este modo sería necesario registrar las subscripciones a eventos generados en otros Bounded Context en los servicios de dominio en vez de subscribirlos en los servicios de aplicación.
+
+### Event Store / Event Sourcing
+
+Manteniendo almacenados todos los eventos de dominio disfrutaremos de las siguientes ventajas: 
+- La posibilidad de disponer de un *feed* mediante una *API REST* de notificación a clientes
 - Examinar y disponer de un histórico de cambios de estado que puede ayudarnos con el *debug* y control/seguimiento de *incidencias*.
 - Analizar los datos para determinar el comportamiento y actividad de nuestros usuarios u otros aspectos relevantes que nos ayudarán en la toma de decisiones.
 - Producir *screenshots* por cada cambio de estado, que nos permitirán reconstruir agregados o una instancia en un momento concreto del tiempo. Pudiendo forzar nuevos eventos y cambios de estado para solventar *bugs* dentro de nuestro *Event Stream*.
 
-La serialización del evento es la técnica recomendada y más utilizada para el almacenamiento de toda la información del evento en su correspondiente *Event Store*. ### Event de-duplication
+La serialización del evento es la técnica recomendada y más utilizada para el almacenamiento de toda la información del evento en su correspondiente *Event Store*. 
 
-En ciertos escenarios podría ser necesario comprobar la duplicación en la recepción de los mensajes publicados, ya que podrían enviarse y procesarse más en más de una ocasión. Para prevenir las consecuencias, dado este escenario/contexto, es necesario que las transacciones se realicen mediante [idempotence operation](https://en.wikipedia.org/wiki/Idempotence) pudiendo ser ejecutada más de una vez veces con resultados idénticos. Pueden identificarse y detectarse eventos por un campo específico o detectar duplicaciones de eventos mediante versionado. **<u>Lecturas recomendadas:</u>**[Rendimiento con Domain Events, Proyecciones y principios de CQRS](https://carlosbuenosvinos.com/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/)[Domain Events and Eventual Consistency](https://www.infoq.com/news/2015/09/domain-events-consistency)[Domain Events - Domain Events allow you to segregate the models of different systems](http://verraes.net/2014/11/domain-events/)[Domain Event - Martin Fowler](http://martinfowler.com/eaaDev/DomainEvent.html)[Vaughn Vernon on Microservices and Domain-Driven Design](https://www.infoq.com/news/2016/07/microservices-ddd-vernon)*En episodios anteriores...*[Domain-Driven Design. Episodio I. **Empezando…**](http://josecuellar.net/domain-driven-design-episodio-i-empezando/)[Domain-Driven Design. Episodio II. **Context Maps**](http://josecuellar.net/domain-driven-design-episodio-ii-context-maps/)[Domain-Driven Design. Episodio III. **Arquitectura**](http://josecuellar.net/domain-driven-design-episodio-iii-arquitectura/)[Domain-Driven Design. Episodio IV. **Entities** &amp; **Value Objects**](http://josecuellar.net/domain-driven-design-episodio-iv-entities-value-objects/)
+### Event de-duplication
+
+En ciertos escenarios podría ser necesario comprobar la duplicación en la recepción de los mensajes publicados, ya que podrían enviarse y procesarse más en más de una ocasión. Para prevenir las consecuencias, dado este escenario/contexto, es necesario que las transacciones se realicen mediante [idempotence operation](https://en.wikipedia.org/wiki/Idempotence) pudiendo ser ejecutada más de una vez veces con resultados idénticos. 
+
+Pueden identificarse y detectarse eventos por un campo específico o detectar duplicaciones de eventos mediante versionado. 
+
+**Lecturas recomendadas:**
+- [Rendimiento con Domain Events, Proyecciones y principios de CQRS](https://carlosbuenosvinos.com/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/)
+- [Domain Events and Eventual Consistency](https://www.infoq.com/news/2015/09/domain-events-consistency)
+- [Domain Events - Domain Events allow you to segregate the models of different systems](http://verraes.net/2014/11/domain-events/)
+- [Domain Event - Martin Fowler](http://martinfowler.com/eaaDev/DomainEvent.html)
+- [Vaughn Vernon on Microservices and Domain-Driven Design](https://www.infoq.com/news/2016/07/microservices-ddd-vernon)
+
+- [Domain-Driven Design. Episodio I. **Empezando…**](/domain-driven-design-episodio-i-empezando/)
+- [Domain-Driven Design. Episodio II. **Context Maps**](http://josecuellar.net/domain-driven-design-episodio-ii-context-maps/)
+- [Domain-Driven Design. Episodio III. **Arquitectura**](http://josecuellar.net/domain-driven-design-episodio-iii-arquitectura/)
+- [Domain-Driven Design. Episodio IV. **Entities** &amp; **Value Objects**](http://josecuellar.net/domain-driven-design-episodio-iv-entities-value-objects/)
