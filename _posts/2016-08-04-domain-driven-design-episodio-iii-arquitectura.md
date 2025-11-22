@@ -4,16 +4,7 @@ title: 'Domain-Driven Design. Arquitectura'
 date: '2016-08-04T22:18:17+00:00'
 author: Jose
 layout: post
-guid: 'http://josecuellar.net/?p=1190'
 permalink: /domain-driven-design-episodio-iii-arquitectura/
-s4_url2s:
-    - ''
-s4_image2s:
-    - ''
-s4_ctitle:
-    - ''
-s4_cdes:
-    - ''
 categories:
     - General
 tags:
