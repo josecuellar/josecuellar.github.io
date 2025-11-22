@@ -54,13 +54,15 @@ Liderado por [Woody Zuill](https://twitter.com/woodyzuill) y [Neil Killick](http
 
 ## Entonces, ¿Estimamos?
 
-En mi opinión, depende del nivel de "maduración" y cohesión del equipo y su evolución.
+> En mi opinión, depende del nivel de "maduración" y cohesión del equipo y su evolución.
+
 El equipo dispone de los conocimientos suficientes y necesarios que les permiten en base a la repitición de casos similares en el tiempo no necesitar la estimación, ya que es conocimiento implicito y adquirido en el equipo.
 
 Cuando se implanta un marco de trabajo ágil en una organización o por primera vez un equipo comienza su primer sprint, aconsejo que el cambio sea **en base al modelo teórico** que propone dicho marco. 
 Sin ningún tipo de adaptación preestablecida. Evitando las presuposiciones y recomendaciones de terceros, **ya que lo que puede funcionar a un equipo, puede no funcionar en otro**. 
 En las retrospectivas, de forma natural y personalizada, nacerán propuestas, decisiones y prácticas en el equipo para mejorar su forma de trabajar. 
 
-De modo que **inicialmente**, mi recomendación es partir con la **estimación en puntos de historia** utilizando la sucesión de Fibonacci mediante planning pocker.
+> De modo que **inicialmente**, mi recomendación es partir con la **estimación en puntos de historia** utilizando la sucesión de Fibonacci mediante planning pocker.
+
 Con el tiempo, el aprendizaje, la madurez y la habilidad/experiencia aprendida y compartida, el equipo decidirá de forma natural que ya no precisa de métricas por conocer su forma intrínseca de trabajar u organizarse: simplificando así a la estimación mediante tallas. 
 Para más adelante, muy probablemente, unirse al movimiento #NoEstimates. Todo depende del momento en el que se encuentre el equipo. > En mi opinión, la estimación, es el camino de aprendizaje y madurez perfecto para dejar de usarla.
