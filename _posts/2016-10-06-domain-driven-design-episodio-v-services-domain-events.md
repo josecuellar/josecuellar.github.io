@@ -103,7 +103,7 @@ Pueden identificarse y detectarse eventos por un campo específico o detectar du
 - [Domain Event - Martin Fowler](http://martinfowler.com/eaaDev/DomainEvent.html)
 - [Vaughn Vernon on Microservices and Domain-Driven Design](https://www.infoq.com/news/2016/07/microservices-ddd-vernon)
 
-- [Domain-Driven Design. Episodio I. **Empezando…**](/domain-driven-design-episodio-i-empezando/)
-- [Domain-Driven Design. Episodio II. **Context Maps**](http://josecuellar.net/domain-driven-design-episodio-ii-context-maps/)
+- [Domain-Driven Design. Episodio I.   **Empezando…**](/domain-driven-design-episodio-i-empezando/)
+- [Domain-Driven Design. Episodio II.  **Context Maps**](http://josecuellar.net/domain-driven-design-episodio-ii-context-maps/)
 - [Domain-Driven Design. Episodio III. **Arquitectura**](http://josecuellar.net/domain-driven-design-episodio-iii-arquitectura/)
-- [Domain-Driven Design. Episodio IV. **Entities** &amp; **Value Objects**](http://josecuellar.net/domain-driven-design-episodio-iv-entities-value-objects/)
+- [Domain-Driven Design. Episodio IV.  **Entities** &amp; **Value Objects**](http://josecuellar.net/domain-driven-design-episodio-iv-entities-value-objects/)
