@@ -62,7 +62,7 @@ A pesar que sean inmutables, en algunos casos es necesario establecer al evento 
 *Command Operation: BacklogItem -> PlanTo*
 *Event outcome: BacklogItemPlanned*. 
 
-<br><center><img src="/wp-content/uploads/DomainEvent2.png"  width="600"/></center><br>
+<br><center><img src="/wp-content/uploads/DomainEvent2.PNG"  width="600"/></center><br>
 ##### Fuente: [Modeling Aggregates with DDD and Entity Framework](https://vaughnvernon.co/?p=879).
 
 Debemos disponer de uno o varios [middleware](https://es.wikipedia.org/wiki/Middleware) que gestione los eventos, sea mediante mensajería siguiendo [publish-subscribe pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern) o mediante *API REST* (mediante un *endpoint* se realiza el *GET* por paquetes según estado para listar las notificaciones de los clientes que publican los eventos en la misma *API*). 
@@ -75,7 +75,7 @@ En dicha transacción de agregado pueden modificarse los estados de todas las en
 
 Normalmente los eventos **se publican en los métodos de agregados** o entidades en el modelo de dominio **o en servicios de dominio**, guardándolos si fuese el caso en el **Event Store** que corresponda. Todo ello mediante la *infraestructura de mensajería* según el *middleware* que utilicemos en cada caso. Por otra parte la **subscripción de evento se realiza y recomienda en los servicios de aplicación**, quien manejará la transacción a efectuar ya que se trata de un concepto de aplicación siempre y cuando no concierna a otros *Bounded Context*. 
 
-<br><center><img src="/wp-content/uploads/DomainEvent1.png"  width="600"/></center><br>
+<br><center><img src="/wp-content/uploads/DomainEvent1.PNG"  width="600"/></center><br>
 ##### Fuente: [Event sourcing the past and today](http://simon-says-architecture.com/2013/01/16/event-sourcing-past-and-today/).
 
 Los Domain Events pueden utilizarse para la integración entre Bounded Context, alejándose del concepto de aplicación en el Bounded Context local. De este modo sería necesario registrar las subscripciones a eventos generados en otros Bounded Context en los servicios de dominio en vez de subscribirlos en los servicios de aplicación.
