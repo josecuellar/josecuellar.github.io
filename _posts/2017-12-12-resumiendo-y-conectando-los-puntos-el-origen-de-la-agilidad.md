@@ -6,14 +6,16 @@ author: Jose
 layout: post
 permalink: /resumiendo-y-conectando-los-puntos-el-origen-de-la-agilidad/
 categories:
-    - General
+    - Engineering Culture
 tags:
     - agile
-    - Conferencias
-    - practices
-    - principios
-    - SCRUM
+    - scrum
+    - agile-principles
+    - kanban
+    - lean
     - xp
+    - learning-mindset
+    - team-culture
 ---
 
 Normalmente la transición de [waterfall ](https://es.wikipedia.org/wiki/Desarrollo_en_cascada)hacia la Agilidad a través del aprendizaje y experiencia de un marco de trabajo como [Scrum](https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)), es natural y hasta aconsejable, aunque tarde o temprano descubres lo necesario y suficiente para darte cuenta que para ser Ágil no necesitas un rígido marco de trabajo con roles predefinidos. Cada miembro, equipo y contexto son diferentes, con necesidades distintas. 

@@ -6,11 +6,15 @@ author: Jose
 layout: post
 permalink: /algunos-comentarios-de-los-libros-que-he-leido-los-ultimos-meses/
 categories:
-    - General
+    - Career & Growth
 tags:
-    - Arquitectura
-    - 'Domain-Driven Design'
-    - 'Libros recomendados'
+    - book-reviews
+    - lifelong-learning
+    - software-craftsmanship
+    - architecture
+    - clean-code
+    - microservices
+    - DDD
 ---
 
 No podemos permitirnos el lujo de caer en la monotonía técnica y dejarnos llevar por las mismas formas de hacer las cosas una y otra vez y de la manera que ya conocemos.

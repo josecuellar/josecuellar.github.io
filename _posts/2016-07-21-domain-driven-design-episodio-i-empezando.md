@@ -6,10 +6,21 @@ author: Jose
 layout: post
 permalink: /domain-driven-design-episodio-i-empezando/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Arquitectura
-    - DDD
+  - DDD
+  - system-design
+  - domain-model
+  - ubiquitous-language
+  - design-patterns
+  - software-architecture
+  - context-mapping
+  - bounded-contexts
+  - strategic-design
+  - tactical-design
+  - teams-alignment
+  - book-reviews
+  - lifelong-learning
 ---
 
 Estoy inmerso en la lectura de "*Implementing Domain-Driven Design*" de Vaughn Vernon. Llevo algunos pocos capítulos y he decidido, a modo de seguimiento y aprendizaje, empezar a escribir una serie de post para compartir con la comunidad algunas reseñas de lo que creo interesante.

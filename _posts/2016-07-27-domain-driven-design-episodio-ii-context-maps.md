@@ -6,10 +6,19 @@ author: Jose
 layout: post
 permalink: /domain-driven-design-episodio-ii-context-maps/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Arquitectura
-    - DDD
+  - DDD
+  - ubiquitous-language
+  - design-patterns
+  - software-architecture
+  - system-design
+  - context-mapping
+  - bounded-contexts
+  - integration-patterns
+  - strategic-design
+  - anti-corruption-layer
+  - teams-alignment
 ---
 
 En el [post anterior](/domain-driven-design-episodio-i-empezando/) vimos los primeros pasos estratégicos y cómo disgregábamos la complejidad del negocio en *Domains, Subdomains y Bounded Contexts*. 

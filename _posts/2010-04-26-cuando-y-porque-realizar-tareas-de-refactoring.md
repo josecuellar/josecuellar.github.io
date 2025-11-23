@@ -6,9 +6,17 @@ author: Jose
 layout: post
 permalink: /cuando-y-porque-realizar-tareas-de-refactoring/
 categories:
-    - General
+  - Engineering Culture
+  - Deep Engineering
 tags:
-    - Arquitectura
+  - project-health
+  - team-culture
+  - continuous-improvement
+  - technical-debt
+  - refactoring
+  - software-quality
+  - time-management
+  - software-complexity
 ---
 
 La [refactorización](http://es.wikipedia.org/wiki/Refactorizaci%C3%B3n) es una técnica de la ingeniería de software para reestructurar un código fuente, alterando su estructura interna sin cambiar su comportamiento externo. 

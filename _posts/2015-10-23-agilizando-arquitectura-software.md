@@ -6,11 +6,18 @@ author: Jose
 layout: post
 permalink: /agilizando-arquitectura-software/
 categories:
-    - General
+  - Engineering Culture
+  - Deep Engineering
 tags:
-    - Arquitectura
-    - Lean
-    - SCRUM
+  - agile
+  - agile-principles
+  - waterfall
+  - software-architecture
+  - system-design
+  - lifelong-learning
+  - lean
+  - scrum
+  - continuous-improvement
 ---
 
 Durante muchos años he diseñado y desarrollado arquitecturas mediante [metodologías tradicionales](https://es.wikipedia.org/wiki/Desarrollo_en_cascada), en los que el análisis exhaustivo inicial era primordial y necesario. 

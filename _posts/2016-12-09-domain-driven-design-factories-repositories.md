@@ -6,10 +6,16 @@ author: Jose
 layout: post
 permalink: /domain-driven-design-factories-repositories/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Arquitectura
-    - DDD
+  - DDD
+  - design-patterns
+  - system-design
+  - software-architecture
+  - clean-architecture
+  - factory-pattern
+  - repository-pattern
+  - tactical-design
 ---
 
 ## Factories

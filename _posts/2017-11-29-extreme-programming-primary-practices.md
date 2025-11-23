@@ -6,11 +6,17 @@ author: Jose
 layout: post
 permalink: /extreme-programming-primary-practices/
 categories:
-    - General
+  - Engineering Culture
 tags:
-    - agile
-    - practices
-    - xp
+  - xp
+  - agile
+  - agile-principles
+  - pair-programming
+  - TDD
+  - continuous-integration
+  - learning-mindset
+  - software-culture
+  - feedback-culture
 ---
 
 The XP practices do not represent some kind of pinnacle in the evolution of software development. They are a common way station on the road to improvement. The primary practices are useful independent of what else you are doing. They each can give you immediate improvement. You can start safely with any of them. The corollary practices are likely to be difficult without first mastering the primary practices. 

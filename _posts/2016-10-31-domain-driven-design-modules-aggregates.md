@@ -6,10 +6,19 @@ author: Jose
 layout: post
 permalink: /domain-driven-design-modules-aggregates/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Arquitectura
-    - DDD
+  - DDD
+  - design-patterns
+  - system-design
+  - software-architecture
+  - clean-architecture
+  - modules
+  - aggregates
+  - tactical-design
+  - entities
+  - value-objects
+  - law-of-demeter
 ---
 
 ## Modules

@@ -6,10 +6,17 @@ author: Jose
 layout: post
 permalink: /extreme-programming-principles/
 categories:
-    - General
+  - Engineering Culture
 tags:
-    - agile
-    - xp
+  - xp
+  - agile
+  - agile-principles
+  - pair-programming
+  - TDD
+  - continuous-integration
+  - learning-mindset
+  - software-culture
+  - feedback-culture
 ---
 
 Principles may guide your team´s practices, but these are the principles that guide XP:

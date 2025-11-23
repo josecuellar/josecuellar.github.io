@@ -6,10 +6,20 @@ author: Jose
 layout: post
 permalink: /domain-driven-design-episodio-v-services-domain-events/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Arquitectura
-    - DDD
+  - DDD
+  - design-patterns
+  - system-design
+  - software-architecture
+  - clean-architecture
+  - domain-events
+  - event-sourcing
+  - cqrs
+  - tactical-design
+  - infrastructure-services
+  - domain-services
+  - application-services
 ---
 
 ## Services

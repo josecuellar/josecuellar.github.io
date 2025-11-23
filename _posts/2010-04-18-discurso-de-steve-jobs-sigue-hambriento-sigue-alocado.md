@@ -8,10 +8,20 @@ permalink: /discurso-de-steve-jobs-sigue-hambriento-sigue-alocado/
 description:
     - 'Discurso de Steve Jobs en el acto de graduación de la universidad de Standford: '
 categories:
-    - General
+  - Career & Growth
+  - Human Leadership
 tags:
-    - Conferencias
-    - Motivación
+  - steve-jobs
+  - lifelong-learning
+  - learning-mindset
+  - emotional-intelligence
+  - psychology
+  - growth-mindset
+  - motivation
+  - leadership
+  - stay-hungry-stay-foolish
+  - conferences
+
 ---
 
 Hace pocos años, [Steve Jobs](http://es.wikipedia.org/wiki/Steve_Jobs) resumió su vida en quince minutos en un discurso para la Universidad de Standford.

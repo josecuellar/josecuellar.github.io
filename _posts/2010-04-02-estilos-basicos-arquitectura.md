@@ -6,9 +6,14 @@ author: Jose
 layout: post
 permalink: /estilos-patrones-basicos-arquitectura-software/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Arquitectura
+  - system-design
+  - design-patterns
+  - software-architecture
+  - clean-architecture
+  - DDD
+  - layered-architecture
 ---
 
 Conjunto de principios que definen a alto nivel un aspecto de la aplicación.  

@@ -6,11 +6,16 @@ author: Jose
 layout: post
 permalink: /fail-fast-learn-faster/
 categories:
-    - General
+  - Deep Engineering
+  - Engineering Culture
 tags:
-    - fail-fast
-    - principios
-    - xp
+  - fail-fast
+  - agile
+  - agile-principles
+  - lean
+  - learning-mindset
+  - error-handling
+  - rollback-strategy
 ---
 
 [Programa de forma defensiva](https://es.wikipedia.org/wiki/Programaci%C3%B3n_defensiva), estricta y rigurosa. Devuelve excepciones siempre y cuando las condiciones no son las adecuadas en un momento concreto de ejecución.

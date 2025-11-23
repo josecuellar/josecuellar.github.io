@@ -6,7 +6,16 @@ author: Jose
 layout: post
 permalink: /algunas-leyes-en-el-desarrollo-de-software/
 categories:
-    - General
+  - Engineering Culture
+  - Deep Engineering
+tags:
+  - team-culture
+  - continuous-improvement
+  - learning-mindset
+  - growth-mindset
+  - feedback-culture
+  - software-laws
+  - software-complexity
 ---
 
 #### Ley de Brooks

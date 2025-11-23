@@ -6,11 +6,19 @@ author: Jose
 layout: post
 permalink: /retrospectivas-mas-kaizen/
 categories:
-    - General
-    - Agile
+  - Engineering Culture
 tags:
-    - SCRUM
-    - Agile
+  - agile
+  - scrum
+  - agile-principles
+  - kanban
+  - kaizen
+  - team-culture
+  - retrospectives
+  - continuous-improvement
+  - learning-mindset
+  - growth-mindset
+  - feedback-culture
 ---
 
 Las retrospectivas en SCRUM son reuniones que se realizan tras finalizar el sprint (después de la demo o revisión del sprint y antes de la planificación). 

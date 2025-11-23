@@ -4,13 +4,20 @@ title: 'Hacia #NoEstimates'
 date: '2015-09-22T09:48:56+00:00'
 author: Jose
 layout: post
-guid: 'http://josecuellar.net/?p=973'
 permalink: /hacia-noestimates/
 categories:
-    - General
+  - Engineering Culture
 tags:
-    - SCRUM
-    - Agile
+  - agile
+  - scrum
+  - agile-principles
+  - team-culture
+  - retrospectives
+  - continuous-improvement
+  - learning-mindset
+  - feedback-culture
+  - noestimates
+  - effort-estimations
 ---
 
 Las opciones o métodos recomendados en entornos ágiles con respecto a la estimación son:

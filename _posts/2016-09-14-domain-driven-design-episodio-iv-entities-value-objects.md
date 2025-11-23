@@ -6,10 +6,18 @@ author: Jose
 layout: post
 permalink: /domain-driven-design-episodio-iv-entities-value-objects/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Arquitectura
-    - DDD
+  - DDD
+  - domain-model
+  - system-design
+  - design-patterns
+  - software-architecture
+  - clean-architecture
+  - entities
+  - value-objects
+  - identity-generation
+  - tactical-design
 ---
 
 Elementos más importantes para el modelado de dominio dentro del apartado táctico en el desarrollo orientado a DDD.

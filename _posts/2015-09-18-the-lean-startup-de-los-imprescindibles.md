@@ -6,10 +6,15 @@ author: Jose
 layout: post
 permalink: /the-lean-startup-de-los-imprescindibles/
 categories:
-    - General
+  - Career & Growth
 tags:
-    - Lean
-    - Libros
+  - book-reviews
+  - lifelong-learning
+  - lean-startup
+  - lean
+  - startup-culture
+  - build-measure-learn
+  - mvp
 ---
 
 El método Lean Startup supone un nuevo enfoque que se está adoptando en todo el mundo para cambiar la forma en que las empresas crean y lanzan sus productos. 

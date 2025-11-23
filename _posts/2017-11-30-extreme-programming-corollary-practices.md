@@ -6,10 +6,17 @@ author: Jose
 layout: post
 permalink: /extreme-programming-corollary-practices/
 categories:
-    - General
+  - Engineering Culture
 tags:
-    - agile
-    - xp
+  - xp
+  - agile
+  - agile-principles
+  - pair-programming
+  - TDD
+  - continuous-integration
+  - learning-mindset
+  - software-culture
+  - feedback-culture
 ---
 
 This practices are difficult or dangerous to implement before completing the preliminary work of the primary practices. 

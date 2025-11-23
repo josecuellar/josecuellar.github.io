@@ -6,10 +6,17 @@ author: Jose
 layout: post
 permalink: /extreme-programming-values/
 categories:
-    - General
+  - Engineering Culture
 tags:
-    - agile
-    - xp
+  - xp
+  - agile
+  - agile-principles
+  - pair-programming
+  - TDD
+  - continuous-integration
+  - learning-mindset
+  - software-culture
+  - feedback-culture
 ---
 
 > Driving is not about getting the car going in the right direction. Driving is about constantly paying attention, making a little correction this way, a little correction that way.

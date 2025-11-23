@@ -6,9 +6,14 @@ author: Jose
 layout: post
 permalink: /transactional-outbox-pattern-polling-publisher-pattern-2-3/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Arquitectura
+  - system-design
+  - design-patterns
+  - software-architecture
+  - clean-architecture
+  - microservices
+  - distributed-systems
 ---
 
 A lo largo del tiempo las bases de datos *NoSQL* han ido mejorado sus características para ofrecernos *ACID* según el tipo (**Single Row, Single Shard o Distrituded**):

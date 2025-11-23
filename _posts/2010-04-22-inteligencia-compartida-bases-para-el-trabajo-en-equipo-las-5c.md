@@ -6,9 +6,17 @@ author: Jose
 layout: post
 permalink: /inteligencia-compartida-bases-para-el-trabajo-en-equipo-las-5c/
 categories:
-    - General
+  - Engineering Culture
 tags:
-    - Liderazgo
+  - lifelong-learning
+  - emotional-intelligence
+  - psychology
+  - team-culture
+  - psychological-safety
+  - leadership
+  - continuous-improvement
+  - learning-mindset
+  - feedback-culture
 ---
 
 ## Complementariedad

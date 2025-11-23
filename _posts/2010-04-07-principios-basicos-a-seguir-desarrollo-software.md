@@ -6,11 +6,18 @@ author: Jose
 layout: post
 permalink: /principios-a-seguir-en-el-desarrollo-software/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Arquitectura
-    - principios
-    - solid
+  - design-principles
+  - solid
+  - system-design
+  - design-patterns
+  - software-architecture
+  - clean-architecture
+  - technical-debt
+  - refactoring
+  - software-quality
+  - software-complexity
 ---
 
 A la hora de diseñar y desarrollar software, es importante tener presente una serie de **principios de diseño fundamentales y básicos** que todo programador debería conocer y aplicar para desarrollar código limpio y de calidad.

@@ -6,13 +6,15 @@ author: Jose
 layout: post
 permalink: /inteligencia-emocional-psicologia-lean-kaizen_libros-recomendados/
 categories:
-    - General
+  - Career & Growth
 tags:
-    - Lean
-    - UX
-    - Libros
-    - Motivación
-    - SCRUM
+  - book-reviews
+  - lifelong-learning
+  - lean
+  - kaizen
+  - emotional-intelligence
+  - psychology
+  - growth-mindset
 ---
 
 En los últimos meses he tenido la oportunidad de leerme algunos libros. Quiero compartir con vosotros una pequeña reseña por cada uno, por si os pudiese servir de ayuda en la elección de vuestra próxima lectura. 

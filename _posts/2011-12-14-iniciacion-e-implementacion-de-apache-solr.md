@@ -6,11 +6,13 @@ author: Jose
 layout: post
 permalink: /iniciacion-e-implementacion-de-apache-solr/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Arquitectura
-    - NoSQL
-    - Rendimiento
+  - apache-solr
+  - apache-lucene
+  - search-engine
+  - distributed-systems
+  - full-text-search
 ---
 
 Desde hace algunos meses he tenido la oportunidad de realizar tareas de implementación, configuración, adaptación y transicion de consultas SQL sobre una aplicación web de alto rendimiento mediante Apache Solr.

@@ -6,9 +6,14 @@ author: Jose
 layout: post
 permalink: /data-consistency-the-problem-1-3/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Arquitectura
+  - system-design
+  - design-patterns
+  - software-architecture
+  - clean-architecture
+  - microservices
+  - distributed-systems
 ---
 
 Basamos (o deberíamos) las decisiones en base a los datos que almacenamos en la interacción de los usuarios sobre nuestro producto. Guardamos toda la información necesaria para dar respuestas y elaborar predicciones en base a históricos de datos. Adaptándonos y anticipándonos así a las necesidades de nuestros usuarios.

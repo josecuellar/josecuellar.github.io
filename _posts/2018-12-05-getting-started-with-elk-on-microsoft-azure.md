@@ -6,11 +6,16 @@ author: Jose
 layout: post
 permalink: /getting-started-with-elk-on-microsoft-azure/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Azure
-    - ELK
-    - Monitoring
+  - cloud-logging
+  - observability
+  - infrastructure
+  - azure
+  - elk
+  - logstash
+  - kibana
+  - elasticsearch
 ---
 
 Si estás familiarizado con el stack de [ELK](https://www.elastic.co/es/elastic-stack) sabrás lo potente y versátil que resulta monitorizar cualquier tipo de actividad en cualquier infrastructura gracias a su potente motor de búsqueda Elasticsearch y las muchas posibilidades de personalización representando los datos que ofrece Kibana. 

@@ -1,17 +1,20 @@
 ---
-id: 1961
 title: 'Saga Pattern (3/3)'
 date: '2020-04-26T21:25:27+00:00'
 author: Jose
 layout: post
 permalink: /saga-pattern-3-3/
 categories:
-    - General
+  - Deep Engineering
 tags:
-    - Arquitectura
-    - Patrones
-    - Sagas
+  - system-design
+  - design-patterns
+  - software-architecture
+  - clean-architecture
+  - microservices
+  - distributed-systems
 ---
+
 
 *El patrón Saga fue propuesto por Hector Garcia-Molina y Kenneth Salem en 1987. Puedes descargarte el paper aquí: [SAGAS](/wp-content/uploads/2020/04/sagapaper1987.pdf).*
 
