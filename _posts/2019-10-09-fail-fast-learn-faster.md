@@ -6,7 +6,6 @@ author: Jose
 layout: post
 permalink: /fail-fast-learn-faster/
 categories:
-  - Deep Engineering
   - Engineering Culture
 tags:
   - fail-fast

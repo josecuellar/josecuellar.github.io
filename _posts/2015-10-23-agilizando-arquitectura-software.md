@@ -7,7 +7,6 @@ layout: post
 permalink: /agilizando-arquitectura-software/
 categories:
   - Engineering Culture
-  - Deep Engineering
 tags:
   - agile
   - agile-principles

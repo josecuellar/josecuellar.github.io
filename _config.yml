@@ -6,7 +6,7 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: es-ES
+lang: en
 
 # Change to your timezone › https://zones.arilyn.cc
 timezone: "Europe/Madrid"
@@ -14,16 +14,21 @@ timezone: "Europe/Madrid"
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: JoseCuellar # the main title
+title: "Leading With Depth"
 
-tagline: //Tech Lead, Senior Backend Developer & Life-long learner # it will display as the subtitle
+tagline: >- # it will display as the subtitle
+  Where Deep Engineering Meets Human Leadership
+  <br><br>
+  <b><font size='2'>by Jose Cuéllar</b></font>
+  <br>
+  <font color='green' size='2'>//Tech Lead & Life-long learner</font>
 
 description: >- # used by seo meta and the atom feed
-  //Tech Lead, Senior Backend Developer & Life-long learner
+  Leading Depth by Jose Cuéllar. Where Deep Engineering Meets Human Leadership. Tech Lead, Senior Backend Developer & Life-long learner
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://josecuellar.github.io"
 
 github:
   username: josecuellar # change to your GitHub username
@@ -34,15 +39,13 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Jose
+  name: Jose Cuéllar
   email: jose.cuellar.villegas@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
@@ -98,7 +101,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/wp-content/uploads/josecuellar.jpg"
+avatar: "/wp-content/leadingwithdepth.jpeg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -109,10 +112,10 @@ toc: true
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: disqus  # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname: josecuellar # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo: # <gh-username>/<repo>

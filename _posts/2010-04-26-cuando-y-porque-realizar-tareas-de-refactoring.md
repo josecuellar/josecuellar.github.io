@@ -7,7 +7,6 @@ layout: post
 permalink: /cuando-y-porque-realizar-tareas-de-refactoring/
 categories:
   - Engineering Culture
-  - Deep Engineering
 tags:
   - project-health
   - team-culture

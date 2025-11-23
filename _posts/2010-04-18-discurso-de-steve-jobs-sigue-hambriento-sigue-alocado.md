@@ -9,7 +9,6 @@ description:
     - 'Discurso de Steve Jobs en el acto de graduación de la universidad de Standford: '
 categories:
   - Career & Growth
-  - Human Leadership
 tags:
   - steve-jobs
   - lifelong-learning

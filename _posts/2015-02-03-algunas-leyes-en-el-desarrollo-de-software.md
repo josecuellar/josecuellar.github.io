@@ -6,7 +6,6 @@ author: Jose
 layout: post
 permalink: /algunas-leyes-en-el-desarrollo-de-software/
 categories:
-  - Engineering Culture
   - Deep Engineering
 tags:
   - team-culture
