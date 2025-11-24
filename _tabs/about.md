@@ -1,6 +1,7 @@
 ---
 order: 4
 id: 4
+icon: fas fa-address-card
 title: 'About me'
 date: '2025-11-23T22:00:18+00:00'
 layout: page
