@@ -25,6 +25,10 @@ Me defino como cercano, curioso y comprometido: <b>observo, aprendo y actúo con
 <br>
 La experiencia me ha enseñado a confiar en mi intuición, siempre con humildad y ganas de seguir creciendo. 
 </p>
-<br>
+<br><br>
+
+<center>
+    <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100"> <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle"> <i class="fas fa-adjust"></i> </button> <span class="icon-border"></span> <a href="https://github.com/josecuellar" aria-label="github" target="_blank" rel="noopener noreferrer"> <i class="fab fa-github"></i> </a> <a href="https://twitter.com/jos3cuellar" aria-label="twitter" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-x-twitter"></i> </a> <a href="javascript:location.href = 'mailto:' + ['jose.cuellar.villegas','gmail.com'].join('@')" aria-label="email"> <i class="fas fa-envelope"></i> </a> <a href="https://www.linkedin.com/in/josecuellar/" aria-label="linkedin" target="_blank" rel="noopener noreferrer"> <i class="fab fa-linkedin"></i> </a></div>
+</center>
 
 
