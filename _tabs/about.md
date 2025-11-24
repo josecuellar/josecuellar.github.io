@@ -14,7 +14,7 @@ layout: page
 <br>
 Más de veinticinco años en el mundo del software en diferentes ámbitos y propósitos. 
 Siempre impulsado por tres principales motivaciones: <b>aprender, evolucionar y ayudar</b>.
-Mi pasión radica en abordar y solucionar eficientemente problemas complejos, buscando siempre el equilibrio entre <b>personas</b> y <b>tecnología</b> creando entornos que fomenten <b>crecimiento, creatividad y productividad sostenida</b> en el tiempo.
+<br>Mi pasión radica en abordar y solucionar eficientemente problemas complejos, buscando siempre el equilibrio entre <b>personas</b> y <b>tecnología</b> creando entornos que fomenten <b>crecimiento, creatividad y productividad sostenida</b> en el tiempo.
 <br><br>
 Después de mis estudios en <b>Informática de Gestión</b>, inicié mi andadura como <b>Full-Stack</b>. Con el tiempo me especialicé en <b>Backend</b>. A lo largo de mi trayectoria y en todos los casos, el <b>liderazgo</b> ha emergido de manera natural: guiando equipos, potenciando talentos y logrando objetivos. 
 <br><br>
