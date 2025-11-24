@@ -17,28 +17,32 @@ tags:
   - elasticsearch
 ---
 
-Si estás familiarizado con el stack de [ELK](https://www.elastic.co/es/elastic-stack) sabrás lo potente y versátil que resulta monitorizar cualquier tipo de actividad en cualquier infrastructura gracias a su potente motor de búsqueda Elasticsearch y las muchas posibilidades de personalización representando los datos que ofrece Kibana. 
-Aunque opcional, la arquitectura recomendada para ELK debe incluir un broker entre los Beats y LogStash (Redis, Kafka o RabbitMQ) para evitar bottlenecks en la recuperación de datos de todos los orígenes que facilitan los beats: 
+If you are familiar with the [ELK](https://www.elastic.co/es/elastic-stack) stack, you will know how powerful and versatile it is to monitor any type of activity in any infrastructure thanks to its powerful Elasticsearch search engine and the many customization possibilities offered by Kibana in representing the data.
+Although optional, the recommended architecture for ELK should include a broker between Beats and LogStash (Redis, Kafka or RabbitMQ) to avoid bottlenecks in data retrieval from all the sources facilitated by the beats:
 
 <br><center><img src="/wp-content/uploads/2018/11/elkredis.png"/></center><br>
 
-Aunque en entornos cloud disponemos de servicios que nos permiten monitorizar toda la infrastructura, ELK puede aportarnos la flexibilidad necesaria *out of the box* dependiendo de la estrategia que queramos seguir. 
-n mi caso, quiero centralizar en una única solución toda la infrastructura PaaS de Azure (inicialmente la información crítica de salud) ya que actualmente la información se distribuye en demasiados servicios independientes ofreciendo diferentes tipos de informaciones (Application Insights, Log Analytics, Azure Monitor, etc). 
-LogStash dispone de plugins para habilitar la extracción de datos de los principales orígenes en Azure. 
+Although in cloud environments we have services that allow us to monitor the entire infrastructure, ELK can provide the necessary flexibility *out of the box* depending on the strategy we want to follow.
+In my case, I want to centralize all the Azure PaaS infrastructure in a single solution (initially the critical health information) since currently the information is distributed in too many independent services offering different types of information (Application Insights, Log Analytics, Azure Monitor, etc.).
+LogStash has plugins to enable data extraction from the main sources in Azure.
 
-Puedes montar ELK mediante contenedores Docker. En este caso utilizaremos una VM mediante Azure Template para contruir la imagen. 
-Te dejo un link interesante donde explican como montar ELK mediante Docker y enviar las trazas con [Serilog](http://serilog.net) (mediante una implentación específica de ILoggerFactory) y .NET Core a Event Hub para poder aprovechar la infrastructura y monitorizar desde ELK. 
+You can mount ELK using Docker containers. In this case we will use a VM through Azure Template to build the image.
+I leave you an interesting link where they explain how to mount ELK using Docker and send the traces with [Serilog](http://serilog.net) (through a specific implementation of ILoggerFactory) and .NET Core to Event Hub to take advantage of the infrastructure and monitor from ELK.
 - <https://medium.com/@marcodesanctis2/monitor-asp-net-core-in-elk-through-docker-and-azure-event-hubs-6e519249af61>
 
-Como punto de partida configuraré LogStash con el plugin de Azure Event Hubs (será nuestro broker), capaz de absorber streamings de millones de eventos por segundo. También puedes añadir los plugins para añadir los inputs de Azure Service Bus y Azure Storage en el pipeline de LogStash.
+As a starting point, I will configure LogStash with the Azure Event Hubs plugin (it will be our broker), capable of absorbing streamings of millions of events per second. You can also add the plugins to add the inputs of Azure Service Bus and Azure Storage in the LogStash pipeline.
 
-### Crea una imagen certificada por Bitnami en un nuevo Grupo de Recursos
-Imagen de Bitnami: <https://ms.portal.azure.com/#create/bitnami.elk4-6>
+### Create a Bitnami certified image in a new Resource Group
+Bitnami Image: <https://ms.portal.azure.com/#create/bitnami.elk4-6>
 
-Una vez creada, accede al menú **Boot Diagnostics-&gt;Serial Log** y busca en él: *"Setting Bitnami application password to"* para conseguir los credenciales de acceso a Kibana. Conéctate mediante SSH al servidor `````````
+Once created, access the **Boot Diagnostics -> Serial Log** menu and search for: *"Setting Bitnami application password to"* to get the access credentials to Kibana. 
+
+Connect via SSH to the server 
+```
 ssh user@ip
+```
 
-### Inicializa y configura ELK
+### Initialize and configure ELK
 
 ```
 sudo /opt/bitnami/use_elk
@@ -46,12 +50,12 @@ sudo /opt/bitnami/ctlscript.sh stop logstash
 logstash-plugin install logstash-input-azureeventhub
 ```
 
-**Aquí puedes aprovechar para instalar más plugins a LogStash:**
+**Here you can take the opportunity to install more plugins to LogStash:**
 - Azure Service <https://github.com/Azure/azure-diagnostics-tools/tree/master/Logstash/logstash-input-azuretopic>
 - Azure Event Hub</u><https://github.com/Azure/azure-diagnostics-tools/tree/master/Logstash/logstash-input-azureeventhub>
-- Aquí los tienes todos listados: <https://github.com/Azure/azure-diagnostics-tools/tree/master/Logstash>
+- Here you have them all listed: <https://github.com/Azure/azure-diagnostics-tools/tree/master/Logstash>
 
-### Crea el pipeline de LogStash creando o modificando el archivo mediante nano (puedes utilizar cualquier editor)
+### Create the LogStash pipeline by creating or modifying the file using nano (you can use any editor)
 
 ```
 sudo nano /opt/bitnami/logstash/conf/access-log.conf
@@ -78,24 +82,26 @@ output {
 
 ```
 
-*Ctrl+O* para guardar y Enter para confirmar. 
-*Ctrl+X* para cerrar el editor.
+*Ctrl+O* to save and Enter to confirm.
+*Ctrl+X* to close the editor.
 
-Puedes crear tantos nodos input como entidades en Event Hub quieras configurar y añadir tantos inputs como necesites en tu configuración.
+You can create as many input nodes as entities in Event Hub you want to configure and add as many inputs as you need in your configuration.
 
-### Establece la configuración del pipeline a LogStash y arranca el servicio con los siguientes comandos
+### Set the pipeline configuration to LogStash and start the service with the following commands
 
 ```
 /opt/bitnami/logstash/bin/logstash -f /opt/bitnami/logstash/conf/ --config.test_and_exit
 sudo /opt/bitnami/ctlscript.sh start logstash
 ```
 
-Puedes comprobar si se están moviendon los datos desde Event Hub a ElasticSearch: 
+You can check if the data is moving from Event Hub to ElasticSearch:
 
 ```
 curl 'localhost:9200/_cat/indices?v'
 ```
 
-Ya sólo queda acceder a Kibana desde el browser mediante el user y password comentado en el inicio, configurar el índice *logstash* y a jugar :) *http://\[ip -server\]:5601*
+Now you just have to access Kibana from the browser using the user and password commented at the beginning, configure the *logstash* index and play :) 
+
+*http://\[ip -server]:5601*
 
 Enjoy!
