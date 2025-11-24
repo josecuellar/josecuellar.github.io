@@ -1,14 +1,14 @@
 ---
 order: 4
 id: 4
-title: 'Sobre mí'
+title: 'About me'
 date: '2025-11-23T22:00:18+00:00'
 layout: page
 ---
 
 <p>
 
-<img src="/wp-content/uploads/josecuellar.jpg" width="140" height="112" alt="avatar" class="left">
+<img src="/wp-content/uploads/josecuellar.jpg" width="100" alt="avatar" class="left">
 
 ¡Bienvenid@s a <b>Leading With Depth</b>!
 <br>
