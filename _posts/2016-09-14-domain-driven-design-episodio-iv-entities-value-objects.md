@@ -2,7 +2,6 @@
 id: 1230
 title: 'Domain-Driven Design. Entities & Value Objects'
 date: '2016-09-14T20:56:34+00:00'
-author: Jose
 layout: post
 permalink: /domain-driven-design-episodio-iv-entities-value-objects/
 categories:

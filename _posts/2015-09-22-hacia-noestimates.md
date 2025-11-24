@@ -2,7 +2,6 @@
 id: 973
 title: 'Hacia #NoEstimates'
 date: '2015-09-22T09:48:56+00:00'
-author: Jose
 layout: post
 permalink: /hacia-noestimates/
 categories:

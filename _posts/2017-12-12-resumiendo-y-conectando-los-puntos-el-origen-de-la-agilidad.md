@@ -2,7 +2,6 @@
 id: 1639
 title: 'Resumiendo y conectando los puntos: el origen de la #Agilidad'
 date: '2017-12-12T22:20:56+00:00'
-author: Jose
 layout: post
 permalink: /resumiendo-y-conectando-los-puntos-el-origen-de-la-agilidad/
 categories:

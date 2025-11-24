@@ -2,7 +2,6 @@
 id: 1609
 title: 'Extreme Programming. Intro & Values'
 date: '2017-11-25T19:13:10+00:00'
-author: Jose
 layout: post
 permalink: /extreme-programming-values/
 categories:

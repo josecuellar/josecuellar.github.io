@@ -2,7 +2,6 @@
 id: 1190
 title: 'Domain-Driven Design. Arquitectura'
 date: '2016-08-04T22:18:17+00:00'
-author: Jose
 layout: post
 permalink: /domain-driven-design-episodio-iii-arquitectura/
 categories:

@@ -2,7 +2,6 @@
 id: 1263
 title: 'Domain-Driven Design. Services & Domain Events'
 date: '2016-10-06T20:24:37+00:00'
-author: Jose
 layout: post
 permalink: /domain-driven-design-episodio-v-services-domain-events/
 categories:

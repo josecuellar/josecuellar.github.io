@@ -2,7 +2,6 @@
 id: 1635
 title: 'Extreme Programming. Corollary Practices'
 date: '2017-11-30T21:40:03+00:00'
-author: Jose
 layout: post
 permalink: /extreme-programming-corollary-practices/
 categories:

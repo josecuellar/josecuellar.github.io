@@ -2,7 +2,6 @@
 id: 1685
 title: 'Getting Started with ELK on Microsoft Azure'
 date: '2018-12-05T21:18:41+00:00'
-author: Jose
 layout: post
 permalink: /getting-started-with-elk-on-microsoft-azure/
 categories:

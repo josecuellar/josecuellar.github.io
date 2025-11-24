@@ -2,7 +2,6 @@
 id: 1616
 title: 'Extreme Programming. Principles'
 date: '2017-11-27T22:29:56+00:00'
-author: Jose
 layout: post
 permalink: /extreme-programming-principles/
 categories:

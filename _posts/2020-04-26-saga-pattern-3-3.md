@@ -1,7 +1,6 @@
 ---
 title: 'Saga Pattern (3/3)'
 date: '2020-04-26T21:25:27+00:00'
-author: Jose
 layout: post
 permalink: /saga-pattern-3-3/
 categories:

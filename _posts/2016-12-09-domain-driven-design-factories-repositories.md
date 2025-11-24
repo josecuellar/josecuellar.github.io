@@ -2,7 +2,6 @@
 id: 1408
 title: 'Domain-Driven Design. Factories & Repositories'
 date: '2016-12-09T13:41:20+00:00'
-author: Jose
 layout: post
 permalink: /domain-driven-design-factories-repositories/
 categories:

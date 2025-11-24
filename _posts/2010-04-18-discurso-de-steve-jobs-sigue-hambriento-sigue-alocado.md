@@ -2,7 +2,6 @@
 id: 175
 title: 'Discurso de Steve Jobs: «Sigue hambriento. Sigue alocado.»'
 date: '2010-04-18T20:52:27+00:00'
-author: Jose
 layout: post
 permalink: /discurso-de-steve-jobs-sigue-hambriento-sigue-alocado/
 description:

@@ -2,7 +2,6 @@
 id: 204
 title: 'Cuando y porqué realizar tareas de Refactoring'
 date: '2010-04-26T00:16:40+00:00'
-author: Jose
 layout: post
 permalink: /cuando-y-porque-realizar-tareas-de-refactoring/
 categories:

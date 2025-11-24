@@ -2,7 +2,6 @@
 id: 187
 title: 'Las «5C» del trabajo en equipo'
 date: '2010-04-22T23:09:53+00:00'
-author: Jose
 layout: post
 permalink: /inteligencia-compartida-bases-para-el-trabajo-en-equipo-las-5c/
 categories:

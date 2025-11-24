@@ -2,7 +2,6 @@
 id: 1099
 title: 'Algunas leyes en el desarrollo de software'
 date: '2015-02-03T20:39:08+00:00'
-author: Jose
 layout: post
 permalink: /algunas-leyes-en-el-desarrollo-de-software/
 categories:

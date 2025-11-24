@@ -2,7 +2,6 @@
 id: 1876
 title: 'Data consistency: the problem (1/3)'
 date: '2020-04-21T22:04:29+00:00'
-author: Jose
 layout: post
 permalink: /data-consistency-the-problem-1-3/
 categories:

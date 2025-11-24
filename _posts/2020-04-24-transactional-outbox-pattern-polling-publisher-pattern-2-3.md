@@ -2,7 +2,6 @@
 id: 1914
 title: 'Transactional Outbox & Polling Publisher Patterns (2/3)'
 date: '2020-04-24T00:02:05+00:00'
-author: Jose
 layout: post
 permalink: /transactional-outbox-pattern-polling-publisher-pattern-2-3/
 categories:

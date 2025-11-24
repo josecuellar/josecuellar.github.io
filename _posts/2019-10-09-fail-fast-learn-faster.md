@@ -2,7 +2,6 @@
 id: 1820
 title: 'Fail fast, fail cheap, fail well: learn faster'
 date: '2019-10-09T19:55:03+00:00'
-author: Jose
 layout: post
 permalink: /fail-fast-learn-faster/
 categories:

@@ -2,7 +2,6 @@
 id: 1161
 title: 'Domain-Driven Design. Context Maps'
 date: '2016-07-27T20:13:01+00:00'
-author: Jose
 layout: post
 permalink: /domain-driven-design-episodio-ii-context-maps/
 categories:

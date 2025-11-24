@@ -2,7 +2,6 @@
 id: 514
 title: 'Implementación de Apache Solr'
 date: '2011-12-14T14:50:12+00:00'
-author: Jose
 layout: post
 permalink: /iniciacion-e-implementacion-de-apache-solr/
 categories:

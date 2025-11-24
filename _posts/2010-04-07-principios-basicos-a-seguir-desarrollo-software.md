@@ -2,7 +2,6 @@
 id: 118
 title: 'Principios básicos en el desarrollo de software'
 date: '2010-04-07T11:11:30+00:00'
-author: Jose
 layout: post
 permalink: /principios-a-seguir-en-el-desarrollo-software/
 categories:

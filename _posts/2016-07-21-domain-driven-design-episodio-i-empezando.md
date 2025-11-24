@@ -2,7 +2,6 @@
 id: 1122
 title: 'Domain-Driven Design. Empezando'
 date: '2016-07-21T22:26:20+00:00'
-author: Jose
 layout: post
 permalink: /domain-driven-design-episodio-i-empezando/
 categories:

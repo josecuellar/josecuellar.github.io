@@ -2,7 +2,6 @@
 id: 1337
 title: 'Domain-Driven Design. Modules & Aggregates'
 date: '2016-10-31T21:09:42+00:00'
-author: Jose
 layout: post
 permalink: /domain-driven-design-modules-aggregates/
 categories:

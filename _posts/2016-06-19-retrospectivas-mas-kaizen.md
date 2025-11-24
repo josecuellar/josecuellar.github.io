@@ -2,7 +2,6 @@
 id: 1078
 title: 'Retrospectivas más Kaizen'
 date: '2016-06-19T20:15:24+00:00'
-author: Jose
 layout: post
 permalink: /retrospectivas-mas-kaizen/
 categories:

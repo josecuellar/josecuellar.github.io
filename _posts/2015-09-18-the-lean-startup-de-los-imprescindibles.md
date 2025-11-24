@@ -2,7 +2,6 @@
 id: 864
 title: 'The lean startup. De los imprescindibles'
 date: '2015-09-18T20:30:34+00:00'
-author: Jose
 layout: post
 permalink: /the-lean-startup-de-los-imprescindibles/
 categories:

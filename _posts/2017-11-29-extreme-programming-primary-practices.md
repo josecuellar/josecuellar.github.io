@@ -2,7 +2,6 @@
 id: 1627
 title: 'Extreme programming. Primary practices'
 date: '2017-11-29T23:19:51+00:00'
-author: Jose
 layout: post
 permalink: /extreme-programming-primary-practices/
 categories:

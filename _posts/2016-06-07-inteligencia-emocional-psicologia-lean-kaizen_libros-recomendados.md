@@ -2,7 +2,6 @@
 id: 895
 title: 'Inteligencia emocional, Kaizen y Lean UX: libros recomendados'
 date: '2016-06-07T20:08:06+00:00'
-author: Jose
 layout: post
 permalink: /inteligencia-emocional-psicologia-lean-kaizen_libros-recomendados/
 categories:

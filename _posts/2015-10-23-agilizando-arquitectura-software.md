@@ -2,7 +2,6 @@
 id: 788
 title: 'Agilizando la arquitectura de software'
 date: '2015-10-23T20:49:33+00:00'
-author: Jose
 layout: post
 permalink: /agilizando-arquitectura-software/
 categories:

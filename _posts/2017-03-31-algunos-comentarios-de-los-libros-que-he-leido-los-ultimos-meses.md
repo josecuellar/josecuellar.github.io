@@ -2,7 +2,6 @@
 id: 1489
 title: 'Algunos comentarios de los libros que he leído los últimos meses'
 date: '2017-03-31T20:38:52+00:00'
-author: Jose
 layout: post
 permalink: /algunos-comentarios-de-los-libros-que-he-leido-los-ultimos-meses/
 categories:

@@ -2,7 +2,6 @@
 id: 113
 title: 'Estilos y patrones básicos en arquitectura de software'
 date: '2010-04-02T20:28:21+00:00'
-author: Jose
 layout: post
 permalink: /estilos-patrones-basicos-arquitectura-software/
 categories:
