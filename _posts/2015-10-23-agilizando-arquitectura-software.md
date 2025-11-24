@@ -36,7 +36,7 @@ Esencialmente y desde el punto de vista de producto, debemos establecer el [prod
 Todo ello en pequeños incrementos de producto mediante sprints o iteraciones con estrecha colaboración a negocio y el cliente final. 
 Evitando en mayor medida el despilfarro de tiempo y recursos. 
 
-Siguiendo así el método [Lean Startup](http://josecuellar.net/the-lean-startup-de-los-imprescindibles/) y adaptándose a la metodología ágil de proyectos. 
+Siguiendo así el método [Lean Startup](/the-lean-startup-de-los-imprescindibles/) y adaptándose a la metodología ágil de proyectos. 
 
 <br><center><img src="/wp-content/uploads/leanstartup.png"  width="500"/></center><br>
 
@@ -48,7 +48,7 @@ Teniendo muy presente el principio [YAGNI (You Ain't Gonna Need It)](https://es.
 > La visión de la arquitectura en las metodologías ágiles cambia: ya no existe la figura de arquitecto de software tradicional como tal en un equipo de Scrum. Ya que la arquitectura emerge progresivamente en base a las iteraciones del propio equipo.
 > Sin embargo, como comenta [Charlie Alfred](https://charliealfred.wordpress.com), en su post [SCRUM and Architecture – Partners or Adversaries?](https://charliealfred.wordpress.com/scrum-and-architecture-partners-or-adversaries/)**: “la arquitectura es el aceite y el filtro que lubrica adecuadamente a Scrum”**. 
 
-Es básico prestar atención progresiva al crecimiento de la arquitectura a lo largo del tiempo. Asegurando que se cumplan los principios de calidad/rendimiento/reutilización y evitar la posible complejidad que pudiese surgir para disminuir la posibilidad de generar deuda técnica o incidencias, planificando/ejecutando [refactoring periódicos](http://www.josecuellar.net/cuando-y-porque-realizar-tareas-de-refactoring/). 
+Es básico prestar atención progresiva al crecimiento de la arquitectura a lo largo del tiempo. Asegurando que se cumplan los principios de calidad/rendimiento/reutilización y evitar la posible complejidad que pudiese surgir para disminuir la posibilidad de generar deuda técnica o incidencias, planificando/ejecutando [refactoring periódicos](/cuando-y-porque-realizar-tareas-de-refactoring/). 
 
 Los perfiles más experimentados en arquitectura deben orientar, guiar, advertir y aconsejar sobre posibles imprevistos, observando el crecimiento/complejidad de la arquitectura, teniendo en cuenta toda su experiencia. 
 Así como los perfiles más especializados en optimización de buscadores (SEO) nos guiarán en el desarrollo siguiendo la estrategia correcta y otros perfiles con otras habilidades en la construcción del producto, mediante técnicas como el [pair programming](https://es.wikipedia.org/wiki/Programaci%C3%B3n_en_pareja) o el [mob programming](https://en.wikipedia.org/wiki/Mob_programming). Fomentando así el aprendizaje del equipo. 

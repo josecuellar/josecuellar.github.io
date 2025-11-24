@@ -46,7 +46,7 @@ Lean UX ofrece una perspectiva completa de cómo los principios de [Lean Startup
 
 Nuevas técnicas y herramientas para conseguir una mayor colaboración entre distintos departamentos y entregas más rápidas. Un nuevo enfoque de desarrollo de experiencia de usuario evitando despilfarros y segundas fases de mejoras que nunca llegan. 
 
-Complemento idóneo a [Lean Startup](http://josecuellar.net/the-lean-startup-de-los-imprescindibles/). 
+Complemento idóneo a [Lean Startup](/the-lean-startup-de-los-imprescindibles/). 
 
 > Me gusta como relaciona el diseño de producto, arquitectura de la información y usabilidad en el proceso de creación de producto mediante productos mínimamente viables y cómo aborda la progresión continua de éstos mediante experimentos de investigación y pruebas (Crear-Medir-Aprender). 
 > Me ha interesado mucho conceptos como el [BDUP (Big Design Up Front)](https://en.wikipedia.org/wiki/Big_Design_Up_Front) como uno de los mayores errores de despilfarro de tiempo, el diseño colaborativo, herramientas de prototipado y métodos de gestión de suposiciones e hipótesis para la solución de necesidades o problemas, el enfoque de adaptación al trabajo con SCRUM y los cambios aconsejables para implementar Lean UX en una organización.

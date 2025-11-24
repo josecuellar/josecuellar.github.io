@@ -56,7 +56,7 @@ De este modo (con algunos matices) podemos acercarnos al patrón *outbox* de for
 
 <br><center><img src="/wp-content/uploads/2020/05/image-7.png"/></center><br>
 
-Para **evitar dicha penalización de rendimiento y garantizar la consistencia**: podríamos *escuchar* los eventos generados creando los datos específicos de consulta en alguna otra base de datos o tecnología. **Notificando así además a otros servicios** (dada la importancia en la consistencia de datos en transacciones de negocio distribuidas como veremos en el [siguiente post](https://josecuellar.net/saga-pattern-3-3/)):
+Para **evitar dicha penalización de rendimiento y garantizar la consistencia**: podríamos *escuchar* los eventos generados creando los datos específicos de consulta en alguna otra base de datos o tecnología. **Notificando así además a otros servicios** (dada la importancia en la consistencia de datos en transacciones de negocio distribuidas como veremos en el [siguiente post](/saga-pattern-3-3/)):
 
 <br><center><img src="/wp-content/uploads/2020/05/image-6.png"/></center><br>
 
@@ -64,7 +64,7 @@ Hasta aquí uno de los patrones **más recomendados habitualmente** para garanti
 
 *Lecturas recomendadas:*
 
-- <https://josecuellar.net/saga-pattern-3-3/>
+- <https://leadingdepth.com/saga-pattern-3-3/>
 - <https://docs.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/subscribe-events>
 - <https://docs.microsoft.com/bs-latn-ba/azure/cosmos-db/how-to-create-multiple-cosmos-db-triggers>
 - <https://docs.microsoft.com/es-es/azure/cosmos-db/consistency-levels>

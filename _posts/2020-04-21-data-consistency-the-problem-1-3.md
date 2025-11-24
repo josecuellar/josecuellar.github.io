@@ -57,7 +57,7 @@ Empezamos a evolucionar las arquitecturas. Unos de los siguientes pasos más com
 
 Se empiezan a **integrar nuevas bases de datos NoSQL** *(Apache Solr, ElasticSearch, Redis, etc.)* incrementando la velocidad de consulta de forma exponencial. Sincronizamos y transformamos los datos (proyectándolos y denormalizándolos) desde la base de datos relacional de escritura, hacia la base de datos no relacional de lectura mediante **eventos de forma incremental** (una vez suceden los cambios) o incluso mediante estrategias de control de cambios en la base de datos relacional.
 
-> *Allá por el 2011 contaba mi experiencia con la implantación de Apache Solr:* [*https://josecuellar.net/iniciacion-e-implementacion-de-apache-solr/*](/iniciacion-e-implementacion-de-apache-solr/)
+> *Allá por el 2011 contaba mi experiencia con la implantación de Apache Solr:* [*/iniciacion-e-implementacion-de-apache-solr/*](/iniciacion-e-implementacion-de-apache-solr/)
 
 En este escenario se empiezan a dividir responsabilidades modularizando el monolito y empezado a separar los modelos de lectura y escritura. **Patrones como [CQS ](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation)o [CQRS ](https://martinfowler.com/bliki/CQRS.html)empiezan a ser relevantes**.
 
@@ -67,7 +67,7 @@ En este contexto y teniendo una solución equilibrada, empezamos a ser conscient
 
 En 2003, [Eric Evans publica Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.es/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), aportando una **visión estratégica de división del dominio** mediante *subdominios* y *bounded contexts*. Así como técnicas de comunicación entre los *bounded contexts* según sus tipos de colaboración: *context mappings*.
 
-> *Os dejo por aquí una serie de posts que escribí en la lectura de Implementing Domain Driven Design de Vaughn Vernon:* [*https://josecuellar.net/domain-driven-design-episodio-i-empezando/*](/domain-driven-design-episodio-i-empezando/)
+> *Os dejo por aquí una serie de posts que escribí en la lectura de Implementing Domain Driven Design de Vaughn Vernon:* [*/domain-driven-design-episodio-i-empezando/*](/domain-driven-design-episodio-i-empezando/)
 
 Reconocidas las ventajas y sufriendo los inconvenientes, empezamos a dar pasos a los siguientes tipos de arquitecturas con objetivo de **dividir el monolito, creando bases de datos no relacionales de lectura por servicio**, dividiendo las responsabilidades y adaptando los procesos de sincronización desde la base de datos transaccional.
 
@@ -102,5 +102,5 @@ Es cierto que no he detallado las grandes **ventajas que ha supuesto dividir res
 
 En los próximos *posts* compartiré diferentes patrones que nos ayudarán a **gestionar correctamente las transacciones distribuidas generando así un sistema más consistente sin sacrificar Availability y Partition Tolerance** (*Outbox Pattern* y *Sagas*) y veremos otras posibilidades evitando trabajar con dos repositorios simultáneamente.
 
-- <https://josecuellar.net/transactional-outbox-pattern-polling-publisher-pattern-2-3/>
-- <https://josecuellar.net/saga-pattern-3-3/>
+- <https://leadingdepth.com/transactional-outbox-pattern-polling-publisher-pattern-2-3/>
+- <https://leadingdepth.com/saga-pattern-3-3/>

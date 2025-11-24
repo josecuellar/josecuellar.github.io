@@ -25,7 +25,7 @@ tags:
 
 Podemos definir los servicios como procesos que realizan determinadas tareas. Empleados y evolucionados desde [Service Oriented Architecture](https://es.wikipedia.org/wiki/Arquitectura_orientada_a_servicios) o [Remote Procedure Call](https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remoto). 
 
-Tareas o acciones genéricas que no se asocian a una única determinada única instancia de objeto, de modo que la tendencia más habitual es crear métodos estáticos sobre la *entidad* o *agregado*. Esta práctica no se considera óptima por no seguir los [principios de desarrollo](http://josecuellar.net/principios-a-seguir-en-el-diseno-de-un-sistema/) y dificultando en gran medida el testeo, además de considerarse mala práctica acceder a *repositorios* dentro de los *agregados* o *entidades* en el modelo de dominio. 
+Tareas o acciones genéricas que no se asocian a una única determinada única instancia de objeto, de modo que la tendencia más habitual es crear métodos estáticos sobre la *entidad* o *agregado*. Esta práctica no se considera óptima por no seguir los [principios de desarrollo](/principios-a-seguir-en-el-diseno-de-un-sistema/) y dificultando en gran medida el testeo, además de considerarse mala práctica acceder a *repositorios* dentro de los *agregados* o *entidades* en el modelo de dominio. 
 
 La necesidad de incluir métodos estáticos en el modelo de dominio es un *buen indicador para crear un servicio*. 
 
@@ -56,8 +56,8 @@ Normalmente se utilizan [procesos *batch*](https://es.wikipedia.org/wiki/Procesa
 Normalmente procesos nocturnos largos y costosos. 
 
 Los *Domain Events*, capturan y notifican un determinado evento dentro del modelo de dominio mediante información representada en un objeto. De modo que podemos realizar las acciones pertinentes o aplicar un resultado determinado en el mismo momento que sucede el cambio de estado, evitando acumularlos en el tiempo esperando a detectarlos mediante dichos pesados y largos procesos nocturnos. 
-Los eventos sucedidos o cambios de estado de entidades o eventos pueden almacenarse a medida que vayan aconteciendo para disponer de un histórico de eventos, aplicando así [Event Sourcing](http://josecuellar.net/domain-driven-design-episodio-iii-arquitectura/). 
-Además, nos facilitan la integración de [Bounded Contexts](http://josecuellar.net/domain-driven-design-episodio-ii-context-maps/) desacoplando estructuras o sistemas dentro de una organización. 
+Los eventos sucedidos o cambios de estado de entidades o eventos pueden almacenarse a medida que vayan aconteciendo para disponer de un histórico de eventos, aplicando así [Event Sourcing](/domain-driven-design-episodio-iii-arquitectura/). 
+Además, nos facilitan la integración de [Bounded Contexts](/domain-driven-design-episodio-ii-context-maps/) desacoplando estructuras o sistemas dentro de una organización. 
 
 Todos los sucesos no deben considerarse como eventos a notificar en el modelo de dominio, aconsejando hablar cuidadosamente con los expertos de dominio para identificarlos correctamente. Los eventos deben de formar parte del *lenguaje ubicuo*. 
 
@@ -113,6 +113,6 @@ Pueden identificarse y detectarse eventos por un campo específico o detectar du
 - [Vaughn Vernon on Microservices and Domain-Driven Design](https://www.infoq.com/news/2016/07/microservices-ddd-vernon)
 
 - [Domain-Driven Design. Episodio I.   **Empezando…**](/domain-driven-design-episodio-i-empezando/)
-- [Domain-Driven Design. Episodio II.  **Context Maps**](http://josecuellar.net/domain-driven-design-episodio-ii-context-maps/)
-- [Domain-Driven Design. Episodio III. **Arquitectura**](http://josecuellar.net/domain-driven-design-episodio-iii-arquitectura/)
-- [Domain-Driven Design. Episodio IV.  **Entities** &amp; **Value Objects**](http://josecuellar.net/domain-driven-design-episodio-iv-entities-value-objects/)
+- [Domain-Driven Design. Episodio II.  **Context Maps**](/domain-driven-design-episodio-ii-context-maps/)
+- [Domain-Driven Design. Episodio III. **Arquitectura**](/domain-driven-design-episodio-iii-arquitectura/)
+- [Domain-Driven Design. Episodio IV.  **Entities** &amp; **Value Objects**](/domain-driven-design-episodio-iv-entities-value-objects/)

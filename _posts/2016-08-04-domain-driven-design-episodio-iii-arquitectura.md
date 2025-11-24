@@ -22,11 +22,11 @@ tags:
   - tactical-design
 ---
 
-En este post introduciré estilos y patrones de arquitectura más interesantes y recomendables que puedes aplicar con DDD mencionados por Vaughn Vernon en [*"Implementing Domain-Driven Design”*](http://josecuellar.net/domain-driven-design-episodio-i-empezando/). No se trata de una lista cerrada, ya que el enfoque táctico de *Domain-Driven Design* no requiere la utilización específica de ningún tipo de patrón o arquitectura: la verdadera importancia de cada *Bounded Context* reside en su *Core Domain* o modelo de dominio, independientemente de como se comunique con el resto de componentes de la aplicación, siempre y cuando se cumplan las [buenas prácticas y los principios de calidad apropiados](http://josecuellar.net/principios-a-seguir-en-el-diseno-de-un-sistema/).
+En este post introduciré estilos y patrones de arquitectura más interesantes y recomendables que puedes aplicar con DDD mencionados por Vaughn Vernon en [*"Implementing Domain-Driven Design”*](/domain-driven-design-episodio-i-empezando/). No se trata de una lista cerrada, ya que el enfoque táctico de *Domain-Driven Design* no requiere la utilización específica de ningún tipo de patrón o arquitectura: la verdadera importancia de cada *Bounded Context* reside en su *Core Domain* o modelo de dominio, independientemente de como se comunique con el resto de componentes de la aplicación, siempre y cuando se cumplan las [buenas prácticas y los principios de calidad apropiados](/principios-a-seguir-en-el-diseno-de-un-sistema/).
 
 ## Layers - N-Tier Architecture
 
-Arquitectura más habitual. Separación de responsabilidades en capas particionando la complejidad según su responsabilidad. Siguiendo los principios [SoC](http://josecuellar.net/principios-a-seguir-en-el-diseno-de-un-sistema/) y [SRP](http://josecuellar.net/principios-a-seguir-en-el-diseno-de-un-sistema/). 
+Arquitectura más habitual. Separación de responsabilidades en capas particionando la complejidad según su responsabilidad. Siguiendo los principios [SoC](/principios-a-seguir-en-el-diseno-de-un-sistema/) y [SRP](/principios-a-seguir-en-el-diseno-de-un-sistema/). 
 Las capas superiores dependen de la inferior o inferiores: 
 
 - **Strict Layers Architecture:** Únicamente permite la dependencia con la capa directamente inferior. 
