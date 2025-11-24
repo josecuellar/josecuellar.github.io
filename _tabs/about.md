@@ -26,15 +26,5 @@ Me defino como cercano, curioso y comprometido: <b>observo, aprendo y actúo con
 La experiencia me ha enseñado a confiar en mi intuición, siempre con humildad y ganas de seguir creciendo. 
 </p>
 <br>
-<p>
-
-<img src="/wp-content/leo.png" alt="The balance" width="150" loading="lazy" class="left">
-<i style="color:gray;">Os presento a Leo en su búsqueda de equilibrio, recordándome lo que siempre intento transmitir: atención, paciencia y adaptación en cada paso. 
-<br><br>Aprender de los tropiezos, mantener la calma y motivación hacia el objetivo avanzando con esfuerzo y decisión. 
-<br>Ese equilibrio no solo guía mi forma de vivir y liderar, sino que también refleja mi mayor reto: ser, de la mejor manera posible, el mejor padre posible para él.</i>
-
-
-</p>
-
 
 
