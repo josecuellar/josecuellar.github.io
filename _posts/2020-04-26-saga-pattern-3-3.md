@@ -15,48 +15,48 @@ tags:
 ---
 
 
-*El patrón Saga fue propuesto por Hector Garcia-Molina y Kenneth Salem en 1987. Puedes descargarte el paper aquí: [SAGAS](/wp-content/uploads/2020/04/sagapaper1987.pdf).*
+*The Saga pattern was proposed by Hector Garcia-Molina and Kenneth Salem in 1987. You can download the paper here: [SAGAS](/wp-content/uploads/2020/04/sagapaper1987.pdf).*
 
-Basada en arquitecturas guiadas por eventos (**[Event Driven Architecture](/domain-driven-design-episodio-iii-arquitectura/))**, las sagas nos garantizarán la consistencia de datos en las **transacciones de negocio que involucren varias transacciones locales entre varios servicios o participantes** en un determinado sistema distribuido.
+Based on event-driven architectures (**[Event Driven Architecture](/domain-driven-design-episodio-iii-arquitectura/))**, sagas will guarantee data consistency in **business transactions that involve multiple local transactions between multiple services or participants** in a given distributed system.
 
-Principalmente **gestiona una secuencia de transacciones locales** que completarán dicha transacción de negocio: cada transacción local de cada servicio se ejecutará **basándose en el resultado de otros participantes** o servicios mediante la comunicación de eventos de dominio.
+Mainly **manages a sequence of local transactions** that will complete said business transaction: each local transaction of each service will be executed **based on the result of other participants** or services through the communication of domain events.
 
-Cada servicio deberá ser responsable de realizar su **posible transacción de compensación (rollback)** de una transacción local ya realizada correctamente en el caso de algún error reaccionando a los llamados **eventos de compensación**.
+Each service should be responsible for performing its **possible compensation transaction (rollback)** of a local transaction already successfully performed in the event of an error, reacting to the so-called **compensation events**.
 
-Existen dos tipos de gestión de sagas: basada en **orquestación** o **coreografía**.
+There are two types of saga management: based on **orchestration** or **choreography**.
 
 <br>
 ## Choreography
 
-Los participantes **reaccionan de forma autónoma**. Cada servicio participa en la transacción distribuida de forma **individual**. Siendo responsable de gestionar su propia transacción local según la operación resultante de otro participante: continuar la saga o ejecutar la **transacción de compensación** (*deshaciendo cambios ya realizados*) desencadenando los **eventos de compensación**. 
-Notificando si la transacción ha sido realizada correctamente o no, publicando el evento correspondiente.
+The participants **react autonomously**. Each service participates in the distributed transaction **individually**. Being responsible for managing its own local transaction according to the resulting operation of another participant: continue the saga or execute the **compensation transaction** (*undoing changes already made*) triggering the **compensation events**.
+Notifying if the transaction has been carried out correctly or not, publishing the corresponding event.
 
 
 <br><center><img src="/wp-content/uploads/2020/04/image-29-1024x387.png" width="650"/></center><br>
 
 
-No existe un *single point of failure* y los servicios se encuentran totalmente desacoplados. Aunque (dependiendo del número de participantes o servicios que colaboren para garantizar la ejecución completa de la transacción distribuida) puede ocasionar un aumento en la **complejidad dificultando las tareas de testing, debug y monitoring**.
+There is no *single point of failure* and the services are completely decoupled. Although (depending on the number of participants or services that collaborate to guarantee the complete execution of the distributed transaction) it can cause an increase in **complexity, making testing, debugging and monitoring tasks difficult**.
 
 <br>
 ## Orchestration
 
-Los **participantes son gestionados desde un único punto: el orquestador de la saga**. Mediante una primera operación orquesta las llamadas secuenciales al conjunto de participantes para llevar a cabo la transacción de negocio distribuida.
+The **participants are managed from a single point: the saga orchestrator**. Through a first operation, it orchestrates the sequential calls to the set of participants to carry out the distributed business transaction.
 
 <br><center><img src="/wp-content/uploads/2020/04/image-30-1024x721.png" width="650"/></center><br>
 
-Si el orquestador detecta un error en alguna respuesta en la ejecución de algún participante ejecutará las **acciones correspondientes de compensación en cada uno de los participantes ya ejecutados** hasta el momento.
+If the orchestrator detects an error in any response in the execution of any participant, it will execute the **corresponding compensation actions in each of the participants already executed** up to that moment.
 
-Las ejecuciones de los participantes se realizan asíncronamente siguiendo el orden necesario si se requiere. Pueden existir varias posibilidades de implementación dependiendo del stack tecnológico, aunque recomendable usar los patrones **Remote Procedure Call** (RPC) ***request/async response*** o ***request/replay*** en las comunicaciones con los participantes.
+The executions of the participants are carried out asynchronously following the necessary order if required. There may be several implementation possibilities depending on the technological stack, although it is recommended to use the **Remote Procedure Call** (RPC) ***request/async response*** or ***request/replay*** patterns in communications with the participants.
 
-La ventaja principal es la **visibilidad que aporta tener todo el *workflow* centralizado en el orquestador** resultando **más sencillas las operaciones de testing, debug y monitoring**. Aunque disponemos de un único componente creando una dependencia entre los participantes*.*
+The main advantage is the **visibility provided by having the entire *workflow* centralized in the orchestrator**, making **testing, debugging and monitoring operations easier**. Although we have a single component creating a dependency between the participants*.
 
-Entonces, si realmente y lo **verdaderamente importante en nuestro sistema son los eventos de dominio para mantener la consistencia** de los datos, disponiendo además de diferentes estrategias y prácticas que solventan diferentes problemas en el momento que guardamos dichos estados (escritura) y otras cuando necesitamos consultarlos (**lectura**). La pregunta sería: *¿Porque no trabajamos únicamente con eventos?*. Acercándonos así a [Event Sourcing y CQRS](/domain-driven-design-episodio-iii-arquitectura/#eventsourcing).
+So, if what is **truly important in our system are the domain events to maintain the consistency** of the data, also having different strategies and practices that solve different problems at the moment we save said states (writing) and others when we need to consult them (**reading**). The question would be: *Why don't we work only with events?*. Thus approaching [Event Sourcing and CQRS](/domain-driven-design-episodio-iii-arquitectura/#eventsourcing).
 
-Bajo mi punto de vista, la solución ante un problema dado en una situación y contexto concretos se encuentra en el **equilibrio entre los costes y beneficios de cada decisión que tomemos** en cada momento. Y las decisiones (si dispones de posibilidad de colaborar o influir en ellas, claro) mejor tomarlas en base a los datos que dispongas y conocimientos/experiencia del equipo. Y recuerda incluir como coste la complejidad que añadas.
+From my point of view, the solution to a given problem in a specific situation and context lies in the **balance between the costs and benefits of each decision we make** at each moment. And the decisions (if you have the possibility to collaborate or influence them, of course) better make them based on the data you have and the knowledge/experience of the team. And remember to include the complexity you add as a cost.
 
-Hasta aquí, de momento, los **principales patrones que nos permitirán garantizar una consistencia** de los datos. Lógicamente estas prácticas tendrán un coste de desarrollo, aunque ya hemos visto que este tipo de prácticas **no son nuevas, no hará falta reinventar la rueda**: tenemos disponible una gran cantidad de herramientas *open source* que nos facilitarán implementarlos (incluyendo servicios *cloud* como las [Durable Orchestrations](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-orchestrations?tabs=csharp) de *Azure*) basándonos así en patrones y guías comunes siendo más sencillo explicarlos y manteniendo siempre un orden y coherencia en nuestras prácticas.
+So far, for the moment, the ** it easier to implement them (including *cloud* services such as [Durable Orchestrations](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-orchestrations?tabs=csharp) from *Azure*) basing ourselves on common patterns and guides, making it easier to explain them and always maintaining order and coherence in our practices.
 
-*Lecturas y charlas recomendadas:*
+*Recommended readings and talks:*
 
 - <https://microservices.io/patterns/data/saga.html>
 - <https://medium.com/@ijayakantha/microservices-the-saga-pattern-for-distributed-transactions-c489d0ac0247>
