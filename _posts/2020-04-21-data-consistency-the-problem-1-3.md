@@ -15,92 +15,92 @@ tags:
   - distributed-systems
 ---
 
-Basamos (o deberíamos) las decisiones en base a los datos que almacenamos en la interacción de los usuarios sobre nuestro producto. Guardamos toda la información necesaria para dar respuestas y elaborar predicciones en base a históricos de datos. Adaptándonos y anticipándonos así a las necesidades de nuestros usuarios.
+We base (or should) decisions on the data we store in user interaction with our product. We save all the information necessary to provide answers and develop predictions based on historical data, adapting and anticipating the needs of our users.
 
 <br><center><img src="/wp-content/uploads/2020/04/image-6.png"  width="400"/></center><br>
 
-**¿Te has preguntado si dichos datos son consistentes?**
+**Have you ever wondered if this data is consistent?**
 
-*En este post trataremos la consistencia: en qué consiste y cómo ha evolucionado a lo largo de las diferentes arquitecturas, influencias y tecnologías.*
+*In this post, we will discuss consistency: what it consists of and how it has evolved throughout different architectures, influences, and technologies.*
 
-**Interpretamos que nuestros datos son consistentes si:**
+**We interpret that our data is consistent if:**
 
-- Los datos **se relacionan correctamente** sin generar incongruencias. Existiendo una integridad referencial.
+- The data **relates correctly** without generating inconsistencies, with referential integrity.
 
-- Se mantienen **estados válidos** y concretos (la cantidad de unidades de un producto para un pedido coincide con el registro de salida de stock).
+- **Valid and concrete states** are maintained (the number of units of a product for an order matches the stock output record).
 
-- Están **disponibles para la lectura** una vez se completada la transacción (acción u operación sobre la base de datos).
+- They are **available for reading** once the transaction (action or operation on the database) is completed.
 
-Los sistemas de gestión de bases de datos relacionales o **SGBDR** *(SQL Server, Oracle, MariaDB, MySQL, etc.)* nos garantizan la consistencia de los datos almacenados mediante **ACID** en sus transacciones:
+Relational database management systems or **RDBMS** *(SQL Server, Oracle, MariaDB, MySQL, etc.)* guarantee the consistency of the stored data through **ACID** in their transactions:
 
-- **Atomicy**: La transacción se ejecuta completamente, o no se ejecuta.
+- **Atomicy**: The transaction is executed completely, or not at all.
 
-- **Consistency**: Sólo ejecutará la transacción si respeta las directrices de integridad referencial y reglas definidas, manteniendo en todo momento estados válidos y exactos.
+- **Consistency**: It will only execute the transaction if it respects the referential integrity guidelines and defined rules, maintaining valid and exact states at all times.
 
-- **Isolated**: Una transacción no puede afectar a otra garantizando que el estado final de ejecuciones concurrentes será el mismo que ejecutadas de forma secuencial mediante un control de concurrencia.
+- **Isolated**: A transaction cannot affect another, guaranteeing that the final state of concurrent executions will be the same as those executed sequentially through concurrency control.
 
-- **Durability**: Garantiza la persistencia de los datos una vez se haya ejecutada la transacción, aunque el sistema falle.
+- **Durability**: Guarantees the persistence of the data once the transaction has been executed, even if the system fails.
 
-*La principal e inicial arquitectura de alto nivel más común, extendida y que todos conocemos:*
+*The main and initial high-level architecture, the most common, widespread, and that we all know:*
 
 <br><center><img src="/wp-content/uploads/2020/04/image-15.png"  width="500"/></center><br>
 
-Disponemos de un componente principal que **gestiona las transacciones realizadas a una única base de datos** por cada caso de uso de la aplicación. Como veis en este ejemplo, ejecutamos una transacción (incluyendo en ella todas las operaciones necesarias para completar correctamente un nuevo pedido). Efectivamente, la base de datos relacional **nos garantiza ACID ofreciéndonos consistencia en la creación de la totalidad del pedido, pero unos muy pobres resultados a nivel de eficiencia, escalabilidad y disponibilidad** manejando grandes cantidades de datos.
+We have a main component that **manages the transactions carried out on a single database** for each use case of the application. As you can see in this example, we execute a transaction (including in it all the operations necessary to correctly complete a new order). Indeed, the relational database **guarantees us ACID, offering us consistency in the creation of the entire order, but very poor results in terms of efficiency, scalability, and availability** when handling large amounts of data.
 
-En 1998, *Carlos Strozzi* introduce el concepto de **NoSQL** para su base de datos relacional de código abierto, ya que no utiliza SQL como interfaz de consulta. *Eric Evans* y *Johan Oskarsson* (last.fm) reintroducen el concepto **NoSQL/NoREL** refiriéndose a base de datos no relacionales (denormalización o desestructuración de los datos dando una mejor eficiencia).
+In 1998, *Carlos Strozzi* introduced the concept of **NoSQL** for his open-source relational database, since it does not use SQL as a query interface. *Eric Evans* and *Johan Oskarsson* (last.fm) reintroduced the concept **NoSQL/NoREL** referring to non-relational databases (denormalization or destructuring of data giving better efficiency).
 
-Compañías como *Twitter, Facebook, Amazon y Google* lideran la adopción de las bases de datos no relacionales dada la necesidad de un procesado más eficiente de grandes volúmenes de información en un clúster distribuido de datos, permitiendo así un escalado horizontal. El concepto Big Data es oficial en 2005.
+Companies like *Twitter, Facebook, Amazon, and Google* lead the adoption of non-relational databases given the need for more efficient processing of large volumes of information in a distributed data cluster, thus allowing horizontal scaling. The Big Data concept is official in 2005.
 
-Empezamos a evolucionar las arquitecturas. Unos de los siguientes pasos más comunes fue el siguiente:
+We begin to evolve the architectures. One of the most common next steps was the following:
 
 <br><center><img src="/wp-content/uploads/2020/05/image-8.png"  width="650"/></center><br>
 
-Se empiezan a **integrar nuevas bases de datos NoSQL** *(Apache Solr, ElasticSearch, Redis, etc.)* incrementando la velocidad de consulta de forma exponencial. Sincronizamos y transformamos los datos (proyectándolos y denormalizándolos) desde la base de datos relacional de escritura, hacia la base de datos no relacional de lectura mediante **eventos de forma incremental** (una vez suceden los cambios) o incluso mediante estrategias de control de cambios en la base de datos relacional.
+**New NoSQL databases** *(Apache Solr, ElasticSearch, Redis, etc.)* begin to be **integrated**, increasing the query speed exponentially. We synchronize and transform the data (projecting and denormalizing it) from the relational write database to the non-relational read database through **events incrementally** (once the changes occur) or even through change control strategies in the relational database.
 
-> *Allá por el 2011 contaba mi experiencia con la implantación de Apache Solr:* [*/iniciacion-e-implementacion-de-apache-solr/*](/iniciacion-e-implementacion-de-apache-solr/)
+> *Back in 2011, I shared my experience with the implementation of Apache Solr:* [*/iniciacion-e-implementacion-de-apache-solr/*](/iniciacion-e-implementacion-de-apache-solr/)
 
-En este escenario se empiezan a dividir responsabilidades modularizando el monolito y empezado a separar los modelos de lectura y escritura. **Patrones como [CQS ](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation)o [CQRS ](https://martinfowler.com/bliki/CQRS.html)empiezan a ser relevantes**.
+In this scenario, responsibilities begin to be divided, modularizing the monolith and beginning to separate the read and write models. **Patterns like [CQS ](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation) or [CQRS ](https://martinfowler.com/bliki/CQRS.html) begin to be relevant**.
 
-La consistencia de los datos entre ambas bases de datos se realiza de forma eventual (existe un *delay* en la recuperación de los datos): aunque **manteniendo siempre un origen de datos (*source of truth*) fiable que garantiza ACID en sus transacciones de escritura** (podíamos realizar en cualquier momento puntual una **reparación de ciertos datos incongruentes que pudieran existir en el repositorio de lectura**).
+The consistency of the data between both databases is done eventually (there is a *delay* in the recovery of the data): although **always maintaining a data source (*source of truth*) reliable that guarantees ACID in its write transactions** (we could perform at any specific time a **repair of certain incongruous data that may exist in the reading repository**).
 
-En este contexto y teniendo una solución equilibrada, empezamos a ser conscientes de la **complejidad y acoplamiento adyacente que ocasiona disponer de un único componente (monolito)** generando una gran cantidad de deficiencias en la calidad del código, modularidad, mantenibilidad y escalabilidad de la infraestructura.
+In this context and having a balanced solution, we begin to be aware of the **complexity and adjacent coupling caused by having a single component (monolith)** generating a large number of deficiencies in the quality of the code, modularity, maintainability, and scalability of the infrastructure.
 
-En 2003, [Eric Evans publica Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.es/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), aportando una **visión estratégica de división del dominio** mediante *subdominios* y *bounded contexts*. Así como técnicas de comunicación entre los *bounded contexts* según sus tipos de colaboración: *context mappings*.
+In 2003, [Eric Evans publishes Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.es/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), providing a **strategic vision of domain division** through *subdomains* and *bounded contexts*. As well as communication techniques between *bounded contexts* according to their types of collaboration: *context mappings*.
 
-> *Os dejo por aquí una serie de posts que escribí en la lectura de Implementing Domain Driven Design de Vaughn Vernon:* [*/domain-driven-design-episodio-i-empezando/*](/domain-driven-design-episodio-i-empezando/)
+> *I leave you here a series of posts that I wrote in the reading of Implementing Domain Driven Design by Vaughn Vernon:* [*/domain-driven-design-episodio-i-empezando/*](/domain-driven-design-episodio-i-empezando/)
 
-Reconocidas las ventajas y sufriendo los inconvenientes, empezamos a dar pasos a los siguientes tipos de arquitecturas con objetivo de **dividir el monolito, creando bases de datos no relacionales de lectura por servicio**, dividiendo las responsabilidades y adaptando los procesos de sincronización desde la base de datos transaccional.
+Recognizing the advantages and suffering the disadvantages, we begin to take steps to the following types of architectures with the objective of **dividing the monolith, creating non-relational read databases per service**, dividing the responsibilities and adapting the synchronization processes from the transactional database.
 
 <br><center><img src="/wp-content/uploads/2020/04/image-17.png"  width="500"/></center><br>
 
-Con objetivo de desacoplar totalmente los contextos y evitar dependencias, necesitábamos dividir la base de datos: **una base de datos transaccional por contexto**:
+With the objective of completely decoupling the contexts and avoiding dependencies, we needed to divide the database: **a transactional database per context**:
 
 <br><center><img src="/wp-content/uploads/2020/04/image-18.png"  width="400"/></center><br>
 
-En este momento, disponemos de un sistema distribuido aumentando la flexibilidad, escalabilidad y disponibilidad. Aunque, **hemos dividido el ámbito transaccional en la creación del pedido**. Ahora, sólo garantizamos ACID en cada una de las transacciones individuales y no en la creación total del pedido: hemos resuelto infinidad de problemas pagando con la moneda de la consistencia. A partir de este momento, crear un pedido se convertirá en una **transacción distribuida**.
+At this moment, we have a distributed system increasing flexibility, scalability, and availability. Although, **we have divided the transactional scope in the creation of the order**. Now, we only guarantee ACID in each of the individual transactions and not in the total creation of the order: we have solved countless problems paying with the currency of consistency. From this moment on, creating an order will become a **distributed transaction**.
 
-*Los números y los datos empiezan a ser incongruentes: ¿Cómo puede ser que haya menos stock del que nos reflejan los reports? ¿Cómo es posible que existe un pago y no el abono si el pedido fue cancelado?, ¿Cómo podemos tener un pedido enviado sin salida del stock asociado? etc.*
+*The numbers and data begin to be incongruous: How can there be less stock than what the reports reflect? How is it possible that there is a payment and not the refund if the order was canceled? How can we have an order sent without the associated stock output? etc.*
 
-Recordemos el **Teorema CAP (presentada por Eric Brewer en el año 2000)** en el que explica que ante un sistema distribuido es **imposible garantizar simultáneamente más de dos** de las siguientes características: **Consistency, Availability** (recibe una respuesta no errónea pero sin garantías de que se recuperen datos consistentes) y **Partition Tolerance** (el sistema sigue funcionando incluso si alguno de sus nodos cae).
+Let's remember the **CAP Theorem (presented by Eric Brewer in 2000)** in which he explains that in a distributed system it is **impossible to simultaneously guarantee more than two** of the following characteristics: **Consistency, Availability** (receives a non-erroneous response but without guarantees that consistent data is recovered) and **Partition Tolerance** (the system continues to function even if some of its nodes fail).
 
-*Eric Brewer* concreta las características de los sistema distribuidos (basado en su teorema y excluyendo consistencia) a **BASE (Basically Available, Soft state and Eventual consistency)**.
+*Eric Brewer* specifies the characteristics of distributed systems (based on his theorem and excluding consistency) to **BASE (Basically Available, Soft state and Eventual consistency)**.
 
-Por aquel momento, siguiendo la dinámica decantándonos por *Partition Tolerance &amp; Availability* y descuidando la consistencia de los datos y otros factores (complejidad esencial *vs* complejidad accidental), seguimos aumentando nuestro sistema distribuido.
+At that time, following the dynamic leaning towards *Partition Tolerance &amp; Availability* and neglecting the consistency of the data and other factors (essential complexity *vs* accidental complexity), we continue to increase our distributed system.
 
-[Sam Newman publica Building Microservices](https://www.amazon.es/Building-Microservices-Sam-Newman/dp/1491950358) en 2014 convirtiéndose en un libro de referencia en la comunidad. Impulsando la dinámica de división y evolucionando nuestras arquitecturas hacia los **microservicios**:
+[Sam Newman publishes Building Microservices](https://www.amazon.es/Building-Microservices-Sam-Newman/dp/1491950358) in 2014 becoming a reference book in the community. Promoting the dynamics of division and evolving our architectures towards **microservices**:
 <br>
 ![](/wp-content/uploads/2020/04/image-19-1024x538.png)
 
 ![](/wp-content/uploads/2020/04/image-20-1024x568.png)
 <br>
 
-El *bounded context* se convierte en una **agrupación cohesionada de** ***microservicios***. Ahora ya no tenemos una única transacción que garantice ACID, ni cuatro, sino doce: una por microservicio. El riesgo de inconsistencias de datos aumenta, así como la exigencia de conocimientos necesarios para enfrentarse a los problemas que genera este tipo de sistemas.
+The *bounded context* becomes a **cohesive grouping of** ***microservices***. Now we no longer have a single transaction that guarantees ACID, nor four, but twelve: one per microservice. The risk of data inconsistencies increases, as well as the demand for knowledge necessary to face the problems generated by this type of system.
 
-Mi intención principal en este post fue plantear y resumir el problema actual en la consistencia de los datos a lo largo del tiempo. Ya que parece que no prestamos la suficiente atención al problema y descuidamos prácticas que nos ayuden, como mínimo, a mitigarlo. Al fin y al cabo, la tecnología está al servicio del producto y la mejora del producto (entre otros aspectos), de los datos que genera.
+My main intention in this post was to raise and summarize the current problem in data consistency over time. Since it seems that we do not pay enough attention to the problem and neglect practices that help us, at least, to mitigate it. After all, technology is at the service of the product and the improvement of the product (among other aspects), of the data it generates.
 
-Es cierto que no he detallado las grandes **ventajas que ha supuesto dividir responsabilidades** (lo dejo para otro *post*), que son muchas y muy variadas. Y dichas ventajas son las que **siempre declinaron la balanza** de nuestras decisiones hasta tener los sistemas distribuidos que tenemos habitualmente hoy en día. Aunque de vez en cuando, hay que intentar equilibrarla. O como mínimo, ser conscientes de lo que hemos dejado en el camino mediante *pensamiento crítico*.
+It is true that I have not detailed the great **advantages that dividing responsibilities has entailed** (I leave it for another *post*), which are many and varied. And these advantages are what **always declined the balance** of our decisions until we have the distributed systems that we usually have today. Although from time to time, we must try to balance it. Or at least, be aware of what we have left along the way through *critical thinking*.
 
-En los próximos *posts* compartiré diferentes patrones que nos ayudarán a **gestionar correctamente las transacciones distribuidas generando así un sistema más consistente sin sacrificar Availability y Partition Tolerance** (*Outbox Pattern* y *Sagas*) y veremos otras posibilidades evitando trabajar con dos repositorios simultáneamente.
+In the next *posts* I will share different patterns that will help us to **correctly manage distributed transactions, thus generating a more consistent system without sacrificing Availability and Partition Tolerance** (*Outbox Pattern* and *Sagas*) and we will see other possibilities avoiding working with two repositories simultaneously.
 
 - <https://leadingdepth.com/transactional-outbox-pattern-polling-publisher-pattern-2-3/>
 - <https://leadingdepth.com/saga-pattern-3-3/>

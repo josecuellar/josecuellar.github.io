@@ -11,23 +11,20 @@ layout: page
 
 <img src="/wp-content/uploads/josecuellar.jpg" width="100" alt="avatar" class="left">
 
-¡Bienvenid@s a <b>Leading With Depth</b>!
+Welcome to <b>Leading With Depth</b>!
 <br>
-Más de veinticinco años en el mundo del software en diferentes ámbitos y propósitos. 
-Siempre impulsado por tres principales motivaciones: <b>aprender, evolucionar y ayudar</b>.
-<br>Mi pasión radica en abordar y solucionar eficientemente problemas complejos, buscando siempre el equilibrio entre <b>personas</b> y <b>tecnología</b> creando entornos que fomenten <b>crecimiento, creatividad y productividad sostenida</b> en el tiempo.
+More than twenty-five years in the software world in different areas and purposes.
+Always driven by three main motivations: <b>learning, evolving and helping</b>.
+<br>My passion lies in efficiently addressing and solving complex problems, always seeking a balance between <b>people</b> and <b>technology</b>, creating environments that foster <b>growth, creativity and sustained productivity</b> over time.
 <br><br>
-Después de mis estudios en <b>Informática de Gestión</b>, inicié mi andadura como <b>Full-Stack</b>. Con el tiempo me especialicé en <b>Backend</b>. A lo largo de mi trayectoria y en todos los casos, el <b>liderazgo</b> ha emergido de manera natural: guiando equipos, potenciando talentos y logrando objetivos. 
+After my studies in <b>Management Informatics</b>, I started my journey as a <b>Full-Stack</b>. Over time I specialized in <b>Backend</b>. Throughout my career and in all cases, <b>leadership</b> has emerged naturally: guiding teams, empowering talents and achieving goals.
 <br><br>
-Inspirado por mi paternidad y mi afán por hacer siempre el mejor acompañamiento posible: estudio <i>a fuego lento</i> el Grado de <b>Psicología</b> en la UOC.
+Inspired by my fatherhood and my desire to always provide the best possible support: I am studying the Degree in <b>Psychology</b> at the UOC <i>slowly</i>.
 <br><br>
-Me defino como cercano, curioso y comprometido: <b>observo, aprendo y actúo con intensidad y propósito</b>. 
+I define myself as approachable, curious and committed: <b>I observe, learn and act with intensity and purpose</b>.
 <br>
-La experiencia me ha enseñado a confiar en mi intuición, siempre con humildad y ganas de seguir creciendo. 
+Experience has taught me to trust my intuition, always with humility and a desire to continue growing.
 </p>
 <br>
 
 <span class="icon-border"></span> <a href="https://github.com/josecuellar" aria-label="github" target="_blank" rel="noopener noreferrer"> <i class="fab fa-github"></i> </a> <a href="https://twitter.com/jos3cuellar" aria-label="twitter" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-x-twitter"></i> </a> <a href="javascript:location.href = 'mailto:' + ['jose.cuellar.villegas','gmail.com'].join('@')" aria-label="email"> <i class="fas fa-envelope"></i> </a> <a href="https://www.linkedin.com/in/josecuellar/" aria-label="linkedin" target="_blank" rel="noopener noreferrer"> <i class="fab fa-linkedin"></i> </a>
-
-
-
