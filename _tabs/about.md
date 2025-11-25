@@ -17,7 +17,7 @@ More than twenty-five years in the software world in different areas and purpose
 Always driven by three main motivations: <b>learning, evolving and helping</b>.
 <br>My passion lies in efficiently addressing and solving complex problems, always seeking a balance between <b>people</b> and <b>technology</b>, creating environments that foster <b>growth, creativity and sustained productivity</b> over time.
 <br><br>
-After my studies in <b>Management Informatics</b>, I started my journey as a <b>Full-Stack</b>. Over time I specialized in <b>Backend</b>. Throughout my career and in all cases, <b>leadership</b> has emerged naturally: guiding teams, empowering talents and achieving goals.
+After my studies in <b>Management Information Systems</b>, I started my journey as a <b>Full-Stack</b>. Over time I specialized in <b>Backend</b>. Throughout my career and in all cases, <b>leadership</b> has emerged naturally: guiding teams, empowering talents and achieving goals.
 <br><br>
 Inspired by my fatherhood and my desire to always provide the best possible support: I am studying the Degree in <b>Psychology</b> at the UOC <i>slowly</i>.
 <br><br>
