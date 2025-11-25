@@ -1,9 +1,9 @@
 ---
 id: 1489
-title: 'Some tech book reviews about microservices, architecture, clean architecture and other topics recommended'
+title: 'Recent reads i recommend in tech'
 date: '2017-03-31T20:38:52+00:00'
 layout: post
-permalink: /cleancode-microservices-architecture-craftsmanship-book-reviews/
+permalink: /cleancode-microservices-architecture-craftsmanship-books-recommended/
 categories:
     - Career & Growth
 tags:
