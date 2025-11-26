@@ -57,7 +57,7 @@ We begin to evolve the architectures. One of the most common next steps was the 
 
 **New NoSQL databases** *(Apache Solr, ElasticSearch, Redis, etc.)* begin to be **integrated**, increasing the query speed exponentially. We synchronize and transform the data (projecting and denormalizing it) from the relational write database to the non-relational read database through **events incrementally** (once the changes occur) or even through change control strategies in the relational database.
 
-> *Back in 2011, I shared my experience with the implementation of Apache Solr:* [*/iniciacion-e-implementacion-de-apache-solr/*](/iniciacion-e-implementacion-de-apache-solr/)
+> *Back in 2011, I shared my experience with the implementation of Apache Solr:* [*/getting-started-apache-solr/*](/iniciacion-e-implementacion-de-apache-solr/)
 
 In this scenario, responsibilities begin to be divided, modularizing the monolith and beginning to separate the read and write models. **Patterns like [CQS ](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation) or [CQRS ](https://martinfowler.com/bliki/CQRS.html) begin to be relevant**.
 

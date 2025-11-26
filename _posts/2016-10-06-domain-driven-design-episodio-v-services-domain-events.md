@@ -25,7 +25,7 @@ tags:
 
 We can define services as processes that perform specific tasks. Employed and evolved from [Service Oriented Architecture](https://es.wikipedia.org/wiki/Arquitectura_orientada_a_servicios) or [Remote Procedure Call](https://es.wikipedia.org/wiki/Llamada_a_procedimiento_remoto).
 
-Generic tasks or actions that are not associated with a single specific object instance, so the most common trend is to create static methods on the *entity* or *aggregate*. This practice is not considered optimal because it does not follow the [development principles](/principios-a-seguir-en-el-desarrollo-software/) and greatly hinders testing, in addition to being considered bad practice to access *repositories* within the *aggregates* or *entities* in the domain model.
+Generic tasks or actions that are not associated with a single specific object instance, so the most common trend is to create static methods on the *entity* or *aggregate*. This practice is not considered optimal because it does not follow the [development principles](/principles-of-software-development/) and greatly hinders testing, in addition to being considered bad practice to access *repositories* within the *aggregates* or *entities* in the domain model.
 
 The need to include static methods in the domain model is a *good indicator to create a service*.
 
@@ -44,7 +44,7 @@ The need to include static methods in the domain model is a *good indicator to c
 - Can access repositories.
 - Hosted in [Domain Layer](/domain-driven-design-architecture/).
 
-With the aim of following the [development principles](/principios-a-seguir-en-el-desarrollo-software/), we will declare interfaces for each Service. Services are not a *silver bullet*, if we use them excessively extracting all the application or domain logic into services, we can cause an [Anemic Domain Model](http://www.martinfowler.com/bliki/AnemicDomainModel.html).
+With the aim of following the [development principles](/principles-of-software-development/), we will declare interfaces for each Service. Services are not a *silver bullet*, if we use them excessively extracting all the application or domain logic into services, we can cause an [Anemic Domain Model](http://www.martinfowler.com/bliki/AnemicDomainModel.html).
 
 It must be determined and decided correctly whether to include a method of *entity/aggregate* in the domain model or create a service, always following [Single Responsability Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle).
 

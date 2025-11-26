@@ -1,9 +1,9 @@
 ---
 id: 118
-title: 'Principios básicos en el desarrollo de software'
+title: 'Principles of Software Development'
 date: '2010-04-07T11:11:30+00:00'
 layout: post
-permalink: /principios-a-seguir-en-el-desarrollo-software/
+permalink: /principles-of-software-development/
 categories:
   - Deep Engineering
 tags:
@@ -19,39 +19,39 @@ tags:
   - software-complexity
 ---
 
-A la hora de diseñar y desarrollar software, es importante tener presente una serie de **principios de diseño fundamentales y básicos** que todo programador debería conocer y aplicar para desarrollar código limpio y de calidad.
+When designing and developing software, it is important to keep in mind a series of **fundamental and basic design principles** that every programmer should know and apply to develop clean, quality code.
 
-#### Principios SOLID
+#### SOLID Principles
 
-- [**Principio de única responsabilidad**](http://en.wikipedia.org/wiki/Single_responsibility_principle) *(**S**ingle Responsability Principle)*. Una clase debe tener una única responsabilidad o funcionalidad.
+- [**Single Responsibility Principle**](http://en.wikipedia.org/wiki/Single_responsibility_principle) *(**S**ingle Responsability Principle)*. A class should have a single responsibility or functionality.
 
-- [**Principio abierto cerrado**](http://en.wikipedia.org/wiki/Open/closed_principle) *(**O**pen Close Principle)*. Las clases deben ser extensibles sin requerir modificación en la implementación interna de sus métodos.
+- [**Open/Closed Principle**](http://en.wikipedia.org/wiki/Open/closed_principle) *(**O**pen Close Principle)*. Classes should be extensible without requiring modification to the internal implementation of their methods.
 
-- [**Principio de Sustitución de Liskov**](http://en.wikipedia.org/wiki/Liskov_substitution_principle) *(**L**iskov Substitution principie)*. Los subtipos o clases hijas deben ser sustituibles por sus propios tipos base relacionados (clases base). Generando una extensibilidad en los componentes del sistema por cada funcionalidad específica.
+- [**Liskov Substitution Principle**](http://en.wikipedia.org/wiki/Liskov_substitution_principle) *(**L**iskov Substitution principie)*. Subtypes or child classes must be substitutable for their own related base types (base classes). Generating extensibility in the system components for each specific functionality.
 
-- [**Principio de Segregación de Interfaces**](http://en.wikipedia.org/wiki/Interface_segregation_principle) *(**I**nterface Segregation Principle)*. Muchas interfaces muy especializadas son preferibles a una interfaz general en la que se agrupen todas las interfaces. Interfaces específicas al consumidor.
-- [**Principio de Inversión de Dependencias**](http://en.wikipedia.org/wiki/Dependency_inversion_principle) *(**D**ependency Inversion Principle)*. Las dependencias directas entre clases deben ser reemplazadas por abstracciones (interfaces, herencia) para permitir diseños top-down sin requerir primero el diseño de los niveles inferiores. Las abstracciones no deben depender de los detalles, los detalles deben depender de las abstracciones.
+- [**Interface Segregation Principle**](http://en.wikipedia.org/wiki/Interface_segregation_principle) *(**I**nterface Segregation Principle)*. Many highly specialized interfaces are preferable to a general interface in which all interfaces are grouped. Consumer-specific interfaces.
+- [**Dependency Inversion Principle**](http://en.wikipedia.org/wiki/Dependency_inversion_principle) *(**D**ependency Inversion Principle)*. Direct dependencies between classes should be replaced by abstractions (interfaces, inheritance) to allow top-down designs without first requiring the design of the lower levels. Abstractions should not depend on details, details should depend on abstractions.
 
-#### [**Alta cohesión (High Cohesion)**](http://en.wikipedia.org/wiki/Cohesion_(computer_science)) 
-El diseño de componentes debe ser altamente cohesivo: No sobrecargar los componentes añadiendo funcionalidad mezclada o no relacionada. Relacionado con el principio *Single Responsability Priniciple*.
+#### [**High Cohesion**](http://en.wikipedia.org/wiki/Cohesion_(computer_science))
+The design of components should be highly cohesive: Do not overload components by adding mixed or unrelated functionality. Related to the *Single Responsability Priniciple*.
 
-#### [**Bajo acoplamiento (Low Coupling)**](http://en.wikipedia.org/wiki/Coupling_(computer_science))
-Bajo acoplamiento. Minimizar las relaciones e interconexiones entre componentes minimizando la dependencia entre ellos.
+#### [**Low Coupling**](http://en.wikipedia.org/wiki/Coupling_(computer_science))
+Low coupling. Minimize the relationships and interconnections between components, minimizing the dependence between them.
 
-#### [**Separación/abstracción de conceptos/lógicas/funcionalidades de la aplicación (Separation of Concerns)**](http://en.wikipedia.org/wiki/Separation_of_concerns)
-Minimizar puntos de conexión entre conceptos para conseguir una alta cohesión y un bajo acoplamiento.
+#### [**Separation of Concerns**](http://en.wikipedia.org/wiki/Separation_of_concerns)
+Minimize connection points between concepts to achieve high cohesion and low coupling.
 
-#### [**Principio DRY - DIE** (**D**on't **R**epeat **Y**ourself - **D**uplication **I**s **E**vil)](http://en.wikipedia.org/wiki/Don't_repeat_yourself)
-Evitar la duplicidad mediante la reutilización. Se debe especificar/implementar la funcionalidad en un único sitio en el sistema (componente, módulo o clase). Una misma funcionalidad no debe estar implementada en otros componentes.
+#### [**DRY - DIE Principle** (**D**on't **R**epeat **Y**ourself - **D**uplication **I**s **E**vil)](http://en.wikipedia.org/wiki/Don't_repeat_yourself)
+Avoid duplication through reuse. Functionality should be specified/implemented in a single place in the system (component, module, or class). The same functionality should not be implemented in other components.
 
-#### [**Principio YAGNI** (**Y**ou **A**in´t **G**onna **N**eed **I**t)](http://en.wikipedia.org/wiki/You_ain't_gonna_need_it)
-Diseñar solamente lo que es necesario para cubrir los requisitos actuales, no realizando *sobre-ingenierías* innecesarias.
+#### [**YAGNI Principle** (**Y**ou **A**in´t **G**onna **N**eed **I**t)](http://en.wikipedia.org/wiki/You_ain't_gonna_need_it)
+Design only what is necessary to meet current requirements, avoiding unnecessary *over-engineering*.
 
-#### [**Principio KISS** (**K**eep **I**t **S**imple and **S**tupid)](http://en.wikipedia.org/wiki/KISS_principle)
-La sencillez debe ser un objetivo clave en el diseño y la complejidad innecesaria debe ser evitada.
+#### [**KISS Principle** (**K**eep **I**t **S**imple and **S**tupid)](http://en.wikipedia.org/wiki/KISS_principle)
+Simplicity should be a key objective in design and unnecessary complexity should be avoided.
 
-#### La regla del Boy Scout
-“Siempre deja el lugar de acampamento más limpio que como lo encontraste”. Si encuentras un desastre en el camino, lo limpias sin importar quién pudo haber hecho el desastre. Mejoras intencionalmente el ambiente para el siguiente grupo de campistas. En realidad, la forma original de la regla, escrita por Robert Stephenson Smyth Baden-Powell, el padre del Scoutismo, era “Intenta y deja el mundo un poco mejor que como lo encontraste”.
+#### The Boy Scout Rule
+“Always leave the campground cleaner than you found it.” If you find a mess on the trail, you clean it up no matter who might have made the mess. You intentionally improve the environment for the next group of campers. Actually, the original form of the rule, written by Robert Stephenson Smyth Baden-Powell, the father of Scouting, was “Try and leave this world a little better than you found it”.
 
-#### El principio de Hollywood
-Basado en la típica respuesta que se les da a los actores que hacen una prueba para una película: "No nos llame, nosotros le llamaremos". Este principio está relacionado con el principio de inversión de dependencias de SOLID. Un ejemplo del principio de Hollywood es la inversión de control (IoC), que hace que una clase obtenga las referencias a objetos que necesita para funcionar, a través de una entidad externa.
+#### The Hollywood Principle
+Based on the typical response given to actors who audition for a movie: "Don't call us, we'll call you." This principle is related to the SOLID dependency inversion principle. An example of the Hollywood principle is inversion of control (IoC), which causes a class to obtain references to objects it needs to function, through an external entity.

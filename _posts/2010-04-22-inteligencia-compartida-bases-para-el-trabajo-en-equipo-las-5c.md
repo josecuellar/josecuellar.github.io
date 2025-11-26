@@ -1,9 +1,9 @@
 ---
 id: 187
-title: 'Las «5C» del trabajo en equipo'
+title: 'The five Cs of effective teamwork'
 date: '2010-04-22T23:09:53+00:00'
 layout: post
-permalink: /inteligencia-compartida-bases-para-el-trabajo-en-equipo-las-5c/
+permalink: /the-five-cs-of-effective-teamwork/
 categories:
   - Engineering Culture
 tags:
@@ -18,77 +18,72 @@ tags:
   - feedback-culture
 ---
 
-## Complementariedad
-Cada miembro domina y dispone de los conocimientos específicos de una parcela determinada del proyecto. 
+## Complementarity
+Each member masters and has the specific knowledge of a certain part of the project.
 
-> Todos somos muy ignorantes. Lo que ocurre es que no todos ignoramos las mismas cosas. 
+> We are all very ignorant. It's just that we are not all ignorant of the same things.
 > [Albert Einstein](http://es.wikipedia.org/wiki/Albert_Einstein).
-    
-Absolutamente nadie es capaz de dominar perfectamente todas las áreas de un proyecto. 
-Compartir los conocimientos entre los miembros de un equipo es uno de los aspectos más importantes para la evolución profesional y para el beneficio general del proyecto. 
-Si eres una persona que te motiva aprender y evolucionar profesionalmente, las críticas no te molestan (aprendiendo de ellas) y solicitas ayuda, sugerencias y alternativas en tu trabajo: Este punto no será un problema para tí. 
 
-Sabes complementarte con los diferentes miembros del equipo. En cambio, si eres una persona excesivamente orgullosa que no admites tus límites, te molestan las críticas de tus compañeros sintiéndote ofendido, no te gusta pedir ayuda o escuchar otros puntos de vista y crees que ningún miembro tiene nada que aportarte: Probablemente tu perfil profesional no evolucione perjudicando el buen ambiente y trabajo en el equipo. 
-Dificultando tu integración y adaptación en él. 
+Absolutely no one is able to perfectly master all areas of a project.
+Sharing knowledge among team members is one of the most important aspects for professional development and for the general benefit of the project.
+If you are a person who is motivated to learn and evolve professionally, criticisms do not bother you (learning from them) and you ask for help, suggestions and alternatives in your work: This point will not be a problem for you.
 
-> Aquel que pregunta es un tonto por cinco minutos, pero el que no pregunta permanece tonto por siempre. 
-> [Proverbio chino](http://es.wikipedia.org/wiki/Proverbios).
+You know how to complement yourself with the different members of the team. On the other hand, if you are an excessively proud person who does not admit your limits, you are bothered by the criticisms of your colleagues feeling offended, you do not like to ask for help or listen to other points of view and you believe that no member has anything to contribute to you: Probably your professional profile will not evolve, harming the good atmosphere and work in the team.
+Making your integration and adaptation difficult in it.
 
-## Coordinación
-El grupo debe actuar de forma organizada para progresar el proyecto. 
+> He who asks is a fool for five minutes, but he who does not ask remains a fool forever.
+> [Chinese Proverb](http://es.wikipedia.org/wiki/Proverbios).
 
-> La cooperación es la convicción plena de que nadie puede llegar a la meta si no llegan todos. 
+## Coordination
+The group must act in an organized way to progress the project.
+
+> Cooperation is the full conviction that no one can reach the goal if everyone does not arrive.
 > Virginia Burden.
 
-Mediante una visión global, se planifican y priorizan las tareas estimando el plazo de tiempo determinado para la progresión del proyecto en el equipo. 
-La planificación en el equipo puede llegar a ser algo dificil de estimar y generar incertidumbre. 
+Through a global vision, tasks are planned and prioritized, estimating the period of time determined for the progression of the project in the team.
+Planning in the team can be difficult to estimate and generate uncertainty.
 
-Aunque ha de considerarse *normal*, teniendo en cuenta que el futuro en sí, lo és. 
+Although it should be considered *normal*, considering that the future itself is.
 
-> Estudia el pasado si quieres pronosticar el futuro. 
-> [Confucio](http://es.wikipedia.org/wiki/Confucio).
+> Study the past if you want to predict the future.
+> [Confucius](http://es.wikipedia.org/wiki/Confucio).
 
-Una vez planificadas deben saber autoorganizarse, teniendo en cuenta las tareas que puedan influir positivamente o negativamente a otros miembros del equipo. 
-Advirtiéndolo o informando de los cambios mediante abundante comunicación...
+Once planned, they must know how to self-organize, taking into account the tasks that may positively or negatively influence other members of the team.
+Warning or informing of the changes through abundant communication...
 
-## Comunicación
-El trabajo en equipo exige una comunicación abierta entre todos sus miembros, esencial para poder coordinar las distintas actuaciones individuales. 
-Sin comunicación no existirá coordinación, ni complementariedad. 
+## Communication
+Teamwork requires open communication between all its members, essential to be able to coordinate the different individual actions.
+Without communication there will be no coordination, nor complementarity.
 
-Normalmente este punto es directamente proporcional a la capacidad de sociabilidad de cada miembro del equipo. 
-Si te ciñes a tu tarea individualmente, no consultas otros puntos de vista, no respetas la base metódica del equipo y aunque no entiendas un determinado apartado, prefieres perder tiempo en averiguarlo por tí mismo antes que preguntar: Probablemente tardes más tiempo en hacer la tarea, no evoluciones profesionalmente y trabajes más estresado (por el esfuerzo que te supone intentar entender aquello que no conoces). 
+Normally this point is directly proportional to the sociability of each member of the team.
+If you stick and you will work more stressed (due to the effort it takes to try to understand what you do not know).
 
-Si eres una persona empática, comunicativa y te gusta intercambiar opiniones y puntos de vista: Beneficiarás el trabajo en equipo generando un buen ambiente de trabajo.
+If you are an empathetic, communicative person and you like to exchange opinions and points of view: You will benefit teamwork by generating a good working environment.
 
-> Si me ofreciesen la sabiduría con la condición de guardarla para mí sin comunicarla a nadie, no la querría. 
-> [Lucio Anneo Séneca](http://es.wikipedia.org/wiki/S%C3%A9neca).
+> If I were offered wisdom on the condition of trust leads him to accept and put the success of the team before his own personal glory. Time is an important factor in this point.
 
-## Confianza
-Cada persona confía en el buen hacer del resto de sus compañeros. 
-Esta confianza le lleva a aceptar y anteponer el éxito del equipo al propio lucimiento personal. El tiempo es un factor importante en este punto. 
+No one trusts another without knowing what he is like, or how he works. Letting time pass naturally, adapting progressively, is essential.
 
-Nadie confía en otro sin conocer como es, ni como trabaja. Dejar pasar el tiempo naturalmente adaptándote progresivamente, es primordial. 
+Little by little your profile will fit and integrate. It should be others who give you their trust, never impose it. Naturally you will find your place. This is essential when entering a new work team.
 
-Poco a poco tu perfil encajará y se integrará. Deben ser los demás quienes te den su confianza, nunca imponerla. De forma natural encontrarás tu lugar. Esto es fundamental cuando se entra en un nuevo equipo de trabajo. 
+The confidence and security in yourself, your skills to help, estimate your development times well and demonstrate in practice that in the vast majority of cases your theories are correct, is usually directly proportional to the confidence you will obtain over time.
 
-La confianza y seguridad en tí mismo, tus habilidades para ayudar, estimar bien tus tiempos de desarrollo y demostrar en la práctica que en la gran mayoría de casos tus teorías son correctas, suele ser directamente proporcional a la confianza que obtendrás con el tiempo. 
-
-> La confianza, como el arte, nunca proviene de tener todas las respuestas, sino de estar abierto a todas la preguntas. 
+> Trust, like art, never comes from having all the answers, but from being open to all the questions.
 > Earl Gray Stevens.
 
-## Compromiso
-Cada miembro se compromete a aportar lo mejor de sí mismo, a poner todo su empeño en sacar el trabajo adelante. 
-De nada vale trabajar en algo en lo que no crees y en lo que no confías. Comprometerte con tu trabajo es primordial para generar confianza y motivación. 
+## Commitment
+Each member commits to contribute the best of themselves, to put all their effort into getting the job done.
+It is useless to work on something you do not believe in and in which you do not trust. Committing to your work is essential to generate trust and motivation.
 
-Aportar tu conocimiento profesional al equipo por la satisfacción de ver crecer y evolucionar la totalidad del proyecto a lo largo del tiempo te llevará al compromiso.
+Contributing your professional knowledge to the team for the satisfaction of seeing the entire project grow and evolve over time will lead you to commitment.
 
-El caracter y la forma de ser de cada persona influye enormemente en el comportamiento profesional de cada uno. Las incompatibilidades personales, demasiada competitividad, enemistades o malas formas en la comunicación, pueden dañar algún aspecto del trabajo dentro del equipo. 
+The character and way of being of each person greatly influences the professional behavior of each one. Personal incompatibilities, too much competitiveness, enmities or bad ways in communication, can damage some aspect of the work within the team.
 
-Intentar siempre **promover un buen ambiente laboral y compañerismo** es importante para evitarlo. La integración en un nuevo equipo de trabajo, normalmente, requiere tiempo. Dejarse llevar, aportando el 100% de tu conocimiento gradualmente sin empeñarse en demostrar toda tu valía en las primeras tomas de contacto con los demás miembros del equipo, es fundamental para una buena evolución inicial en él. 
+Always trying to **promote a good working environment and camaraderie** is important to avoid it. Integration into a new work team usually takes time. Letting yourself go, contributing 100% of your knowledge gradually without insisting on demonstrating all your worth in the first contacts with the other members of the team, is essential for a good initial evolution in it.
 
-La paciencia suele ser un buen aliado. Tarde o temprano podrás demostrar tu valía. 
+Patience is usually a good ally. Sooner or later you will be able to demonstrate your worth.
 
-**El combustible del equipo** es la **motivación** de sus miembros.
+**The fuel of the team** is the **motivation** of its members.
 
-> El grado de motivación en el equipo refleja la calidad en los resultados. 
-> Siempre he creído que produce más un equipo pequeño motivado y en un buen ambiente de trabajo, que un gran equipo no comprometido, sin causa ni motivación alguna.
+> The degree of motivation in the team reflects the quality in the results.
+> I have always believed that a small motivated team in a good working environment produces more than a large uncommitted team, without cause or motivation.

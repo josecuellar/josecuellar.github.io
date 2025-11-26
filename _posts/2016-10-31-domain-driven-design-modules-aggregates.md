@@ -73,7 +73,7 @@ The [Law of Demeter](https://es.wikipedia.org/wiki/Ley_de_Demeter) does not allo
 
 On the other hand, [Tell, don´t Ask](http://martinfowler.com/bliki/TellDontAsk.html) allows navigation through the aggregate, but we must encapsulate/hide the implementation details.
 
-You can take a look at [some laws in software development](/algunas-leyes-en-el-desarrollo-de-software/) and the [basic principles in software development](/principios-a-seguir-en-el-desarrollo-software/).
+You can take a look at [some laws in software development](/algunas-leyes-en-el-desarrollo-de-software/) and the [basic principles in software development](/principles-of-software-development/).
 
 ### Example
 

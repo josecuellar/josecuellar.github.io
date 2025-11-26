@@ -1,9 +1,9 @@
 ---
 id: 113
-title: 'Estilos y patrones básicos en arquitectura de software'
+title: 'Basic patterns designing architectures'
 date: '2010-04-02T20:28:21+00:00'
 layout: post
-permalink: /estilos-patrones-basicos-arquitectura-software/
+permalink: /basic-design-architecture-system-patterns/
 categories:
   - Deep Engineering
 tags:
@@ -15,65 +15,64 @@ tags:
   - layered-architecture
 ---
 
-Conjunto de principios que definen a alto nivel un aspecto de la aplicación.  
-Los principales aspectos son: **Comunicación, despliegue, dominio, interacción, relación y estructura**. Lo normal en una arquitectura es no basarse en un solo estilo arquitectural, sino que combine varios para obtener las ventajas existentes de cada uno.
+Set of principles that define an aspect of the application at a high level.
+The main aspects are: **Communication, deployment, domain, interaction, relationship and structure**. The normal thing in an architecture is not to be based on a single architectural style, but to combine several to obtain the existing advantages of each one.
 
-### Cliente/Servidor
-Define una relación entre dos aplicaciones en las cuales una de ellas (cliente) envía peticiones a la otra (servidor y fuente de datos).
+### Client/Server
+Defines a relationship between two applications in which one of them (client) sends requests to the other (server and data source).
 
-<br><center><img src="/wp-content/uploads/Arquitectura/clienteservidor.png"  width="400"/></center><br>
+<br><center><img src="/wp-content/uploads/Arquitectura/clienteservidor.png" width="400"/></center><br>
 
-### Basado en componentes
-Conjunto de componentes que exponen interfaces bien definidas y que colaboran entre sí para resolver el problema. Diseñado de forma que puedan ser reutilizados en distintos escenarios en distintas aplicaciones aunque algunos componentes son diseñados para tareas específicas.
+### Component-based
+Set of components that expose well-defined interfaces and collaborate with each other to solve the problem. Designed so that they can be reused in different scenarios in different applications, although some components are designed for specific tasks.
 
-<br><center><img src="/wp-content/uploads/Arquitectura/componentes.png"  width="500"/></center><br>
+<br><center><img src="/wp-content/uploads/Arquitectura/componentes.png" width="500"/></center><br>
 
-### Arquitectura en capas (N-Layer)
-Distribución jerárquica de los roles y las responsabilidades para proporcionar una división afectiva de los problemas a resolver. 
-Los roles indican el tipo y forma de interacción con otras capas y las responsabilidades la funcionalidad que implementan.
+### Layered Architecture (N-Layer)
+Hierarchical distribution of roles and responsibilities to provide an effective division of the problems to be solved.
+The roles indicate the type and form of interaction with other layers and the responsibilities the functionality they implement.
 
-<br><center><img src="/wp-content/uploads/Arquitectura/nlayer.png"  width="200"/></center><br>
+<br><center><img src="/wp-content/uploads/Arquitectura/nlayer.png" width="200"/></center><br>
 
-### Presentación desacoplada 
-Indica cómo debe realizarse el manejo de las acciones del usuario, la manipulación de la interfaz y los datos de la aplicación. 
-Separación de componentes de la interfaz del flujo de datos y de la manipulación.
+### Decoupled Presentation
+Indicates how user actions, interface manipulation, and application data should be handled.
+Separation of interface components from data flow and manipulation.
 
-<br><center><img src="/wp-content/uploads/Arquitectura/desacoplada.png"  width="200"/></center><br>
+<br><center><img src="/wp-content/uploads/Arquitectura/desacoplada.png" width="200"/></center><br>
 
-### Arquitectura en capas (N-Tier)
-Conceptualmente igual que la arquitectura en capas (n-layer), aunque se define la separación de la funcionalidad en segmentos físicos separados (Tier). 
-Normalmente la separación física se realiza en servidores diferenciados por razones de escalabilidad, seguridad, o simplemente necesidad.
+### Layered Architecture (N-Tier)
+Conceptually the same as the layered architecture (n-layer), although the separation of functionality into separate physical segments (Tier) is defined.
+Normally the physical separation is done in different servers for reasons of scalability, security, or simply necessity.
 
-<br><center><img src="/wp-content/uploads/Arquitectura/ntier.png"  width="400"/></center><br>
+<br><center><img src="/wp-content/uploads/Arquitectura/ntier.png" width="400"/></center><br>
 
-### Arquitectura Orientada al Dominio (DDD)
-Orientado para diseñar e implementar aplicaciones empresariales complejas donde es fundamental definir un Modelo de Dominio expresado en el propio lenguaje de los expertos del dominio de negocio real (llamado Lenguaje [Ubicuo](http://es.wikipedia.org/wiki/Computaci%C3%B3n_ubicua)).
+### Domain Driven Architecture (DDD)
+Oriented to design and implement complex business applications where it is essential to define a Domain Model expressed in the language of the experts of the real business domain (called [Ubiquitous](http://es.wikipedia.org/wiki/Computaci%C3%B3n_ubicua) Language).
 
-- Arquitectura N-Layer.
-- Patrones de diseño:
+- N-Layer Architecture.
+- Design patterns:
 - Repository
 - Entity
 - Aggregate
 - Value-Object
 - Unit of Work
 - Services
-- Desacoplamiento entre componentes pertenecientes al diseño.
+- Decoupling between components belonging to the design.
 
-Todo el equipo de desarrollo deben tener contacto con los expertos del dominio (expertos funcionales) para modelar correctamente el Dominio. 
-El corazón del software es el Modelo del Dominio el cual es una proyección directa de dicho lenguaje acordado entre todos los miembros del equipo (lenguaje [Ubicuo](http://es.wikipedia.org/wiki/Computaci%C3%B3n_ubicua)).
+The entire development team must have contact with the domain experts (functional experts) to correctly model the Domain.
+The heart of the software is the Domain Model which is a direct projection of said language agreed upon by all members of the team ([Ubiquitous](http://es.wikipedia.org/wiki/Computaci%C3%B3n_ubicua) language).
 
-<br><center><img src="/wp-content/uploads/Arquitectura/orientadaaldominio.png"  width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/Arquitectura/orientadaaldominio.png" width="700"/></center><br>
 
-### Orientado a Objetos (OO)
-Conjunto de objetos que cooperan entre sí en lugar de cómo un conjunto de procedimientos. 
-Los objetos son discretos, independientes y poco acoplados, se comunican mediante interfaces y permiten enviar y recibir peticiones.
+### Object Oriented (OO)
+Set of objects that cooperate with each other instead of as a set of procedures.
+Objects are discrete, independent and loosely coupled, communicate through interfaces and allow sending and receiving requests.
 
-<br><center><img src="/wp-content/uploads/Arquitectura/orientadaaobjetos.png"  width="400"/></center><br>
+<br><center><img src="/wp-content/uploads/Arquitectura/orientadaaobjetos.png" width="400"/></center><br>
 
-### Bus de Servicios(Mensajes)
-Define un sistema de software que puede enviar y recibir mensajes usando uno o más canales de forma que las aplicaciones pueden interactuar sin conocer detalles específicos la una de la otra. 
-Interacción entre aplicaciones a través del paso de mensajes por un canal de comunicación común (bus). 
-Se implementa a menudo usando un sistema de mensajes como [MSMQ](http://en.wikipedia.org/wiki/Microsoft_Message_Queuing).
+### Service Bus (Messages)
+Defines a software system that can send and receive messages using one or more channels so that applications can interact without knowing specific details of each other.
+Interaction between applications through the passage of messages through a common communication channel (bus).
+It is often implemented using a messaging system such as [MSMQ](http://en.wikipedia.org)
 
 <br><center><img src="/wp-content/uploads/Arquitectura/busdeservicios.png"  width="500"/></center><br>
- 
