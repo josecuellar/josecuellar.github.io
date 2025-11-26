@@ -67,7 +67,7 @@ In this context and having a balanced solution, we begin to be aware of the **co
 
 In 2003, [Eric Evans publishes Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.es/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215), providing a **strategic vision of domain division** through *subdomains* and *bounded contexts*. As well as communication techniques between *bounded contexts* according to their types of collaboration: *context mappings*.
 
-> *I leave you here a series of posts that I wrote in the reading of Implementing Domain Driven Design by Vaughn Vernon:* [*/domain-driven-design-episodio-i-empezando/*](/domain-driven-design-episodio-i-empezando/)
+> *I leave you here a series of posts that I wrote in the reading of Implementing Domain Driven Design by Vaughn Vernon:* [*/implementing-domain-driven-design-book-vaughn-vernon/*](/implementing-domain-driven-design-book-vaughn-vernon/)
 
 Recognizing the advantages and suffering the disadvantages, we begin to take steps to the following types of architectures with the objective of **dividing the monolith, creating non-relational read databases per service**, dividing the responsibilities and adapting the synchronization processes from the transactional database.
 

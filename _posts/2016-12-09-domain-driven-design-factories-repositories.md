@@ -19,47 +19,47 @@ tags:
 
 ## Factories
 
-De todos los patrones tácticos usados en *DDD*, las *factories* son probablemente una de las mayormente conocidas y utilizadas. 
-Encargadas de la **creación de instancias de objetos que requieren cierta lógica de construcción** que deseamos ocultar, siendo así un recurso que nos permite **encapsular la complejidad de construcción** de objetos. 
+Of all the tactical patterns used in *DDD*, *factories* are probably one of the most well-known and used.
+In charge of the **creation of object instances that require certain construction logic** that we want to hide, thus being a resource that allows us to **encapsulate the construction complexity** of objects.
 
-Conocidas como *factory classes* o *factory methods*. Inicialmente la lógica de construcción de un objeto se realiza en el *contructor*. 
+Known as *factory classes* or *factory methods*. Initially, the construction logic of an object is performed in the *constructor*.
 
-Cuando éste empieza a incrementar su complejidad mediante diversas lógicas, el objeto en sí no debe ser el responsable de controlarlas para crearse así mismo. Debemos extraerlas y encapsularlas en *factories* permitiéndonos asegurar una **correcta instanciación** de los objetos, **evitando inconsistencias** u objetos incorrectamente inicializados. 
+When it begins to increase its complexity through various logics, the object itself should not be responsible for controlling them to create itself. We must extract and encapsulate them in *factories*, allowing us to ensure a **correct instantiation** of the objects, **avoiding inconsistencies** or incorrectly initialized objects.
 
-No deben alojarse las reglas de negocio para la construcción de instancias en las *factories*, para ello disponemos de los *domain services*, aunque pueden incluir [invariants](https://en.wikipedia.org/wiki/Invariant_(computer_science)) facilitadas por los *domain experts* que nos aseguran estados correctos y consistentes. Normalmente se utilizan patrones para adaptar ***abstract factories***. 
+Business rules for the construction of instances should not be housed in the *factories*; for this, we have *domain services*, although they may include [invariants](https://en.wikipedia.org/wiki/Invariant_(computer_science)) provided by the *domain experts* that ensure correct and consistent states. Patterns are usually used to adapt ***abstract factories***.
 
-En la que mediante implementaciones de *interfaces* satisfacemos la creación de objetos de nuestro modelo de dominio: 
+In which, through implementations of *interfaces*, we satisfy the creation of objects of our domain model:
 
-<center><img src="/wp-content/uploads/abstractfactory.png"  width="600"/></center>
-##### Fuente: [C# Abstract Factory Pattern combined with Dependancy Injection andInversion of Control](http://blog.bekijkhet.com/2012/05/c-abstract-factory-pattern-combined.html).
+<center><img src="/wp-content/uploads/abstractfactory.png" width="600"/></center>
+##### Source: [C# Abstract Factory Pattern combined with Dependancy Injection andInversion of Control](http://blog.bekijkhet.com/2012/05/c-abstract-factory-pattern-combined.html).
 
-- Las ***abstract factories*** se alojan en *Domain layer* ya que construyen instancias de objetos asociados al modelado dominio *(entities, value objects o aggregates)*. Deben diseñarse a partir del lenguaje ubicuo de la organización.
+- The ***abstract factories*** are housed in the *Domain layer* since they build instances of objects associated with domain modeling *(entities, value objects or aggregates)*. They must be designed from the ubiquitous language of the organization.
 
-- Los ***factory methods*** son muy habituales en *aggregates* para encapsular las lógicas de construcción del agregado que los contiene. 
+- The ***factory methods*** are very common in *aggregates* to encapsulate the construction logics of the aggregate that contains them.
 
+In the following graph, we can see examples of factory methods according to aggregate and context:
 
-En el siguiente gráfico podemos ver los ejemplos de factory methods según agregado y contexto: 
-
-<center><img src="/wp-content/uploads/factorymethods.png"  width="600"/></center>
-##### Fuente: *Implementing Domain-Driven Design*.</span>
+<center><img src="/wp-content/uploads/factorymethods.png" width="600"/></center>
+##### Source: *Implementing Domain-Driven Design*.</span>
 
 ## Repositories
 
-En enfoque *DDD* forman una capa intermedia entre nuestro modelado de dominio y la persistencia de sus estados en la base de datos. Guardando y recuperando el estado en cada momento mediante abstracciones encargadas de proveer los métodos necesarios de comunicación con la infrastructura de persistencia. 
-*Infrastructure layer* se encargará de alojar las implementaciones necesarias según las tecnologías o mecanismos *(SQL, Redis, MongoDB, In-Memory, ORM)* de persistencia que podamos y nos interese disponer. 
+In the *DDD* approach, they form an intermediate layer between our domain modeling and the persistence of its states in the database. Saving and retrieving the state at each moment through abstractions in charge of providing the necessary methods of communication with the persistence infrastructure.
+*Infrastructure layer* will be in charge of housing the necessary implementations according to the technologies or mechanisms *(SQL, Redis, MongoDB, In-Memory, ORM)* of persistence that we can and are interested in having.
 
-Mediante mecanismos que nos faciliten la [DI](/domain-driven-design-episodio-iii-arquitectura/) utilizaremos la que nos convenga en cada *contexto*. 
+Through mechanisms that facilitate [DI](/domain-driven-design-architecture/), we will use the one that suits us in each *context*.
 
-Hay dos tipos de diseño de repositorios más habituales, orientado a colecciones y orientados a persistencia: Collection-oriented respositories y persistence repository. 
+There are two types of repository design that are more common, collection-oriented and persistence-oriented: Collection-oriented respositories and persistence repository.
 
-- ***Collection-oriented respositories*** es considerado el diseño principal de repositorios enfocado a *DDD*. Utilizando instancias en memoria como principal uso hasta el momento del *commit* en el que persistirá el estado de la *entidad* o *agregado* mediante *abstracciones de los repositorios* para efectuar la acción necesaria según el estado del elemento en memoria *vs* persistido.
-Para evitar los problemas que pueden ocasionar la concurrencia de usuarios en la escritura, existen estrategias de *versionado* en persistencia, incrementándola en cada modificación y comprobando posteriormente en subsiguientes escrituras para efectuar la acción necesaria en cada momento. 
+- ***Collection-oriented respositories*** is considered the main repository design focused on *DDD*. Using instances in memory as the main use until the moment of the *commit* in which the state of the *entity* or *aggregate* will persist through *abstractions of the repositories* to carry out the necessary action according to the state of the element in memory *vs* persisted.
+  To avoid the problems that user concurrency can cause in writing, there are *versioning* strategies in persistence, increasing it in each modification and subsequently checking in subsequent writings to carry out the necessary action at each moment.
 
-- ***Persistence repository*** se relaciona y orienta a los tradicionales métodos *CRUD*, *transaccionando* cada acción de escritura de estado sobre la base de datos. Enfoque con gran influencia en la utilización de *DAO*. 
+- ***Persistence repository*** is related to and oriented to the traditional *CRUD* methods, *transacting* each state writing action on the database. Approach with great influence on the use of *DAO*.
 
-Se considera una mala práctica en *DDD* la inyección de cualquier tipo de servicio o repositorio en el modelo de dominio. Debiendo inyectarlos en los servicios de aplicación para que *orqueste* las persistencia y construcción de estado de cada elemento de nuestro modelo de dominio. 
+It is considered a bad practice in *DDD* to inject any type of service or repository into the domain model. They should be injected into the application services to *orchestrate* the persistence and state construction of each element of our domain model.
 
-*Te dejo algunos enlaces interesantes para ampliar la información*
+*I leave you some interesting links to expand the information*
+
 - [What are Factories in Domain Driven Design?](http://culttt.com/2014/12/24/factories-domain-driven-design/)
 - [Repository - Martin Fowler]("http://martinfowler.com/eaaCatalog/repository.html)
 - [Repository pattern](http://deviq.com/repository-pattern/)

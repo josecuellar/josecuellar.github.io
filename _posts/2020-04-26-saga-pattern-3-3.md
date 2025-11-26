@@ -17,7 +17,7 @@ tags:
 
 *The Saga pattern was proposed by Hector Garcia-Molina and Kenneth Salem in 1987. You can download the paper here: [SAGAS](/wp-content/uploads/2020/04/sagapaper1987.pdf).*
 
-Based on event-driven architectures (**[Event Driven Architecture](/domain-driven-design-episodio-iii-arquitectura/))**, sagas will guarantee data consistency in **business transactions that involve multiple local transactions between multiple services or participants** in a given distributed system.
+Based on event-driven architectures (**[Event Driven Architecture](/domain-driven-design-architecture/))**, sagas will guarantee data consistency in **business transactions that involve multiple local transactions between multiple services or participants** in a given distributed system.
 
 Mainly **manages a sequence of local transactions** that will complete said business transaction: each local transaction of each service will be executed **based on the result of other participants** or services through the communication of domain events.
 
@@ -50,7 +50,7 @@ The executions of the participants are carried out asynchronously following the 
 
 The main advantage is the **visibility provided by having the entire *workflow* centralized in the orchestrator**, making **testing, debugging and monitoring operations easier**. Although we have a single component creating a dependency between the participants*.
 
-So, if what is **truly important in our system are the domain events to maintain the consistency** of the data, also having different strategies and practices that solve different problems at the moment we save said states (writing) and others when we need to consult them (**reading**). The question would be: *Why don't we work only with events?*. Thus approaching [Event Sourcing and CQRS](/domain-driven-design-episodio-iii-arquitectura/#eventsourcing).
+So, if what is **truly important in our system are the domain events to maintain the consistency** of the data, also having different strategies and practices that solve different problems at the moment we save said states (writing) and others when we need to consult them (**reading**). The question would be: *Why don't we work only with events?*. Thus approaching [Event Sourcing and CQRS](/domain-driven-design-architecture/#eventsourcing).
 
 From my point of view, the solution to a given problem in a specific situation and context lies in the **balance between the costs and benefits of each decision we make** at each moment. And the decisions (if you have the possibility to collaborate or influence them, of course) better make them based on the data you have and the knowledge/experience of the team. And remember to include the complexity you add as a cost.
 

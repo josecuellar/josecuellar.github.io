@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c357f4b9-2d0d-4020-b3a5-e0e4acfd151c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-21-domain-driven-design-episodio-i-empezando.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016-07-21-domain-driven-design-episodio-i-empezando.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-27-domain-driven-design-episodio-ii-context-maps.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016-07-27-domain-driven-design-episodio-ii-context-maps.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-08-04-domain-driven-design-episodio-iii-arquitectura.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016-08-04-domain-driven-design-episodio-iii-arquitectura.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-09-14-domain-driven-design-episodio-iv-entities-value-objects.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016-09-14-domain-driven-design-episodio-iv-entities-value-objects.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-10-06-domain-driven-design-episodio-v-services-domain-events.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016-10-06-domain-driven-design-episodio-v-services-domain-events.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-10-31-domain-driven-design-modules-aggregates.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016-10-31-domain-driven-design-modules-aggregates.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-12-09-domain-driven-design-factories-repositories.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016-12-09-domain-driven-design-factories-repositories.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-03-31-algunos-comentarios-de-los-libros-que-he-leido-los-ultimos-meses.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-03-31-algunos-comentarios-de-los-libros-que-he-leido-los-ultimos-meses.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-21-data-consistency-the-problem-1-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-21-data-consistency-the-problem-1-3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-26-saga-pattern-3-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-26-saga-pattern-3-3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +82,7 @@
       <workItem from="1764073088389" duration="725000" />
       <workItem from="1764074924769" duration="91000" />
       <workItem from="1764081075851" duration="706000" />
-      <workItem from="1764149407114" duration="1044000" />
+      <workItem from="1764149407114" duration="2643000" />
     </task>
     <servers />
   </component>

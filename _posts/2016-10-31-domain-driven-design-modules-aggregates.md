@@ -22,89 +22,89 @@ tags:
 
 ## Modules
 
-Los módulos son contenedores de elementos que nos permiten la organización de nuestro dominio. 
-Denominados técnicamente como *packages* o *namespaces*. El objetivo principal es desacoplar y organizar los elementos dependiendo del contexto al que pertenecen. Siguiendo en todo momento el *lenguaje obicuo*. 
+Modules are containers of elements that allow us to organize our domain.
+Technically referred to as *packages* or *namespaces*. The main objective is to decouple and organize the elements depending on the context to which they belong. Always following the *ubiquitous language*.
 
 ### Module naming conventions for the model and submodules
 
-Normalmente y si la compañía dispone de un nombre de dominio en *internet*, el módulo principal empezará con *com*. Seguido del nombre de la organización. El siguiente segmento de nombre de módulo identifica el *Bounded Context* local donde se aloja el módulo o contenedor de elementos. No se recomienda utilizar los nombres comerciales de los productos de la organización en los nombres de módulos o submódulos ya que éstos pueden cambiar a lo largo del tiempo y en ocasiones no guarda relación directa con la responsabilidad del *Bounded Context* al que pertenece. 
+Normally, and if the company has a domain name on *internet*, the main module will start with *com*. Followed by the name of the organization. The next module name segment identifies the local *Bounded Context* where the module or element container is hosted. It is not recommended to use the commercial names of the organization's products in the names of modules or submodules since these may change over time and sometimes do not directly relate to the responsibility of the *Bounded Context* to which it belongs.
 
-Es preferible [identificar el nombre de cada *Bounded Context*](/domain-driven-design-episodio-i-empezando/) según su responsabilidad a elección del equipo. El objetivo es reflejar el lenguaje obicuo de la organización. Los siguientes segmentos deben identificar en qué parte del sistema se encuentra. En sistemas con arquitecturas por capas sería recomendable utilizar los nombres específicos según cada capa. 
+It is preferable to [identify the name of each *Bounded Context*](/implementing-domain-driven-design-book-vaughn-vernon/) according to its responsibility at the team's choice. The objective is to reflect the ubiquitous language of the organization. The following segments should identify where in the system it is located. In systems with layered architectures, it would be advisable to use the specific names according to each layer.
 
 ## Aggregates
 
-La *clusterización* o **agrupación de *entities* y *value objects*** forman un *agregado*. Encapsulando y alojando las relaciones que se establecen entre ellas actuando como un **único conjunto**. 
+The *clustering* or **grouping of *entities* and *value objects*** forms an *aggregate*. Encapsulating and hosting the relationships that are established between them, acting as a **single set**.
 
-Cada agregado dispone de una entidad raíz (*aggregate root*) de la que *colgarán* el resto de *entities* y *value objects*. Siempre que se desee modificar cualquier componente interno del agregado debe realizarse a partir de **métodos accesibles en dicha entidad raíz** manteniendo la integridad y estado del conjunto en memoria. 
+Each aggregate has a root entity (*aggregate root*) from which the rest of the *entities* and *value objects* *hang*. Whenever you want to modify any internal component of the aggregate, it must be done from **accessible methods in said root entity**, maintaining the integrity and state of the set in memory.
 
-<center><img src="/wp-content/uploads/GroupAggregate.png"  width="500"/></center>
-##### Fuente: [Implementing Domain Driven Design](http://www.lavinski.me/implementing-domain-driven-design/).
+<center><img src="/wp-content/uploads/GroupAggregate.png" width="500"/></center>
+##### Source: [Implementing Domain Driven Design](http://www.lavinski.me/implementing-domain-driven-design/).
 
-En un enfoque *Event-Driven* dichos métodos accesibles serán los encargados de *disparar* los eventos facilitando la integración de agregados. Puedes echar un vistazo a [Domain-Driven Design. Services &amp; Domain Events](/domain-driven-design-episodio-v-services-domain-events/). Si las *entities* o *value objects* relacionados necesitan persistirse debe realizarse mediante la *entidad raíz* a través de servicios de aplicación y repositorios que orquestará las acciones de reconstrucción y persistencia del agregado según el caso de uso. Ya que se considera una mala práctica hacer uso de los repositorios desde métodos en el modelo de dominio. 
+In an *Event-Driven* approach, these accessible methods will be responsible for *triggering* the events, facilitating the integration of aggregates. You can take a look at [Domain-Driven Design. Services &amp; Domain Events](/domain-driven-design-services-domain-events/). If the related *entities* or *value objects* need to be persisted, it must be done through the *root entity* through application services and repositories that will orchestrate the actions of reconstruction and persistence of the aggregate according to the use case. Since it is considered a bad practice to use repositories from methods in the domain model.
 
-Dada la **regla de transacción por instancia de agregado** y para satisfacer la [concurrencia optimista](https://es.wikipedia.org/wiki/Control_de_concurrencia_optimista) y evitar el bloqueo de registros, existe la posibilidad de *versionar* las modificaciones de los agregados para evitar actualizar una versión anterior a la ya existente en base de datos. 
+Given the **transaction rule per aggregate instance** and to satisfy [optimistic concurrency](https://es.wikipedia.org/wiki/Control_de_concurrencia_optimista) and avoid record locking, there is the possibility of *versioning* the modifications of the aggregates to avoid updating a version prior to the one already existing in the database.
 
 ### Design Small Aggregates
 
-No se recomienda diseñar grandes agregados. Dividiéndolos en la medida de lo posible en otros más pequeños. Permitiéndonos así ser más escalables trabajando con transacciones y lógicas más livianas y aisladas favoreciendo además la [consistencia eventual](https://en.wikipedia.org/wiki/Eventual_consistency) mediante [Domain Events](/domain-driven-design-episodio-v-services-domain-events/) en [sistemas distribuidos](https://en.wikipedia.org/wiki/Distributed_computing). 
+It is not recommended to design large aggregates. Dividing them as much as possible into smaller ones. Allowing us to be more scalable by working with lighter and more isolated transactions and logics, also favoring [eventual consistency](https://en.wikipedia.org/wiki/Eventual_consistency) through [Domain Events](/domain-driven-design-services-domain-events/) in [distributed systems](https://en.wikipedia.org/wiki/Distributed_computing).
 
-Manteniendo pequeños agregados evitaremos reconstruir y persistir grandes cantidades de datos que puedan penalizar al *rendimiento*. Es aconsejable emplear técnicas como [lazy loading](https://es.wikipedia.org/wiki/Lazy_loading) que nos permitan cargas diferidas de sus dependencias. No siempre es posible separar agregados, debido a **posibles reglas de negocio que deban ser inmediatas y atómicas** (en una misma transacción) mediante *consistencia transaccional* relacionadas a un único agregado (denominadas **invariants**). 
+By keeping small aggregates, we will avoid reconstructing and persisting large amounts of data that may penalize *performance*. It is advisable to use techniques such as [lazy loading](https://es.wikipedia.org/wiki/Lazy_loading) that allow us to defer loading of their dependencies. It is not always possible to separate aggregates, due to **possible business rules that must be immediate and atomic** (in the same transaction) through *transactional consistency* related to a single aggregate (called **invariants**).
 
-Deben discutirse con los *expertos de dominio* cada caso. Teniendo en cuenta siempre la regla de **generar una única transacción por instancia de agregado**. 
+Each case should be discussed with the *domain experts*. Always taking into account the rule of **generating a single transaction per aggregate instance**.
 
 ### Reference other Aggregates by Identity
 
-Los agregados pueden relacionarse entre sí únicamente mediante los identificadores de su *entidad raíz*: 
+Aggregates can only be related to each other through the identifiers of their *root entity*:
 
-<center><img src="/wp-content/uploads/Aggregates.png"  width="500"/></center>
-##### Fuente: [Modeling Aggregates with DDD and Entity Framework](https://vaughnvernon.co/?p=879).
+<center><img src="/wp-content/uploads/Aggregates.png" width="500"/></center>
+##### Source: [Modeling Aggregates with DDD and Entity Framework](https://vaughnvernon.co/?p=879).
 
-Debemos evitar las propiedades asociativas conteniendo la instancia de la entidad *root* del otro agregado. Realizaremos dicha referencia mediante su identificador almacenado en un *value object*. 
+We must avoid associative properties containing the instance of the *root* entity of the other aggregate. We will make this reference through its identifier stored in a *value object*.
 
 ### Model navigation
 
-Manteniendo pequeños agregados y relacionándolos mediante identificadores nos ayuda a emplear *Model navigation*: técnica también conocida como modelo de dominio desconectado. Empleamos los repositorios o servicios de dominio para *orquestar* la carga de los objetos dependientes de los agregados a través de los servicios de aplicación gracias a los identificadores que lo componen. 
+Maintaining small aggregates and relating them through identifiers helps us to use *Model navigation*: a technique also known as a disconnected domain model. We use the repositories or domain services to *orchestrate* the loading of the objects dependent on the aggregates through the application services thanks to the identifiers that compose it.
 
 ### Law of Demeter and tell, don´t ask
 
-Ambas son principios de diseño que deben ser seguidos para diseñar los agregados. Los clientes que consumen el agregado no deben conocer los detalles de implementación, ni navegar entre referencias internas. Los atributos, propiedades, elementos y comportamientos internos del agregado no deben ser accesibles por el cliente. 
+Both are design principles that must be followed to design the aggregates. Clients that consume the aggregate should not know the implementation details, nor navigate between internal references. The attributes, properties, elements and internal behaviors of the aggregate should not be accessible by the client.
 
-La [ley de Demeter](https://es.wikipedia.org/wiki/Ley_de_Demeter) no permite la navegación entre referencias internas de un agregado. 
+The [Law of Demeter](https://es.wikipedia.org/wiki/Ley_de_Demeter) does not allow navigation between internal references of an aggregate.
 
-Por otro lado [Tell, don´t Ask](http://martinfowler.com/bliki/TellDontAsk.html) permite la navegación a través del agregado, pero debemos encapsular/ocultar los detalles de implementación. 
+On the other hand, [Tell, don´t Ask](http://martinfowler.com/bliki/TellDontAsk.html) allows navigation through the aggregate, but we must encapsulate/hide the implementation details.
 
-Puedes echar un vistazo a [algunas leyes en el desarrollo de software](/algunas-leyes-en-el-desarrollo-de-software/) y a los [principios básicos en el desarrollo de software](/principios-a-seguir-en-el-diseno-de-un-sistema/). 
-
+You can take a look at [some laws in software development](/algunas-leyes-en-el-desarrollo-de-software/) and the [basic principles in software development](/principios-a-seguir-en-el-diseno-de-un-sistema/).
 
 ### Example
 
-Podemos resumir de forma muy gráfica uno de los ejemplos que explica *Vaughn Vernon* en *Implementing Domain-Driven Design*. Dado el siguiente agregado, lo primero que debemos cuestionarnos es el tamaño y tipo de elementos con intención siempre de separarlo en varios, aplicando y desarrollándolo según recomendaciones: 
+We can summarize in a very graphic way one of the examples that *Vaughn Vernon* explains in *Implementing Domain-Driven Design*. Given the following aggregate, the first thing we must question is the size and type of elements with the intention of always separating it into several, applying and developing it according to recommendations:
 
-<br><center><img src="/wp-content/uploads/LargeAggregate.png"  width="500"/></center><br>
+<br><center><img src="/wp-content/uploads/LargeAggregate.png" width="500"/></center><br>
 
-Su representación en código: 
+Its representation in code:
 
-<br><center><img src="/wp-content/uploads/LargeAggregateCode.png"  width="500"/></center><br>
+<br><center><img src="/wp-content/uploads/LargeAggregateCode.png" width="500"/></center><br>
 
-A pesar que pueda ser atractivo crear grandes agregados, debemos dividirlo para obtener todos los beneficios que hemos comentado. Guardando la relación con sus identificadores, creando así nuevos agregados relacionados: 
+Although it may be attractive to create large aggregates, we must divide it to obtain all the benefits we have discussed. Keeping the relationship with their identifiers, thus creating new related aggregates:
 
-<br><center><img src="/wp-content/uploads/SeparateAggregates.png"  width="400"/></center><br>
+<br><center><img src="/wp-content/uploads/SeparateAggregates.png" width="400"/></center><br>
 
-Tomando como ejemplo uno de los nuevos agregados creados y haciendo *zoom*, podemos ver sus elementos internos: 
+Taking as an example one of the new aggregates created and doing *zoom*, we can see its internal elements:
 
-<br><center><img src="/wp-content/uploads/SeparateAggregates2.png"  width="400"/></center><br>
+<br><center><img src="/wp-content/uploads/SeparateAggregates2.png" width="400"/></center><br>
 
-De igual modo, cualquiera de las relaciones de los nuevos agregados que creemos realizando la separación será mediante sus identificadores almacenados en *value objects*: 
+Similarly, any of the relationships of the new aggregates that we create by performing the separation will be through their identifiers stored in *value objects*:
 
-<br><center><img src="/wp-content/uploads/SeparateAggregates3.png"  width="400"/></center><br>
+<br><center><img src="/wp-content/uploads/SeparateAggregates3.png" width="400"/></center><br>
 
-La complejidad en la implementación de agregados así como otros aspectos fundamentales como el rendimiento, consistencia e integración, dependerá en gran medida de como se diseñen/modelen.
+The complexity in the implementation of aggregates as well as other fundamental aspects such as performance, consistency and integration, will depend to a large extent on how they are designed/modeled.
 
-Hasta aquí lo que creo más relevante en módulos y diseño de agregados. 
+So far what I think is most relevant in modules and aggregate design.
 
-Como siempre, te invito a que comentes cualquier tipo de aportación :) 
+As always, I invite you to comment on any type of contribution :)
 
-*Te dejo algunos enlaces interesantes para ampliar la información:*
+*I leave you some interesting links to expand the information:*
+
 - [DDD Aggregate](http://martinfowler.com/bliki/DDD_Aggregate.html)
 - [Effective Aggregate Design](http://vaughnvernon.co/?p=838)
 - [Implementing Domain-Driven Design: Aggregates](http://www.informit.com/articles/article.aspx?p=2020371)

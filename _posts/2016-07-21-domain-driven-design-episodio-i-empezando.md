@@ -1,9 +1,9 @@
 ---
 id: 1122
-title: 'Domain-Driven Design. Empezando'
+title: 'Implementing Domain-Driven Design | Vaughn Vernon'
 date: '2016-07-21T22:26:20+00:00'
 layout: post
-permalink: /domain-driven-design-episodio-i-empezando/
+permalink: /implementing-domain-driven-design-book-vaughn-vernon/
 categories:
   - Deep Engineering
 tags:
@@ -22,45 +22,45 @@ tags:
   - lifelong-learning
 ---
 
-Estoy inmerso en la lectura de "*Implementing Domain-Driven Design*" de Vaughn Vernon. Llevo algunos pocos capítulos y he decidido, a modo de seguimiento y aprendizaje, empezar a escribir una serie de post para compartir con la comunidad algunas reseñas de lo que creo interesante.
+I am immersed in reading "*Implementing Domain-Driven Design*" by Vaughn Vernon. I've read a few chapters and have decided, as a way of tracking and learning, to start writing a series of posts to share with the community some reviews of what I think is interesting.
 
 <br><center><img src="/wp-content/uploads/ddd.jpg"  width="300"/></center><br>
-> El diseño no es sólo cómo se ve o cómo se siente. El Diseño es cómo funciona. Steve Jobs
+> Design is not just what it looks like and feels like. Design is how it works. Steve Jobs
 
-DDD fue acuñado e introducido por **Eric Evans** en su publicación de "Domain-Driven Design - Tackling Complexity in the Heart of Software" en 2003. 
+DDD was coined and introduced by **Eric Evans** in his publication of "Domain-Driven Design - Tackling Complexity in the Heart of Software" in 2003.
 
-Se trata de un conjunto de **prácticas, técnicas, herramientas y enfoques para dar respuesta a las necesidades complejas** en el desarrollo de software, orientadas al core del negocio, su evolución y sus objetivos. La importante necesidad de entender el negocio y su complejidad con una **comunicación intensa y directa con los expertos de dominio** mediante un único tipo común de lenguaje llamado **lenguaje ubicuo**. 
+It is a set of **practices, techniques, tools and approaches to respond to complex needs** in software development, oriented to the core of the business, its evolution and its objectives. The important need to understand the business and its complexity with **intense and direct communication with domain experts** through a single common type of language called **ubiquitous language**.
 
-Fomentando así un código de calidad centrado en soluciones específicas de problemas bien entendidos de negocio y reflejado en el comportamiento del software que generamos. 
+Thus fostering a quality code focused on specific solutions to well-understood business problems and reflected in the behavior of the software we generate.
 
-DDD se divide en dos grandes grupos en los que cada cual existen pautas a seguir para el buen desempeño: el **estratégico y el táctico**. 
+DDD is divided into two large groups in which each has guidelines to follow for good performance: **strategic and tactical**.
 
-En el libro utiliza la metáfora de la escalada para definir ambas agrupaciones: antes de escalar una montaña, analízala, piensa qué camino de ascenso es el más seguro y correcto (estratégica), ejecutando posteriormente las técnicas necesarias para alcanzar la cima (táctica) con éxito. 
+In the book he uses the metaphor of climbing to define both groupings: before climbing a mountain, analyze it, think about which ascent path is the safest and correct (strategic), subsequently executing the necessary techniques to reach the top (tactical) successfully.
 
-En la parte superior pertenece a los conceptos tácticos y la inferior a los estratégicos:
+The top belongs to the tactical concepts and the bottom to the strategic ones:
 
 <br><center><img src="/wp-content/uploads/ddd.PNG"  width="750"/></center><br>
 
-**La parte estratégica es la parte inicial vital para el buen desempeño de DDD**. 
+**The strategic part is the vital initial part for the good performance of DDD**.
 
-Ambos grupos están ligados estrechamente y el éxito de la parte táctica depende de forma directa de la estratégica, si ésta es incorrecta, también lo será la ejecución táctica a pesar de seguir las buenas prácticas. 
+Both groups are closely linked and the success of the tactical part depends directly on the strategic one, if this is incorrect, so will the tactical execution despite following good practices.
 
-> Nunca utilices DDD para complicar tu solución, sino para simplificarla.
+> Never use DDD to complicate your solution, but to simplify it.
 
-## Primeros pasos estratégicos
+## First strategic steps
 
-Definir el lenguaje común que todos los involucrados en el proyecto van a utilizar, tanto expertos de dominio como desarrolladores: **estableciendo así el lenguaje ubicuo que todos deberán emplear para codificar o discutir reglas de negocio**. 
-Mediante dicha comunicación intensa y evolutiva con los **domain experts** se dividirá estratégicamente la complejidad en áreas o ámbitos que aporten valor de forma independiente. 
+Define the common language that everyone involved in the project will use, both domain experts and developers: **thus establishing the ubiquitous language that everyone should use to encode or discuss business rules**.
+Through this intense and evolutionary communication with the **domain experts**, complexity will be strategically divided into areas or scopes that provide value independently.
 
-Dividiéndose en los siguientes tipos: **domain, subdomain y bounded context**.
+Dividing into the following types: **domain, subdomain and bounded context**.
 
 <br><center><img src="/wp-content/uploads/boundedcontext.PNG"  width="400"/></center><br>
 
-Disgregar adecuadamente nos aportará una visión más amplia y simple en cada ámbito o bounded context. Enfocando así un correcto y mejor modelado de dominio (Entities, Value Objects, Aggregates, Domain Events) disminuyendo la complejidad global del dominio principal. 
-Separando conceptos y encapsulando responsabilidades. Mejorando así la comunicación y el entendimiento de los objetivos y evolución de negocio en cada agrupación. **Favoreciendo comportamientos diferentes para una misma entidad dependiendo del bounded context al que pertenezcan.** 
-Relacionándose entre ellos mediante **context mappings**. 
+Disaggregating adequately will give us a broader and simpler vision in each area or bounded context. Thus focusing on a correct and better domain modeling (Entities, Value Objects, Aggregates, Domain Events) reducing the overall complexity of the main domain.
+Separating concepts and encapsulating responsibilities. Thus improving communication and understanding of the objectives and business evolution in each group. **Favoring different behaviors for the same entity depending on the bounded context to which they belong.**
+Relating to each other through **context mappings**.
 
-He creado un repositorio público en GitHub donde voy reflejando los aspectos principales y mejores prácticas a través de DDD mediante onion architecture. 
-Puedes acceder a él [aquí](https://github.com/josecuellar/ddd-onion-architecture-net). 
+I have created a public repository on GitHub where I am reflecting the main aspects and best practices through DDD using onion architecture.
+You can access it [here](https://github.com/josecuellar/ddd-onion-architecture-net).
 
-Os dejo también el enlace del perfil en **GitHub** de **Vaughn Vernon** [aquí](https://github.com/VaughnVernon).
+I also leave you the link to the **GitHub** profile of **Vaughn Vernon** [here](https://github.com/VaughnVernon).
