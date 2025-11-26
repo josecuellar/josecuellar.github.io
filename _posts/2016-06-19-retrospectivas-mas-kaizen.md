@@ -1,9 +1,9 @@
 ---
 id: 1078
-title: 'Retrospectivas más Kaizen'
+title: 'Kaizen Sprint Retrospectives'
 date: '2016-06-19T20:15:24+00:00'
 layout: post
-permalink: /retrospectivas-mas-kaizen/
+permalink: /kaizen-scrum-sprint-retrospectives/
 categories:
   - Engineering Culture
 tags:
@@ -20,54 +20,54 @@ tags:
   - feedback-culture
 ---
 
-Las retrospectivas en SCRUM son reuniones que se realizan tras finalizar el sprint (después de la demo o revisión del sprint y antes de la planificación). 
+Retrospectives in SCRUM are meetings held after the sprint is finished (after the demo or sprint review and before planning).
 
-La duración de la reunión depende de la duración del sprint: normalmente 1 hora, por semana de sprint. 
+The duration of the meeting depends on the duration of the sprint: usually 1 hour per week of sprint.
 
-El equipo identifica problemas, posibles medidas para solucionarlos y valoran aquellos hábitos o forma de trabajo que el equipo desea mantener: en la reunión de retrospectiva, se exponen, plantean y reflexionan los tres grupos. Surgiendo medidas o acciones necesarias para mejorar en posteriores sprints. 
+The team identifies problems, possible measures to solve them, and assesses those habits or ways of working that the team wants to maintain: in the retrospective meeting, the three groups are presented, raised, and reflected upon. Measures or actions necessary to improve in subsequent sprints emerge.
 
-**Se trata de evolucionar la forma de trabajar mediante la mejora continua** hacia la excelencia, incrementando la productividad progresivamente. Además, fomenta la cohesión y la confianza del equipo. 
+**It is about evolving the way of working through continuous improvement** towards excellence, progressively increasing productivity. In addition, it fosters team cohesion and trust.
 
-En la reunión, el equipo contesta tres preguntas: 
-- **¿Qué ha funcionado bien?**
-- **¿Qué debemos mejorar?**
-- **¿Que acciones tomamos?**
+In the meeting, the team answers three questions:
+- **What has worked well?**
+- **What should we improve?**
+- **What actions do we take?**
 
-Es recomendable reflejar las respuestas en un simple tablero Kanban a lo largo de la reunión: 
+It is advisable to reflect the answers in a simple Kanban board throughout the meeting:
 
 <br><center><img src="/wp-content/uploads/retro.jpg"  width="600"/></center><br>
 
-En primer lugar y normalmente se hace balance de lo que ha ido bien y lo que debe mejorar, para posteriormente tomar las medidas o acciones recomendadas para mejorar. 
-Existen otras variantes o técnicas para reflejar las reflexiones del equipo en esta reunión: la [técnica del barco de vela](http://www.javiergarzas.com/2015/10/dinamicas-retrospectivas-agiles.html) o la técnica de la **estrella de mar**: 
+Firstly, and usually, a balance is made of what has gone well and what needs to be improved, to later take the measures or actions recommended to improve.
+There are other variants or techniques to reflect the team's reflections in this meeting: the [sailboat technique](http://www.javiergarzas.com/2015/10/dinamicas-retrospectivas-agiles.html) or the **starfish** technique:
 
 <br><center><img src="/wp-content/uploads/starfish.png"  width="500"/></center><br>
 
-En este caso existen más apartados en los que reflejar las opiniones del equipo o la evolución de éstas en el transcurso de varios sprints. 
+In this case, there are more sections in which to reflect the opinions of the team or the evolution of these in the course of several sprints.
 
-Tener **más apartados significa tener más detalle de la situación**, aunque también significa **invertir más tiempo en consensuar todas las posibilidades** con el equipo. 
+Having **more sections means having more detail of the situation**, although it also means **investing more time in agreeing on all the possibilities** with the team.
 
-En mi opinión, es más acertado tener un tablero simple que influya al equipo a ser más estrictos en la síntesis, centrándose en lo realmente importante. Las acciones que se identifiquen como tareas, pueden incluirse en el Product Backlog del proyecto que corresponda. 
-El resto, se informarán en el tablero.
+In my opinion, it is more accurate to have a simple board that influences the team to be more strict in the synthesis, focusing on what is really important. The actions that are identified as tasks can be included in the Product Backlog of the corresponding project.
+The rest will be reported on the board.
 
-### El Kaizen y las retrospectivas
+### Kaizen and retrospectives
 
-Uno de los libros que leí hace poco [el cual recomiendo: El camino del Kaizen](/inteligencia-emocional-psicologia-lean-kaizen_libros-recomendados/), nos explica todas las ventajas que supone aplicar esta filosofía en la **mejora continua constante mediante pequeños pasos acumulativos**. 
+One of the books I read recently [which I recommend: The Kaizen Way](/inteligencia-emocional-psicologia-lean-kaizen_libros-recomendados/), explains all the advantages of applying this philosophy in **constant continuous improvement through small cumulative steps**.
 
-Las retrospectivas son las reuniones ideales para ponerla en práctica. Se trata de establecer acciones fácilmente abarcables que nos permitan adoptarlas sin mayor esfuerzo. 
+Retrospectives are the ideal meetings to put it into practice. It is about establishing easily manageable actions that allow us to adopt them without much effort.
 
-Evitar indicar grandes acciones a grandes problemas, **tratando en todo caso de desglosarlo haciendo frente a una parte mínima de éste**, para poder combatirlo más eficazmente mediante pequeñas acciones hasta que desaparezca por completo. O bien, **hacerle frente en su totalidad, pero empezando y eligiendo el primer paso mínimo fácilmente abarcable para combatirlo** progresivamente a lo largo de los sprints. 
+Avoid indicating large actions to large problems, **trying in any case to break it down by facing a minimum part of it**, to be able to combat it more effectively through small actions until it disappears completely. Or, **face it in its entirety, but starting and choosing the first minimum step easily manageable to combat it** progressively throughout the sprints.
 
-### ¿Qué ocurre si las acciones no se realizan y se acumulan?
+### What happens if the actions are not carried out and accumulate?
 
-Desde mi punto de vista, el motivo principal de raíz por lo que no se cumplen, es el **enfoque incorrecto de las acciones** que se aplican para solucionar el problema: ya sea por intentar solucionar la totalidad del problema (siendo una gran y compleja acción), son demasiado conceptuales/abstractas o dependen de terceras personas externas al equipo. 
+From my point of view, the main root cause of why they are not fulfilled is the **incorrect approach of the actions** that are applied to solve the problem: either because they try to solve the entire problem (being a large and complex action), they are too conceptual/abstract or depend on third parties outside the team.
 
-Aquellas que dependen de terceras personas externas al equipo, son las candidatas a incluirlas en el Product Backlog que corresponda. 
+Those that depend on third parties outside the team are candidates to be included in the corresponding Product Backlog.
 
-Si no se realiza una acción determinada en el sprint siguiente, nos indica que la acción tiene un mal enfoque: debemos seguir disminuyendo el tamaño de la acción o experimentar con otras pequeñas acciones que hagan frente al mismo problema, hasta que se realice. 
+If a certain action is not carried out in the following sprint, it indicates that the action has a bad approach: we must continue to decrease the size of the action or experiment with other small actions that face the same problem, until it is carried out.
 
-Soy partidario de responsabilizar a un owner en cada acción para el seguimiento en equipo de cada acción consensuada. 
+I am in favor of assigning an owner to each action for team monitoring of each agreed action.
 
-**Lecturas recomendadas** 
+**Recommended readings**
 
 - [7 razones por las que las retrospectivas en Scrum fallan](https://jeronimopalacios.com/2016/05/7-razones-por-las-que-las-retrospectivas-en-scrum-fallan/)
 - [Retrospectiva de estrella de mar (Starfish retrospective)](https://proyectosagiles.org/2009/06/14/retrospectiva-estrella-mar-starfish-retrospective-scrum/)

@@ -87,4 +87,4 @@ Un método de un objeto solo puede llamar a métodos de:
 - 3 – Cualquier objeto creado dentro del método. 
 - 4 – Cualquier propiedad/campo directo del propio objeto. 
 
-##### Amplía la información con los [principios básicos en el desarrollo de software](/principios-a-seguir-en-el-diseno-de-un-sistema/)
+##### Amplía la información con los [principios básicos en el desarrollo de software](/principios-a-seguir-en-el-desarrollo-software/)

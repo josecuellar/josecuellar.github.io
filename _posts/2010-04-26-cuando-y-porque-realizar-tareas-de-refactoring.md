@@ -40,7 +40,7 @@ El coste del cambio aumenta exponencialmente en base a ignorarlas y periodicidad
 - Encapsular funcionalidades beneficiando la reutilización de código.
 - Reorganizar y reestructurar entidades/funcionalidades adaptándolas a los nuevos [requerimientos](/arquitectura-de-software/el-diseno-de-la-arquitectura-de-un-sistema/) y [diseños arquitecturales](/arquitectura-de-software/estilos-arquitecturales-en-el-diseno-de-un-sistema/).
 - Actualizar librerías y código a nuevas versiones disponibles de las tecnologías utilizadas.
-- Seguir los [principios básicos y metódicos](/arquitectura-de-software/principios-a-seguir-en-el-diseno-de-un-sistema/).
+- Seguir los [principios básicos y metódicos](/principios-a-seguir-en-el-desarrollo-software/).
 - Optimización del rendimiento/performance.
 
    

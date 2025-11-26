@@ -22,11 +22,11 @@ tags:
   - tactical-design
 ---
 
-In this post, I will introduce more interesting and recommended architectural styles and patterns that you can apply with DDD mentioned by Vaughn Vernon in [*"Implementing Domain-Driven Design"*](/implementing-domain-driven-design-book-vaughn-vernon/). This is not a closed list, since the tactical approach of *Domain-Driven Design* does not require the specific use of any type of pattern or architecture: the true importance of each *Bounded Context* lies in its *Core Domain* or domain model, regardless of how it communicates with the rest of the application components, as long as the [good practices and appropriate quality principles are met](/principios-a-seguir-en-el-diseno-de-un-sistema/).
+In this post, I will introduce more interesting and recommended architectural styles and patterns that you can apply with DDD mentioned by Vaughn Vernon in [*"Implementing Domain-Driven Design"*](/implementing-domain-driven-design-book-vaughn-vernon/). This is not a closed list, since the tactical approach of *Domain-Driven Design* does not require the specific use of any type of pattern or architecture: the true importance of each *Bounded Context* lies in its *Core Domain* or domain model, regardless of how it communicates with the rest of the application components, as long as the [good practices and appropriate quality principles are met](/principios-a-seguir-en-el-desarrollo-software/).
 
 ## Layers - N-Tier Architecture
 
-Most common architecture. Separation of responsibilities in layers, partitioning complexity according to its responsibility. Following the principles [SoC](/principios-a-seguir-en-el-diseno-de-un-sistema/) and [SRP](/principios-a-seguir-en-el-diseno-de-un-sistema/).
+Most common architecture. Separation of responsibilities in layers, partitioning complexity according to its responsibility. Following the principles [SoC](/principios-a-seguir-en-el-desarrollo-software/) and [SRP](/principios-a-seguir-en-el-desarrollo-software/).
 The upper layers depend on the lower layer or layers:
 
 - **Strict Layers Architecture:** Only allows dependency with the directly lower layer.
