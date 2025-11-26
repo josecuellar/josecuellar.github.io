@@ -9,7 +9,7 @@ layout: page
 
 <p>
 
-<img src="/wp-content/uploads/josecuellar.jpg" width="100" alt="avatar" class="left">
+<img src="/wp-content/jose2.JPG" width="150" alt="avatar" class="left">
 
 Welcome to <b>Leading With Depth</b>!
 <br>
@@ -19,7 +19,9 @@ Always driven by three main motivations: <b>learning, evolving and helping</b>.
 <br><br>
 After my studies in <b>Management Information Systems</b>, I started my journey as a <b>Full-Stack</b>. Over time I specialized in <b>Backend</b>. Throughout my career and in all cases, <b>leadership</b> has emerged naturally: guiding teams, empowering talents and achieving goals.
 <br><br>
+<img src="/wp-content/leo.png" width="150" alt="avatar" class="right">
 Inspired by my fatherhood and my desire to always provide the best possible support: I am studying the Degree in <b>Psychology</b> at the UOC.
+Always seeking balance, learning with every step.
 <br><br>
 I define myself as approachable, curious and committed: <b>I observe, learn and act with intensity and purpose</b>.
 <br>
