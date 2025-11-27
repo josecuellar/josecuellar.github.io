@@ -1,9 +1,9 @@
 ---
 id: 204
-title: 'Cuando y porqué realizar tareas de Refactoring'
+title: 'When and why to perform refactoring tasks'
 date: '2010-04-26T00:16:40+00:00'
 layout: post
-permalink: /cuando-y-porque-realizar-tareas-de-refactoring/
+permalink: /when-why-perform-refactoring-tasks/
 categories:
   - Engineering Culture
 tags:
@@ -17,54 +17,52 @@ tags:
   - software-complexity
 ---
 
-La [refactorización](http://es.wikipedia.org/wiki/Refactorizaci%C3%B3n) es una técnica de la ingeniería de software para reestructurar un código fuente, alterando su estructura interna sin cambiar su comportamiento externo. 
+[Refactoring](http://es.wikipedia.org/wiki/Refactorizaci%C3%B3n) is a software engineering technique to restructure source code, altering its internal structure without changing its external behavior.
 
-En el mantenimiento de código, una de las tareas más comunes para mejorar la adaptación, el cambio continuo , nuevas funcionalidades y mejoras en el rendimiento de determinados componentes.   
-  
-Las ventajas con respecto a la calidad del software y tareas de refactoring, **se presentan a lo largo del tiempo en cada fase del proyecto**:   
+In code maintenance, it is one of the most common tasks to improve adaptation, continuous change, new functionalities, and performance improvements of certain components.
+
+The advantages with respect to software quality and refactoring tasks **are presented over time in each phase of the project**:
 
 <br><center><img src="/wp-content/uploads/refactoring/refactoring.png"  width="700"/></center><br>
 
-El coste del cambio aumenta exponencialmente en base a ignorarlas y periodicidad de tareas de refactoring (principalmente en la gestión de la deuda técnica) mientras desarrollamos el producto.
-- No tener en cuenta la deuda técnica y sin aplicar refactorings.
-- Periódicamente de forma progresiva en el mismo momento que construimos producto.
-- Periodo concreto anual.
+The cost of change increases exponentially based on ignoring them and the periodicity of refactoring tasks (mainly in the management of technical debt) while we develop the product.
+- Not taking into account technical debt and without applying refactorings.
+- Progressively periodically at the same time that we build the product.
+- Specific annual period.
 
-> Como veis en la gráfica la gestión de deuda técnica recomendada y lógica es la aplicación continuada de refactorings.
-> El equipo mediante determinadas sesiones iterativas emergerá la deuda técnica para incluir progresivamente en las entregas las tareas de refactoring relacionadas.
+> As you can see in the graph, the recommended and logical technical debt management is the continuous application of refactorings.
+> The team, through certain iterative sessions, will emerge the technical debt to progressively include the related refactoring tasks in the deliveries.
 
-### Las tareas genéricas en el refactoring:
+### Generic tasks in refactoring:
 
-- Limpiar código muerto (código que nunca se ejecuta).
-- Eliminar funcionalidades duplicadas.
-- Encapsular funcionalidades beneficiando la reutilización de código.
-- Reorganizar y reestructurar entidades/funcionalidades adaptándolas a los nuevos [requerimientos](/arquitectura-de-software/el-diseno-de-la-arquitectura-de-un-sistema/) y [diseños arquitecturales](/arquitectura-de-software/estilos-arquitecturales-en-el-diseno-de-un-sistema/).
-- Actualizar librerías y código a nuevas versiones disponibles de las tecnologías utilizadas.
-- Seguir los [principios básicos y metódicos](/principles-of-software-development/).
-- Optimización del rendimiento/performance.
+- Clean up dead code (code that is never executed).
+- Eliminate duplicate functionalities.
+- Encapsulate functionalities benefiting code reuse.
+- Reorganize and restructure entities/functionalities adapting them to the new [requirements](/arquitectura-de-software/el-diseno-de-la-arquitectura-de-un-sistema/) and [architectural designs](/arquitectura-de-software/estilos-arquitecturales-en-el-diseno-de-un-sistema/).
+- Update libraries and code to new available versions of the technologies used.
+- Follow the [basic and methodical principles](/principles-of-software-development/).
+- Performance optimization.
 
-   
-### Realizar tareas de refactoring progresivamente ante:
-  
-- **Nuevas funcionalidades:** A la hora de añadir nuevos [requerimientos](/arquitectura-de-software/el-diseno-de-la-arquitectura-de-un-sistema/) a un determinado módulo/apartado del proyecto. El desarrollo sobre un código no óptimo y mal implementado supone seguir empeorando la calidad interna del código provocando que la tarea de refactoring futura sea más costosa, entrando en una dinámica y metodología, que poco a poco, decrementará el rendimiento general de la aplicación, los tiempos de desarrollo y la estructuración/organización de éste. En la medida de lo posible, según el tiempo asignado, se debería realizar un pequeño refactoring sobre el código donde se van a desarrollar las nuevas funcionalidades.
-- **Incidencias repetitivas sobre un determinado apartado:** Si se detecta código inestable, vulnerable (seguridad) y poco óptimo, mediante controles de testeo. Provocando incidencias demasiado contínuas sobre el mismo apartado a lo largo del tiempo, se recomienda refactorizarlo.
-- **Lentitud en la carga y altos consumos de CPU**.   
-      
-> Realizando progresivamente tareas de refactoring y respetando una cierta metodología que tengan en cuenta la correcta calidad del código a lo largo del tiempo y desarrollos, nunca se debería llegar a este punto.
-> En caso contrario, se deben encontrar soluciones óptimas de refactoring que mejoren el rendimiento mediante un análisis exhaustivo.
+### Perform refactoring tasks progressively before:
 
-- **Actualización de versión:** Contínuamente se deben revisar las nuevas funcionalidades y soportes sobre las tecnologías que estemos utilizando. Normalmente las nuevas versiones mejoran muchísimos aspectos y debemos adaptar y refactorizar el código para exprimir dichas mejoras evolucionando así el conococimiento con la evolución tecnológica. Las tareas de I+D e innovación nos orientará sobre qué aspectos se mejoran en las nuevas versiones. No sólo en el código, sinó también para la facilidad de implementarlo mejor y más rápidamente (herramientas de desarrollo).
+- **New functionalities:** When adding new [requirements](/arquitectura-de-software/el-diseno-de-la-arquitectura-de-un-sistema/) to a specific module/section of the project. Developing on non-optimal and poorly implemented code means continuing to worsen the internal quality of the code, causing the future refactoring task to be more expensive, entering a dynamic and methodology that, little by little, will decrease the overall performance of the application, development times, and its structuring/organization. As far as possible, depending on the time allocated, a small refactoring should be performed on the code where the new functionalities are going to be developed.
+- **Repetitive incidents on a specific section:** If unstable, vulnerable (security) and non-optimal code is detected, through testing controls. Causing too continuous incidents on the same section over time, it is recommended to refactor it.
+- **Slowness in loading and high CPU consumption**.
 
-### Ventajas de refactorizar:
-  
-- Código óptimo, mantenible y más claro. Agilizando el desarrollo sobre él.
-- Código encapsulado y disponible para la reutilización. Evitando desarrollar la misma funcionalidad más de una vez.
-- Un correcto rendimiento de la aplicación.
-- Menos bugs/incidencias y vulnerabilidades (seguridad).
-- Reducción de costes.
+> By progressively performing refactoring tasks and respecting a certain methodology that takes into account the correct quality of the code over time and developments, this point should never be reached.
+> Otherwise, optimal refactoring solutions must be found to improve performance through an exhaustive analysis.
 
-El 90% de las ocasiones se recomienda analizar y refactorizar utilizando lo máximo posible del código ya implementado. 
-Ya que el coste de tiempo es menor que implementando de nuevo. 
+- **Version update:** The new functionalities and supports on the technologies we are using must be continuously reviewed. Normally, the new versions improve many aspects and we must adapt and refactor the code to squeeze these improvements, thus evolving knowledge with technological evolution. R&D and innovation tasks will guide us on what aspects are improved in the new versions. Not only in the code, but also for the ease of implementing it better and faster (development tools).
 
-Excepcionalmente, si la calidad de código es compleja, pésima y obsoleta valorando que el coste de tiempo para el refactoring es excesivo, se recomienda implementarlo de nuevo. Como siempre, todo depende del coste de tiempo disponible asignado para la tarea. 
+### Advantages of refactoring:
 
+- Optimal, maintainable and clearer code. Streamlining development on it.
+- Encapsulated code available for reuse. Avoiding developing the same functionality more than once.
+- A correct performance of the application.
+- Fewer bugs/incidents and vulnerabilities (security).
+- Cost reduction.
+
+In 90% of the occasions, it is recommended to analyze and refactor using as much as possible of the code already implemented.
+Since the time cost is less than implementing it again.
+
+Exceptionally, if the code quality is complex and obsolete, assessing that the time cost for refactoring is excessive, it is recommended to implement it again. As always, everything depends on the time cost available assigned to the task.
