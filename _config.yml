@@ -49,7 +49,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: "2RDD9HEohC7sVScDvbabwmASJoB7LxMsJMi_qTnR51Q" # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
@@ -150,7 +150,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 5
+paginate: 10
 
 # The base URL of your site
 baseurl: ""

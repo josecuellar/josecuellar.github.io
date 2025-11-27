@@ -47,7 +47,8 @@ You can read the related news here: [New Twitter Gets New Search Engine](http://
 [Usage of Solr at Trovit A search Engine For Classified Ads](http://www.slideshare.net/sturlese/use-ofsolrattrovitclassifiedads-marcsturlese).
 
 Some essential resources:
-- [Lucene Apache Solr Documentation](http://lucene.apache.org/solr/)[Apache Solr Wiki](http://wiki.apache.org/solr/)
+- [Lucene Apache Solr Documentation](http://lucene.apache.org/solr/)
+- [Apache Solr Wiki](http://wiki.apache.org/solr/)
 - [Solrnet](http://code.google.com/p/solrnet/)
 
 **Getting Started with Apache Solr**
