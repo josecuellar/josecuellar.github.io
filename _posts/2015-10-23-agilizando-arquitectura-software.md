@@ -1,9 +1,9 @@
 ---
 id: 788
-title: 'Agilizando la arquitectura de software'
+title: 'Making software architecture more agile'
 date: '2015-10-23T20:49:33+00:00'
 layout: post
-permalink: /agilizando-arquitectura-software/
+permalink: /making-software-architecture-agile/
 categories:
   - Engineering Culture
 tags:
@@ -18,49 +18,48 @@ tags:
   - continuous-improvement
 ---
 
-Durante muchos años he diseñado y desarrollado arquitecturas mediante [metodologías tradicionales](https://es.wikipedia.org/wiki/Desarrollo_en_cascada), en los que el análisis exhaustivo inicial era primordial y necesario. 
-La arquitectura global resultante era muy específica a los requerimientos iniciales de producto, sin tener en cuenta todos los cambios futuros que pudiesen aparecer a lo largo del tiempo, generando así una arquitectura rígida e incrementando la resistencia a cualquier cambio futuro.
-Teniendo en cuenta que cuanto mayor es el producto a desarrollar sin previas validaciones por parte del consumidor o cliente, mayor será la probabilidad de que los haya.
-Añadiendo además los problemas en las dependencias, comunicación, colaboración y coordinación entre roles responsables en el proceso por fases temporales progresivas.
+For many years, I have designed and developed architectures using [traditional methodologies](https://es.wikipedia.org/wiki/Desarrollo_en_cascada), in which exhaustive initial analysis was paramount and necessary.
+The resulting global architecture was very specific to the initial product requirements, without taking into account all the future changes that could appear over time, thus generating a rigid architecture and increasing resistance to any future changes.
+Considering that the larger the product to be developed without prior validation by the consumer or client, the greater the probability that there will be changes.
+Adding to this the problems in dependencies, communication, collaboration and coordination between responsible roles in the process by progressive temporal phases.
 
 <br><center><img src="/wp-content/uploads/waterfall.png"  width="700"/></center><br>
 
-En cuanto tuve oportunidad de conocer y descubrir el mundo ágil, método lean y kaizen hace unos años, me convertí en un defensor de sus principios, ya que eran las soluciones a tantos problemas que experimenté en más de once años trabajando en metodologías tradicionales. 
+As soon as I had the opportunity to learn about and discover the agile world, lean method and kaizen a few years ago, I became a defender of its principles, as they were the solutions to so many problems I experienced in more than eleven years working in traditional methodologies.
 
-El cambio, ya no representaba un problema, sino una oportunidad de seguir creciendo y aprendiendo. 
+Change no longer represented a problem, but an opportunity to continue growing and learning.
 
 <br><center><img src="/wp-content/uploads/agile.png"  width="700"/></center><br>
 
-Esencialmente y desde el punto de vista de producto, debemos establecer el [producto mínimo viable (MVP)](https://es.wikipedia.org/wiki/Producto_viable_m%C3%ADnimo), que nos permita experimentar iterativamente mediante split testing y entrar en el circuito de Crear-Medir-Aprender lo más rápido posible, para saber si pivotar la estrategia o perseverar en ella. 
+Essentially, and from a product point of view, we must establish the [minimum viable product (MVP)](https://es.wikipedia.org/wiki/Producto_viable_m%C3%ADnimo), which allows us to experiment iteratively through split testing and enter the Create-Measure-Learn circuit as quickly as possible, to know whether to pivot the strategy or persevere in it.
 
-Todo ello en pequeños incrementos de producto mediante sprints o iteraciones con estrecha colaboración a negocio y el cliente final. 
-Evitando en mayor medida el despilfarro de tiempo y recursos. 
+All this in small increments of product through sprints or iterations with close collaboration with business and the end customer.
+Avoiding as much as possible the waste of time and resources.
 
-Siguiendo así el método [Lean Startup](/the-lean-startup-de-los-imprescindibles/) y adaptándose a la metodología ágil de proyectos. 
+Thus following the [Lean Startup](/the-lean-startup/) method and adapting to the agile project methodology.
 
 <br><center><img src="/wp-content/uploads/leanstartup.png"  width="500"/></center><br>
 
-Con respecto a la arquitectura, este tipo de método de desarrollo de producto es vital para fomentar las [arquitecturas emergentes](https://es.wikipedia.org/wiki/Arquitectura_emergente) en el equipo mediante la [arquitectura mínima viable (MVA)](http://www.kavistechnology.com/blog/minimal-viable-architecture/) . 
-Teniendo muy presente el principio [YAGNI (You Ain't Gonna Need It)](https://es.wikipedia.org/wiki/YAGNI). Siendo así muchísimo más sencillo y flexible cualquier tipo de cambio de dirección o imprevisto.
+With respect to architecture, this type of product development method is vital to foster [emergent architectures](https://es.wikipedia.org/wiki/Arquitectura_emergente) in the team through [minimal viable architecture (MVA)](http://www.kavistechnology.com/blog/minimal-viable-architecture/) .
+Keeping in mind the [YAGNI (You Ain't Gonna Need It)](https://es.wikipedia.org/wiki/YAGNI) principle. Thus making any kind of change of direction or unforeseen event much simpler and more flexible.
 
 <br><center><img src="/wp-content/uploads/mva.png"  width="500"/></center><br>
 
-> La visión de la arquitectura en las metodologías ágiles cambia: ya no existe la figura de arquitecto de software tradicional como tal en un equipo de Scrum. Ya que la arquitectura emerge progresivamente en base a las iteraciones del propio equipo.
-> Sin embargo, como comenta [Charlie Alfred](https://charliealfred.wordpress.com), en su post [SCRUM and Architecture – Partners or Adversaries?](https://charliealfred.wordpress.com/scrum-and-architecture-partners-or-adversaries/)**: “la arquitectura es el aceite y el filtro que lubrica adecuadamente a Scrum”**. 
+> The vision of architecture in agile methodologies changes: the figure of the traditional software architect as such no longer exists in a Scrum team. Since the architecture emerges progressively based on the iterations of the team itself.
+> However, as [Charlie Alfred](https://charliealfred.wordpress.com) comments, in his post [SCRUM and Architecture – Partners or Adversaries?](https://charliealfred.wordpress.com/scrum-and-architecture-partners-or-adversaries/)**: "architecture is the oil and filter that properly lubricates Scrum"**.
 
-Es básico prestar atención progresiva al crecimiento de la arquitectura a lo largo del tiempo. Asegurando que se cumplan los principios de calidad/rendimiento/reutilización y evitar la posible complejidad que pudiese surgir para disminuir la posibilidad de generar deuda técnica o incidencias, planificando/ejecutando [refactoring periódicos](/when-why-perform-refactoring-tasks/). 
+It is essential to pay progressive attention to the growth of the architecture over time. Ensuring that the principles of quality/performance/reuse are met and avoiding the possible complexity that could arise to reduce the possibility of generating technical debt or incidents, planning/executing [periodic refactoring](/when-why-perform-refactoring-tasks/).
 
-Los perfiles más experimentados en arquitectura deben orientar, guiar, advertir y aconsejar sobre posibles imprevistos, observando el crecimiento/complejidad de la arquitectura, teniendo en cuenta toda su experiencia. 
-Así como los perfiles más especializados en optimización de buscadores (SEO) nos guiarán en el desarrollo siguiendo la estrategia correcta y otros perfiles con otras habilidades en la construcción del producto, mediante técnicas como el [pair programming](https://es.wikipedia.org/wiki/Programaci%C3%B3n_en_pareja) o el [mob programming](https://en.wikipedia.org/wiki/Mob_programming). Fomentando así el aprendizaje del equipo. 
+The most experienced profiles in architecture should guide, advise, warn and advise on possible unforeseen events, observing the growth/complexity of the architecture, taking into account all their experience.
+Just as the most specialized profiles in search engine optimization (SEO) will guide us in the development following the correct strategy and other profiles with other skills in the construction of the product, through techniques such as [pair programming](https://es.wikipedia.org/wiki/Programaci%C3%B3n_en_pareja) or [mob programming](https://en.wikipedia.org/wiki/Mob_programming). Thus promoting team learning.
 
-> En el mundo del conocimiento, como dijo Einstein: **"todos somos ignorantes, lo que ocurre es que no todos ignoramos las mismas cosas"**.
+> In the world of knowledge, as Einstein said: **"we are all ignorant, it's just that we are not all ignorant of the same things"**.
 
-La dificultad entonces para un correcto engranaje de Scrum reside en disgregar: 
-¿Cual es mi MVP? ¿Qué MVA aplicamos? 
+The difficulty then for a correct Scrum engagement lies in disaggregating:
+What is my MVP? What MVA do we apply?
 
-> A menudo nos dejamos llevar por el pensamiento que algo mínimo, es poco. Pero no hay que pensar en cantidades, sino en el valor que estamos aportando, tanto a nivel de producto como técnico.
+> We are often carried away by the thought that something minimal is little. But you don't have to think in quantities, but in the value we are contributing, both at the product and technical level.
 
-
-**Lectura recomendada**: 
+**Recommended reading**:
 
 [Architecture Abstract](http://www.scaledagileframework.com/agile-architecture/)

@@ -1,9 +1,9 @@
 ---
 id: 973
-title: 'Hacia #NoEstimates'
+title: '#NoEstimates movement'
 date: '2015-09-22T09:48:56+00:00'
 layout: post
-permalink: /hacia-noestimates/
+permalink: /noestimates-movement/
 categories:
   - Engineering Culture
 tags:
@@ -19,56 +19,58 @@ tags:
   - effort-estimations
 ---
 
-Las opciones o métodos recomendados en entornos ágiles con respecto a la estimación son:
+The options or methods recommended in agile environments with respect to estimation are:
 
-### Estimar en puntos de historia abstractos
+### Estimate in abstract story points
 
-Desvincular totalmente el tiempo liberándolo de la presión mediante puntos de historia. 
-No se trata de averiguar cuanto se tardará en desarrollar una historia de usuario o saber su alcance exacto, sino simplemente saber **el tamaño aproximado "a priori"**, para intuir cuánto esfuerzo relativo deberá aplicar el equipo. 
+Completely unlink time by freeing it from pressure using story points.
+It's not about figuring out how long it will take to develop a user story or knowing its exact scope, but simply knowing **the approximate size "a priori"**, to intuit how much relative effort the team should apply.
 
 <br><center><img src="/wp-content/uploads/agileestimation.png"  width="500"/></center>
-##### Fuente: [Agile Concepts: Estimating and Planning Poker](https://manifesto.co.uk/agile-concepts-estimating-planning-poker/) 
+##### Source: [Agile Concepts: Estimating and Planning Poker](https://manifesto.co.uk/agile-concepts-estimating-planning-poker/)
 
-Una buena metófara es la planificación de un viaje. ¿Cuánto tardaremos en llegar? [¿Por qué utilizamos Puntos Historia para estimar y no horas?](http://www.javiergarzas.com/2015/06/puntos-historia-para-estimar-y-no-horas.html): 
-La distancia a recorrer es la misma para todos, pero no sabemos el tiempo exacto que tardaremos. 
-Dichos puntos de historia se representan con la [sucesión de Fibonacci](https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci) utilizando la técnica de [planning pocker](https://es.wikipedia.org/wiki/Planning_poker) para evitar influencias entre los miembros del equipo y muchas otras ventajas. 
+A good metaphor is planning a trip. How long will it take us to get there? [Why do we use Story Points to estimate and not hours?](http://www.javiergarzas.com/2015/06/puntos-historia-para-estimar-y-no-horas.html):
+The distance to travel is the same for everyone, but we don't know the exact time it will take us.
+These story points are represented with the [Fibonacci sequence](https://es.wikipedia.org/wiki/Sucesi%C3%B3n_de_Fibonacci) using the [planning pocker](https://es.wikipedia.org/wiki/Planning_poker) technique to avoid influences between team members and many other advantages.
 
-> El consenso del equipo es mucha más fácil y relajado. Fomentando así el diálogo y el aprendizaje continuo en el equipo.
+> Team consensus is much easier and more relaxed. Thus fostering dialogue and continuous learning in the team.
 
-Las ventajas más destacadas que nos aportarán las métricas mediante los puntos de historia son:
-- Disponer de una "**velocidad** de crucero" aproximada de desarrollo permitiendo tener mayor aproximación con las historias de usuario que el equipo va a comprometerse a desarrollar en el sprint.
-- Establecer un **mejor y más realista sprint goal** y un margen o "buffer" para contemplar las deudas técnicas, imprevistos u otras situaciones.
-- Reflejar en **gráficas [burndown](https://es.wikipedia.org/wiki/Burn_down_chart) o el [burn-up](http://jmbeas.es/guias/burn-up-chart/)**.
-- Fuente de información de posibles mejoras en las retrospectivas del equipo.
-- Anticipar/organizar pair programming u otras técnicas de colaboración.
-- Detectar aquellas historias de usuario que no siguen los principios [INVEST](https://en.wikipedia.org/wiki/INVEST_(mnemonic)). En la gran mayoría de casos: con tamaño excesivo (hay que dividirla) o con dependencias (hay que replantearla).
-- Perfecto indicador para [product owners](https://www.mountaingoatsoftware.com/agile/scrum/product-owner) y stakeholders.
+The most outstanding advantages that metrics will provide us through story points are:
+- Have an approximate development "**cruising speed**" allowing for greater approximation with the user stories that the team is going to commit to developing in the sprint.
+- Establish a **better and more realistic sprint goal** and a margin or "buffer" to contemplate technical debts, unforeseen events or other situations.
+- Reflect in **[burn-down](https://es.wikipedia.org/wiki/Burn_down_chart) or [burn-up](http://jmbeas.es/guias/burn-up-chart/) graphs**.
+- Source of information for possible improvements in team retrospectives.
+- Anticipate/organize pair programming or other collaboration techniques.
+- Detect those user stories that do not follow the [INVEST](https://en.wikipedia.org/wiki/INVEST_(mnemonic)) principles. In the vast majority of cases: with excessive size (it must be divided) or with dependencies (it must be rethought).
+- Perfect indicator for [product owners](https://www.mountaingoatsoftware.com/agile/scrum/product-owner) and stakeholders.
 
-### Estimar mediante tallas (XS, S, M, L, XL, XXL)
+### Estimate by sizes (XS, S, M, L, XL, XXL)
 
-Nos aporta todas las ventajas de los puntos de historia, excepto las métricas (pueden relacionarse valores y disponer de ellas, para tal caso, sería más recomendable utilizar puntos de historia). 
-También se utiliza planning pocker. 
+It gives us all the advantages of story points, except the metrics (values can be related and have them, in which case it would be more advisable to use story points).
+Planning pocker is also used.
 
-### Movimiento [\#NoEstimates](https://twitter.com/search?q=%23NoEstimates&src=tyah)
+### [\#NoEstimates](https://twitter.com/search?q=%23NoEstimates&src=tyah) movement
 
-Liderado por [Woody Zuill](https://twitter.com/woodyzuill) y [Neil Killick](https://neilkillick.wordpress.com/): estimar no es necesario. 
+Led by [Woody Zuill](https://twitter.com/woodyzuill) and [Neil Killick](https://neilkillick.wordpress.com/): estimating is not necessary.
 
-**Lecturas recomendadas**
+**Recommended readings**
 
 - [Estimation is Evil - The Estimation Obsession](https://pragprog.com/magazines/2013-02/estimation-is-evil)
 - [The NoEstimates Movement](http://ronjeffries.com/xprog/articles/the-noestimates-movement/)
 
-## Entonces, ¿Estimamos?
+## So, do we estimate?
 
-> En mi opinión, depende del nivel de "maduración" y cohesión del equipo y su evolución.
+> In my opinion, it depends on the level of "maturity" and cohesion of the team and its evolution.
 
-El equipo dispone de los conocimientos suficientes y necesarios que les permiten en base a la repitición de casos similares en el tiempo no necesitar la estimación, ya que es conocimiento implicito y adquirido en el equipo.
+The team has sufficient and necessary knowledge that allows them, based on the repetition of similar cases over time, not to need estimation, since it is implicit and acquired knowledge in the team.
 
-Cuando se implanta un marco de trabajo ágil en una organización o por primera vez un equipo comienza su primer sprint, aconsejo que el cambio sea **en base al modelo teórico** que propone dicho marco. 
-Sin ningún tipo de adaptación preestablecida. Evitando las presuposiciones y recomendaciones de terceros, **ya que lo que puede funcionar a un equipo, puede no funcionar en otro**. 
-En las retrospectivas, de forma natural y personalizada, nacerán propuestas, decisiones y prácticas en el equipo para mejorar su forma de trabajar. 
+When an agile framework is implemented in an organization or for the first time a team starts its first sprint, I advise that the change be **based on the theoretical model** proposed by said framework.
+Without any pre-established adaptation. Avoiding the assumptions and recommendations of third parties, **since what may work for one team may not work for another**.
+In the retrospectives, in a natural and personalized way, proposals, decisions and practices will be born in the team to improve their way of working.
 
-> De modo que **inicialmente**, mi recomendación es partir con la **estimación en puntos de historia** utilizando la sucesión de Fibonacci mediante planning pocker.
+> So **initially**, my recommendation is to start with **estimation in story points** using the Fibonacci sequence through planning pocker.
 
-Con el tiempo, el aprendizaje, la madurez y la habilidad/experiencia aprendida y compartida, el equipo decidirá de forma natural que ya no precisa de métricas por conocer su forma intrínseca de trabajar u organizarse: simplificando así a la estimación mediante tallas. 
-Para más adelante, muy probablemente, unirse al movimiento #NoEstimates. Todo depende del momento en el que se encuentre el equipo. > En mi opinión, la estimación, es el camino de aprendizaje y madurez perfecto para dejar de usarla.
+Over time, learning, maturity and the skill/experience learned and shared, the team will naturally decide that it no longer needs metrics because it knows its intrinsic way of working or organizing: thus simplifying estimation by sizes.
+Later on, very likely, join the #NoEstimates movement. It all depends on the moment the team is in. 
+
+> In my opinion, estimation is the perfect learning and maturity path to stop using it.

@@ -1,9 +1,9 @@
 ---
 id: 895
-title: 'Inteligencia emocional, Kaizen y Lean UX: libros recomendados'
+title: 'Emotional intelligence, Kaizen, and Lean UX: recommended books'
 date: '2016-06-07T20:08:06+00:00'
 layout: post
-permalink: /inteligencia-emocional-psicologia-lean-kaizen_libros-recomendados/
+permalink: /emotional-intelligence-kaizen-lean-ux-recommended-books/
 categories:
   - Career & Growth
 tags:
@@ -16,37 +16,41 @@ tags:
   - growth-mindset
 ---
 
-En los últimos meses he tenido la oportunidad de leerme algunos libros. Quiero compartir con vosotros una pequeña reseña por cada uno, por si os pudiese servir de ayuda en la elección de vuestra próxima lectura. 
+In recent months I have had the opportunity to read some books. I want to share with you a small review for each one, in case it could help you in choosing your next read.
 
-<br><center><img src="/wp-content/uploads/ie.jpg"  width="200"/></center><br>
+<br><center><img src="/wp-content/uploads/ie.jpg" width="200"/></center><br>
 
-En un estudio reciente con los mejores trabajadores de distintas empresas, desde puestos base a puestos ejecutivos, el factor más importante para el buen desempeño no fue el coeficiente intelectual, sino la inteligencia emocional. 
-De todas las competencias requeridas para ejecutar adecuadamente las funciones de los trabajos, el 67% eran competencias emocionales. 
+In a recent study with the best workers from different companies, from entry-level positions to executive positions, the most important factor for good performance was not the IQ, but the emotional intelligence.
+Of all the competencies required to adequately perform the functions of the jobs, 67% were emotional competencies.
 
-Abundantes investigaciones demuestra que las habilidades emocionales son susceptibles de aprenderse y perfeccionarse a lo largo de la vida. [Daniel Goleman](https://es.wikipedia.org/wiki/Daniel_Goleman) no inventó este término, sin embargo, fue introducido por primera vez por Wayne Payne y más tarde desarrollado por los psicólogos Peter Salovey y John D. en la década de los 90. 
+Abundant research shows that emotional skills are susceptible to being learned and perfected throughout life. [Daniel Goleman](https://es.wikipedia.org/wiki/Daniel_Goleman) did not invent this term, however, it was first introduced by Wayne Payne and later developed by psychologists Peter Salovey and John D. in the 90s.
 
-Sin embargo, fue popularizado a partir de este best-seller.
+However, it was popularized from this best-seller.
 
-> El concepto que explica la fusión entre el intelecto y los instintos emocionales: la inteligencia emocional. Los instintos naturales e impulsos espontáneos nos niegan la oportunidad de aplicar el pensamiento racional en ciertas situaciones. 
-> El libro nos dará pautas y nos aportará ejemplos para entender hasta qué punto y cómo podemos asumir el control de las emociones que necesitamos para llegar a nuestros objetivos y mejorar las relaciones que nos rodean. 
-> Relatos de experimentos psicológicos nos ayudarán a entender cómo funciona nuestro cerebro y qué podemos hacer para controlar lo que sentimos y pensamos. Aplicado en varios sectores como la educación, sanidad y pareja sentimental.
+> The concept that explains the fusion between intellect and emotional instincts: emotional intelligence. Natural instincts and spontaneous impulses deny us the opportunity to apply rational thinking in certain situations.
 
-<br><center><img src="/wp-content/uploads/kaizen.jpg"  width="200"/></center><br>
+> The book will give us guidelines and provide us with examples to understand to what extent and how we can take control of the emotions we need to reach our goals and improve the relationships around us.
 
-El [Kaizen](https://es.wikipedia.org/wiki/Kaizen), traducido del japonés como “mejora”, supone un proceso de mejora constante e incremental desarrollado con pequeños pasos acumulativos, que pueden parecer insignificantes en un principio, pero que sostenidos de manera constante en el tiempo pueden alcanzar resultados extraordinarios. 
+> Accounts of psychological experiments will help us understand how our brain works and what we can do to control what we feel and think. Applied in various sectors such as education, health and sentimental partner.
 
-El sistema de productividad japonesa está organizado alrededor de este principio. Esta filosofía de la acción tiene por tanto un trasfondo minimalista: si queremos lograr algo, mantenemos la meta a largo plazo, pero nos centramos en el siguiente paso hasta llegar a él: pequeño, gradual y en apariencia modesto. 
+<br><center><img src="/wp-content/uploads/kaizen.jpg" width="200"/></center><br>
 
-> Técnicas de cómo pensar sin despertar emociones de miedo que podrían paralizarnos o bloquearnos (grandes pensamientos de cambio, grandes retos difíciles de abarcar, etc). 
-> Pequeños cambios insignificantes que se adaptan fácilmente a nuestros hábitos diarios. Seguro que, como a mí, te hará rectificar muchas de las ideas preconcebidas de cómo conseguir tus metas, sea cual sea su ámbito.
+[Kaizen](https://es.wikipedia.org/wiki/Kaizen), translated from Japanese as "improvement", is a process of constant and incremental improvement developed with small cumulative steps, which may seem insignificant at first, but which sustained consistently over time can achieve extraordinary results.
 
-<br><center><img src="/wp-content/uploads/leanux.jpg"  width="200"/></center><br>
+The Japanese productivity system is organized around this principle. This philosophy of action therefore has a minimalist background: if we want to achieve something, we maintain the long-term goal, but we focus on the next step to reach it: small, gradual and apparently modest.
 
-Lean UX ofrece una perspectiva completa de cómo los principios de [Lean Startup](/the-lean-startup-de-los-imprescindibles/) pueden aplicarse en un contexto de diseño de experiencia de usuario, conjugándolos con los clientes, design thinking y metodologías de desarrollo ágil de software. 
+> Techniques on how to think without awakening emotions of fear that could paralyze or block us (big thoughts of change, big challenges difficult to encompass, etc).
+> Small insignificant changes that easily adapt to our daily habits. Surely, like me, it will make you rectify many of the preconceived ideas of how to achieve your goals, whatever their scope.
 
-Nuevas técnicas y herramientas para conseguir una mayor colaboración entre distintos departamentos y entregas más rápidas. Un nuevo enfoque de desarrollo de experiencia de usuario evitando despilfarros y segundas fases de mejoras que nunca llegan. 
+<br><center><img src="/wp-content/uploads/leanux.jpg" width="200"/></center><br>
 
-Complemento idóneo a [Lean Startup](/the-lean-startup-de-los-imprescindibles/). 
+Lean UX offers a complete perspective on how the principles of [Lean Startup](/the-lean-startup/) can be applied in a user experience design context, combining them with customers, design thinking and agile software development methodologies.
 
-> Me gusta como relaciona el diseño de producto, arquitectura de la información y usabilidad en el proceso de creación de producto mediante productos mínimamente viables y cómo aborda la progresión continua de éstos mediante experimentos de investigación y pruebas (Crear-Medir-Aprender). 
-> Me ha interesado mucho conceptos como el [BDUP (Big Design Up Front)](https://en.wikipedia.org/wiki/Big_Design_Up_Front) como uno de los mayores errores de despilfarro de tiempo, el diseño colaborativo, herramientas de prototipado y métodos de gestión de suposiciones e hipótesis para la solución de necesidades o problemas, el enfoque de adaptación al trabajo con SCRUM y los cambios aconsejables para implementar Lean UX en una organización.
+New techniques and tools to achieve greater collaboration between different departments and faster deliveries. A new approach to user experience development avoiding waste and second phases of improvements that never arrive.
+
+Ideal complement to [Lean Startup](/the-lean-startup/).
+
+> I like how it relates product design, information architecture and usability in the product creation process through minimally viable products and how it addresses the continuous progression of these through research experiments and tests (Create-Measure-Learn).
+
+
+> I have been very interested in concepts such as [BDUP (Big Design Up Front)](https://en.wikipedia.org/wiki/Big_Design_Up_Front) as one of the biggest mistakes of wasting time, collaborative design, prototyping tools and methods of managing assumptions and hypotheses for the solution of needs or problems, the approach of adaptation to work with SCRUM and the advisable changes to implement Lean UX in an organization.

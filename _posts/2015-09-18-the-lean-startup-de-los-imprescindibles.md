@@ -1,9 +1,9 @@
 ---
 id: 864
-title: 'The lean startup. De los imprescindibles'
+title: 'The lean startup'
 date: '2015-09-18T20:30:34+00:00'
 layout: post
-permalink: /the-lean-startup-de-los-imprescindibles/
+permalink: /the-lean-startup/
 categories:
   - Career & Growth
 tags:
@@ -16,40 +16,40 @@ tags:
   - mvp
 ---
 
-El método Lean Startup supone un nuevo enfoque que se está adoptando en todo el mundo para cambiar la forma en que las empresas crean y lanzan sus productos. 
-Eric Ries define una startup como una organización dedicada a crear algo bajo condiciones de incertidumbre extrema. 
+The Lean Startup method represents a new approach that is being adopted worldwide to change the way companies create and launch their products.
+Eric Ries defines a startup as an organization dedicated to creating something under conditions of extreme uncertainty.
 
-Prácticas pensadas para ayudar a los emprendedores a incrementar las probabilidades de crear una startup con éxito. 
-No es una fórmula matemática infalible, sino una filosofía empresarial innovadora que ayuda a los emprendedores a escapar de las trampas del pensamiento empresarial tradicional.
+Practices designed to help entrepreneurs increase the odds of creating a successful startup.
+It is not an infallible mathematical formula, but an innovative business philosophy that helps entrepreneurs escape the traps of traditional business thinking.
 
-<br><center><img src="/wp-content/uploads/theleanstartup.jpg"  width="300"/></center><br>
+<br><center><img src="/wp-content/uploads/theleanstartup.jpg" width="300"/></center><br>
 
-**Eric Ries** el autor del libro es ponente habitual, asesorando a startups y grandes compañías. 
+**Eric Ries,** the author of the book, is a regular speaker, advising startups and large companies.
 
-> Yo soy una de esas personas que creció programando ordenadores. A lo largo de toda mi carrera he tenido la sensación de trabajar increíblemente duro en productos que finalmente fracasaban en el mercado. 
-> Al principio, especialmente a causa de mi experiencia, veía el fracaso como un problema técnico que requería una solución técnica: mejor arquitectura, un mejor proceso... 
- 
-> Estos supuestos arreglos conducían a más fracasos. Fui afortunado de tener cofundadores que deseaban experimentar con nuevos enfoques. 
-> Como yo, estaban hartos del fracaso del pensamiento tradicional. Estudié Lean manufacturing, un proceso originario de Japón y varios otros procesos del sistema de producción de Toyota, una manera totalmente nueva de plantear y analizar los problemas. 
-> Esta línea de pensamiento evolucionó hasta el método Lean Startup.
+> I am one of those people who grew up programming computers. Throughout my career, I have had the feeling of working incredibly hard on products that ultimately failed in the market.
+> At first, especially because of my experience, I saw failure as a technical problem that required a technical solution: better architecture, a better process...
 
-**Conceptos principales del método lean startup:**
-- [Producto mínimo viable](https://es.wikipedia.org/wiki/Producto_viable_m%C3%ADnimo)
-- Desarrollo contínuo en pequeños lotes
+> These supposed fixes led to more failures. I was fortunate to have co-founders who wanted to experiment with new approaches.
+> Like me, they were fed up with the failure of traditional thinking. I studied Lean manufacturing, a process originating in Japan and several other processes of the Toyota production system, a completely new way of posing and analyzing problems.
+> This line of thinking evolved into the Lean Startup method.
+
+**Main concepts of the lean startup method:**
+- [Minimum viable product](https://es.wikipedia.org/wiki/Producto_viable_m%C3%ADnimo)
+- Continuous development in small batches
 - Lean manufactoring. Just-in-time
-- [Los cinco ¿Por qué?](https://es.wikipedia.org/wiki/Los_cinco_%C2%BFPor_qu%C3%A9%3F)
-- Contabilidad de la innovación
-- Motores de crecimiento
-- [Innovación disruptiva](https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_disruptiva)
-- Pivotar o perseverar
-- Tipos de pivotes
-- Indicadores vanidosos
-- Análisis de cohortes
+- [The Five Whys](https://es.wikipedia.org/wiki/Los_cinco_%C2%BFPor_qu%C3%A9%3F)
+- Innovation accounting
+- Engines of growth
+- [Disruptive innovation](https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_disruptiva)
+- Pivot or persevere
+- Types of pivots
+- Vanity metrics
+- Cohort analysis
 - Split-Tests
-- Innovación contínua con caja de arena
-- Hipótesis y actos de fé
-- Conocimiento validado
+- Continuous innovation with sandbox
+- Hypotheses and acts of faith
+- Validated learning
 
-<br><center><img src="/wp-content/uploads/theleanstartup2.png"  width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/theleanstartup2.png" width="700"/></center><br>
 
-Puedes comprarlo [aquí](https://www.amazon.es/m%C3%A9todo-Lean-Startup-utilizando-innovaci%C3%B3n/dp/842340949X)
+You can buy it [here](https://www.amazon.es/m%C3%A9todo-Lean-Startup-utilizando-innovaci%C3%B3n/dp/842340949X)

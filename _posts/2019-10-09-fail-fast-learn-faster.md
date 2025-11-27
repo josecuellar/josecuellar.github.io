@@ -28,7 +28,7 @@ Make sure you have a good **error control strategy**: show the user *friendly er
 
 **Lean Startup Model**
 
-If you haven't read the book, I'll summarize it [here](/the-lean-startup-de-los-imprescindibles/).
+If you haven't read the book, I'll summarize it [here](/the-lean-startup/).
 
 Learn quickly from your mistakes. Through a small and cheap *MVP*, measure the results and confirm the hypotheses of your initial idea through experimentation such as *A/B Testing*. ***Pivot or persevere*** in each case.
 Extrapolate it to all areas. In the technical field, avoid [BDUF ](https://en.m.wikipedia.org/wiki/Big_Design_Up_Front) or [BMUF](http://agilemodeling.com/essays/bmuf.htm) and [overengineering](https://en.wikipedia.org/wiki/Overengineering).

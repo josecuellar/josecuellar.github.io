@@ -1,9 +1,9 @@
 ---
 id: 1099
-title: 'Algunas leyes en el desarrollo de software'
+title: 'Some laws in software development'
 date: '2015-02-03T20:39:08+00:00'
 layout: post
-permalink: /algunas-leyes-en-el-desarrollo-de-software/
+permalink: /some-laws-in-software-development/
 categories:
   - Deep Engineering
 tags:
@@ -16,75 +16,75 @@ tags:
   - software-complexity
 ---
 
-#### Ley de Brooks
+#### Brooks's Law
 
- Añadir más gente a un proyecto que tiene retraso provoca que tenga aún más retraso. [Fred Brooks](https://en.wikipedia.org/wiki/Fred_Brooks)
+Adding more people to a late project makes it even later. [Fred Brooks](https://en.wikipedia.org/wiki/Fred_Brooks)
 
-#### Ley de Conway
+#### Conway's Law
 
- Cualquier fragmento de software refleja la estructura organizacional que lo produjo. [Melvin Conway](https://en.wikipedia.org/wiki/Melvin_Conway)
+Any piece of software reflects the organizational structure that produced it. [Melvin Conway](https://en.wikipedia.org/wiki/Melvin_Conway)
 
-#### Regla de Cope
+#### Cope's Rule
 
- En la evolución hay una tendencia general hacia el aumento de tamaño. [Edward Drinker Cope](https://en.wikipedia.org/wiki/Edward_Drinker_Cope)
+In evolution, there is a general tendency towards increased size. [Edward Drinker Cope](https://en.wikipedia.org/wiki/Edward_Drinker_Cope)
 
-#### Ley de Hoare y Ley inversa de Schainker
+#### Hoare's Law and Schainker's Inverse Law
 
- Detrás de un gran problema hay siempre un problema pequeño que lucha por salir. Dentro de un problema pequeño hay siempre un problema grande que lucha por salir. [Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare)
+Behind a big problem there is always a small problem struggling to get out. Within a small problem there is always a big problem struggling to get out. [Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare)
 
-#### Ley de Hofstadter
+#### Hofstadter's Law
 
- Una tarea siempre lleva más tiempo de los que esperabas, incluso cuando tienes en cuenta la ley de Hofstadter. [Douglas Hofstadter](https://en.wikipedia.org/wiki/Douglas_Hofstadter)
+A task always takes longer than you expect, even when you take into account Hofstadter's Law. [Douglas Hofstadter](https://en.wikipedia.org/wiki/Douglas_Hofstadter)
 
-#### Ley de Linus
+#### Linus's Law
 
- Con suficientes ojos, todos los fallos (bugs) son superficiales. [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)
+Given enough eyeballs, all bugs are shallow. [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)
 
-#### Ley de Lister
+#### Lister's Law
 
- La gente bajo presión de tiempo no piensa más rápido. [Tim Lister](https://en.wikipedia.org/wiki/Tim_Lister)
+People under time pressure don't think faster. [Tim Lister](https://en.wikipedia.org/wiki/Tim_Lister)
 
-#### Primera ley de Nathan
+#### Nathan's First Law
 
- El Software es un gas; se expande hasta llenar el recipiente que lo contiene. [Nathan Myhrvold](https://en.wikipedia.org/wiki/Nathan_Myhrvold)
+Software is a gas; it expands to fill the container it occupies. [Nathan Myhrvold](https://en.wikipedia.org/wiki/Nathan_Myhrvold)
 
-#### Ley de Noventa-noventa
+#### Ninety-ninety rule
 
- El primer 90% del código lleva el primer 10% del tiempo de desarrollo. El 10% de código restante absorbe el 90% del tiempo de desarrollo. [Tom Cargill](https://es.wikipedia.org/wiki/Regla_del_noventa-noventa)
+The first 90% of the code accounts for the first 10% of the development time. The remaining 10% of the code absorbs 90% of the development time. [Tom Cargill](https://es.wikipedia.org/wiki/Regla_del_noventa-noventa)
 
-#### Cuchilla de Occam
+#### Occam's Razor
 
- En igualdad de condiciones, la solución más sencilla suele ser la mejor (original en latín: "entia non sunt multiplicanda praeter necessitatem", que se podría traducir por "las entidades no deberían multiplicarse más allá de lo necesario"). [William of Ockham](https://en.wikipedia.org/wiki/William_of_Ockham)
+Among competing hypotheses, the one with the fewest assumptions should be selected (original in Latin: "entia non sunt multiplicanda praeter necessitatem", which could be translated as "entities should not be multiplied beyond necessity"). [William of Ockham](https://en.wikipedia.org/wiki/William_of_Ockham)
 
-#### Principio de Pareto (a.k.a. “La regla del 80-20”)
+#### Pareto Principle (a.k.a. “The 80-20 rule”)
 
- El 80% de las consecuencias procede del 20% de las causas [Vilfredo Pareto](https://en.wikipedia.org/wiki/Vilfredo_Pareto)
+80% of the consequences come from 20% of the causes [Vilfredo Pareto](https://en.wikipedia.org/wiki/Vilfredo_Pareto)
 
-#### Ley de Parkinson
+#### Parkinson's Law
 
- El trabajo se expande hasta llenar todo el tiempo disponible para completarlo. [C. Northcote Parkinson](https://en.wikipedia.org/wiki/C._Northcote_Parkinson)
+Work expands so as to fill the time available for its completion. [C. Northcote Parkinson](https://en.wikipedia.org/wiki/C._Northcote_Parkinson)
 
-#### Ley de Tesler de conservación de la complejidad
+#### Tesler's Law of Conservation of Complexity
 
- No se puede reducir la complejidad de una tarea más allá de cierto punto. Una vez que se ha alcanzado ese punto, sólo puedes desplazar la complejidad de una parte a otra. [Larry Tesler](https://en.wikipedia.org/wiki/Larry_Tesler)
+You cannot reduce the complexity of a task beyond a certain point. Once that point has been reached, you can only shift the complexity from one part to another. [Larry Tesler](https://en.wikipedia.org/wiki/Larry_Tesler)
 
-#### La paradoja del Pesticida
+#### The Pesticide Paradox
 
- Cada método utilizado para prevenir o detectar errores deja otro residuo de errores contra los que estos primeros métodos son ineficaces. **Bruce Beizer**
+Every method you use to prevent or detect errors leaves another residue of errors against which these first methods are ineffective. **Bruce Beizer**
 
-#### Axioma de Flon
+#### Flon's Axiom
 
- No existe ni existirá un lenguaje de programación en el que sea difícil escribir malos programas. **Lawrence Flon** [Leyes de Lehman de la evolución del software](https://es.wikipedia.org/wiki/Leyes_de_Lehman_de_la_evoluci%C3%B3n_del_software)
+There is not and never will be a programming language in which it is difficult to write bad programs. **Lawrence Flon** [Lehman's Laws of Software Evolution](https://es.wikipedia.org/wiki/Leyes_de_Lehman_de_la_evoluci%C3%B3n_del_software)
 
-#### Ley de Demeter
+#### Law of Demeter
 
- Habla solo con tus amigos cercanos. No hables con extraños. 
- 
-Un método de un objeto solo puede llamar a métodos de: 
+Only talk to your immediate friends. Don't talk to strangers.
 
-- 1 – El propio objeto. 
-- 2 – Un argumento del método. 
-- 3 – Cualquier objeto creado dentro del método. 
-- 4 – Cualquier propiedad/campo directo del propio objeto. 
+A method of an object can only call methods of:
 
-##### Amplía la información con los [principios básicos en el desarrollo de software](/principles-of-software-development/)
+- 1 – The object itself.
+- 2 – An argument of the method.
+- 3 – Any object created within the method.
+- 4 – Any direct property/field of the object itself.
+
+##### Expand the information with the [basic principles in software development](/principles-of-software-development/)
