@@ -1,5 +1,4 @@
 ---
-id: 113
 title: 'Communication and observation: influencing the team beyond words'
 date: '2025-12-08T21:28:21+00:00'
 layout: post
