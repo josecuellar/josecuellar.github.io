@@ -1,6 +1,6 @@
 ---
 id: 113
-title: 'Communication and Observation: Influencing the Team Beyond Words'
+title: 'Communication and observation: influencing the team beyond words'
 date: '2025-12-08T21:28:21+00:00'
 layout: post
 permalink: /communication-observation-influencing-team-beyong-words/
@@ -15,10 +15,8 @@ tags:
 ---
 
 <p>
-Many years ago, I read *Nonverbal Communication* by Flora Davis, and I still highly recommend it today. It was a revelation about how what we don't say — tone, gestures, posture, breathing — can convey more than words themselves. I also studied Albert Mehrabian’s work, which shows that in emotional situations, the nonverbal part of a message has an enormous impact on how it is received.
-
-<br>
 <img src="/wp-content/uploads/nonverbalcommunication.jpeg" width="150" alt="avatar" class="left">
+Many years ago, I read *Nonverbal Communication* by Flora Davis, and I still highly recommend it today. It was a revelation about how what we don't say — tone, gestures, posture, breathing — can convey more than words themselves. I also studied Albert Mehrabian’s work, which shows that in emotional situations, the nonverbal part of a message has an enormous impact on how it is received.
 Today, there are many resources on **how to communicate well**: how to structure a message, choose words, and connect with the audience. But one thing is rarely addressed: **the impact of when to communicate**. And even more importantly: **whether it really should be communicated at all**. Even the best-constructed message can lose value — or generate unwanted effects — if it is unnecessary or if the context already provides the information implicitly.
 
 In team guidance, where each person faces complex challenges every day, **invisible communication** — gestures, tone, energy — sustains trust, collaboration, and autonomy. But clear communication is not enough; it is also crucial to ask yourself before speaking:
