@@ -14,7 +14,7 @@ tags:
 ---
 
 
-<img src="/wp-content/uploads/nonverbalcommunication.jpeg" width="150" alt="avatar" class="left">
+<img src="/wp-content/uploads/nonverbalcommunication.jpeg" width="200" class="left"/>
 Many years ago, I read *Nonverbal Communication* by Flora Davis, and I still highly recommend it today. It was a revelation about how what we don't say — tone, gestures, posture, breathing — can convey more than words themselves. I also studied Albert Mehrabian’s work, which shows that in emotional situations, the nonverbal part of a message has an enormous impact on how it is received.
 Today, there are many resources on **how to communicate well**: how to structure a message, choose words, and connect with the audience. But one thing is rarely addressed: **the impact of when to communicate**. And even more importantly: **whether it really should be communicated at all**. Even the best-constructed message can lose value — or generate unwanted effects — if it is unnecessary or if the context already provides the information implicitly.
 
