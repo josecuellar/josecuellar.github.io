@@ -14,7 +14,7 @@ tags:
   - team-impact
 ---
 
-<p>
+
 <img src="/wp-content/uploads/nonverbalcommunication.jpeg" width="150" alt="avatar" class="left">
 Many years ago, I read *Nonverbal Communication* by Flora Davis, and I still highly recommend it today. It was a revelation about how what we don't say — tone, gestures, posture, breathing — can convey more than words themselves. I also studied Albert Mehrabian’s work, which shows that in emotional situations, the nonverbal part of a message has an enormous impact on how it is received.
 Today, there are many resources on **how to communicate well**: how to structure a message, choose words, and connect with the audience. But one thing is rarely addressed: **the impact of when to communicate**. And even more importantly: **whether it really should be communicated at all**. Even the best-constructed message can lose value — or generate unwanted effects — if it is unnecessary or if the context already provides the information implicitly.
@@ -38,4 +38,3 @@ An inspiring example of this comes from Kent Beck in his book **_eXtreme Program
 Answering these questions is an act of **communicative responsibility**. Choosing how, when, and **whether to communicate** is as important as the words themselves. Sometimes, the best way to support a team is to **give space, delegate communication, and allow them to train their own voice**, their ability to coordinate and make decisions.
 
 Communicating intentionally is not just about speaking better; it is about **conveying security, consistency, and trust**. And it also means understanding that **knowing when not to communicate yet, or even whether it should be communicated at all,** can be as valuable as any message.
-</p>
