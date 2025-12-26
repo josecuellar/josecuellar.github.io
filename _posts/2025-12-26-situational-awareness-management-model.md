@@ -4,7 +4,7 @@ date: '2025-12-26T21:28:21+00:00'
 layout: post
 permalink: /situational-awareness-management-model/
 categories:
-  - Communication
+  - Situational Awareness Management
 tags:
   - situational-awareness
   - leading-with-depth
