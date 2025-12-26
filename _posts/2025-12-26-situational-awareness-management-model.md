@@ -6,11 +6,15 @@ permalink: /situational-awareness-management-model/
 categories:
   - Communication
 tags:
-  - feedback
-  - nonverbal-communication
-  - communication
-  - team-guidance
+  - situational-awareness
+  - leading-with-depth
+  - leadership-model
+  - sustainable-teams
   - team-impact
+  - team-autonomy
+  - psychology-in-leadership
+  - business-impact
+  - people-first
 ---
 
 2025 has been a year of challenges achieved.  
