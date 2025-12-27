@@ -1,10 +1,10 @@
 ---
-title: 'Situational Awareness Management Model'
+title: 'Learning from Experience — Situational Awareness: The Journey Begins'
 date: '2025-12-26T21:28:21+00:00'
 layout: post
 permalink: /situational-awareness-management-model/
 categories:
-  - Situational Awareness Management
+  - Situational Awareness Management Model
 tags:
   - situational-awareness
   - leading-with-depth
@@ -15,11 +15,15 @@ tags:
   - psychology-in-leadership
   - business-impact
   - people-first
+  - communication
+  - team-guidance
+  - team-impact
+  - SAMM
 ---
 
-2025 has been a year of challenges achieved.  
+2025 has been a year of challenges overcome and lessons learned — a year of stabilization and growth.
 Of understanding that influencing and contributing what is needed, when it is needed, is a continuous learning process and a constant adaptation to context.  
-And of confirming that **real impact goes far beyond code**.
+And confirming that value doesn’t come only from writing code, and how important it is to be aware of this when working with people.
 
 This year has allowed me to settle and mature the leadership style I believe in.
 
@@ -63,9 +67,12 @@ A model that puts the focus on **people**, on their motivation, and on the team 
 
 I have called it:
 
-**Situational Awareness Management Model.**
+**Situational Awareness Management Model (SAMM).**
 
-Throughout 2026, I will be sharing on *leadingdepth.com* reflections and learnings around this model, integrating **psychology** and its impact on leadership, and that balance between **people, technology, and processes** that determines how far a team can really go.
+Throughout 2026, I will be sharing on *leadingdepth.com* reflections and learnings around this model, integrating psychology and its impact on leadership and teams, and reflecting on the balance between **people, technology, and processes** — an idea that traces its roots back to **Harold Leavitt’s** organizational models (his *Diamond Model*, which over time evolved into what many today call the *golden triangle*).
+
+Because when these elements are not aligned, no amount of process or code can compensate for it; but when they are, teams grow and truly thrive, build a culture that sustains them, and multiply their impact on the product, the business, and the organization.
+
 
 Because when you understand the moment,  
 when you take care of people,  
@@ -75,3 +82,4 @@ The product improves.
 And the business feels it.
 
 And that, for me, is **leading with depth**.
+The Journey Begins.
