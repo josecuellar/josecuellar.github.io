@@ -2,7 +2,7 @@
 title: 'Learning from Experience — Situational Awareness: The Journey Begins'
 date: '2025-12-26T21:28:21+00:00'
 layout: post
-permalink: /situational-awareness-management-model/
+permalink: /learning-experience-situational-awareness-journey-begins/
 categories:
   - Situational Awareness Management Model
 tags:
