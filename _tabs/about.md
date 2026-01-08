@@ -8,9 +8,6 @@ layout: page
 ---
 
 <p>
-
-<img src="/wp-content/jose2.JPG" width="150" alt="avatar" class="left">
-
 Welcome to <b>Leading With Depth</b>!
 <br>
 More than twenty-five years in the software world in different areas and purposes.
