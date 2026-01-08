@@ -12,6 +12,7 @@ Welcome to <b>Leading With Depth</b>!
 <br>
 In this blog, i share content based on my own criteria and experience, focusing not only on software engineering, but also on teamwork, leadership, and the human side of building software.
 <br>
+Let me introduce myself.
 More than twenty-five years in the software world in different areas and purposes.
 Always driven by three main motivations: <b>learning, evolving and helping</b>.
 <br>My passion lies in efficiently addressing and solving complex problems, always seeking a balance between <b>people</b> and <b>technology</b>, creating environments that foster <b>growth, creativity and sustained productivity</b> over time.
