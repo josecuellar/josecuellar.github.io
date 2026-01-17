@@ -39,8 +39,8 @@ Choosing well is what allows us to avoid complexity and dependencies that become
 **Simplicity** is not a result.  
 It is a conscious decision.
 
-> *“Simplicity carried to the extreme becomes elegance.”*  
-> — John Franklin
+> *“Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.”*  
+> — Antoine de Saint-Exupéry
 
 And here lies the real challenge:  
 **to solve problems in the most efficient and effective way possible, without losing simplicity**.
