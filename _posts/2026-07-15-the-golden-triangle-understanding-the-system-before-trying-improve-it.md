@@ -67,7 +67,7 @@ Throughout this journey, I will use these three dimensions as a foundation:
 
 Together, they form the **Golden Triangle**.
 
-<br><center><img src="/wp-content/uploads/samm-02-02-golden-triangle-living-system.jpg"  width="500"/></center><br>
+<br><center><img src="/wp-content/uploads/samm-02-02-golden-triangle-living-system.jpg"  width="800"/></center><br>
 
 But I do not see this triangle as three independent pillars that can be optimised separately.
 
@@ -105,7 +105,7 @@ Not because every problem begins with them.
 
 But because **people create, experience and ultimately transform the system**.
 
-<br><center><img src="/wp-content/uploads/samm-02-03-people-at-the-centre.jpg"  width="500"/></center><br>
+<br><center><img src="/wp-content/uploads/samm-02-03-people-at-the-centre.jpg"  width="800"/></center><br>
 
 ## The Expert Trap: When Experience Becomes a Single Hammer
 
@@ -227,7 +227,7 @@ And as a consequence, there is less and less time available to improve the techn
 
 The cycle begins again.
 
-<br><center><img src="/wp-content/uploads/samm-02-05-systemic-feedback-loop.jpg"  width="500"/></center><br>
+<br><center><img src="/wp-content/uploads/samm-02-05-systemic-feedback-loop.jpg"  width="800"/></center><br>
 
 Where is the problem now?
 
