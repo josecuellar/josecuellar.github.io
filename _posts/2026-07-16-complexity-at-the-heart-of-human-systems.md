@@ -1,5 +1,5 @@
 ---
-title: 'Complexity at the Heart of Human Systems'
+title: 'Understanding Complexity at the Heart of Human Systems'
 date: '2026-07-16T12:00:00+02:00'
 layout: post
 permalink: /complexity-at-the-heart-of-human-systems/
@@ -112,7 +112,7 @@ Not the real cause.
 
 ---
 
-<br><center><img src="/wp-content/uploads/samm-03-02-system-evolution.jpg"  width="500"/></center><br>
+<br><center><img src="/wp-content/uploads/samm-03-02-system-evolution.jpg"  width="700"/></center><br>
 
 ---
 
@@ -158,7 +158,7 @@ And every situation deserves to be understood before we decide how to intervene.
 
 ---
 
-<br><center><img src="/wp-content/uploads/samm-03-03-change-absorption.jpg"  width="500"/></center><br>
+<br><center><img src="/wp-content/uploads/samm-03-03-change-absorption.jpg"  width="700"/></center><br>
 
 ---
 
@@ -216,7 +216,7 @@ It also depends on **the moment in which it is introduced**.
 
 ---
 
-<br><center><img src="/wp-content/uploads/samm-03-04-sustainable-evolution.jpg"  width="500"/></center><br>
+<br><center><img src="/wp-content/uploads/samm-03-04-sustainable-evolution.jpg"  width="700"/></center><br>
 
 ---
 

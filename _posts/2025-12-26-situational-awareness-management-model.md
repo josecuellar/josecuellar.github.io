@@ -67,7 +67,8 @@ A model that puts the focus on **people**, on their motivation, and on the team 
 
 I have called it:
 
-**Situational Awareness Management Model (SAMM).**
+**Situational Awareness Management Model (SAMM). **
+_Understanding Complexity at the Heart of Human Systems._
 
 Throughout 2026, I will be sharing on *leadingdepth.com* reflections and learnings around this model, integrating psychology and its impact on leadership and teams, and reflecting on the balance between **people, technology, and processes** — an idea that traces its roots back to **Harold Leavitt’s** organizational models (his *Diamond Model*, which over time evolved into what many today call the *golden triangle*).
 
