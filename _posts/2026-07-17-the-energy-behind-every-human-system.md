@@ -1,4 +1,22 @@
-# The Energy Behind Every Human System
+---
+title: 'The Energy Behind Every Human System'
+date: '2026-07-17T17:00:00+02:00'
+layout: post
+permalink: /the-energy-behind-every-human-system/
+categories:
+  - Situational Awareness Management Model
+tags:
+  - situational-awareness
+  - situational-motivation
+  - human-systems
+  - leadership-model
+  - systems-thinking
+  - organizational-psychology
+  - intrinsic-motivation
+  - sustainable-evolution
+  - human-behaviour
+  - SAMM
+---
 
 *Understanding why motivation drives the evolution of human systems.*
 

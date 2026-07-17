@@ -1,6 +1,6 @@
 ---
 title: 'The Golden Triangle — Understanding the System Before Trying to Improve It'
-date: '2026-07-15T10:00:00+02:00'
+date: '2026-07-15T20:00:00+02:00'
 layout: post
 permalink: /golden-triangle-understanding-system-before-improving-it/
 categories:

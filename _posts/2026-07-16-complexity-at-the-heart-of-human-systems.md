@@ -1,6 +1,6 @@
 ---
 title: 'Understanding Complexity at the Heart of Human Systems'
-date: '2026-07-16T12:00:00+02:00'
+date: '2026-07-16T16:00:00+02:00'
 layout: post
 permalink: /complexity-at-the-heart-of-human-systems/
 categories:
