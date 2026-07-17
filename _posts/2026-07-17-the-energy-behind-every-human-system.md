@@ -1,6 +1,6 @@
 ---
 title: 'The Energy Behind Every Human System'
-date: '2026-07-17T17:00:00+02:00'
+date: '2026-07-16T21:00:00+02:00'
 layout: post
 permalink: /the-energy-behind-every-human-system/
 categories:
