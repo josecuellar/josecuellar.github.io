@@ -1,6 +1,6 @@
 ---
 title: 'Representing People Within Situations'
-date: '2026-07-23T21:00:00+02:00'
+date: '2026-07-19T21:00:00+02:00'
 layout: post
 permalink: /representing-people-within-situations/
 categories:
