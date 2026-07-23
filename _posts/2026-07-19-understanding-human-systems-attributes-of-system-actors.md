@@ -1,8 +1,8 @@
 ---
-title: 'Human Representation (I): Observational Attributes Within Situations'
+title: 'Understanding Human Systems (I): Attributes of System Actors'
 date: '2026-07-19T21:00:00+02:00'
 layout: post
-permalink: /observational-attributes-representing-people-within-situations/
+permalink: /understanding-human-systems-attributes-of-system-actors/
 categories:
   - Situational Awareness Management Model
 tags:

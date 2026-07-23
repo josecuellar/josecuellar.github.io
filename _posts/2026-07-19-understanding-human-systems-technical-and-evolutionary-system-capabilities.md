@@ -1,8 +1,8 @@
 ---
-title: 'Human Representation (II): Technical and Evolutionary Capabilities Within Situations'
+title: 'Understanding Human Systems (II): Technical and Evolutionary System Capabilities'
 date: '2026-07-19T21:30:00+02:00'
 layout: post
-permalink: /technical-and-evolutionary-capabilities/
+permalink: /understanding-human-systems-technical-and-evolutionary-system-capabilities/
 categories:
   - Situational Awareness Management Model
 tags:
@@ -51,18 +51,6 @@ Together they provide a contextual view of how a system is behaving at a particu
 
 ---
 
-## The Anatomy of a Human Representation
-
-Every Human Representation is composed of three complementary layers.
-
-Each one answers a different question about the current situation.
-
----
-
-<br><center><img src="/wp-content/uploads/post-06-figure-02-the-three-observation-layers.jpg" width="700"/></center><br>
-
----
-
 ## Observational Attributes
 
 Observational Attributes provide context.
@@ -84,32 +72,6 @@ These attributes are contextual.
 They do not define the individual.
 
 They simply help explain the situation being represented.
-
----
-
-## Technical Capabilities
-
-Technical Capabilities describe the knowledge required to build the product.
-
-Architecture.
-
-Development.
-
-Cloud.
-
-Testing.
-
-Security.
-
-Artificial Intelligence.
-
-Domain Knowledge.
-
-Every product requires different Technical Capabilities.
-
-SAMM deliberately avoids defining a universal list.
-
-Each organization decides which Technical Capabilities best represent the work required to build its own products.
 
 ---
 
@@ -161,6 +123,34 @@ Like every other element in a Human Representation, Evolutionary Capabilities ar
 
 They emerge differently depending on the situation being observed.
 
+---
+
+## Technical Capabilities
+
+Technical Capabilities describe the knowledge required to build the product.
+
+Architecture.
+
+Development.
+
+Cloud.
+
+Testing.
+
+Security.
+
+Artificial Intelligence.
+
+Domain Knowledge.
+
+Every product requires different Technical Capabilities.
+
+SAMM deliberately avoids defining a universal list.
+
+Each organization decides which Technical Capabilities best represent the work required to build its own products.
+
+---
+
 ## Situations Change Human Representations
 
 Neither Technical Capabilities nor Evolutionary Capabilities should be considered static.
@@ -176,12 +166,6 @@ A leadership responsibility.
 A production incident.
 
 A period of uncertainty.
-
----
-
-<br><center><img src="/wp-content/uploads/post-06-figure-03-the-same-person-different-human-representations.jpg" width="700"/></center><br>
-
----
 
 The representation changes because the situation changes.
 
@@ -200,12 +184,6 @@ It represents situations through people.
 Within SAMM, capabilities are not evaluation criteria.
 
 They are situational sensors.
-
----
-
-<br><center><img src="/wp-content/uploads/post-06-figure-04-human-representations-as-situational-sensors.jpg" width="700"/></center><br>
-
----
 
 Like sensors in any engineering system, each capability contributes one observable signal.
 
@@ -231,7 +209,7 @@ Ultimately, a Human Representation is a shared representation of how a system is
 
 ---
 
-<br><center><img src="/wp-content/uploads/post-06-figure-05-the-essence-of-a-human-representation.jpg" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/post-06-figure-05-the-essence-of-a-human-representation.jpg" width="300"/></center><br>
 
 ---
 
