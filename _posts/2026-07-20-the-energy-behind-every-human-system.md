@@ -425,6 +425,10 @@ It frequently exposes unnecessary complexity, ineffective processes or technical
 
 Ultimately, the goal is not to eliminate demotivation, but to understand what it is telling us about the system. Sometimes, the person who has lost motivation is also the person showing us where the system needs to evolve next.
 
+Finally, it is worth remembering that the observer is also part of the system. Our own energy, emotions and assumptions shape what we notice and how we interpret it. Observing others without observing ourselves inevitably distorts our understanding.
+
+Whenever I notice that my own energy has significantly changed—whether through frustration, stress, excitement or fatigue—I try not to react immediately. Instead, I observe myself with the same curiosity I apply to the system, allowing enough time and perspective for a different interpretation to emerge. Sometimes the most important observation is not about the system at all, but about the observer.
+
 # Next Article
 
 Human Representations do not evolve by chance.
