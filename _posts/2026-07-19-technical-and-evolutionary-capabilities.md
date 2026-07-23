@@ -53,7 +53,7 @@ Each one answers a different question about the current situation.
 
 ---
 
-<br><center><img src="/wp-content/uploads/post-06-figure-02-the-three-layers-of-a-human-representation.jpg" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/post-06-figure-02-the-three-observation-layers.jpg" width="700"/></center><br>
 
 ---
 
@@ -185,7 +185,7 @@ They are situational sensors.
 
 ---
 
-<br><center><img src="/wp-content/uploads/post-06-figure-04-capabilities-as-situational-sensors.jpg" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/post-06-figure-04-human-representations-as-situational-sensors.jpg" width="700"/></center><br>
 
 ---
 
