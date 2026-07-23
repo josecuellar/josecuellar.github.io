@@ -182,6 +182,12 @@ Only when interpreted together do they provide enough context to understand how 
 
 Rather than inventing new concepts, SAMM integrates decades of research from psychology, organizational learning, systems thinking and organizational design into a single representation.
 
+---
+
+<br><center><img src="/wp-content/uploads/human-representation-attributes.jpg" width="700"/></center><br>
+
+---
+
 ## Knowledge Level
 
 Knowledge strongly influences how people interpret situations, recognize patterns and make decisions.
@@ -409,16 +415,3 @@ In SAMM, that representation never describes the person in isolation.
 **It always represents a person within a situation.**
 
 ---
-
-## Next Article
-
-Throughout this article we answered two fundamental questions.
-
-- **What does SAMM represent?**
-- **How is that representation built?**
-
-One important question still remains.
-
-**Why does the representation change?**
-
-In the next article we will explore how **Situation** and **Motivation** interact to generate the energy that continuously transforms every human system.

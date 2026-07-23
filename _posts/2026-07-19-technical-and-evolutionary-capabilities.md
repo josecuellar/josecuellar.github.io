@@ -129,6 +129,14 @@ They represent the capabilities that enable a human system to remain productive,
 
 > *"Technical Capabilities explain how a team builds software. Evolutionary Capabilities explain why some teams continue evolving while others eventually stop evolving."*
 
+
+---
+
+<br><center><img src="/wp-content/uploads/evolutionary-capabilities.jpg" width="700"/></center><br>
+
+---
+
+
 | Evolutionary Capability | Contribution to the System |
 |--------------------------|----------------------------|
 | Product Mindset | Aligns technical decisions with product value. |
