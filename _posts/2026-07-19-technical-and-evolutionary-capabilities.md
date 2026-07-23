@@ -1,6 +1,6 @@
 ---
 title: 'Technical and Evolutionary Capabilities: Representing How Situations Shape Human Systems'
-date: '2026-07-26T20:22:00+02:00'
+date: '2026-07-19T21:30:00+02:00'
 layout: post
 permalink: /technical-and-evolutionary-capabilities/
 categories:
