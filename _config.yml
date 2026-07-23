@@ -14,7 +14,7 @@ timezone: "Europe/Madrid"
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "Leading With Depth | Deep Engineering & Human Leadership"
+title: "Leading With Depth"
 
 tagline: >- # it will display as the subtitle
   Where Deep Engineering Meets Human Leadership
@@ -24,7 +24,7 @@ tagline: >- # it will display as the subtitle
   <font color='green' size='2'>//Dad, Tech Lead, Senior Backend Engineer and Life-long learner</font>
 
 description: >- # used by seo meta and the atom feed
-  Leading Depth by Jose Cuéllar. Where Deep Engineering Meets Human Leadership. Dad, Tech Lead, Senior Backend Engineer and Life-long learner
+  Leading With Depth: Where Deep Engineering Meets Human Leadership by Jose Cuéllar. Where Deep Engineering Meets Human Leadership. Dad, Tech Lead, Senior Backend Engineer and Life-long learner
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
