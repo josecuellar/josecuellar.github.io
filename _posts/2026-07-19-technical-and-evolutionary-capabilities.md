@@ -15,13 +15,19 @@ tags:
   - SAMM
 ---
 
-> *"Technical capabilities build the product. Evolutionary capabilities build the system."*
+> *"Technical Capabilities build the product. Evolutionary Capabilities build the system."*
 
-In the previous article we introduced the concept of the Human Representation.
+In the previous article we introduced the concept of the **Human Representation**.
 
-Rather than describing people, SAMM represents how a situation is expressed through the people experiencing it.
+We explained how SAMM represents situations through people rather than describing people themselves.
 
-But representing a situation requires more than observing technical expertise alone.
+We also introduced the **Observational Attributes** that provide the contextual characteristics of every Human Representation.
+
+Those attributes explain the context in which the representation is observed.
+
+However, context alone is not enough to understand how a human system evolves.
+
+Representing a situation requires more than observing technical expertise alone.
 
 Teams capable of building successful products also learn.
 
@@ -63,6 +69,8 @@ Observational Attributes provide context.
 
 They describe the current situation from which the representation is observed.
 
+These are the contextual characteristics introduced in the previous article, and together they define the first layer of every Human Representation.
+
 Examples include:
 
 - Current Role
@@ -97,11 +105,11 @@ Artificial Intelligence.
 
 Domain Knowledge.
 
-Every product requires different technical capabilities.
+Every product requires different Technical Capabilities.
 
 SAMM deliberately avoids defining a universal list.
 
-Each organization decides which technical capabilities best represent the work required to build its products.
+Each organization decides which Technical Capabilities best represent the work required to build its own products.
 
 ---
 
@@ -109,21 +117,17 @@ Each organization decides which technical capabilities best represent the work r
 
 Building software is only one part of building a successful system.
 
-Successful teams also share characteristics that allow them to continuously evolve.
+Throughout years of working with software teams across different organizations and contexts, I repeatedly observed that the teams capable of evolving sustainably shared a remarkably similar set of values.
 
-They learn.
+Regardless of the technology they used or the products they built, productive teams consistently demonstrated common ways of learning, collaborating, adapting and making decisions.
 
-They adapt.
-
-They challenge assumptions.
-
-They collaborate across disciplines.
-
-SAMM represents these characteristics as **Evolutionary Capabilities**.
+SAMM represents these recurring team values as **Evolutionary Capabilities**.
 
 Unlike Technical Capabilities, they are largely independent of technology or domain.
 
-They are observable capabilities that repeatedly emerge in productive human systems.
+They represent the capabilities that enable a human system to remain productive, sustainable and continuously evolving as situations change.
+
+> *"Technical Capabilities explain how a team builds software. Evolutionary Capabilities explain why some teams continue evolving while others eventually stop evolving."*
 
 | Evolutionary Capability | Contribution to the System |
 |--------------------------|----------------------------|
@@ -143,13 +147,17 @@ These are not personality traits.
 
 They are not HR competencies.
 
-They are observable capabilities that help explain how a human system responds to the situations it encounters.
+They are **team values expressed through individuals**, because every Human Representation reflects how a situation influences the contribution each person makes to the system.
 
-# The Same Person, Different Human Representations
+Like every other element in a Human Representation, Evolutionary Capabilities are not static.
+
+They emerge differently depending on the situation being observed.
+
+# Situations Change Human Representations
 
 Neither Technical Capabilities nor Evolutionary Capabilities should be considered static.
 
-The same person may exhibit very different representations depending on the situation.
+The same person may exhibit very different Human Representations depending on the situation.
 
 A new product.
 
@@ -170,6 +178,8 @@ A period of uncertainty.
 The representation changes because the situation changes.
 
 Not necessarily because the person has changed.
+
+The same individual may express completely different Evolutionary Capabilities depending on the context in which the system is operating.
 
 This distinction is fundamental.
 
@@ -219,9 +229,9 @@ Ultimately, a Human Representation is a shared representation of how a system is
 
 It combines context.
 
-Technical capabilities.
+Technical Capabilities.
 
-Evolutionary capabilities.
+Evolutionary Capabilities.
 
 Together they provide a shared understanding of the current situation.
 
