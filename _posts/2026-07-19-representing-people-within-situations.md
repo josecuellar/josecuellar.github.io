@@ -1,8 +1,8 @@
 ---
-title: 'Representing People Within Situations'
+title: 'Human Representation (I): Observational Attributes Within Situations'
 date: '2026-07-19T21:00:00+02:00'
 layout: post
-permalink: /representing-people-within-situations/
+permalink: /observational-attributes-representing-people-within-situations/
 categories:
   - Situational Awareness Management Model
 tags:
