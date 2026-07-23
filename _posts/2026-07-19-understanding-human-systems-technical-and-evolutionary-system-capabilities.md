@@ -51,30 +51,6 @@ Together they provide a contextual view of how a system is behaving at a particu
 
 ---
 
-## Observational Attributes
-
-Observational Attributes provide context.
-
-They describe the current situation from which the representation is observed.
-
-These are the contextual characteristics introduced in the previous article, and together they define the first layer of every Human Representation.
-
-Examples include:
-
-- Current Role
-- Knowledge Level
-- Learning Shape
-- Mindset
-- Frustration Tolerance
-
-These attributes are contextual.
-
-They do not define the individual.
-
-They simply help explain the situation being represented.
-
----
-
 ## Evolutionary Capabilities
 
 Building software is only one part of building a successful system.
@@ -98,29 +74,148 @@ They represent the capabilities that enable a human system to remain productive,
 
 ---
 
-Evolutionary capabilities do not belong to any individual system actor. They emerge from the interactions between people, processes, and technology, determining how effectively a human system can learn, adapt, and evolve over time.
+Evolutionary Capabilities can be observed both in individual system actors and across the system as a whole.
 
-| **Evolutionary Capability** | **How It Enables System Evolution** |
-|-----------------------------|-------------------------------------|
-| **Product Mindset** | Keeps technical decisions aligned with long-term product value, preventing local optimizations from limiting the system's evolution. |
-| **Data Driven** | Enables the system to learn from evidence rather than assumptions, improving decision-making and reducing uncertainty. |
-| **Critical Thinking** | Challenges existing practices, uncovers hidden opportunities, and prevents the system from stagnating. |
-| **Learning Capacity** | Allows knowledge to be continuously acquired, shared, and applied as the system evolves. |
-| **Flexibility & Empathy** | Facilitates collaboration across different perspectives, enabling the system to adapt more effectively to changing contexts. |
-| **Problem Solving** | Helps the system transform uncertainty and complexity into actionable solutions that drive progress. |
-| **Passion & Enthusiasm** | Sustains the energy required for continuous improvement and inspires others to actively contribute to the system's evolution. |
-| **Eager to Evolve** | Creates a culture where continuous learning and improvement become natural behaviors rather than exceptional efforts. |
-| **Impact** | Focuses collective effort on initiatives that generate meaningful value for both the product and the organization. |
-| **Accountability** | Reinforces ownership, trust, and reliability, enabling the system to evolve with less dependency on external control. |
-| **Team Player** | Strengthens collaboration and collective intelligence, allowing the system to achieve outcomes beyond the capabilities of its individual actors. |
+At the individual level, they describe how each actor contributes to the system's ability to learn, adapt, and evolve.
+
+At the system level, they emerge from the collective interactions between people, processes, and technology, becoming observable as properties of the human system itself.
+
+### Product Mindset
+
+**Purpose**
+
+Align technical decisions with long-term product value.
+
+**System Effect**
+
+Keeps the system focused on creating sustainable value by preventing local technical optimizations from limiting its evolution.
+
+---
+
+### Data Driven
+
+**Purpose**
+
+Make decisions based on evidence rather than assumptions.
+
+**System Effect**
+
+Improves learning, reduces uncertainty, and enables more reliable decision-making as the system evolves.
+
+---
+
+### Critical Thinking
+
+**Purpose**
+
+Question assumptions and continuously challenge existing practices.
+
+**System Effect**
+
+Reveals hidden opportunities, prevents stagnation, and encourages continuous improvement.
+
+---
+
+### Learning Capacity
+
+**Purpose**
+
+Continuously acquire, share, and apply new knowledge.
+
+**System Effect**
+
+Enables the system to adapt effectively as technologies, products, and business contexts evolve.
+
+---
+
+### Flexibility & Empathy
+
+**Purpose**
+
+Collaborate effectively across different people, disciplines, and perspectives.
+
+**System Effect**
+
+Reduces friction, improves communication, and enables the system to adapt to changing situations.
+
+---
+
+### Problem Solving
+
+**Purpose**
+
+Approach uncertainty with structured thinking and practical solutions.
+
+**System Effect**
+
+Transforms complexity into progress by enabling the system to overcome obstacles efficiently.
+
+---
+
+### Passion & Enthusiasm
+
+**Purpose**
+
+Maintain positive energy and genuine engagement with the work.
+
+**System Effect**
+
+Sustains motivation during change and encourages others to actively contribute to the system's evolution.
+
+---
+
+### Eager to Evolve
+
+**Purpose**
+
+Continuously seek better ways of working, learning, and collaborating.
+
+**System Effect**
+
+Creates a culture where improvement becomes part of the system's normal behavior rather than an exceptional effort.
+
+---
+
+### Impact
+
+**Purpose**
+
+Prioritize actions that generate the greatest value.
+
+**System Effect**
+
+Directs collective effort toward initiatives that maximize value for the product, the organization, and the system.
+
+---
+
+### Accountability
+
+**Purpose**
+
+Take ownership of decisions, commitments, and outcomes.
+
+**System Effect**
+
+Builds trust, reliability, and shared responsibility, allowing the system to evolve with less dependency on external control.
+
+---
+
+### Team Player
+
+**Purpose**
+
+Contribute to the success of the team before individual recognition.
+
+**System Effect**
+
+Strengthens collaboration and collective intelligence, enabling the system to achieve results beyond the capabilities of its individual actors.
+
 
 These are not personality traits.
 
 They are not HR competencies.
 
 They are **team values expressed through individuals**, because every Human Representation reflects how a situation influences the contribution each person makes to the system.
-
-Like every other element in a Human Representation, Evolutionary Capabilities are not static.
 
 They emerge differently depending on the situation being observed.
 
@@ -148,7 +243,7 @@ Every product requires different Technical Capabilities.
 
 SAMM deliberately avoids defining a universal list.
 
-Each organization decides which Technical Capabilities best represent the work required to build its own products.
+Each system decides which Technical Capabilities best represent the work required to build its own products.
 
 ---
 
@@ -209,9 +304,7 @@ We represent observations.
 Ultimately, a Human Representation is a shared representation of how a system is currently expressed through one of its members.
 
 ---
-
 <br><center><img src="/wp-content/uploads/post-06-figure-05-the-essence-of-a-human-representation.jpg" width="300"/></center><br>
-
 ---
 
 It combines context.

@@ -184,7 +184,7 @@ Rather than inventing new concepts, SAMM integrates decades of research from psy
 
 ---
 
-<br><center><img src="/wp-content/uploads/human-representation-attributes.jpg" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/human-representation-attributes.jpg" width="500"/></center><br>
 
 ---
 
