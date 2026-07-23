@@ -410,6 +410,21 @@ And only what becomes understandable can be intentionally improved.
 <br><center><img src="/wp-content/uploads/samm-04-05-situational-awareness-cycle.jpg" width="700"/></center><br>
 
 ---
+
+## Demotivation as a System Signal
+
+Although people, processes and technology continuously influence one another, my attention as an observer naturally gravitates toward people.
+
+A motivated person will usually compensate for imperfect processes and limited or overly complex technology. A demotivated person, however, can gradually degrade both. Ownership fades, shortcuts become acceptable, technical debt grows, and the energy of the system slowly disappears.
+
+For that reason, when I detect sustained demotivation, my priority is not to optimise processes or replace technology, but to understand why that energy has been lost. While working to recover it through empathy, trust, support and new challenges, I also try to prevent its effects from spreading across the team. Sometimes this means temporarily reducing that person's influence on critical code or key processes—not as a punishment, but as a way of protecting the system while we address the underlying causes.
+
+**In my experience, the most valuable feedback for improving a human system often comes from the person who has lost the most energy—provided they feel safe enough to speak honestly.**
+
+It frequently exposes unnecessary complexity, ineffective processes or technical decisions that everyone else has simply learned to live with. Recovering that person's motivation is important, but acting on that feedback by simplifying processes or improving technology is often what allows the entire system to evolve.
+
+Ultimately, the goal is not to eliminate demotivation, but to understand what it is telling us about the system. Sometimes, the person who has lost motivation is also the person showing us where the system needs to evolve next.
+
 # Next Article
 
 Human Representations do not evolve by chance.
