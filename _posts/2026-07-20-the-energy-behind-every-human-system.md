@@ -413,21 +413,23 @@ And only what becomes understandable can be intentionally improved.
 
 ## Demotivation as a System Signal
 
-Although people, processes and technology continuously influence one another, my attention as an observer naturally gravitates toward people.
+Although people, processes, and technology continuously influence one another, my attention as an observer naturally gravitates toward people.
 
-A motivated person will usually compensate for imperfect processes and limited or overly complex technology. A demotivated person, however, can gradually degrade both. Ownership fades, shortcuts become acceptable, technical debt grows, and the energy of the system slowly disappears.
+A motivated person will often compensate for imperfect processes and limited or overly complex technology. A demotivated person, however, gradually degrades both. Ownership fades, shortcuts become acceptable, technical debt grows, and the energy of the system slowly disappears.
 
-For that reason, when I detect sustained demotivation, my priority is not to optimise processes or replace technology, but to understand why that energy has been lost. While working to recover it through empathy, trust, support and new challenges, I also try to prevent its effects from spreading across the team. Sometimes this means temporarily reducing that person's influence on critical code or key processes—not as a punishment, but as a way of protecting the system while we address the underlying causes.
+When I detect sustained demotivation, my priority is not to change processes or technology, but to understand why that energy has been lost. While working to restore it through empathy, trust, and new challenges, I also try to protect the system. Sometimes this means temporarily redistributing responsibilities—not as a punishment, but as a way to protect both the person and the system while the underlying causes are addressed.
 
-**In my experience, the most valuable feedback for improving a human system often comes from the person who has lost the most energy—provided they feel safe enough to speak honestly.**
+Protecting the energy of those who remain motivated is equally important. No system should depend indefinitely on the extra effort of a few people to compensate for inefficient processes or inadequate technology. That energy is finite.
 
-It frequently exposes unnecessary complexity, ineffective processes or technical decisions that everyone else has simply learned to live with. Recovering that person's motivation is important, but acting on that feedback by simplifying processes or improving technology is often what allows the entire system to evolve.
+**In my experience, the most valuable feedback for evolving a system often comes from the person who has lost the most energy—provided they feel safe enough to speak honestly.**
 
-Ultimately, the goal is not to eliminate demotivation, but to understand what it is telling us about the system. Sometimes, the person who has lost motivation is also the person showing us where the system needs to evolve next.
+That feedback often reveals unnecessarily complex processes, technical decisions that have become normalized, or ways of working that no longer add value. Listening, however, is only the beginning. It should trigger a conscious evolution of the system: simplifying processes, reducing technical debt, improving tools, or rethinking the way people collaborate. **Energy is not what the observer tries to change; it is what reveals what needs to change.**
 
-Finally, it is worth remembering that the observer is also part of the system. Our own energy, emotions and assumptions shape what we notice and how we interpret it. Observing others without observing ourselves inevitably distorts our understanding.
+The observer's responsibility is not only to interpret that energy, but also to make it visible so others can learn to observe it as well. A healthy system does not depend on a single observer; it continuously develops new observers who can recognize the same signals and act upon them.
 
-Whenever I notice that my own energy has significantly changed—whether through frustration, stress, excitement or fatigue—I try not to react immediately. Instead, I observe myself with the same curiosity I apply to the system, allowing enough time and perspective for a different interpretation to emerge. Sometimes the most important observation is not about the system at all, but about the observer.
+Finally, it is worth remembering that the observer is also part of the system. Our own energy shapes what we notice and how we interpret it. Whenever I notice a significant change in my own energy—whether through frustration, stress, excitement, or fatigue—I try not to react immediately. Instead, I observe myself with the same curiosity I apply to the system.
+
+**Because sometimes the system does not need to change. The observer does.**
 
 # Next Article
 
