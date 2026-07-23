@@ -78,7 +78,7 @@ Each discipline contributes valuable perspectives for understanding human system
 
 SAMM simply brings those perspectives together into a single observational framework capable of representing complex situations in a consistent and practical way.
 
-# Representing People Within Situations
+## Representing People Within Situations
 
 Every engineering discipline relies on representations.
 
@@ -142,7 +142,7 @@ It is not a classification.
 
 It is a shared representation that makes a complex situation observable.
 
-# Human Indicators as Situational Sensors
+## Human Indicators as Situational Sensors
 
 Once the objective becomes representation, another question naturally follows.
 
@@ -270,7 +270,7 @@ Role without learning says almost nothing about the evolution of the situation.
 
 Only when these indicators are interpreted together do they produce the contextual representation that SAMM uses to simplify situational interpretation.
 
-# A Common Representation
+## A Common Representation
 
 A representation only becomes valuable when it can be shared.
 
@@ -320,7 +320,7 @@ Not in the notation.
 
 ---
 
-# Observing at Human Scale
+## Observing at Human Scale
 
 Representation also has practical limits.
 
@@ -362,7 +362,7 @@ Only the observation scale does.
 
 ---
 
-# Learning from Representation
+## Learning from Representation
 
 A representation is never the final objective.
 
@@ -392,7 +392,7 @@ It seeks to understand how situations evolve within human systems in order to co
 
 ---
 
-# The Contribution of SAMM
+## The Contribution of SAMM
 
 SAMM is not another personality framework.
 

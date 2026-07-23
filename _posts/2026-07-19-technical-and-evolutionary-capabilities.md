@@ -51,7 +51,7 @@ Together they provide a contextual view of how a system is behaving at a particu
 
 ---
 
-# The Anatomy of a Human Representation
+## The Anatomy of a Human Representation
 
 Every Human Representation is composed of three complementary layers.
 
@@ -161,7 +161,7 @@ Like every other element in a Human Representation, Evolutionary Capabilities ar
 
 They emerge differently depending on the situation being observed.
 
-# Situations Change Human Representations
+## Situations Change Human Representations
 
 Neither Technical Capabilities nor Evolutionary Capabilities should be considered static.
 
@@ -195,7 +195,7 @@ SAMM does not represent people.
 
 It represents situations through people.
 
-# Capabilities as Situational Sensors
+## Capabilities as Situational Sensors
 
 Within SAMM, capabilities are not evaluation criteria.
 
@@ -225,7 +225,7 @@ We do not measure people.
 
 We represent observations.
 
-# The Essence of a Human Representation
+## The Essence of a Human Representation
 
 Ultimately, a Human Representation is a shared representation of how a system is currently expressed through one of its members.
 

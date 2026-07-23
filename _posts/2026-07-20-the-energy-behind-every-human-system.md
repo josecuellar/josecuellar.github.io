@@ -67,7 +67,7 @@ That energy has a name.
 
 ---
 
-# Every Human System Needs Energy
+## Every Human System Needs Energy
 
 Every physical system requires energy to produce movement.
 
@@ -123,7 +123,7 @@ And a system that stops learning will eventually stop evolving.
 
 ---
 
-# Motivation Is Situational
+## Motivation Is Situational
 
 We often describe people as motivated or unmotivated.
 
@@ -165,7 +165,7 @@ motivation changes as well.
 
 ---
 
-# Knowledge Is Not Enough
+## Knowledge Is Not Enough
 
 Imagine two software engineers.
 
@@ -221,7 +221,7 @@ Behaviour transforms the system.
 
 ---
 
-# The Psychology Behind Motivation
+## The Psychology Behind Motivation
 
 SAMM does not attempt to redefine motivation.
 
@@ -231,7 +231,7 @@ Two of them are particularly relevant.
 
 ---
 
-# The Flow State
+## The Flow State
 
 One of the most influential concepts in performance psychology is **Flow**, introduced by Mihaly Csikszentmihalyi.
 
@@ -261,7 +261,7 @@ It is about continuously adjusting challenges so people remain capable of learni
 
 ---
 
-# The Right Amount of Pressure
+## The Right Amount of Pressure
 
 Another psychological principle complements this idea.
 
@@ -297,7 +297,7 @@ It is to create the conditions where learning can continue sustainably.
 
 ---
 
-# Purpose Gives Direction. Motivation Provides Energy. Discipline Sustains It.
+## Purpose Gives Direction. Motivation Provides Energy. Discipline Sustains It.
 
 Motivation is essential.
 
@@ -343,7 +343,7 @@ It evolves because discipline allows people to continue moving toward a purpose 
 
 ---
 
-# Behaviour Is a Consequence
+## Behaviour Is a Consequence
 
 When a team begins to struggle, managers often try to change behaviour directly.
 
@@ -381,7 +381,7 @@ The visible problem rarely originates where it becomes visible.
 
 ---
 
-# Observe Before You Intervene
+## Observe Before You Intervene
 
 If motivation depends on the situation...
 
@@ -431,7 +431,7 @@ Finally, it is worth remembering that the observer is also part of the system. O
 
 **Because sometimes the system does not need to change. The observer does.**
 
-# Next Article
+## Next Article
 
 Human Representations do not evolve by chance.
 

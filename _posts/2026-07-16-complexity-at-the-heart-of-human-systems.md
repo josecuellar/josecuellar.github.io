@@ -56,7 +56,7 @@ One that continuously learns, adapts and evolves.
 
 ---
 
-# The complexity we usually ignore
+## The complexity we usually ignore
 
 When we try to understand a team, we usually begin by observing what is easiest to measure.
 
@@ -138,7 +138,7 @@ Understanding what cannot easily be measured is often far more important than op
 
 ---
 
-# Nothing stays the same
+## Nothing stays the same
 
 Perhaps the biggest mistake we make as leaders is assuming that a team remains in the same state over time.
 
@@ -184,7 +184,7 @@ And every situation deserves to be understood before we decide how to intervene.
 
 ---
 
-# Evolving also means knowing **when** to change
+## Evolving also means knowing **when** to change
 
 Every organisation needs change.
 
@@ -258,7 +258,7 @@ Because even when change is inevitable, understanding the situation allows us to
 
 ---
 
-# Observation requires a common language
+## Observation requires a common language
 
 One of the biggest misconceptions about SAMM is believing that it replaces existing methodologies.
 
@@ -306,7 +306,7 @@ Only then can Situational Awareness begin.
 
 ---
 
-# Evolution instead of optimisation
+## Evolution instead of optimisation
 
 We often talk about optimising teams.
 
@@ -374,7 +374,7 @@ It is about preserving the system's ability to continue learning while everythin
 
 ---
 
-# The purpose of SAMM
+## The purpose of SAMM
 
 The **Situational Awareness Management Model** is built on a simple assumption.
 
@@ -423,16 +423,4 @@ There is always one question that matters more than any other.
 Everything else begins there.
 
 ---
-
-## Next
-
-In the next article we will explore why no human system can evolve unless it first becomes observable.
-
-Because before understanding a situation...
-
-We first need to make the system visible.
-
-Only then can observation become knowledge.
-
-And only then can knowledge become evolution.
 
