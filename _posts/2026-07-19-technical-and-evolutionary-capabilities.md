@@ -41,7 +41,7 @@ Together they provide a contextual view of how a system is behaving at a particu
 
 ---
 
-<br><center><img src="/wp-content/uploads/post-06-figure-01-human-representation-anatomy.png" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/post-06-figure-01-human-representation-anatomy.jpg" width="700"/></center><br>
 
 ---
 
@@ -53,7 +53,7 @@ Each one answers a different question about the current situation.
 
 ---
 
-<br><center><img src="/wp-content/uploads/post-06-figure-02-the-three-layers-of-a-human-representation.png" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/post-06-figure-02-the-three-layers-of-a-human-representation.jpg" width="700"/></center><br>
 
 ---
 
@@ -163,7 +163,7 @@ A period of uncertainty.
 
 ---
 
-<br><center><img src="/wp-content/uploads/post-06-figure-03-the-same-person-different-human-representations.png" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/post-06-figure-03-the-same-person-different-human-representations.jpg" width="700"/></center><br>
 
 ---
 
@@ -185,7 +185,7 @@ They are situational sensors.
 
 ---
 
-<br><center><img src="/wp-content/uploads/post-06-figure-04-capabilities-as-situational-sensors.png" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/post-06-figure-04-capabilities-as-situational-sensors.jpg" width="700"/></center><br>
 
 ---
 
@@ -213,7 +213,7 @@ Ultimately, a Human Representation is a shared representation of how a system is
 
 ---
 
-<br><center><img src="/wp-content/uploads/post-06-figure-05-the-essence-of-a-human-representation.png" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/post-06-figure-05-the-essence-of-a-human-representation.jpg" width="700"/></center><br>
 
 ---
 
