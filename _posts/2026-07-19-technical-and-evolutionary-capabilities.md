@@ -234,11 +234,3 @@ Because once a situation becomes observable, it can also become discussable.
 And once it can be discussed, it can begin to evolve.
 
 ---
-
-# Next Article
-
-Human Representations do not evolve by chance.
-
-They evolve because the situations surrounding them evolve.
-
-In the next article we will introduce the **Situational Impact Map**, the model that explains how situations influence Human Representations and ultimately shape the evolution of the entire human system.
