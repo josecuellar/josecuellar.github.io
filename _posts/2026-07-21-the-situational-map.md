@@ -34,7 +34,7 @@ tags:
 
 > During the last decades we have tried to understand human systems by observing only people changes.
 > Human systems do not evolve only because people change.
-> They evolve because situations enable de change.
+> They evolve because situations enable the change.
 
 We assess competencies.
 
@@ -238,9 +238,9 @@ The Situational Map combines challenge and knowledge to describe the situations 
 
 Different combinations of both dimensions produce different situations.
 
-The map should not be interpreted as a timeline.
+**The map should not be interpreted as a timeline.**
 
-The wave does not represent time.
+**The wave does not represent time.**
 
 Its amplitude represents changes in the level of challenge experienced by the system.
 
@@ -266,7 +266,7 @@ The Situational Map does not produce absolute answers.
 
 It produces hypotheses that are progressively validated through observation, conversations and situational sensors.
 
-Learn more about the situational sensors used to observe both the system and its actors in the following articles:
+**Learn more about the situational sensors used to observe both the system and its actors in the following articles:**
 
 - [Understanding Human Systems (I): Attributes of System Actors](https://leadingdepth.com/understanding-human-systems-attributes-of-system-actors/)
 - [Understanding Human Systems (II): Technical and Evolutionary System Capabilities](https://leadingdepth.com/understanding-human-systems-technical-and-evolutionary-system-capabilities/)
@@ -346,9 +346,9 @@ It is to ensure that future evolution remains sustainable.
 **This is a Change Moment.** The system has an opportunity to incorporate what it has learned and make the changes required to establish a new sustainable balance. For example, it may redesign responsibilities, simplify a workflow, modify team agreements or adopt a different operating rhythm before facing the next challenge.
 
 
-# Observing before intervening
+## Observing before intervening
 
-One of the fundamental principles of SAMM is that **observation always precedes intervention**.
+One of the fundamental principles of SAMM is that observation always precedes intervention.
 
 This may seem obvious, yet in practice most organisations tend to do exactly the opposite.
 
@@ -363,6 +363,18 @@ Motivation declines, so new incentives are designed.
 Very often, the intervention itself is not wrong.
 
 The problem is that it is based on an incomplete understanding of the situation.
+
+One of the reasons for this is that the earliest signs of system degradation are rarely visible in delivery metrics.
+
+As collective energy decreases, the quality of the system gradually deteriorates. Communication becomes less effective, collaboration weakens and commitment declines. At the same time, technical quality often suffers as shortcuts accumulate and technical debt increases.
+
+This degradation is often subtle. An experienced engineer who consistently produces high-quality code does not suddenly become less capable. Instead, lower energy influences countless small decisions: less attention to detail, fewer refactorings, postponed improvements and compromises that would previously have been challenged. Over time, these seemingly insignificant decisions accumulate and become visible as declining system quality.
+
+Interestingly, delivery velocity may remain apparently stable for some time. A team can continue producing similar levels of output while silently consuming the energy that makes that performance sustainable. If the situation persists, however, the system eventually reaches a point where both performance and wellbeing begin to collapse.
+
+For this reason, some of the most valuable observations come not from metrics but from conversations. Actors with low energy often provide the most honest and courageous descriptions of the situations they are experiencing. Equally valuable are conversations with highly engaged actors, who can explain how sustaining that level of performance is gradually becoming exhausting. Together, these perspectives reveal aspects of the system that metrics alone cannot capture.
+
+Traditional management often attempts to change the system by changing the people, rather than understanding the situation those people are experiencing. Teams are reorganised, managers are replaced or new individuals are brought in with the expectation that different people will produce different outcomes. While these changes may temporarily alter the system's energy, they rarely change the situation that caused the degradation in the first place. As a result, the same patterns frequently reappear, only with different actors.
 
 The Situational Map proposes a different approach.
 
