@@ -32,9 +32,10 @@ tags:
 
 ## Understanding systems through situations
 
-> During the last decades we have tried to understand human systems by observing only people changes.
 > Human systems do not evolve only because people change.
-> They evolve because situations enable the change.
+> They evolve because situations enable change.
+
+For decades, we have tried to understand human systems by observing people.
 
 We assess competencies.
 
@@ -42,175 +43,55 @@ We evaluate performance.
 
 We measure productivity.
 
-We discuss leadership.
-
 We improve processes.
 
-Yet two teams composed of exactly the same people can behave in completely different ways only a few weeks apart.
+Yet two teams composed of exactly the same people can behave very differently only a few weeks apart.
 
-The explanation rarely lies in the people themselves.
+The difference is rarely the people themselves.
 
-More often, it lies in the **situation** the system is experiencing.
+More often, it is the **situation** the system is experiencing.
 
-This simple idea is the foundation of the Situational Map and the conceptual core of SAMM.
-
-The Situational Map is not a leadership framework.
-
-It is not a maturity model.
+This is the foundation of the Situational Map.
 
 It does not classify people.
 
-It does not evaluate team performance.
+It does not evaluate performance.
 
-Instead, it provides an **observational model** that helps us understand the context experienced by a human system before attempting to interpret it or intervene.
+It does not describe organisational events.
 
-Because only by understanding the situation can we correctly interpret the energy we observe, have meaningful conversations and design appropriate evolution strategies.
-
-Everything in SAMM originates from this map.
-
-Snapshots capture the current state of the system.
-
-Situational sensors detect relevant changes.
-
-One-to-one conversations, coaching sessions, retrospectives and other feedback mechanisms validate the hypotheses produced through observation.
-
-Finally, those observations become the foundation for deciding how the system should evolve.
-
-The Situational Map does not attempt to tell us what we should do.
-
-Its purpose is much simpler.
-
-It helps us understand **what is actually happening** before deciding what to do next.
-
----
-
-# Why was a Situational Map necessary?
-
-Almost every modern management approach agrees on one fundamental idea.
-
-**Context matters.**
-
-Agile methodologies constantly remind us to adapt.
-
-Leadership models encourage leaders to create the right environment for people to succeed.
-
-Organizational psychology repeatedly shows that human behaviour depends not only on individuals, but also on the environment in which they operate.
-
-Everyone talks about context.
-
-Very few explain how to observe it.
-
-How do we distinguish healthy growth from sustained overload?
-
-How do we know whether a team needs more autonomy or stronger direction?
-
-How can we differentiate a capability problem from a contextual problem?
-
-Most methodologies provide tools for acting.
-
-Very few provide a model for understanding the situation before acting.
-
-SAMM was created to fill that gap.
-
-Before intervening, it proposes observing.
-
-Before deciding, it proposes understanding.
-
-Because poor decisions rarely happen due to a lack of tools.
-
-They usually happen because they begin with an incomplete diagnosis.
-
-And every diagnosis starts by understanding the situation.
-
----
-
-# The situation is what changes
-
-When the behaviour of a system changes, we usually assume that people have changed.
-
-Most of the time, they have not.
-
-The situation has.
-
-A reorganisation.
-
-New team members.
-
-A demanding customer.
-
-A budget reduction.
-
-A tight deadline.
-
-The adoption of a new technology.
-
-None of these events is a situation by itself.
-
-They are simply events.
-
-A situation emerges when those events modify the level of **challenge** experienced by the system.
+It is an **observational model** that helps us understand the situation experienced by a human system before attempting to interpret it or intervene.
 
 This distinction is fundamental.
 
-Two organisations may announce exactly the same organisational change.
+A reorganisation, a new technology, a demanding customer or a tight deadline are not situations.
 
-One team may interpret it as an opportunity to grow.
+They are events.
 
-Another may experience uncertainty and loss of direction.
+A situation emerges only when those events change the level of **challenge** experienced by the system.
 
-The event is identical.
+The same event may therefore generate completely different situations in different teams.
 
-The situation is not.
+The Situational Map does not classify events.
 
-For this reason, the Situational Map does not classify events.
-
-It classifies the **situations** those events generate.
-
-While an event describes something that happened, a situation describes the context from which people will respond to that event.
+It classifies the situations they create.
 
 Situations are not sequential stages.
 
-A system may move back and forth between them.
+A system may move between them, remain in one for several observation cycles or return to previous situations as its context evolves.
 
-It may remain in the same situation for several observation cycles.
+Everything in SAMM starts from this observation.
 
-It may alternate repeatedly between two situations.
+Snapshots capture the current situation.
 
-The purpose of the model is never to label a team.
+Situational sensors validate it.
 
-Its purpose is to understand the context that explains its behaviour.
+Conversations refine it.
 
----
+Interventions adapt to it.
 
-# The situation belongs to the system. Energy belongs to the actors.
+The purpose of the Situational Map is not to prescribe solutions.
 
-This is one of the most important principles in SAMM.
-
-Situations belong to the system.
-
-Energy belongs to the people.
-
-The same team may be experiencing **Pressure**, while each individual responds differently.
-
-Some perceive the challenge as motivating.
-
-Others begin to experience fatigue.
-
-Some increase their contribution.
-
-Others progressively disengage.
-
-The situation is shared.
-
-Energy is individual.
-
-For this reason, the Situational Map never classifies people.
-
-People contribute their [energy to the system](https://leadingdepth.com/the-energy-behind-every-human-system/).
-
-Situations describe the context in which that energy is expressed.
-
-Understanding both dimensions together provides a much more accurate picture of reality.
+Its purpose is to understand **what is actually happening** before deciding what to do next.
 
 ---
 
@@ -270,6 +151,38 @@ It produces hypotheses that are progressively validated through observation, con
 
 - [Understanding Human Systems (I): Attributes of System Actors](https://leadingdepth.com/understanding-human-systems-attributes-of-system-actors/)
 - [Understanding Human Systems (II): Technical and Evolutionary System Capabilities](https://leadingdepth.com/understanding-human-systems-technical-and-evolutionary-system-capabilities/)
+
+---
+
+# The situation belongs to the system. Energy belongs to the actors.
+
+This is one of the most important principles in SAMM.
+
+Situations belong to the system.
+
+Energy belongs to the people.
+
+The same team may be experiencing **Pressure**, while each individual responds differently.
+
+Some perceive the challenge as motivating.
+
+Others begin to experience fatigue.
+
+Some increase their contribution.
+
+Others progressively disengage.
+
+The situation is shared.
+
+Energy is individual.
+
+For this reason, the Situational Map never classifies people.
+
+People contribute their [energy to the system](https://leadingdepth.com/the-energy-behind-every-human-system/).
+
+Situations describe the context in which that energy is expressed.
+
+Understanding both dimensions together provides a much more accurate picture of reality.
 
 ---
 
@@ -497,40 +410,6 @@ For this reason, sensors should never be interpreted independently.
 Their value comes from the patterns they reveal together.
 
 As those patterns become clearer, confidence in the situational hypothesis increases.
-
----
-
-# Snapshots
-
-Observation is continuous.
-
-Decision-making, however, requires moments of synthesis.
-
-SAMM refers to these observation points as **snapshots**.
-
-A snapshot captures the current understanding of the system at a particular moment.
-
-It is not intended to freeze reality.
-
-Human systems continue evolving immediately after the snapshot is taken.
-
-Instead, snapshots provide a shared reference from which meaningful conversations can begin.
-
-They answer questions such as:
-
-- What situation do we currently believe the system is experiencing?
-- How has that situation evolved since the previous observation?
-- Which sensors changed significantly?
-- What hypotheses became stronger?
-- Which assumptions should now be reconsidered?
-
-Because snapshots represent understanding rather than certainty, they are expected to evolve.
-
-A future snapshot may completely replace today's interpretation.
-
-That is not a failure of the model.
-
-It is evidence that the observation process is working.
 
 ---
 
