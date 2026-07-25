@@ -75,15 +75,13 @@ The Situational Map does not classify events.
 
 It classifies the situations they create.
 
-Situations are not sequential stages.
+**Situations are not sequential stages.**
 
 A system may move between them, remain in one for several observation cycles or return to previous situations as its context evolves.
 
 Everything in SAMM starts from this observation.
 
-Snapshots capture the current situation.
-
-Situational sensors validate it.
+[Situational sensors validate it.](https://leadingdepth.com/understanding-human-systems-technical-and-evolutionary-system-capabilities/)
 
 Conversations refine it.
 
@@ -520,7 +518,7 @@ This means that professional and personal systems cannot be understood as comple
 
 They continuously influence one another through the actors they share.
 
-SAMM therefore observes situations at the system level while recognising that the energy carried by individuals naturally flows across every system in which they participate.
+**SAMM therefore observes situations at the system level while recognising that the energy carried by individuals naturally flows across every system in which they participate.**
 
 Understanding this relationship allows leaders, coaches and teams to interpret behavioural changes with much greater accuracy.
 
@@ -606,9 +604,9 @@ Current observation alone cannot explain that difference.
 
 Trajectory can.
 
-This is why SAMM never evaluates the present in isolation.
+**This is why SAMM never evaluates the present in isolation.**
 
-Every observation includes the path that produced it.
+**Every observation includes the path that produced it.**
 
 ---
 
@@ -714,7 +712,7 @@ Not because the map predicts behaviour.
 
 But because it helps us observe behaviour before attempting to explain it.
 
-Like every observational model, it produces hypotheses rather than certainty.
+**Like every observational model, it produces hypotheses rather than certainty.**
 
 Those hypotheses become progressively stronger through continuous observation, conversations and situational memory.
 
@@ -724,8 +722,12 @@ Its purpose is to help us understand them.
 
 Because better understanding almost always precedes better decisions.
 
-And better decisions are what allow human systems to evolve sustainably.
+**And better decisions are what allow human systems to evolve sustainably.**
 
 ## What's Next?
 
 The following articles explore each situation in detail, explaining its characteristics, how it affects the system and how to adapt processes, practices and leadership accordingly. Each article also identifies the recommended attentional focus to help influence the system's evolution.
+
+Stay tuned... We're just getting started. 😉
+
+**Your feedback is always welcome. If you have questions, different perspectives or experiences applying these ideas, I'd love to hear from you. Every conversation helps refine SAMM.**
