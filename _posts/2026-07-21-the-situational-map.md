@@ -412,7 +412,7 @@ Effective intervention begins by understanding both where the system is and how 
 
 One of the fundamental principles of SAMM is that observation always precedes intervention.
 
-This may seem obvious, yet in practice many organisations do the opposite.
+This may seem obvious, yet many organisations instinctively do the opposite.
 
 A team appears overwhelmed, so additional processes are introduced.
 
@@ -422,43 +422,59 @@ Delivery slows down, so pressure increases.
 
 Motivation declines, so new incentives are designed.
 
-The intervention itself is often not wrong.
+The intervention itself is not necessarily wrong.
 
 The problem is that it is based on an incomplete understanding of the situation.
 
-The earliest signs of system degradation are rarely visible in delivery metrics.
+The earliest signs of system degradation rarely appear in delivery metrics.
 
-As collective energy decreases, communication, collaboration and commitment gradually deteriorate. Technical quality also begins to decline as shortcuts accumulate into technical debt.
+As collective energy decreases, communication, collaboration and commitment gradually deteriorate. Technical quality also declines as shortcuts accumulate into technical debt.
 
-This degradation is often subtle. An experienced engineer does not suddenly become less capable. Instead, lower energy influences countless small decisions: less attention to detail, fewer refactorings, postponed improvements and compromises that would previously have been challenged.
+This degradation is usually subtle. An experienced engineer does not suddenly become less capable. Instead, lower energy influences countless small decisions: less attention to detail, fewer refactorings, postponed improvements and compromises that would previously have been challenged.
 
 Interestingly, delivery velocity may remain apparently stable while the system silently consumes the energy that makes that performance sustainable.
 
-For this reason, some of the most valuable observations come not from metrics but from conversations. Actors with low energy often provide the most honest descriptions of the situations they are experiencing. Equally valuable are conversations with highly engaged actors, who can explain how sustaining that level of performance is gradually becoming exhausting.
+For this reason, some of the most valuable observations come from conversations rather than metrics. Actors with low energy often provide the most honest descriptions of the situations they are experiencing, while highly engaged actors can explain how sustaining that performance is gradually becoming exhausting.
 
-Traditional management often attempts to change the system by changing the people rather than understanding the situation they are experiencing. Teams are reorganised, managers are replaced or new individuals are introduced in the hope that different people will produce different outcomes. While this may temporarily alter the system's energy, it rarely changes the situation itself. As a result, the same patterns frequently reappear with different actors.
+Traditional management often attempts to change the system by changing the people instead of understanding the situation they are experiencing. Teams are reorganised, managers are replaced or new individuals are introduced in the hope that different people will produce different outcomes. While this may temporarily alter the system's energy, it rarely changes the situation itself.
 
-The Situational Map proposes a different approach.
+SAMM proposes a different approach.
 
 Before deciding what should change, it asks a simpler question:
 
 **What situation is this system actually experiencing?**
 
-The answer is never treated as absolute certainty.
+The answer is never treated as certainty.
 
 Human systems are too complex for deterministic models.
 
-Instead, the Situational Map generates **situational hypotheses** that become progressively stronger through observation, conversations and situational sensors.
-
-Every new observation either reinforces or challenges the current understanding of the system.
+Instead, SAMM generates **situational hypotheses** that become progressively stronger through observation, conversations and situational sensors.
 
 Only when sufficient confidence has been achieved does intervention become meaningful.
+
+The diagram below illustrates the **default SAMM operational loop**.
+
+Observation generates hypotheses.
+
+Conversations strengthen or challenge them.
+
+Alignment creates shared understanding.
+
+Interventions generate new observations that enrich the system's situational memory and begin another iteration.
+
+---
+
+<br><center><img src="/wp-content/uploads/samm-common-cycle.jpg" width="900"/></center><br>
+
+---
 
 **Different situations require different interventions.**
 
 A system experiencing **Pressure** rarely benefits from the same actions as one experiencing **Indirection**, just as a system in **Stabilization** should not be managed like one operating at **Cruising Speed**.
 
-Observation, conversations, validation and intervention therefore become a continuous feedback cycle.
+The operational loop remains the same.
+
+What changes is where attention should be focused.
 
 Rather than prescribing universal solutions, SAMM continuously refines its understanding of the system and adapts its recommendations to the situation being observed.
 
