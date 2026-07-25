@@ -65,43 +65,25 @@ It classifies the situations they create.
 
 A system may move between them, remain in one for several observation cycles or return to previous situations as its context evolves.
 
-Everything in SAMM starts from this observation.
+Everything else in SAMM builds upon this shared situational understanding.
 
-[Situational sensors validate it.](https://leadingdepth.com/understanding-human-systems-technical-and-evolutionary-system-capabilities/)
+[Situational sensors](https://leadingdepth.com/understanding-human-systems-technical-and-evolutionary-system-capabilities/) validate it.
 
-Conversations refine and align it.
+Conversations refine it.
 
 Interventions adapt to it.
 
-Like every observational model, the Situational Map produces **hypotheses**, not certainty. Those hypotheses become progressively stronger through continuous observation, conversations and situational memory.
+Like every observational model, the Situational Map generates **hypotheses**, not certainty, allowing us to understand **what is actually happening** before deciding what to do next.
 
-Ultimately, its purpose is not to describe human systems.
+Because better understanding leads to better decisions.
 
-Its purpose is to understand **what is actually happening** before deciding what to do next.
-
-Because better understanding almost always precedes better decisions.
-
-**And better decisions are what allow human systems to evolve sustainably.**
+**And better decisions allow human systems to evolve sustainably.**
 
 Although the examples throughout this article focus on professional environments, the Situational Map was never designed exclusively for organisations.
 
-Families.
+Families, sports teams, volunteer communities, educational environments, friendship groups, startups and large enterprises all experience situations.
 
-Sports teams.
-
-Volunteer communities.
-
-Educational environments.
-
-Friendship groups.
-
-Startups.
-
-Large enterprises.
-
-Any human system experiences situations.
-
-While the situations themselves differ, the principles of observation remain remarkably consistent because the model focuses on the relationship between challenge, knowledge and energy rather than on organisational structures.
+While the situations themselves differ, the principles of observation remain remarkably consistent because the model focuses on the relationship between challenge, knowledge and energy rather than organisational structures.
 
 ---
 
@@ -117,7 +99,7 @@ This principle is consistent with Mihaly Csikszentmihalyi's theory of **Flow**, 
 
 According to Flow theory, engagement emerges when challenge and capabilities remain in balance. Too little challenge leads to boredom, while excessive challenge generates anxiety. Between those extremes lies the state where learning, motivation and performance reinforce one another.
 
-SAMM applies the same principle to human systems.
+SAMM extends the same principle from individuals to human systems.
 
 The Situational Map combines challenge and knowledge to describe the situations experienced by a system.
 
@@ -291,27 +273,13 @@ The important principle is that situations should be observed long enough to rev
 
 Observation requires evidence.
 
-Without evidence, every interpretation becomes little more than intuition.
-
 SAMM introduces **situational sensors** as observable signals that help understand how a system is evolving.
 
-Unlike traditional KPIs, situational sensors are not intended to measure organisational success.
+Unlike traditional KPIs, their purpose is not to measure organisational success but to detect changes in the system's behaviour.
 
-Their purpose is to detect changes in the behaviour of the system.
-
-A sensor may reveal increasing uncertainty.
-
-Another may indicate sustained overload.
-
-Others may suggest improving collaboration, recovering direction or stabilising energy.
-
-No individual sensor is capable of describing an entire situation.
+No individual sensor can describe an entire situation.
 
 Meaning emerges from the combination of multiple observations collected over time.
-
-For this reason, sensors should never be interpreted independently.
-
-Their value comes from the patterns they reveal together.
 
 As those patterns become clearer, confidence in the situational hypothesis increases.
 
@@ -380,7 +348,7 @@ The objective is to avoid becoming trapped within them.
 
 ---
 
-# Why trajectory matters
+## Why trajectory matters
 
 Situational memory also explains why identical interventions often produce different outcomes.
 
@@ -396,25 +364,13 @@ The first team may still perceive challenge as stimulating.
 
 The second may experience the same intervention as overwhelming.
 
-Current observation alone cannot explain that difference.
+Current observation explains where the system is.
 
-Trajectory can.
-
-**This is why SAMM never evaluates the present in isolation.**
-
-**Every observation includes the path that produced it.**
-
----
-
-# Learned Helplessness
+Trajectory explains why it behaves the way it does.
 
 This principle is consistent with Martin Seligman's work on **Learned Helplessness**.
 
-When individuals repeatedly experience situations where their actions appear unable to change outcomes, they gradually reduce initiative, experimentation and engagement.
-
-The external circumstances may eventually improve.
-
-Behaviour often takes much longer to recover.
+When individuals repeatedly experience situations where their actions appear unable to change outcomes, they gradually reduce initiative, experimentation and engagement. Even after external circumstances improve, behaviour often takes much longer to recover.
 
 Human systems behave similarly.
 
@@ -422,35 +378,33 @@ A team that remains under prolonged **Pressure** or extended **Indirection** doe
 
 Its previous experience continues influencing how new situations are interpreted.
 
-Situational memory therefore becomes an essential part of understanding recovery.
-
 Changing the context is often necessary.
 
 It is rarely sufficient by itself.
 
+**This is why SAMM never evaluates the present in isolation.**
+
+**Every observation includes the path that produced it.**
+
 ---
 
-## Yerkes-Dodson and adaptive challenge
+## Intervention depends on trajectory
 
-A similar conclusion can be drawn from the Yerkes-Dodson law explained in [The Energy Behind Every Human System](https://leadingdepth.com/the-energy-behind-every-human-system/)
+The Yerkes-Dodson law, discussed in [The Energy Behind Every Human System](https://leadingdepth.com/the-energy-behind-every-human-system/), shows that performance does not increase indefinitely as challenge grows.
 
-Performance does not increase indefinitely as challenge increases.
+Beyond a certain point, additional challenge reduces performance instead of improving it.
 
-Beyond a certain point, additional challenge begins reducing performance instead of improving it.
+SAMM extends this principle by introducing situational memory.
 
-SAMM extends this idea by introducing situational memory.
+The appropriate level of challenge depends not only on the system's current situation but also on the trajectory that produced it.
 
-The amount of challenge introduced into a system should not depend only on its current situation.
-
-It should also depend on its recent trajectory.
-
-Two systems displaying similar energy distributions today may require completely different intervention strategies.
+Two systems displaying similar energy distributions today may therefore require completely different interventions.
 
 One may benefit from additional challenge.
 
 The other may first require recovery.
 
-Understanding where a system has been becomes just as important as understanding where it is.
+Effective intervention begins by understanding both where the system is and how it arrived there.
 
 ---
 
