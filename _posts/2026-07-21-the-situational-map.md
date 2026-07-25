@@ -26,7 +26,7 @@ tags:
 
 ---
 
-<br><center><img src="/wp-content/uploads/samm-situational-map-overview.jpg" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/samm-situational-map-overview.jpg" width="900"/></center><br>
 
 ---
 
@@ -39,15 +39,15 @@ For decades, we have tried to understand human systems by observing people.
 
 We assess competencies, evaluate performance, measure productivity and improve processes.
 
-Yet two teams composed of exactly the same people can behave very differently only a few weeks apart.
+Yet the same team may respond very differently as its situation evolves.
 
-The difference is rarely the people themselves.
+The people may be exactly the same.
 
-More often, it is the **situation** the system is experiencing.
+**What has changed is the situation experienced by the system.**
 
 This is the foundation of the Situational Map.
 
-It is an **observational model** that helps us understand the situation experienced by a human system before attempting to interpret it or intervene.
+It is an **observational model** that helps us understand **the system's current situation** before attempting to interpret it or intervene.
 
 A reorganisation, a new technology, a demanding customer or a tight deadline are not situations.
 
@@ -101,7 +101,7 @@ According to Flow theory, engagement emerges when challenge and capabilities rem
 
 SAMM extends the same principle from individuals to human systems.
 
-The Situational Map combines challenge and knowledge to describe the situations experienced by a system.
+The Situational Map combines challenge and knowledge to describe the situations experienced by a system and the resulting motivational and energetic state of the system.
 
 The same level of challenge may therefore produce completely different situations depending on the knowledge available within the system.
 
