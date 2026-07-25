@@ -165,19 +165,23 @@ By observing situations at the system level while recognising that energy natura
 
 The Situational Map proposes five situations that describe different relationships between challenge and knowledge.
 
-Together they provide a common observational language that helps explain how human systems evolve over time.
+Together, they provide a shared observational language for understanding how human systems evolve. Identifying a system's current situation also helps anticipate its likely impact on the motivation and energy of its actors, and ultimately on the behaviour of the system itself.
 
-The boundaries between these situations are intentionally approximate.
+The boundaries between situations are intentionally approximate.
 
-Human systems are complex.
+Human systems are complex, and transitions rarely occur at a precise moment.
 
-Transitions rarely occur at a precise moment.
-
-The model therefore works with tendencies and probabilities rather than exact thresholds.
+The model therefore describes tendencies and probabilities rather than fixed thresholds or absolute certainties.
 
 The following sections introduce each situation.
 
-Future articles will explore each of them in much greater depth.
+Future articles will explore their dynamics, transitions and practical implications in much greater depth.
+
+---
+
+<br><center><img src="/wp-content/uploads/samm-situational-map-representation.jpg" width="900"/></center><br>
+
+---
 
 ## Cruising Speed
 
@@ -426,17 +430,17 @@ The intervention itself is not necessarily wrong.
 
 The problem is that it is based on an incomplete understanding of the situation.
 
-The earliest signs of system degradation rarely appear in delivery metrics.
+The earliest signs of **system degradation rarely appear in delivery metrics**.
 
-As collective energy decreases, communication, collaboration and commitment gradually deteriorate. Technical quality also declines as shortcuts accumulate into technical debt.
+As collective energy decreases, communication, collaboration and  commitment gradually deteriorate. Technical quality also declines as shortcuts accumulate into technical debt.
 
-This degradation is usually subtle. An experienced engineer does not suddenly become less capable. Instead, lower energy influences countless small decisions: less attention to detail, fewer refactorings, postponed improvements and compromises that would previously have been challenged.
+This degradation is usually subtle. An experienced engineer does not suddenly become less capable. Instead, **lower energy influences countless small decisions: less attention to detail, fewer refactorings, postponed improvements and compromises that would previously have been challenged**.
 
 Interestingly, delivery velocity may remain apparently stable while the system silently consumes the energy that makes that performance sustainable.
 
-For this reason, some of the most valuable observations come from conversations rather than metrics. Actors with low energy often provide the most honest descriptions of the situations they are experiencing, while highly engaged actors can explain how sustaining that performance is gradually becoming exhausting.
+For this reason, some of the **most valuable observations come from conversations rather than metrics**. Actors with low energy often provide the most honest descriptions of the situations they are experiencing, while highly engaged actors can explain how sustaining that performance is gradually becoming exhausting.
 
-Traditional management often attempts to change the system by changing the people instead of understanding the situation they are experiencing. Teams are reorganised, managers are replaced or new individuals are introduced in the hope that different people will produce different outcomes. While this may temporarily alter the system's energy, it rarely changes the situation itself.
+Traditional management often attempts to change the system by changing the people instead of understanding the situation they are experiencing. Teams are reorganised, managers are replaced or new individuals are introduced in the hope that different people will produce different outcomes. While this may temporarily alter the system's energy, **it rarely changes the situation itself**.
 
 SAMM proposes a different approach.
 
