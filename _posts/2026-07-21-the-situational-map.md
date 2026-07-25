@@ -560,7 +560,7 @@ In reality, they rarely are.
 
 ---
 
-<br><center><img src="/wp-content/uploads/samm-situational-recommendations.jpg" width="400"/></center><br>
+<br><center><img src="/wp-content/uploads/samm-situational-recommendations.jpg" width="700"/></center><br>
 
 ---
 
