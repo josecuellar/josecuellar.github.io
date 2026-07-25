@@ -1,6 +1,6 @@
 ---
-title: 'The Energy Behind Every Human System'
-date: '2026-07-20T21:00:00+02:00'
+title: 'The Situational Map'
+date: '2026-07-25T12:00:00+02:00'
 layout: post
 permalink: /the-situational-map/
 categories:
@@ -17,8 +17,6 @@ tags:
   - human-behaviour
   - SAMM
 ---
-
-# Understanding Human Systems (III): The Situational Map
 
 ### *Understanding systems through the situations they experience.*
 
@@ -208,7 +206,7 @@ Energy is individual.
 
 For this reason, the Situational Map never classifies people.
 
-People contribute their energy to the system.
+People contribute their [energy to the system](https://leadingdepth.com/the-energy-behind-every-human-system/).
 
 Situations describe the context in which that energy is expressed.
 
@@ -224,7 +222,7 @@ However, challenge can never be interpreted in isolation.
 
 Its effect depends entirely on the knowledge available within the system.
 
-This idea is strongly supported by Mihaly Csikszentmihalyi's theory of **Flow**.
+This idea is strongly supported by Mihaly Csikszentmihalyi's theory of **Flow** explained in [The Energy Behind Every Human System](https://leadingdepth.com/the-energy-behind-every-human-system/)
 
 According to Flow theory, people experience their highest levels of engagement when the challenge they face is well balanced with their capabilities.
 
@@ -266,7 +264,12 @@ And that is an important word.
 
 The Situational Map does not produce absolute answers.
 
-It produces hypotheses that must later be validated through observation, conversations and the continuous evolution of situational sensors.
+It produces hypotheses that are progressively validated through observation, conversations and situational sensors.
+
+Learn more about the situational sensors used to observe both the system and its actors in the following articles:
+
+- [Understanding Human Systems (I): Attributes of System Actors](https://leadingdepth.com/understanding-human-systems-attributes-of-system-actors/)
+- [Understanding Human Systems (II): Technical and Evolutionary System Capabilities](https://leadingdepth.com/understanding-human-systems-technical-and-evolutionary-system-capabilities/)
 
 ---
 
@@ -744,7 +747,7 @@ It is rarely sufficient by itself.
 
 # Yerkes-Dodson and adaptive challenge
 
-A similar conclusion can be drawn from the Yerkes-Dodson law.
+A similar conclusion can be drawn from the Yerkes-Dodson law explained in [The Energy Behind Every Human System](https://leadingdepth.com/the-energy-behind-every-human-system/)
 
 Performance does not increase indefinitely as challenge increases.
 
