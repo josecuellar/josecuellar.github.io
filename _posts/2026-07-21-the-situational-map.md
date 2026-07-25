@@ -214,7 +214,7 @@ Understanding both dimensions together provides a much more accurate picture of 
 
 ---
 
-# Challenge, knowledge and Flow
+## Challenge, knowledge and Flow
 
 Every situation represented in the Situational Map corresponds to a particular level of challenge.
 
@@ -382,7 +382,7 @@ Its role is to generate a shared understanding of the system's current context.
 
 ---
 
-# Situations require time to be observed
+## Situations require time to be observed
 
 Human systems are dynamic.
 
@@ -458,7 +458,7 @@ Over time, the understanding of the system becomes progressively more accurate.
 
 ---
 
-# Situational sensors
+## Situational sensors
 
 Observation requires evidence.
 
@@ -522,7 +522,7 @@ It is evidence that the observation process is working.
 
 ---
 
-# Conversations validate observation
+## Conversations validate observation
 
 Observation alone is never sufficient.
 
@@ -597,7 +597,7 @@ This continuous cycle of observation and adaptation forms the operational core o
 The following section explores one final concept that makes this possible: **shared energy and situational memory**.
 
 
-# Shared energy
+## Shared energy
 
 Until now we have discussed situations as properties of the system.
 
@@ -637,7 +637,7 @@ Sometimes the origin of an observable change lies outside the system currently b
 
 ---
 
-# Situational memory
+## Situational memory
 
 Observation does not begin from zero.
 
@@ -745,7 +745,7 @@ It is rarely sufficient by itself.
 
 ---
 
-# Yerkes-Dodson and adaptive challenge
+## Yerkes-Dodson and adaptive challenge
 
 A similar conclusion can be drawn from the Yerkes-Dodson law explained in [The Energy Behind Every Human System](https://leadingdepth.com/the-energy-behind-every-human-system/)
 
@@ -835,6 +835,6 @@ Because better understanding almost always precedes better decisions.
 
 And better decisions are what allow human systems to evolve sustainably.
 
-# What's Next?
+## What's Next?
 
 The following articles explore each situation in detail, explaining its characteristics, how it affects the system and how to adapt processes, practices and leadership accordingly. Each article also identifies the recommended attentional focus to help influence the system's evolution.
