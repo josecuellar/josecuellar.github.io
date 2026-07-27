@@ -23,19 +23,16 @@ tags:
   - SAMM
 ---
 
-In the first article of this journey, I introduced a question that has followed me for years:
+Throughout my career, whenever I joined a new team or faced a challenging situation, my instinct was never to propose solutions immediately, but to **understand the underlying complexity**.
 
-**How can we help a team continuously evolve without making it permanently dependent on the leader?**
+I've always been driven to understand complexity, regardless of the domain. In fact, the more complex the problem, the more motivated I became to **understand it deeply before trying to solve it**.
 
-But before trying to answer that question, we need to understand what exactly we are trying to improve when we talk about **“improving a team.”**
+In the later stages of my leadership journey, I realized that the **greatest source of complexity** was no longer technology or processes, but the people and the interactions between them.
 
-Motivation is falling.
+*How did the system behave? Why were certain patterns emerging? 
+Which problems belonged to the people, and which were a consequence of the system itself?*
 
-Delivery is getting slower.
-
-Technical debt keeps growing.
-
-We usually tend to separate these problems:
+That search led me to explore organizational psychology, where I discovered the **Golden Triangle**—a framework that helped me organize and better understand the complexity I had been observing in teams for years.
 
 **People. Process. Technology.**
 
