@@ -1,8 +1,8 @@
 ---
-title: 'The Golden Triangle — Understanding the System Before Trying to Improve It'
+title: 'The Golden Triangle of Human System'
 date: '2026-07-15T20:00:00+02:00'
 layout: post
-permalink: /golden-triangle-understanding-system-before-improving-it/
+permalink: /golden-triangle-of-human-system/
 categories:
   - Situational Awareness Management Model
 tags:
