@@ -88,7 +88,7 @@ While the situations themselves differ, the principles of observation remain rem
 
 ---
 
-## Challenge, knowledge and Flow
+## Challenge, Knowledge and Flow
 
 Every situation represented in the Situational Map corresponds to a particular level of challenge.
 
@@ -114,33 +114,7 @@ The wave does not represent time. Its amplitude represents common changes in the
 
 ---
 
-## Situations belong to systems. Energy belongs to people.
-
-This is one of the fundamental principles of SAMM.
-
-Situations belong to systems.
-
-Energy belongs to people.
-
-The same team may be experiencing **Pressure**, while each individual responds differently. Some perceive the challenge as motivating, while others begin to experience fatigue. Some increase their contribution, whereas others progressively disengage.
-
-The situation is shared, but the energy is individual.
-
-This distinction is essential because energy does not belong exclusively to work, nor exclusively to personal life. It belongs to the individual and accompanies them across every system in which they participate.
-
-A professional system experiencing sustained **Pressure** may therefore reduce the energy that same person brings into family life. Likewise, prolonged **Indirection** in someone's personal environment may reduce the energy they contribute to their professional system.
-
-For this reason, the Situational Map never classifies people.
-
-People contribute their [energy to the system](https://leadingdepth.com/the-energy-behind-every-human-system/), while situations describe the context in which that energy is expressed.
-
-This also explains why behavioural changes cannot always be understood by observing a single system. Sometimes the origin of an observable change lies outside the system currently being observed.
-
-By observing situations at the system level while recognising that energy naturally flows across every system in which people participate, SAMM provides a more complete understanding of human behaviour.
-
----
-
-## The five situations
+## The Five Situations
 
 The Situational Map proposes five situations that describe different relationships between challenge and knowledge.
 
@@ -215,7 +189,33 @@ It is to ensure that future evolution remains sustainable.
 
 ---
 
-## Situations require time to be observed
+## Situational Energy
+
+This is one of the fundamental principles of SAMM.
+
+Situations belong to systems.
+
+Energy belongs to people.
+
+The same team may be experiencing **Pressure**, while each individual responds differently. Some perceive the challenge as motivating, while others begin to experience fatigue. Some increase their contribution, whereas others progressively disengage.
+
+The situation is shared, but the energy is individual.
+
+This distinction is essential because energy does not belong exclusively to work, nor exclusively to personal life. It belongs to the individual and accompanies them across every system in which they participate.
+
+A professional system experiencing sustained **Pressure** may therefore reduce the energy that same person brings into family life. Likewise, prolonged **Indirection** in someone's personal environment may reduce the energy they contribute to their professional system.
+
+For this reason, the Situational Map never classifies people.
+
+People contribute their [energy to the system](https://leadingdepth.com/the-energy-behind-every-human-system/), while situations describe the context in which that energy is expressed.
+
+This also explains why behavioural changes cannot always be understood by observing a single system. Sometimes the origin of an observable change lies outside the system currently being observed.
+
+By observing situations at the system level while recognising that energy naturally flows across every system in which people participate, SAMM provides a more complete understanding of human behaviour.
+
+---
+
+## Situational Observation Window
 
 Human systems are dynamic.
 
@@ -249,7 +249,7 @@ The important principle is that situations should be observed long enough to rev
 
 ---
 
-## Situational sensors
+## Situational Sensors
 
 Observation requires evidence.
 
@@ -270,7 +270,7 @@ To learn more about the sensors used to observe both the system and its actors, 
 
 ---
 
-## Situational memory
+## Situational Memory
 
 Observation never begins from zero.
 
@@ -350,7 +350,7 @@ The objective is to avoid becoming trapped within them.
 
 ---
 
-## From observation to intervention
+## Situational Intervention
 
 One of the fundamental principles of SAMM is that observation always precedes intervention.
 
@@ -426,7 +426,7 @@ Rather than prescribing universal solutions, SAMM continuously refines its under
 
 ---
 
-## What's Next?
+## Next
 
 The following articles explore each situation in detail, explaining its characteristics, how it affects the system and how to adapt processes, practices and leadership accordingly. Each article also identifies the recommended attentional focus to help influence the system's evolution.
 
