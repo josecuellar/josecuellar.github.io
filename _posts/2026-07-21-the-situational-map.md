@@ -18,10 +18,8 @@ tags:
   - SAMM
 ---
 
-### *Understanding systems through the situations they experience.*
-
 > **The Situational Map is the heart of SAMM.**
->
+> Understanding systems through the situations they experience.
 > Every observation, every conversation and every evolution strategy begins here.
 
 ---
@@ -30,10 +28,8 @@ tags:
 
 ---
 
-## The Situational Map: the observational core of SAMM
-
 > Human systems do not evolve only because people change.
-> They evolve because situations enable change.
+> They evolve because **situations enable change**.
 
 For decades, we have tried to understand human systems by observing people.
 
