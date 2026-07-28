@@ -126,7 +126,7 @@ Future articles will explore their dynamics, transitions and practical implicati
 
 ---
 
-# Cruising Speed
+### Cruising Speed
 
 Cruising Speed represents a healthy **balance** between challenge and knowledge.
 
@@ -136,7 +136,7 @@ The system operates at a **sustainable pace**, understands its objectives and st
 
 ---
 
-# Fluctuation
+### Fluctuation
 
 Fluctuation appears when challenge begins to increase.
 
@@ -146,7 +146,7 @@ The system starts **adapting to new circumstances**, learning accelerates and en
 
 ---
 
-# Pressure
+### Pressure
 
 Periods of pressure are often necessary for learning, innovation and exceptional performance. They provide direction, reveal the system's limits and create opportunities to expand its capabilities.
 
@@ -159,7 +159,7 @@ Over time, the distribution of energy across the actors progressively deteriorat
 
 ---
 
-# Indirection
+### Indirection
 
 Sometimes the greatest challenge is not excessive workload but the absence of direction.
 
@@ -171,7 +171,7 @@ As a consequence, energy becomes dispersed and the collective potential of the s
 
 ---
 
-# Stabilization
+### Stabilization
 
 Following sustained periods of challenge, systems require time to consolidate learning and recover equilibrium.
 
