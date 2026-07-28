@@ -117,7 +117,7 @@ _A mountain expedition is never completed by following a perfect plan. It succee
 
 ## Next
 
-In the next article, we will bring together the Situational Model and the Situational Process, creating a **practical roadmap for intervention**. By combining different types of **situations with the adaptive process**, SAMM provides **guidance on when to intervene, how to intervene, and which actions are most appropriate for each situation**. 
+In the next article, we will bring together the [Situational Map](https://leadingdepth.com/the-situational-map/) and the Situational Process, creating a **practical roadmap for intervention**. By combining different types of **situations with the adaptive process**, SAMM provides **guidance on when to intervene, how to intervene, and which actions are most appropriate for each situation**. 
 
 Rather than prescribing fixed rules, it offers a set of situational recommendations that help shape interventions as the system evolves.
 
