@@ -21,10 +21,6 @@ tags:
   - SAMM
 ---
 
-# The Situational Process
-
-> **Planning defines the destination; situational awareness determines the path.**
-
 In the previous articles, we explored how SAMM helps us understand a human system through the 
 [Situational Map, Situational Sensors, Situational Memory](https://leadingdepth.com/the-situational-map/) and [Situational Energy](https://leadingdepth.com/the-energy-behind-every-human-system/). Understanding a system, however, is not enough to transform it. 
 
