@@ -36,7 +36,7 @@ None of these events changes the objective of the expedition. What changes conti
 
 Human systems behave in much the same way. Teams evolve, unexpected constraints emerge, priorities shift, new opportunities appear and people experience different levels of energy, motivation and expertise over time. In such an environment, planning remains indispensable, but it is no longer sufficient. 
 
-> The real advantage lies not in following a predefined process with perfect discipline, but in > developing the ability to adapt that process without ever losing sight of its purpose.
+> The real advantage lies not in following a predefined process with perfect discipline, but in developing the ability to adapt that process without ever losing sight of its purpose.
 
 _When I began shaping SAMM, I was not starting from a blank page. Over the years I had made decisions, led teams and navigated complex situations guided by an approach that felt natural, even though I could not yet explain it clearly. As I explored disciplines as diverse as military strategy, coaching and industrial engineering, I realised that many of those intuitions had already been studied by others. Rather than discovering entirely new ideas, I found a language that helped me explain why some decisions consistently produced better outcomes than others and, more importantly, how that experience could be transformed into a model that others could apply._
 
