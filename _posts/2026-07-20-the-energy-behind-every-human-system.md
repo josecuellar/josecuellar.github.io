@@ -69,53 +69,17 @@ That energy has a name.
 
 ## Every Human System Needs Energy
 
-Every physical system requires energy to produce movement.
-
-Without energy, an engine remains still.
+Every physical system requires energy to produce movement. Without energy, an engine remains still.
 
 Human systems are no different.
 
-Knowledge does not generate behaviour.
+Knowledge does not generate behaviour. Processes do not create initiative, and technology does not create ownership. People transform potential into behaviour, and motivation is the energy that makes that transformation possible.
 
-Processes do not create initiative.
+When motivation is high, behaviours emerge that no process can ever enforce. People learn, collaborate, experiment, share knowledge, help others and take ownership—not because somebody demanded it, but because the system has enough energy to evolve.
 
-Technology does not create ownership.
+When that energy disappears, the opposite happens. Tasks are still completed, meetings still take place, processes continue running and products are still delivered. From the outside, everything appears normal.
 
-People transform potential into behaviour.
-
-Motivation is the energy that makes that transformation possible.
-
-When motivation is high, behaviours emerge that no process can ever enforce.
-
-People learn.
-
-They collaborate.
-
-They experiment.
-
-They share knowledge.
-
-They help others.
-
-They take ownership.
-
-These behaviours rarely appear because somebody demanded them.
-
-They appear because the system has enough energy to evolve.
-
-When that energy disappears, the opposite happens.
-
-Tasks are still completed.
-
-Meetings still take place.
-
-Processes continue running.
-
-Products are still delivered.
-
-From the outside, everything appears normal.
-
-But internally something has changed.
+But internally, something has changed.
 
 The system has stopped learning.
 
@@ -129,39 +93,17 @@ We often describe people as motivated or unmotivated.
 
 Experience suggests reality is far more dynamic.
 
-The same person may feel highly engaged in one project...
-
-and completely disconnected in another.
-
-The individual has not necessarily changed.
+The same person may feel highly engaged in one project and completely disconnected in another. The individual has not necessarily changed.
 
 The situation has.
 
-The project.
+The project, the challenge, the leadership, the team, the level of uncertainty and the opportunities for learning all shape the situation in different ways.
 
-The challenge.
+Motivation cannot be understood as an isolated personal characteristic. It is also influenced by the situation.
 
-The leadership.
+For this reason, SAMM treats motivation as a **situational variable**. It does not attempt to measure how motivated a person is. Instead, it seeks to understand how much energy a person is bringing to the situation they are experiencing at that particular moment.
 
-The team.
-
-The level of uncertainty.
-
-The opportunities for learning.
-
-Motivation cannot be understood as an isolated personal characteristic.
-
-It is also influenced by the situation.
-
-For this reason, SAMM treats motivation as a **situational variable**.
-
-It does not attempt to measure how motivated a person is.
-
-Instead, it seeks to understand how much energy a person is bringing to the situation they are experiencing at that particular moment.
-
-Because situations change continuously...
-
-motivation changes as well.
+Because situations change continuously, motivation changes as well.
 
 ---
 
@@ -169,31 +111,11 @@ motivation changes as well.
 
 Imagine two software engineers.
 
-They have similar experience.
+They have similar experience, comparable technical skills, work on the same product and use the same tools. On paper, they look almost identical.
 
-Comparable technical skills.
+Yet one constantly looks for improvements, shares knowledge, helps colleagues, learns new technologies and suggests better solutions.
 
-They work on the same product.
-
-They use the same tools.
-
-On paper they look almost identical.
-
-Yet one constantly looks for improvements.
-
-Shares knowledge.
-
-Helps colleagues.
-
-Learns new technologies.
-
-Suggests better solutions.
-
-The other simply completes assigned work.
-
-Correctly.
-
-Professionally.
+The other simply completes the assigned work. Correctly. Professionally.
 
 Nothing more.
 
@@ -207,7 +129,7 @@ Not technology.
 
 Motivation.
 
-One sentence summarises this idea remarkably well.
+One sentence summarises this idea remarkably well:
 
 > **Knowledge determines what someone can do.**
 >
@@ -218,7 +140,6 @@ Capability creates potential.
 Motivation transforms potential into behaviour.
 
 Behaviour transforms the system.
-
 ---
 
 ## The Psychology Behind Motivation
@@ -263,29 +184,11 @@ It is about continuously adjusting challenges so people remain capable of learni
 
 ## The Right Amount of Pressure
 
-Another psychological principle complements this idea.
+Another psychological principle complements this idea: the **Yerkes–Dodson Law**.
 
-The **Yerkes–Dodson Law**.
+Performance does not increase indefinitely with pressure. Too little pressure often leads to disengagement, while excessive pressure eventually produces stress. Between these two extremes lies the optimal zone where performance and learning coexist.
 
-Performance does not increase indefinitely with pressure.
-
-Very little pressure often leads to disengagement.
-
-Excessive pressure eventually produces stress.
-
-Between both extremes lies the optimal zone where performance and learning coexist.
-
-Software engineering provides excellent examples.
-
-Too little challenge creates comfort.
-
-Too much pressure destroys curiosity.
-
-People stop experimenting.
-
-Knowledge sharing declines.
-
-Decisions become reactive.
+Software engineering provides excellent examples. Too little challenge creates comfort, whereas too much pressure destroys curiosity. People stop experimenting, knowledge sharing declines and decisions become increasingly reactive.
 
 The objective of leadership is therefore not to maximise performance.
 
@@ -299,29 +202,11 @@ It is to create the conditions where learning can continue sustainably.
 
 ## Purpose Gives Direction. Motivation Provides Energy. Discipline Sustains It.
 
-Motivation is essential.
+Motivation is essential, but motivation alone is not enough. No one remains highly motivated every single day. Some tasks are exciting; others simply need to be done.
 
-But motivation alone is not enough.
+That is precisely where discipline becomes indispensable. It builds habits, creates consistency and allows progress even when motivation naturally fluctuates.
 
-No one remains highly motivated every single day.
-
-Some tasks are exciting.
-
-Others simply need to be done.
-
-That is precisely where discipline becomes indispensable.
-
-Discipline builds habits.
-
-Creates consistency.
-
-Allows progress even when motivation naturally fluctuates.
-
-But discipline cannot exist without direction.
-
-Without purpose, discipline eventually becomes routine.
-
-Without motivation, consistency slowly turns into compliance.
+But discipline cannot exist without direction. Without purpose, discipline eventually becomes routine. Without motivation, consistency slowly turns into compliance.
 
 Purpose provides direction.
 
@@ -329,31 +214,18 @@ Motivation provides energy.
 
 Discipline sustains movement.
 
-Together they transform isolated moments of enthusiasm into long-term evolution.
+Together, they transform isolated moments of enthusiasm into long-term evolution.
 
-A team does not evolve because it is constantly motivated.
-
-Nor because it is merely disciplined.
-
-It evolves because discipline allows people to continue moving toward a purpose they genuinely believe in.
+A team does not evolve because it is constantly motivated, nor because it is merely disciplined. It evolves because discipline allows people to continue moving toward a purpose they genuinely believe in.
 
 ---
 
 <br><center><img src="/wp-content/uploads/samm-04-04-purpose-motivation-discipline.jpg" width="700"/></center><br>
-
 ---
 
 ## Behaviour Is a Consequence
 
-When a team begins to struggle, managers often try to change behaviour directly.
-
-More rules.
-
-More meetings.
-
-More reporting.
-
-More control.
+When a team begins to struggle, managers often try to change behaviour directly by introducing more rules, more meetings, more reporting or more control.
 
 Sometimes these interventions work.
 
@@ -363,19 +235,7 @@ Because behaviour is usually not the origin of the problem.
 
 It is merely its consequence.
 
-Behind behaviour lie much deeper variables.
-
-Purpose.
-
-Motivation.
-
-Trust.
-
-Autonomy.
-
-Psychological safety.
-
-The current situation.
+Behind behaviour lie much deeper variables: purpose, motivation, trust, autonomy, psychological safety and, ultimately, the current situation.
 
 The visible problem rarely originates where it becomes visible.
 
@@ -383,21 +243,11 @@ The visible problem rarely originates where it becomes visible.
 
 ## Observe Before You Intervene
 
-If motivation depends on the situation...
-
-And behaviour depends on motivation...
-
-Then leadership begins by understanding the situation before deciding how to act.
+If motivation depends on the situation, and behaviour depends on motivation, then leadership begins by understanding the situation before deciding how to act.
 
 This is one of the fundamental principles behind SAMM.
 
-It is not enough to observe tasks.
-
-It is not enough to measure results.
-
-Leaders need to understand how people are responding to the situation they are experiencing.
-
-Only then can behaviour be interpreted correctly.
+It is not enough to observe tasks or measure results. Leaders need to understand how people are responding to the situation they are experiencing, because only then can behaviour be interpreted correctly.
 
 Observation is the foundation of Situational Awareness.
 
