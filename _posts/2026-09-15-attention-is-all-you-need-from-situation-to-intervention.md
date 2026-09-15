@@ -1,6 +1,6 @@
 ---
 title: 'Attention Is All You Need: From Situation to Intervention'
-date: '2026-09-XXT16:00:00+02:00'
+date: '2026-09-14T19:00:00+02:00'
 layout: post
 permalink: /attention-is-all-you-need-from-situation-to-intervention/
 categories:
