@@ -19,9 +19,11 @@ tags:
 
 *Turning Situational Awareness into conscious intervention.*
 
-Throughout the previous articles, we have gradually built the different pieces of the **Situational Awareness Management Model**.
+Throughout the previous articles, we have gradually built the different pieces of the 
+[Situational Awareness Management Model](https://leadingdepth.com/categories/situational-awareness-management-model/).
 
-We introduced the **Situational Map** to recognise what a human system is experiencing, and the **Situational Process** to transform that understanding into conscious intervention.
+
+We introduced the [Situational Map](https://leadingdepth.com/the-situational-map/) to recognise what a human system is experiencing, and the [Situational Process](https://leadingdepth.com/the-situational-process/) to transform that understanding into conscious intervention.
 
 Now it is time to bring both together.
 
@@ -72,14 +74,6 @@ During **Observation**, the leader may explore metrics, team dynamics, technical
 When attention moves towards **Decision**, understanding needs to become choice: priorities may need to change, capacity may need to be protected or existing assumptions may need to be challenged. Finally, **Act** transforms those decisions into movement by removing obstacles, reducing unnecessary complexity or directly supporting the team when the situation requires it.
 
 These activities are not intended to become a checklist. They are possible interventions whose value depends on the situation.
-
-The question is therefore not:
-
-> *What is the best leadership practice?*
-
-But rather:
-
-> **What does this situation need from me right now?**
 
 ---
 
