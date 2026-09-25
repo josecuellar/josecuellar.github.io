@@ -122,7 +122,7 @@ Sometimes, the best way to reduce Technical Debt **is not to refactor more, but 
 
 ---
 
-**## Not All Technical Debt Is the Same**
+## Not All Technical Debt Is the Same
 
 Besides knowing when to intervene, we need to understand **what kind of debt we are dealing with**.
 
