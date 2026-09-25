@@ -18,15 +18,13 @@ tags:
 
 *Managing Technical Debt means knowing when to pay it, when to take it on, and when to analyze it.*
 
-In the first part of this series, I introduced the **Golden Triangle —People, Process, and Technology—** as one of the foundations of SAMM. In this article, I want to focus on Technology and on something that, in my experience, has a major impact on how teams evolve over time: **Technical Debt management and continuous technical improvement**.
+[In the first part of this series, I introduced the **Golden Triangle —People, Process, and Technology—**](https://leadingdepth.com/golden-triangle-of-human-system/) as one of the foundations of SAMM. In this article, I want to focus on Technology and on something that, in my experience, has a major impact on how teams evolve over time: **Technical Debt management and continuous technical improvement**.
 
 I have always considered this one of the roots we need to take care of. Technology can [**drain a team's motivation or fuel it**](https://leadingdepth.com/the-energy-behind-every-human-system/). It can turn every change into frustration and slowly kill the passion for what we do, but it can also create learning, energy, and the desire to keep improving.
 
 Managing Technical Debt is therefore not only about taking care of software. **It is also about taking care of the people who will continue building it.**
 
-Throughout my career, I have worked with different strategies. In some teams, we incorporated refactoring and technical improvements progressively. In others, we used periods of lower product pressure to slow down delivery and pay accumulated debt.
-
-Both can work. The real question is not which one is better, but **which one makes sense for the situation we are in**.
+Throughout my career, I have worked with different strategies. In some teams, we incorporated [refactoring](https://leadingdepth.com/tags/refactoring/) and technical improvements progressively. In others, we used periods of lower product pressure to slow down delivery and pay accumulated debt. Both can work. The real question is not which one is better, but **which one makes sense for the situation we are in**.
 
 I like to compare it with maintaining a car. We can perform small maintenance tasks regularly, or we can keep driving and carry out a deeper service when needed. The problem begins when we ignore the signs of wear until they prevent us from moving forward.
 
@@ -36,9 +34,9 @@ Working for many years with both people and software has taught me to **identify
 
 ---
 
-**## Technology, Debt, and Motivation**
+## Technology, Debt, and Motivation
 
-When I talk about **Technology** in SAMM, I mean more than technologies, versions, or tools. For me, one of its foundations is **how we manage Technical Debt and continuous improvement according to the situation of the system**.
+When I talk about **Technology** in SAMM, I mean more than technologies, versions, or tools. For me, one of its foundations is **how we manage Technical Debt and continuous improvement [according to the situation](https://leadingdepth.com/the-situational-map/) of the system**.
 
 Code that is difficult to change, fragile tests, oversized architectures, or obsolete technologies can progressively drain motivation. On the other hand, improving a system, removing friction, and facing the right technical challenges can bring back learning, energy, and passion for what we build.
 
@@ -46,7 +44,7 @@ From this relationship between **Situation, Technology, and People** comes a new
 
 ---
 
-**## Situational Technical Debt Behavior**
+## Situational Technical Debt Behavior
 
 Technical Debt has always been part of the [**Situational Map**](https://leadingdepth.com/the-situational-map/), as one of the signals we use to observe the technological state of a system. What we have not explored yet is **how the way we manage it should change depending on the situation**.
 
@@ -62,7 +60,7 @@ It is not intended to define an acceptable amount of debt. Instead, it helps us 
 
 ---
 
-**## Pay Debt Moment**
+## Pay Debt Moment
 
 During **Cruising Speed**, we have good conditions to invest in technology: refactoring, improving tests, updating dependencies, sharing knowledge, or evolving architecture and infrastructure.
 
@@ -74,7 +72,7 @@ This connects with something I wrote about back in 2010 in [When and Why to Perf
 
 Whenever possible, I prefer some of this work to evolve alongside product development, especially before continuing to build on an area we already know has problems.
 
-**## Ask for Debt Moment**
+## Ask for Debt Moment
 
 With **Pressure**, the scenario changes.
 
@@ -86,13 +84,21 @@ This is the **Ask for Debt Moment**.
 
 > **Pressure may justify taking on debt. It should not justify losing awareness of it.**
 
+But identifying debt does not necessarily mean deciding immediately how to pay it.
+
+[Lean Software Development](https://es.wikipedia.org/wiki/Lean_software_development) introduces the principle **Decide as Late as Possible**: preserve our options while uncertainty remains and make decisions when we have enough information to make better ones. I find this particularly useful with Technical Debt. Sometimes we need to **experience its consequences long enough to understand where the real friction is**: which changes repeatedly hurt, which parts of the system slow us down, and which problems keep coming back.
+
+There is an interesting connection here with the engineering principle **“if it hurts, do it more often.”** Repeated friction creates information. Instead of predicting the perfect refactoring too early, experiencing that friction can reveal where an improvement will create the most value.
+
+> **Make the debt visible early. Decide how to pay it when you understand it better.**
+
 The state of the team also matters. Motivation, Knowledge, and Challenge influence how much temporary strain we can absorb.
 
 The problem is not necessarily going through a period of Pressure. It begins when **Pressure stops being temporary** and continuously consumes both technical capacity and people's motivation.
 
 ---
 
-**## Analyze Debt Moment**
+## Analyze Debt Moment
 
 After Pressure comes **Stabilization**. This is the moment to review what we have left behind: shortcuts, complexity, architectural decisions, or security, performance, and scalability concerns. But also what we have learned and how all of this has affected people.
 
@@ -100,9 +106,9 @@ This is the **Analyze Debt Moment**.
 
 Over the years, I have learned that analyzing debt is not only about deciding what we should refactor. It is also about asking **what we can simplify or remove**.
 
-In *No Silver Bullet*, Fred Brooks distinguished between **essential complexity**, inherent to the problem we are trying to solve, and **accidental complexity**, introduced around the way we build the solution. I find this distinction particularly useful when analyzing Technical Debt: **we cannot remove all complexity, but we can question the complexity we have introduced ourselves and that no longer provides enough value**.
+[In *No Silver Bullet*, Fred Brooks](https://en.wikipedia.org/wiki/No_Silver_Bullet) distinguished between **essential complexity**, inherent to the problem we are trying to solve, and **accidental complexity**, introduced around the way we build the solution. I find this distinction particularly useful when analyzing Technical Debt: **we cannot remove all complexity, but we can question the complexity we have introduced ourselves and that no longer provides enough value**.
 
-This is also where I connect **Pareto and Lean**: identify where the real value is and remove *muda*, overengineering, unnecessary components, dependencies, or abstractions. For me, one of the best technical challenges is precisely this: **solving the same problem more simply, using fewer resources and reducing costs**.
+This is also where I connect **Pareto and Lean Software Development**: identify where the real value is and remove *muda*, overengineering, unnecessary components, dependencies, or abstractions. For me, one of the best technical challenges is precisely this: **solving the same problem more simply, using fewer resources and reducing costs**.
 
 The same principle applies to the product.
 
@@ -120,7 +126,7 @@ Sometimes, the best way to reduce Technical Debt **is not to refactor more, but 
 
 Besides knowing when to intervene, we need to understand **what kind of debt we are dealing with**.
 
-Martin Fowler's **Technical Debt Quadrant** distinguishes between two dimensions:
+[Martin Fowler's **Technical Debt Quadrant**](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html) distinguishes between two dimensions:
 
 **Deliberate ↔ Inadvertent**
 
@@ -142,7 +148,7 @@ Fowler helps us understand **the nature of the debt**. SAMM adds **the situation
 
 ---
 
-**## Technical Debt Across SAMM Situations**
+## Technical Debt Across Situational Map
 
 We can now bring both perspectives together: **the nature of the debt and the situation of the system**.
 
@@ -160,7 +166,7 @@ The situation changes our relationship with debt: we may be in a moment to **pay
 
 ---
 
-**## Managing Debt According to the Situation**
+## Managing Debt According to the Situation
 
 After working with different strategies over the years, I do not believe there is a single correct way to manage Technical Debt.
 
