@@ -56,7 +56,7 @@ It is not intended to define an acceptable amount of debt. Instead, it helps us 
 
 ---
 
-<br><center><img src="/wp-content/uploads/samm-situational-technical-debt-behavior.jpg" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/samm-situational-technical-debt-behavior.png" width="700"/></center><br>
 
 ---
 
@@ -134,7 +134,7 @@ Besides knowing when to intervene, we need to understand **what kind of debt we 
 
 ---
 
-<br><center><img src="/wp-content/uploads/technical-debt-quadrant.jpg" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/technical-debt-quadrant.png" width="700"/></center><br>
 
 ---
 
@@ -154,7 +154,7 @@ We can now bring both perspectives together: **the nature of the debt and the si
 
 ---
 
-<br><center><img src="/wp-content/uploads/samm-situation-technical-debt-matrix.jpg" width="700"/></center><br>
+<br><center><img src="/wp-content/uploads/samm-situation-technical-debt-matrix.png" width="700"/></center><br>
 
 ---
 
