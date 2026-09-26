@@ -90,65 +90,17 @@ This is why people are at the centre of the **Situational Awareness Management M
 
 ## The Expert Trap: When Experience Becomes a Single Hammer
 
-Organisations turn to experts, quite rightly, to solve complex problems.
+Organisations turn to experts, quite rightly, to solve complex problems. Experience allows us to recognise patterns, anticipate risks and avoid mistakes that others have already made. But that same experience can also become a limitation when it leads us to interpret every problem through the lens of the discipline we know best.
 
-Experience allows us to recognise patterns, anticipate risks and avoid mistakes that others have already made.
+A process expert may see a process problem, while a technology expert sees a technology problem. An Agile expert may identify a need for greater agility, an architecture expert may focus on technical debt, and a leadership expert may interpret the same situation as a leadership problem.
 
-But experience can also become a limitation.
+Each of them may be observing a real part of the problem, but **seeing one part correctly does not mean understanding the whole system**.
 
-When we know a discipline deeply, we tend to look at problems through its lens.
+This is closely related to the well-known *law of the instrument*: when we have a hammer, we tend to see nails. The same pattern appears constantly inside organisations. We find a practice that worked for one team and try to reproduce it in another, create maturity models and expect different teams to follow the same path, or apply the same framework, transformation, organisational structure or leadership style simply because it produced good results before.
 
-The process expert sees a process problem.
+The problem is that no two teams are exactly the same system. They may use the same technology, follow the same process, work on the same product and even belong to the same organisation, yet still find themselves in completely different situations.
 
-The technology expert sees a technology problem.
-
-The Agile expert sees a need for greater agility.
-
-The architecture expert sees technical debt.
-
-The leadership expert sees a leadership problem.
-
-Each of them may be seeing a real part of the problem.
-
-But **seeing one part correctly does not mean understanding the whole system**.
-
-There is a well-known idea, often expressed through the *law of the instrument*: when we have a hammer, we tend to see nails.
-
-The same thing happens constantly inside organisations.
-
-We find a practice that worked for one team and try to reproduce it in another.
-
-We create a maturity model and expect different teams to follow the same path.
-
-We apply the same framework, transformation, organisational structure or leadership style because it produced good results before.
-
-But no two teams are exactly the same system.
-
-They may use the same technology.
-
-Follow the same process.
-
-Work on the same product.
-
-They may even belong to the same organisation.
-
-And yet, they can be in completely different situations.
-
-Because the people are different.
-
-Their knowledge is different.
-
-Their experience is different.
-
-Their level of confidence is different.
-
-Their motivation is different.
-
-Their shared history is different.
-
-Their tolerance for frustration is different.
-
-And so are their fears, expectations, relationships and emotional states.
+Their people bring different knowledge, experience, confidence, motivation, shared history and tolerance for frustration. Their fears, expectations, relationships and emotional states are different as well.
 
 These variables are not noise surrounding the system.
 
