@@ -30,7 +30,7 @@ The following practices represent the **recommended starting point for SAMM**, n
 
 ---
 
-# 1. SAMM Foundations
+## 1. SAMM Foundations
 
 SAMM assumes a system where **iterative value delivery** and established dynamics of collaboration, communication, and feedback already exist.
 
@@ -44,13 +44,13 @@ SAMM does not aim to replace these delivery mechanisms. It focuses on observing 
 
 ---
 
-# 2. SAMM Onboarding
+## 2. SAMM Onboarding
 
 Before observing a system, we need a shared language about **what we are going to observe and why**.
 
 Onboarding establishes that language and generates the first self-observations that will later be used to build the initial representation of the system.
 
-## 2.1. SAMM Workshop
+### 2.1. SAMM Workshop
 
 SAMM adoption begins with a workshop where the team is introduced to the essential concepts required to work with the model:
 
@@ -72,7 +72,7 @@ Its purpose is to establish **a shared language and common principles before we 
 
 ---
 
-## 2.2. Actor Self-Observation
+### 2.2. Actor Self-Observation
 
 After the workshop, the first observation begins.
 
@@ -87,7 +87,7 @@ At this point, we are not looking for consensus or a definitive observation.
 
 We are looking for **self-perception**: how each person currently observes themselves within the system.
 
-## 2.3. Capabilities Self-Observation
+### 2.3. Capabilities Self-Observation
 
 In the same questionnaire — or separately — each person performs an initial [**observation of system capabilities**](https://leadingdepth.com/understanding-human-systems-technical-and-evolutionary-system-capabilities/), using a scale from 1 to 5 to represent their current perception.
 
@@ -99,7 +99,7 @@ Two groups are observed:
 
 ---
 
-# 3. SAMM System Mapping
+### 3. SAMM System Mapping
 
 Once the self-observations have been collected, the **System Mapping** begins.
 
@@ -122,7 +122,6 @@ The result is the first **Human Representation** of the system: a starting point
 ---
 
 Final Teammate Representation Example
-
 <br>
 <center>
 <img src="/wp-content/uploads/samm-common-practices-02-human-representation.png" width="600"/>
@@ -130,7 +129,6 @@ Final Teammate Representation Example
 <br>
 
 Final Team Representation Example
-
 <br>
 <center>
 <img src="/wp-content/uploads/samm-common-practices-03-human-representation.png" width="800"/>
@@ -139,7 +137,7 @@ Final Team Representation Example
 
 ---
 
-# 4. SAMM Situational Pulse
+## 4. SAMM Situational Pulse
 
 The **SAMM Situational Pulse is the model's main collective observation practice**.
 
@@ -175,7 +173,7 @@ The dashboard provides a complete view of:
 
 **SAMM Situation Recommendations**
 
-## Challenge / Skills — Flow Theory
+### 4.1. Challenge / Skills — Flow Theory
 
 Each member positions themselves according to the **challenge they are experiencing** and the **skills they perceive as available to face it**.
 
@@ -191,7 +189,7 @@ If six people are in Flow and one is in Anxiety, the conclusion should not simpl
 
 That difference may be one of the most relevant signals in the session.
 
-## Arousal / Performance — Yerkes-Dodson
+### 4.2. Arousal / Performance — Yerkes-Dodson
 
 The second observation uses the relationship between **arousal and performance**, taking the **Yerkes-Dodson Law** as a reference.
 
@@ -205,7 +203,7 @@ SAMM does not use these models as psychological diagnostic tools.
 
 It uses them as **shared structures for observation and conversation**.
 
-## SAMM Situation
+### 4.3. SAMM Situation
 
 Finally, each member indicates which SAMM Situation best represents their perception of the **current professional state of the system**:
 
@@ -215,7 +213,7 @@ The situations provide a **shared language** for expressing and contrasting how 
 
 Significant differences between selected situations are information in themselves: different actors may be experiencing very different realities within the same system.
 
-## Observing the trajectory
+### 4.4. Observing the trajectory
 
 SAMM does not observe only the present.
 
@@ -263,7 +261,7 @@ Context always comes first.
 
 > **The dashboard provides signals. The conversation provides understanding.**
 
-## From Observation to Intervention
+### 4.5. From Observation to Intervention
 
 The Situational Pulse does not end when a situation is identified.
 
@@ -279,7 +277,7 @@ Every intervention may change the system and generate a new situation that needs
 
 ---
 
-# 5. SAMM Tech Space
+## 5. SAMM Tech Space
 
 **Recommended frequency: weekly.**
 
@@ -297,7 +295,7 @@ The lead participates **as another member of the system**, helping create an env
 
 ---
 
-# 6. SAMM Growth 1:1s
+## 6. SAMM Growth 1:1s
 
 **Recommended frequency: monthly. Approximate duration: 30 minutes.**
 
@@ -326,17 +324,13 @@ Growth 1:1s also include bidirectional feedback: what the person should maintain
 
 ---
 
-# Supporting the SAMM System
+## 7. A starting point, not a prescription
 
 SAMM practices generate information that evolves with the system: actors, capabilities, observations, situations, interventions, and **Situational Memory**.
 
 SAMM recommends preserving this information through digital support, with a clear separation between **collective system information** and **individual private information**.
 
 In the near future, **SAMM Tool** will provide specific support for these practices, their history, and detailed information retrieval. Built on top of this memory, AI capabilities will progressively help **detect patterns, explore possible system evolutions, and support decision-making and organizational strategy**.
-
----
-
-# A starting point, not a prescription
 
 These practices are a **starting point, not a prescription**.
 
