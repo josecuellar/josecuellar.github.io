@@ -30,6 +30,14 @@ The following practices represent the **recommended starting point for SAMM**, n
 
 ---
 
+<br>
+<center>
+<img src="/wp-content/uploads/samm-common-practices.png" width="800"/>
+</center>
+<br>
+
+---
+
 ## 1. SAMM Foundations
 
 SAMM assumes a system where **iterative value delivery** and established dynamics of collaboration, communication, and feedback already exist.
