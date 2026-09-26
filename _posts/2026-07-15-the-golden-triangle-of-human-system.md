@@ -74,33 +74,17 @@ I see it as **a living system**.
 
 ## People at the Centre
 
-In my interpretation of the model, people occupy the central position.
+In my interpretation of the model, people occupy the central position. This does not mean that every problem is a people problem, but rather that people are the ones who ultimately experience the consequences of the system around them.
 
-But this does not mean that every problem is a people problem.
+A person may appear unmotivated because every small change requires fighting against a fragile system. A developer may appear slow because the architecture turns a simple modification into a complex task, or a team may seem to lack autonomy because the process requires approval for every important decision.
 
-A person may appear unmotivated because every small change requires fighting against a fragile system.
+Looking only at the person can therefore lead us to solve the wrong problem: trying to motivate someone who is exhausted by the system, asking for more accountability while removing autonomy, or demanding more speed while complexity continues to increase.
 
-A developer may appear slow because the architecture turns a simple modification into a complex task.
+People create processes and technology, but they also work within the conditions those processes and technologies create.
 
-A team may appear to lack autonomy because the process requires approval for every important decision.
+**People create the system, and the system continuously shapes people.**
 
-If we look only at the person, we may try to solve the wrong problem.
-
-We may try to motivate someone who is exhausted by the system.
-
-We may ask for more accountability while removing autonomy.
-
-We may demand more speed while complexity continues to increase.
-
-People create processes and technology, but they also live with their consequences.
-
-**People create the system. And the system continuously shapes People.**
-
-This is why people are at the centre of the **Situational Awareness Management Model**.
-
-Not because every problem begins with them.
-
-But because **people create, experience and ultimately transform the system**.
+This is why people are at the centre of the **Situational Awareness Management Model**: not because every problem begins with them, but because **people create, experience, and ultimately transform the system**.
 
 <br><center><img src="/wp-content/uploads/samm-02-03-people-at-the-centre.jpg"  width="800"/></center><br>
 
@@ -204,25 +188,13 @@ And too often, the first thing to disappear from our analysis is precisely what 
 
 ## Relationships Matter as Much as the Components
 
-Imagine a team whose delivery speed has been decreasing over time.
+Imagine a team whose delivery speed has been decreasing over time. We might initially assume that the team needs to improve its process, but the underlying cause could be somewhere else in the system.
 
-We might assume that the team needs to improve its process.
+Perhaps the technology has become increasingly difficult to change. Technical complexity creates uncertainty, which can lead to a greater fear of breaking things and, consequently, to more controls and approvals. Delivery becomes slower, pressure increases, and the team has less time to address the technical problems that contributed to the situation in the first place.
 
-But perhaps the technology has become increasingly difficult to change.
+The result is a reinforcing cycle: **technical complexity increases uncertainty, uncertainty introduces more control, more control slows delivery, and growing pressure leaves even less space to improve the technology.**
 
-Technical complexity creates uncertainty.
-
-Uncertainty creates fear of breaking things.
-
-Fear creates more controls and approvals.
-
-More controls make delivery slower.
-
-Pressure increases.
-
-And as a consequence, there is less and less time available to improve the technology.
-
-The cycle begins again.
+The problem is therefore not located in a single component. It emerges from **the relationships between people, process, and technology**.
 
 <br><center><img src="/wp-content/uploads/samm-02-05-systemic-feedback-loop.jpg"  width="800"/></center><br>
 
@@ -274,52 +246,28 @@ The growth of **knowledge work** made it even clearer that not all work could be
 
 In software development, the **Agile Manifesto** made one particularly important idea explicit: **responding to change can be more valuable than following a plan**.
 
-But even the best ideas can become dogmas when we forget the problems they were originally trying to solve.
+But even the best ideas can become dogmas when we forget the problems they were originally designed to solve.
 
-Scrum is not always the answer.
+Scrum, coaching, autonomy, or control can all be useful responses, but none of them is universally the right answer. A practice that helps one team in a particular situation may become an obstacle for another team facing a completely different context.
 
-Coaching is not always the answer.
+Rather than starting with a predefined solution, we should first understand the situation in front of us.
 
-More autonomy is not always the answer.
-
-More control is not always the answer either.
-
-A practice may help one team in one situation and block another team in a different one.
-
-And this leads us to a different question:
+And that leads to a more important question:
 
 **How do we know what the system actually needs right now?**
 
 ## The Golden Triangle Is Not Enough
 
-People, Process and Technology help us understand **what we need to observe**.
-
-But a much harder question remains:
+People, Process and Technology help us understand **what we need to observe**, but a much harder question remains:
 
 **What does this system need now?**
 
-Because the same process may help one team and block another.
+The answer depends on context. The same process may help one team and block another; the same person may feel completely capable in one situation and overwhelmed in another; and technical debt that represents a reasonable strategic decision today may become a critical problem tomorrow.
 
-The same person may feel completely capable in one situation and overwhelmed in another.
+Systems are not static. They exist within a context, move through different situations, and continuously evolve over time. Understanding their components is therefore only the beginning.
 
-The same technical debt may be a strategic decision today and become a critical problem tomorrow.
+The **Golden Triangle** gives us the system we need to observe. **Situational Awareness** helps us understand what that system needs **now**.
 
-The system is never static.
-
-It exists within a context.
-
-It moves through different situations.
-
-And it evolves over time.
-
-Understanding the system is therefore only the beginning.
-
-The **Golden Triangle** gives us the system we need to observe.
-
-**Situational Awareness** should help us understand what that system needs **now**.
-
-Perhaps the next step in the evolution of management is not to find another universal solution.
-
-Perhaps it is to develop the ability to understand **which response each situation actually requires**.
+Perhaps the next step in the evolution of management is not another universal solution, but developing the ability to understand **which response each situation actually requires**.
 
 And that is where the next step of this journey begins.

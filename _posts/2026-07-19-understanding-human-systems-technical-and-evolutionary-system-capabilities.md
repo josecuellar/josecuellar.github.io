@@ -17,33 +17,13 @@ tags:
 
 > *"Technical Capabilities build the product. Evolutionary Capabilities build the system."*
 
-In the previous article we introduced the concept of the **Human Representation**.
+In the previous article we introduced the concept of the **Human Representation**. We explained how SAMM represents situations through people rather than describing people themselves, and we also introduced the **Observational Attributes** that provide the contextual characteristics of every Human Representation.
 
-We explained how SAMM represents situations through people rather than describing people themselves.
+Those attributes explain the context in which the representation is observed. However, context alone is not enough to understand how a human system evolves, and representing a situation requires more than observing technical expertise alone.
 
-We also introduced the **Observational Attributes** that provide the contextual characteristics of every Human Representation.
+Teams capable of building successful products also learn, adapt, collaborate, and continuously evolve. The challenge is therefore not simply representing what people know, but representing **what allows a human system to evolve**.
 
-Those attributes explain the context in which the representation is observed.
-
-However, context alone is not enough to understand how a human system evolves.
-
-Representing a situation requires more than observing technical expertise alone.
-
-Teams capable of building successful products also learn.
-
-They adapt.
-
-They collaborate.
-
-They continuously evolve.
-
-The challenge is therefore not simply representing what people know.
-
-It is representing **what allows a human system to evolve**.
-
-SAMM addresses this challenge by combining different types of observable capabilities into a shared representation.
-
-Together they provide a contextual view of how a system is behaving at a particular moment in time.
+SAMM addresses this challenge by combining different types of observable capabilities into a shared representation. Together they provide a contextual view of how a system is behaving at a particular moment in time.
 
 ---
 
@@ -55,18 +35,11 @@ Together they provide a contextual view of how a system is behaving at a particu
 
 Building software is only one part of building a successful system.
 
-Throughout years of working with software teams across different organizations and contexts, I repeatedly observed that the teams capable of evolving sustainably shared a remarkably similar set of values.
+Throughout years of working with software teams across different organizations and contexts, I repeatedly observed that the teams capable of evolving sustainably shared a remarkably similar set of values. Regardless of the technology they used or the products they built, productive teams consistently demonstrated common ways of learning, collaborating, adapting and making decisions.
 
-Regardless of the technology they used or the products they built, productive teams consistently demonstrated common ways of learning, collaborating, adapting and making decisions.
-
-SAMM represents these recurring team values as **Evolutionary Capabilities**.
-
-Unlike Technical Capabilities, they are largely independent of technology or domain.
-
-They represent the capabilities that enable a human system to remain productive, sustainable and continuously evolving as situations change.
+SAMM represents these recurring team values as **Evolutionary Capabilities**. Unlike Technical Capabilities, they are largely independent of technology or domain and represent the capabilities that enable a human system to remain productive, sustainable and continuously evolving as situations change.
 
 > *"Technical Capabilities explain how a team builds software. Evolutionary Capabilities explain why some teams continue evolving while others eventually stop evolving."*
-
 
 ---
 
@@ -74,11 +47,7 @@ They represent the capabilities that enable a human system to remain productive,
 
 ---
 
-Evolutionary Capabilities can be observed both in individual system actors and across the system as a whole.
-
-At the individual level, they describe how each actor contributes to the system's ability to learn, adapt, and evolve.
-
-At the system level, they emerge from the collective interactions between people, processes, and technology, becoming observable as properties of the human system itself.
+Evolutionary Capabilities can be observed both in individual system actors and across the system as a whole. At the individual level, they describe how each actor contributes to the system's ability to learn, adapt, and evolve. At the system level, they emerge from the collective interactions between people, processes, and technology, becoming observable as properties of the human system itself.
 
 ### Product Mindset
 
@@ -210,126 +179,51 @@ Contribute to the success of the team before individual recognition.
 
 Strengthens collaboration and collective intelligence, enabling the system to achieve results beyond the capabilities of its individual actors.
 
-
-These are not personality traits.
-
-They are not HR competencies.
-
-They are **team values expressed through individuals**, because every Human Representation reflects how a situation influences the contribution each person makes to the system.
-
-They emerge differently depending on the situation being observed.
+These are not personality traits or HR competencies. They are **team values expressed through individuals**, because every Human Representation reflects how a situation influences the contribution each person makes to the system. They emerge differently depending on the situation being observed.
 
 ---
 
 ## Technical Capabilities
 
-Technical Capabilities describe the knowledge required to build the product.
+Technical Capabilities describe the knowledge required to build the product, including areas such as architecture, development, cloud, testing, security, Artificial Intelligence, and domain knowledge.
 
-Architecture.
-
-Development.
-
-Cloud.
-
-Testing.
-
-Security.
-
-Artificial Intelligence.
-
-Domain Knowledge.
-
-Every product requires different Technical Capabilities.
-
-SAMM deliberately avoids defining a universal list.
-
-Each system decides which Technical Capabilities best represent the work required to build its own products.
+Every product requires different Technical Capabilities, so SAMM deliberately avoids defining a universal list. Each system decides which Technical Capabilities best represent the work required to build its own products.
 
 ---
 
 ## Situations Change Human Representations
 
-Neither Technical Capabilities nor Evolutionary Capabilities should be considered static.
+Neither Technical Capabilities nor Evolutionary Capabilities should be considered static. The same person may exhibit very different Human Representations depending on the situation, whether that involves a new product, a different team, a leadership responsibility, a production incident, or a period of uncertainty.
 
-The same person may exhibit very different Human Representations depending on the situation.
+The representation changes because the situation changes, not necessarily because the person has changed. The same individual may express completely different Evolutionary Capabilities depending on the context in which the system is operating.
 
-A new product.
-
-A different team.
-
-A leadership responsibility.
-
-A production incident.
-
-A period of uncertainty.
-
-The representation changes because the situation changes.
-
-Not necessarily because the person has changed.
-
-The same individual may express completely different Evolutionary Capabilities depending on the context in which the system is operating.
-
-This distinction is fundamental.
-
-SAMM does not represent people.
-
-It represents situations through people.
+This distinction is fundamental: SAMM does not represent people. **It represents situations through people.**
 
 ## Capabilities as Situational Sensors
 
-Within SAMM, capabilities are not evaluation criteria.
+Within SAMM, capabilities are not evaluation criteria; they are situational sensors. Like sensors in any engineering system, each capability contributes one observable signal. No single capability explains the system, but together they create a representation that makes the situation observable.
 
-They are situational sensors.
+For this reason, SAMM uses simple observational scales not to measure people or rank individuals, but to establish a common language that allows teams to discuss patterns, compare observations over time and understand how their system is evolving.
 
-Like sensors in any engineering system, each capability contributes one observable signal.
-
-No single capability explains the system.
-
-Together they create a representation that makes the situation observable.
-
-For this reason SAMM uses simple observational scales.
-
-Not to measure people.
-
-Not to rank individuals.
-
-But to establish a common language that allows teams to discuss patterns, compare observations over time and understand how their system is evolving.
-
-We do not measure people.
-
-We represent observations.
+**We do not measure people. We represent observations.**
 
 ## The Essence of a Human Representation
 
 Ultimately, a Human Representation is a shared representation of how a system is currently expressed through one of its members.
 
 ---
+
 <br><center><img src="/wp-content/uploads/post-06-figure-05-the-essence-of-a-human-representation.jpg" width="300"/></center><br>
+
 ---
 
-It combines context.
+It combines context, Technical Capabilities, and Evolutionary Capabilities. Together they provide a shared understanding of the current situation.
 
-Technical Capabilities.
+The objective is never to evaluate individuals, but to understand how situations shape the evolution of the system. Once a situation becomes observable, it can also become discussable, and once it can be discussed, it can begin to evolve.
 
-Evolutionary Capabilities.
+Ultimately, the purpose of these situational representations is not to classify people, but to create better conversations. By making observations explicit, they provide a shared language that helps individuals and teams discuss strengths, challenges, and opportunities for improvement from a common perspective.
 
-Together they provide a shared understanding of the current situation.
-
-The objective is never to evaluate individuals.
-
-It is to understand how situations shape the evolution of the system.
-
-Because once a situation becomes observable, it can also become discussable.
-
-And once it can be discussed, it can begin to evolve.
-
-Ultimately, the purpose of these situational representations is not to classify people, but to create better conversations.
-
-By making observations explicit, they provide a shared language that helps individuals and teams discuss strengths, challenges, and opportunities for improvement from a common perspective.
-
-Whether during one-to-one conversations, team retrospectives, coaching sessions, or organizational decision-making, they encourage constructive dialogue instead of subjective opinions.
-
-As situations evolve, these representations naturally evolve with them. Over time, the accumulated observations reveal meaningful individual and collective trends, providing valuable insight into how both people and the system are changing.
+Whether during one-to-one conversations, team retrospectives, coaching sessions, or organizational decision-making, they encourage constructive dialogue instead of subjective opinions. As situations evolve, these representations naturally evolve with them. Over time, the accumulated observations reveal meaningful individual and collective trends, providing valuable insight into how both people and the system are changing.
 
 Rather than becoming a static description of reality, they establish a continuous cycle of observation, reflection, alignment, and improvement, enabling more effective conversations about what is happening today—and where the system is heading tomorrow.
 

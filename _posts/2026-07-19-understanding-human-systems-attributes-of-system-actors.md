@@ -22,15 +22,7 @@ tags:
 
 In the previous articles we explored how organizations behave as complex human systems in constant evolution.
 
-Technology changes.
-
-Processes evolve.
-
-Teams reorganize.
-
-Priorities shift.
-
-People learn.
+Technology changes. Processes evolve. Teams reorganize. Priorities shift. People learn.
 
 Every one of those changes transforms the situation in which the system operates.
 
@@ -42,11 +34,7 @@ This is the challenge SAMM attempts to solve.
 
 Rather than introducing another management theory, SAMM integrates existing knowledge into a common representation that simplifies the interpretation of complex human systems.
 
-It does not replace psychology.
-
-It does not replace Agile.
-
-It does not replace organizational design.
+It does not replace psychology. It does not replace Agile. It does not replace organizational design.
 
 Instead, it provides a situational observation framework capable of transforming multiple disciplines into a shared language that supports better understanding and better decisions.
 
@@ -60,127 +48,48 @@ It means building a representation that preserves what matters while reducing un
 
 ---
 
-The purpose of SAMM is therefore not to reinvent existing knowledge.
+The purpose of SAMM is therefore not to reinvent existing knowledge, but to integrate it.
 
-It is to integrate it.
+Disciplines such as knowledge management, psychology, learning theory, organizational design, and systems thinking already provide valuable perspectives for understanding people and the systems in which they operate.
 
-Knowledge management.
-
-Psychology.
-
-Learning theory.
-
-Organizational design.
-
-Systems thinking.
-
-Each discipline contributes valuable perspectives for understanding human systems.
-
-SAMM simply brings those perspectives together into a single observational framework capable of representing complex situations in a consistent and practical way.
+SAMM brings these perspectives together into a **single observational framework**, providing a consistent and practical way to represent and understand complex human situations.
 
 ## Representing People Within Situations
 
-Every engineering discipline relies on representations.
+Every engineering discipline relies on representations. Architects use blueprints, software engineers use architectural models, control systems rely on sensors, and electrical engineers interpret signals. These representations are never the real system; they are simplified views that make complex systems easier to observe and interpret.
 
-Architects use blueprints.
-
-Software engineers use architectural models.
-
-Control systems rely on sensors.
-
-Electrical engineers interpret signals.
-
-The representation is never the real system.
-
-It is a simplified view that makes interpretation possible.
-
-SAMM follows exactly the same philosophy.
-
-However, its representation is neither a representation of the person nor a representation of the situation alone.
+SAMM follows the same philosophy. However, its representation is neither a representation of the person nor of the situation alone.
 
 **A SAMM representation describes a person within a specific situation.**
 
-That distinction is fundamental.
-
-The representation does not answer:
+That distinction is fundamental. The representation does not try to answer:
 
 > **Who is this person?**
 
-Instead, it answers:
+Instead, it helps us understand:
 
 > **How is this person interacting with this situation right now?**
 
-The same individual may have completely different representations when the situation changes.
+The same individual may therefore have completely different representations depending on the project, team, responsibility, organizational context, or simply the moment in which the observation takes place. The objective is not to describe people, but to understand situations through the people who experience them.
 
-A different project.
+Every SAMM representation is therefore **contextual, temporal, and dynamic**. It represents a person **at a specific moment**, **within a specific situation**, with the purpose of interpreting how that situation is evolving.
 
-A different team.
+This changes the role of the representation completely. It is not a profile, an assessment, or a classification, but a shared representation that makes a complex human situation observable.
 
-A different responsibility.
-
-A different organizational context.
-
-Because the objective has never been to describe people.
-
-The objective is to understand situations through the people who experience them.
-
-Every SAMM representation is therefore:
-
-- Contextual.
-- Temporal.
-- Dynamic.
-
-It represents a person **at a specific moment**, **within a specific situation**, for the purpose of interpreting how that situation is evolving.
-
-This distinction changes the role of the representation completely.
-
-It is not a profile.
-
-It is not an assessment.
-
-It is not a classification.
-
-It is a shared representation that makes a complex situation observable.
 
 ## Human Indicators as Situational Sensors
 
-Once the objective becomes representation, another question naturally follows.
+Once the objective is to represent a situation through the people experiencing it, another question naturally follows:
 
 **How is that representation built?**
 
-Engineering rarely attempts to understand a complex system by observing it directly.
+Engineering rarely attempts to understand a complex system through a single observation. Instead, it relies on multiple sensors measuring different dimensions such as temperature, pressure, voltage, or speed. Each signal provides only a partial view, but when interpreted together they create a much richer representation of what is happening within the system.
 
-Instead, it relies on sensors.
+SAMM applies the same principle to human systems. Its **Human Indicators are not personality traits, classifications, or assessments. They are situational sensors.**
 
-Temperature.
+Each indicator captures an observable dimension that contributes to the representation of a person within a specific situation. No single indicator is intended to explain the person or the situation on its own; their value emerges when they are interpreted together and within context.
 
-Pressure.
-
-Voltage.
-
-Speed.
-
-Each sensor captures one observable aspect of the system.
-
-Individually, they explain very little.
-
-Together, they provide a representation that makes the system understandable.
-
-SAMM follows exactly the same principle.
-
-Its Human Indicators are not personality traits.
-
-They are not classifications.
-
-They are not assessments.
-
-They are **situational sensors**.
-
-Each indicator contributes one observable dimension that helps represent a person within a specific situation.
-
-Only when interpreted together do they provide enough context to understand how the situation is evolving.
-
-Rather than inventing new concepts, SAMM integrates decades of research from psychology, organizational learning, systems thinking and organizational design into a single representation.
+Rather than inventing new concepts, SAMM integrates perspectives developed across psychology, organizational learning, systems thinking, and organizational design into a common representation that helps make complex human situations observable and easier to interpret.
 
 ---
 
@@ -226,77 +135,35 @@ SAMM uses this indicator to observe how a person expands knowledge beyond a prim
 
 ## Frustration Tolerance
 
-Every complex system generates uncertainty.
+Every complex system generates uncertainty, pressure, unexpected change, and a continuous need for adaptation. Understanding how people respond to these conditions, and how they affect their ability to continue contributing effectively, is essential for interpreting how a situation may evolve.
 
-Pressure.
+This indicator draws on research into resilience and emotional regulation, particularly the work of **Albert Ellis** and **Richard Lazarus & Susan Folkman**.
 
-Unexpected change.
-
-Continuous adaptation.
-
-Understanding how those conditions affect people's ability to continue contributing is essential for interpreting the evolution of a situation.
-
-This indicator integrates research on resilience and emotional regulation from **Albert Ellis** and **Richard Lazarus & Susan Folkman**.
-
-Within SAMM, it does not attempt to measure emotions.
-
-It represents how the current situation affects the system's ability to continue operating effectively through the individual.
+Within SAMM, Frustration Tolerance is not intended to measure emotions or define an individual's personality. Instead, it represents **how the conditions of the current situation may affect a person's ability to continue contributing effectively within the system**.
 
 ---
 
 ## Current Role
 
-Every observation requires context.
+Every observation requires context, as the same situation can be experienced very differently depending on a person's responsibilities within the system. SAMM therefore incorporates the current organizational role as contextual information, drawing inspiration from organizational design approaches such as **Team Topologies**, where responsibilities influence both the information available to individuals and their ability to influence the system.
 
-The same situation can be experienced very differently depending on the responsibilities a person has within the system.
-
-SAMM therefore incorporates the current organizational role as contextual information.
-
-Its inspiration comes from organizational design approaches such as **Team Topologies**, where responsibilities determine both the information available and the ability to influence the system.
-
-Within SAMM, the role does not describe the individual.
-
-It describes the position from which the situation is experienced.
+Within SAMM, the role is not intended to describe or define the individual. Instead, it provides context about **the position from which a person experiences and interacts with a particular situation**.
 
 ---
 
-None of these indicators is meaningful in isolation.
+None of these indicators is particularly meaningful in isolation. Knowledge without context tells us very little, just as mindset without considering responsibilities provides an incomplete picture. Similarly, understanding someone's role without considering their learning capacity offers limited insight into how a situation may evolve.
 
-Knowledge without context explains very little.
-
-Mindset without responsibility provides an incomplete picture.
-
-Role without learning says almost nothing about the evolution of the situation.
-
-Only when these indicators are interpreted together do they produce the contextual representation that SAMM uses to simplify situational interpretation.
+Only when interpreted together do these indicators provide the **contextual representation** that SAMM uses to support situational understanding.
 
 ## A Common Representation
 
-A representation only becomes valuable when it can be shared.
+A representation becomes truly valuable when it can be shared. Much of what organizations know remains implicit, distributed across conversations, individual experiences, contextual knowledge, and intuition. As a result, different observers may develop very different mental models of the same situation.
 
-Much of what organizations know remains implicit.
+SAMM provides a way to bring these individual observations together into a common representation, making it easier to share perspectives, identify differences in perception, and develop a collective understanding of what is happening within the system.
 
-It exists in conversations.
+The objective is not to classify or evaluate individuals, but to **communicate how a specific situation is experienced and reflected through the people involved**.
 
-Experience.
-
-Context.
-
-Intuition.
-
-Every observer builds a different mental model of the same situation.
-
-SAMM transforms those individual observations into a common representation.
-
-Not to classify people.
-
-Not to evaluate individuals.
-
-But to communicate how a specific situation is reflected through the people experiencing it.
-
-Each representation is simply a snapshot.
-
-It represents a person within a particular situation at a particular moment.
+Each representation is simply a snapshot of a person within a particular situation at a particular moment. It provides a shared starting point for understanding the present, while recognizing that both people and situations continuously evolve.
 
 ---
 
@@ -304,111 +171,43 @@ It represents a person within a particular situation at a particular moment.
 
 ---
 
-The notation is intentionally minimal.
+The notation is intentionally minimal. Each visual element represents a situational indicator and, when interpreted together, they provide a compact representation that can be understood consistently across teams.
 
-Each visual element represents one situational indicator.
-
-Together they provide a compact representation that can be interpreted consistently across teams.
-
-The notation itself is not the model.
-
-It is simply the language that allows observations to be shared.
-
-The value lies in the interpretation.
-
-Not in the notation.
+The notation itself is not the model; it is simply **a shared language for making observations visible and easier to communicate**. Its value does not come from the symbols themselves, but from the interpretation and conversations they enable.
 
 ---
 
 ## Observing at Human Scale
 
-Representation also has practical limits.
+Representation also has practical limits. As organizations grow, complexity increases much faster than our ability to understand it, which is one of the reasons many modern organizational approaches encourage small, autonomous teams.
 
-As organizations grow, complexity increases much faster than our ability to understand it.
+Frameworks and concepts such as **Team Topologies**, **LeSS**, Amazon's **Two-Pizza Teams**, and **Dunbar's Number** approach this challenge from different perspectives, but they share an important principle: keeping human systems at a scale where relationships and interactions remain observable.
 
-This is one of the reasons modern organizational approaches encourage small, autonomous teams.
+SAMM follows the same philosophy. Smaller teams do not eliminate complexity, because complexity is an inherent property of human systems. They simply help keep that complexity within human observational limits.
 
-Frameworks such as **Team Topologies**, **LeSS**, Amazon's **Two-Pizza Teams**, and even **Dunbar's Number** all converge toward the same principle.
+This principle also explains how SAMM scales. Rather than attempting to observe an increasing number of people simultaneously, **SAMM changes the scale of observation**: from the individual to the team, from the team to the department, and eventually to the organization.
 
-Keep the system within a scale that remains observable.
-
-SAMM adopts exactly the same philosophy.
-
-Not because smaller teams eliminate complexity.
-
-They do not.
-
-Complexity is an inherent property of every human system.
-
-Smaller teams simply keep that complexity within human observational limits.
-
-This is also how SAMM scales.
-
-It does not scale by observing more people simultaneously.
-
-It scales by changing the unit of observation.
-
-Individual.
-
-Team.
-
-Department.
-
-Organization.
-
-The object of observation never changes.
-
-Only the observation scale does.
+The fundamental object of observation remains the human system; what changes is the scale from which we observe it.
 
 ---
 
 ## Learning from Representation
 
-A representation is never the final objective.
+A representation is never the final objective. It is a starting point for learning and for understanding how the system evolves over time.
 
-It is the starting point for learning.
+Situations generate observations, and those observations create representations from which we can form hypotheses and make better-informed decisions. Those decisions may change the system, creating new situations that need to be observed and interpreted again.
 
-Situations generate observations.
+Over time, this continuous cycle allows patterns to emerge. These are not personality patterns, but **situational patterns** that can help us understand how the human system tends to respond under different conditions.
 
-Observations generate representations.
-
-Representations generate hypotheses.
-
-Hypotheses improve decisions.
-
-Better decisions create new situations.
-
-And every new situation produces a new representation.
-
-Over time, patterns begin to emerge.
-
-Not personality patterns.
-
-Situational patterns.
-
-SAMM does not attempt to understand people.
-
-It seeks to understand how situations evolve within human systems in order to continuously improve decision-making.
+SAMM therefore does not attempt to explain who people are. It seeks to understand **how situations evolve through the people experiencing them**, using that understanding to continuously improve decision-making.
 
 ---
 
 ## The Contribution of SAMM
 
-SAMM is not another personality framework.
+SAMM is not intended to be another personality framework, leadership model, or organizational methodology. Its contribution is to provide a common way of representing people within specific situations, integrating established knowledge from multiple disciplines into a shared language for situational interpretation.
 
-It is not another leadership model.
-
-It is not another organizational methodology.
-
-SAMM provides a common representation of a person within a specific situation.
-
-That representation integrates established knowledge from multiple disciplines into a shared language that simplifies situational interpretation.
-
-Because understanding a complex human system is not about collecting more information.
-
-It is about building the right representation.
-
-A representation that allows everyone to observe the same situation, discuss it using a common language, and make better decisions together.
+Understanding a complex human system is not simply about collecting more information. It is about building a useful representation that allows different observers to make their perspectives visible, discuss the same situation through a common language, and make better-informed decisions together.
 
 In SAMM, that representation never describes the person in isolation.
 
