@@ -62,9 +62,9 @@ Onboarding establishes that language and generates the first self-observations t
 
 ### 2.1. SAMM Workshop
 
-_**Who:** The whole team or new members._<br>
-_**When:** once per team, and whenever a new member joins._<br>
-_**How long:** 1-5 hours._
+> _**Who:** The whole team or new members._<br>
+> _**When:** once per team, and whenever a new member joins._<br>
+> _**How long:** 1-5 hours._
 
 SAMM adoption begins with a workshop where the team is introduced to the essential concepts required to work with the model:
 
@@ -110,9 +110,9 @@ Two groups are observed:
 
 ### 3. SAMM System Mapping 1:1s
 
-_**Who:** Lead + Team member._<br>
-_**When:** once per team member after SAMM Onboarding, and for each new member joining the team._<br>
-_**How long:** 1 hour._
+> _**Who:** Lead + Team member._<br>
+> _**When:** once per team member after SAMM Onboarding, and for each new member joining the team._<br>
+> _**How long:** 1 hour._
 
 Once the self-observations have been collected, the **System Mapping** begins.
 
@@ -152,9 +152,9 @@ Team Representation Example
 
 ## 4. SAMM Situational Pulse
 
-_**Who:** The whole team._<br>
-_**When:** every two iterations, avoiding more than two months between sessions._<br>
-_**How long:** 1 hour._
+> _**Who:** The whole team._<br>
+> _**When:** every two iterations, avoiding more than two months between sessions._<br>
+> _**How long:** 1 hour._
 
 The **SAMM Situational Pulse is the model's main collective observation practice**.
 
@@ -283,9 +283,9 @@ Every intervention may change the system and generate a new situation that needs
 
 ## 5. SAMM Tech Space
 
-_**Who:** Lead + Tech team._<br>
-_**When:** weekly._<br>
-_**How long:** 1 hour._
+> _**Who:** Lead + Tech team._<br>
+> _**When:** weekly._<br>
+> _**How long:** 1 hour._
 
 Tech Space is the team's recurring **safe communication space**.
 
@@ -303,9 +303,9 @@ The lead participates **as another member of the system**, helping create an env
 
 ## 6. SAMM Product Space
 
-_**Who:** Lead + Product + Design + Business._<br>
-_**When:** Weekly._<br>
-_**How long:** 30 minutes._
+> _**Who:** Lead + Product + Design + Business._<br>
+> _**When:** Weekly._<br>
+> _**How long:** 30 minutes._
 
 Product Space is the recurring **alignment space between product and technology**, where those responsible for the product align its short-, medium-, and long-term direction.
 
@@ -321,9 +321,9 @@ This requires a **close and trusted partnership between Product and Tech**. Deci
 
 ## 7. SAMM Growth 1:1s
 
-_**Who:** Lead + Team member._<br>
-_**When:** monthly._<br>
-_**How long:** 1 hour._
+> _**Who:** Lead + Team member._<br>
+> _**When:** monthly._<br>
+> _**How long:** 1 hour._
 
 Growth 1:1s are the private space where the evolution and [energy](https://leadingdepth.com/the-situational-map/#situational-energy) of each person can be observed over time: **System Actor Attributes, Technical & Evolutionary Capabilities, professional goals, and possible limitations or blockers**.
 
