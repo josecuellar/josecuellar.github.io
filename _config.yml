@@ -43,9 +43,9 @@ social:
   email: jose.cuellar.villegas@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    - https://www.linkedin.com/in/username
+    - https://twitter.com/jos3cuellar # change to your Twitter homepage
+    - https://github.com/josecuellar # change to your GitHub homepage
+    - https://www.linkedin.com/in/josecuellar
 
 # Site Verification Settings
 webmaster_verifications:
@@ -105,7 +105,7 @@ avatar: "/wp-content/leadingwithdepth.jpeg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: /wp-content/leading-with-depth-social.png # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -141,9 +141,9 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: false # The option for PWA feature (installable)
   cache:
-    enabled: true # The option for PWA offline cache
+    enabled: false # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
