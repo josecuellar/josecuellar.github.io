@@ -1,5 +1,5 @@
 ---
-title: 'SAMM: Take the First Step'
+title: 'Situational Awareness Management Model: Take the First Step'
 date: '2026-09-26T19:00:00+02:00'
 layout: post
 permalink: /common-samm-practices/
