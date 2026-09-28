@@ -174,7 +174,7 @@ The session uses a **shared interactive dashboard** where each member is represe
 
 ---
 
-### 4.1. Challenge / Skills — Flow Theory
+#### Challenge / Skills — Flow Theory
 
 Each member positions themselves according to the **challenge they are experiencing** and the **skills they perceive as available to face it**.
 
@@ -188,7 +188,7 @@ If six people are in Flow and one is in Anxiety, the conclusion should not simpl
 
 That difference may be one of the most relevant signals in the session.
 
-### 4.2. Arousal / Performance — Yerkes-Dodson
+#### Arousal / Performance — Yerkes-Dodson
 
 The second observation uses the relationship between **arousal and performance**, taking the **Yerkes-Dodson Law** as a reference.
 
@@ -200,7 +200,7 @@ This helps initiate conversations about insufficient activation or challenge, op
 
 SAMM does not use these models as psychological diagnostic tools. It uses them as **shared structures for observation and conversation**.
 
-### 4.3. SAMM Situation
+#### SAMM Situation
 
 Finally, each member indicates which SAMM Situation best represents their perception of the **current professional state of the system**:
 
@@ -214,7 +214,7 @@ The objective is to discuss these different perceptions and reach a **shared und
 
 The goal is not to avoid those differences, but to make them visible, understand what lies behind them and, through conversation, **agree on the SAMM Situation** that best represents the team's experience during that period.
 
-### 4.4. Observing the trajectory
+#### Observing the trajectory
 
 SAMM does not observe only the present. The dashboard should visually preserve approximately the **last 10 situations**.
 
@@ -228,15 +228,7 @@ SAMM does not observe only the present. The dashboard should visually preserve a
 
 ---
 
-This allows us to move from observing a snapshot:
-
-**Pressure**
-
-to observing a [situational memory](https://leadingdepth.com/the-situational-map/#situational-memory):
-
-**Cruising Speed → Fluctuation → Fluctuation → Indirection → Pressure**
-
-The trajectory provides context and builds what SAMM calls **Situational Memory**.
+The trajectory provides context and builds what SAMM calls [**Situational Memory**](https://leadingdepth.com/the-situational-map/#situational-memory).
 
 An isolated observation tells us where we believe we are. Situational Memory helps us understand **where we came from, how long we remained in certain situations, which transitions occurred, and how the system responded to previous decisions and interventions**.
 
@@ -245,8 +237,6 @@ Instead of interpreting each new situation in isolation, we can use the accumula
 During the Situational Pulse, we try to answer:
 
 > **Where did we come from? → Where are we now? → Where do we seem to be heading?**
-
-And, most importantly:
 
 **Why?**
 
@@ -265,19 +255,17 @@ These recommendations are **guardrails or guideline, not transition rules**.
 
 > **The dashboard provides signals. The conversation provides understanding.**
 
-### 4.5. From Observation to Intervention
+#### From Observation to Intervention
 
 The Situational Pulse does not end when a situation is identified.
 
-Each SAMM Situation provides [**situational intervention roadmap**](https://leadingdepth.com/attention-is-all-you-need-from-situation-to-intervention/), but the lead decides [**whether to intervene, what to do, and how to do it**](https://leadingdepth.com/the-situational-process/), considering the people, context, system trajectory, and their own leadership style.
+Once the team has **agreed on the SAMM Situation**, the conversation naturally moves towards what could be done next. Team members can suggest changes, experiments or interventions based on what has emerged during the Pulse.
 
-The [**SAMM Situational Process**](https://leadingdepth.com/the-situational-process/), supported by mechanisms such as OODA Loop, Push/Pull, feedback loops, or Six Sigma, helps structure this process:
+Each SAMM Situation provides a [**situational intervention roadmap**](https://leadingdepth.com/attention-is-all-you-need-from-situation-to-intervention/) with possible directions to explore, not prescribed actions. From there, the Lead decides [**whether to intervene, what to do, and how to do it**](https://leadingdepth.com/the-situational-process/), considering the team's suggestions, the people involved, the context and the **Situational Memory**.
 
-> **Observe → Understand → Decide → Intervene → Observe again**
+This is where the Lead's **experience and situational judgement** matter. Sometimes this means reducing pressure or giving the system time to stabilize; at other times, it may mean creating a learning opportunity, restoring direction or challenging an existing dynamic. The [**SAMM Situational Process**](https://leadingdepth.com/the-situational-process/), supported by mechanisms such as OODA Loop, Push/Pull, feedback loops or Six Sigma, provides a simple structure to follow.
 
-Every intervention may change the system and generate a new situation that needs to be observed again.
-
-> **SAMM suggests where to look and what to consider. The lead decides when, what and how to act.**
+> **SAMM suggests where to look and what to consider. The team contributes possible ways forward, while the Lead uses experience and situational judgement to decide when and how to influence the system.**
 
 ---
 
