@@ -48,7 +48,7 @@ The idea that an organisation cannot be understood by looking only at its people
 
 Throughout the twentieth century, different schools of management and organisational theory began to challenge the idea that one part of a system could be optimised without affecting the others.
 
-In 1965, **Harold J. Leavitt** proposed a model of organisational change based on the interdependence of **People, Task, Structure and Technology**. Over time, different interpretations and evolutions of this thinking contributed to the popularisation of simpler models based on **People, Process and Technology**, often referred to as the **Golden Triangle**.
+In 1965, [**Harold J. Leavitt**](https://en.wikipedia.org/wiki/Harold_Leavitt) proposed a model of organisational change based on the interdependence of **People, Task, Structure and Technology**. Over time, different interpretations and evolutions of this thinking contributed to the popularisation of simpler models based on **People, Process and Technology**, often referred to as the **Golden Triangle**.
 
 The formulation may change, but the fundamental idea remains:
 
@@ -90,31 +90,17 @@ This is why people are at the centre of the **Situational Awareness Management M
 
 ## The Expert Trap: When Experience Becomes a Single Hammer
 
-Organisations turn to experts, quite rightly, to solve complex problems. Experience allows us to recognise patterns, anticipate risks and avoid mistakes that others have already made. But that same experience can also become a limitation when it leads us to interpret every problem through the lens of the discipline we know best.
+Organisations turn to experts, quite rightly, to solve complex problems. Experience helps us recognise patterns, anticipate risks and avoid mistakes, but it can also become a limitation when every problem is interpreted through the discipline we know best.
 
-A process expert may see a process problem, while a technology expert sees a technology problem. An Agile expert may identify a need for greater agility, an architecture expert may focus on technical debt, and a leadership expert may interpret the same situation as a leadership problem.
+A process expert may see a process problem, while a technology expert sees a technology problem. An Agile expert may identify a need for greater agility, an architecture expert may focus on technical debt, and a leadership expert may interpret the same situation as a leadership problem. Each may be observing something real, but **seeing one part correctly does not mean understanding the whole system**.
 
-Each of them may be observing a real part of the problem, but **seeing one part correctly does not mean understanding the whole system**.
+This is closely related to the *law of the instrument*: when we have a hammer, we tend to see nails. Organisations repeat this pattern when they reproduce practices, frameworks, maturity models, structures or leadership styles simply because they worked somewhere else.
 
-This is closely related to the well-known *law of the instrument*: when we have a hammer, we tend to see nails. The same pattern appears constantly inside organisations. We find a practice that worked for one team and try to reproduce it in another, create maturity models and expect different teams to follow the same path, or apply the same framework, transformation, organisational structure or leadership style simply because it produced good results before.
+But no two teams are exactly the same system. Even with the same technology, processes, product or organisation, their people bring different knowledge, experience, confidence, motivation, relationships, shared history and tolerance for frustration.
 
-The problem is that no two teams are exactly the same system. They may use the same technology, follow the same process, work on the same product and even belong to the same organisation, yet still find themselves in completely different situations.
+These variables are not noise surrounding the system. **They are part of the system.**
 
-Their people bring different knowledge, experience, confidence, motivation, shared history and tolerance for frustration. Their fears, expectations, relationships and emotional states are different as well.
-
-These variables are not noise surrounding the system.
-
-**They are part of the system.**
-
-The emotional dimension of people affects how they collaborate, how they make decisions, how they learn, how they respond to uncertainty and how they use the processes and technology available to them.
-
-A process that provides safety to one team may feel suffocating to another.
-
-The autonomy that liberates one person may leave another feeling abandoned.
-
-A challenge that activates and motivates one person may create anxiety in someone with a different level of experience or knowledge.
-
-The same leadership style may help one person grow and make another increasingly dependent.
+The emotional dimension influences how people collaborate, make decisions, learn and respond to uncertainty. A process that gives one team safety may suffocate another; autonomy may liberate one person and leave another feeling abandoned; the same challenge or leadership style can produce very different responses depending on the person and the situation.
 
 This is why one of the greatest risks of experience is confusing:
 
@@ -124,17 +110,9 @@ with:
 
 **“This will work here.”**
 
-Experience should expand our ability to interpret a situation, not reduce every new problem to patterns we already know.
+Experience should expand our ability to interpret a situation, not reduce every new problem to patterns we already know. The expert's role should not be to arrive with a prepared answer, but to observe deeply enough to discover **what question this system actually needs to answer**.
 
-The role of the expert should not be to arrive with a prepared answer.
-
-It should be to observe deeply enough to discover **what question this system actually needs to answer**.
-
-Because when we always use the same hammer, we do not only risk choosing the wrong solution.
-
-We may also end up ignoring everything that does not fit our tool.
-
-And too often, the first thing to disappear from our analysis is precisely what is hardest to measure:
+Otherwise, when we always use the same hammer, we risk not only choosing the wrong solution, but also ignoring everything that does not fit our tool — especially what is hardest to measure:
 
 **the human and emotional depth of the people who make up the system.**
 
@@ -220,6 +198,7 @@ Systems are not static. They exist within a context, move through different situ
 
 The **Golden Triangle** gives us the system we need to observe. **Situational Awareness** helps us understand what that system needs **now**.
 
-Perhaps the next step in the evolution of management is not another universal solution, but developing the ability to understand **which response each situation actually requires**.
+> Perhaps the next step in the evolution of management is not another universal solution, but 
+> developing the ability to understand **which response each situation actually requires**.
 
 And that is where the next step of this journey begins.

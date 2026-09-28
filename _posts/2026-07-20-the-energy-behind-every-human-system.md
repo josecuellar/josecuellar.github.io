@@ -90,7 +90,7 @@ SAMM does not attempt to redefine motivation. Instead, it builds upon well-estab
 
 ## The Flow State
 
-One of the most influential concepts in performance psychology is **Flow**, introduced by Mihaly Csikszentmihalyi.
+One of the most influential concepts in performance psychology is [**Flow**](https://es.wikipedia.org/wiki/Flujo_(psicolog%C3%ADa)), introduced by Mihaly [Csikszentmihalyi](https://es.wikipedia.org/wiki/Mih%C3%A1ly_Cs%C3%ADkszentmih%C3%A1lyi).
 
 Flow describes the mental state where people become fully immersed in an activity. In this state, learning accelerates, attention becomes effortless, and performance naturally improves.
 
@@ -106,7 +106,7 @@ For managers, this idea changes the meaning of leadership. Leading is not only a
 
 ## The Right Amount of Pressure
 
-Another psychological principle complements this idea: the **Yerkes–Dodson Law**.
+Another psychological principle complements this idea: the [**Yerkes–Dodson Law**](https://en.wikipedia.org/wiki/Yerkes%E2%80%93Dodson_law).
 
 Performance does not increase indefinitely with pressure. Too little pressure often leads to disengagement, while excessive pressure eventually produces stress. Between these two extremes lies the optimal zone where performance and learning coexist.
 
@@ -126,7 +126,8 @@ Motivation is essential, but motivation alone is not enough. No one remains high
 
 That is precisely where discipline becomes indispensable. It builds habits, creates consistency and allows progress even when motivation naturally fluctuates. But discipline cannot exist without direction: without purpose, discipline eventually becomes routine, while without motivation, consistency slowly turns into compliance.
 
-**Purpose provides direction, motivation provides energy, and discipline sustains movement.** Together, they transform isolated moments of enthusiasm into long-term evolution.
+> **Purpose provides direction, motivation provides energy, and discipline sustains movement.** 
+> Together, they transform isolated moments of enthusiasm into long-term evolution.
 
 A team does not evolve because it is constantly motivated, nor because it is merely disciplined. It evolves because discipline allows people to continue moving toward a purpose they genuinely believe in.
 
@@ -148,7 +149,9 @@ The visible problem rarely originates where it becomes visible.
 
 ## Observe Before You Intervene
 
-If motivation depends on the situation, and behaviour depends on motivation, then leadership begins by understanding the situation before deciding how to act. This is one of the fundamental principles behind SAMM.
+> If motivation depends on the situation, and behaviour depends on motivation, then leadership 
+> begins by understanding the situation before deciding how to act. This is one of the fundamental 
+> principles behind SAMM.
 
 It is not enough to observe tasks or measure results. Leaders need to understand how people are responding to the situation they are experiencing, because only then can behaviour be interpreted correctly.
 
@@ -166,22 +169,17 @@ Although people, processes, and technology continuously influence one another, m
 
 A motivated person will often compensate for imperfect processes and limited or overly complex technology. A demotivated person, however, gradually degrades both. Ownership fades, shortcuts become acceptable, technical debt grows, and the energy of the system slowly disappears.
 
-When I detect sustained demotivation, my priority is not to change processes or technology, but to understand why that energy has been lost. While working to restore it through empathy, trust, and new challenges, I also try to protect the system. Sometimes this means temporarily redistributing responsibilities—not as a punishment, but as a way to protect both the person and the system while the underlying causes are addressed.
+When I detect sustained demotivation, my priority is not to change processes or technology, but to **understand why that energy has been lost**. While working to restore it through empathy, trust, and new challenges, I also try to protect the system. Sometimes this means temporarily redistributing responsibilities—not as a punishment, but as a way to protect both the person and the system while the underlying causes are addressed.
 
-Protecting the energy of those who remain motivated is equally important. No system should depend indefinitely on the extra effort of a few people to compensate for inefficient processes or inadequate technology. That energy is finite.
+**Protecting the energy of those who remain motivated is equally important**. No system should depend indefinitely on the extra effort of a few people to compensate for inefficient processes or inadequate technology. That energy is finite.
 
-**In my experience, the most valuable feedback for evolving a system often comes from the person who has lost the most energy—provided they feel safe enough to speak honestly.**
+> **In my experience, the most valuable feedback for evolving a system often comes from the person 
+> who has lost the most energy—provided they feel safe enough to speak honestly.**
 
 That feedback often reveals unnecessarily complex processes, technical decisions that have become normalized, or ways of working that no longer add value. Listening, however, is only the beginning. It should trigger a conscious evolution of the system: simplifying processes, reducing technical debt, improving tools, or rethinking the way people collaborate. **Energy is not what the observer tries to change; it is what reveals what needs to change.**
 
-The observer's responsibility is not only to interpret that energy, but also to make it visible so others can learn to observe it as well. A healthy system does not depend on a single observer; it continuously develops new observers who can recognize the same signals and act upon them.
+The observer's responsibility is not only to interpret that energy, but also to **make it visible so others can learn to observe it as well**. A healthy system does not depend on a single observer; it continuously develops new observers who can recognize the same signals and act upon them.
 
 Finally, it is worth remembering that the observer is also part of the system. Our own energy shapes what we notice and how we interpret it. Whenever I notice a significant change in my own energy—whether through frustration, stress, excitement, or fatigue—I try not to react immediately. Instead, I observe myself with the same curiosity I apply to the system.
 
 **Because sometimes the system does not need to change. The observer does.**
-
-## Next Article
-
-Human Representations do not evolve by chance; they evolve because the situations surrounding them evolve.
-
-In the next article we will introduce the **Situational Impact Map**, the model that explains how situations influence Human Representations and ultimately shape the evolution of the entire human system.

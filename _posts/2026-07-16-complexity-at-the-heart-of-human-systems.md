@@ -22,21 +22,11 @@ tags:
 
 The previous article introduced the **Golden Triangle**: **People, Process and Technology**—three dimensions that together shape every knowledge-intensive human system.
 
-Over the years, however, I reached a conclusion that fundamentally changed the way I understand leadership. Although these three dimensions are deeply connected, they do not represent the same kind of complexity.
+Over the years, however, I came to a conclusion that changed the way I understand leadership: although these three dimensions are deeply connected, they do not represent the same kind of complexity.
 
-Processes can be designed, and technology can be engineered.
+Processes can be designed and technology can be engineered, but **people need to be understood**. They learn from experience, respond differently to the same circumstances, build relationships and continuously adapt to what happens around them.
 
-But people...
-
-People must be understood.
-
-Processes do not learn.
-
-Technology does not learn.
-
-**People do.**
-
-And when people collaborate over time, they stop behaving as isolated individuals. They become a **human system**: a living system that continuously learns, adapts and evolves.
+And when people collaborate over time, this learning and adaptation no longer happen only at an individual level. Their interactions, experiences and relationships gradually form a **human system**: a living system that continuously learns, adapts and evolves.
 
 ---
 
@@ -46,11 +36,9 @@ And when people collaborate over time, they stop behaving as isolated individual
 
 ## The complexity we usually ignore
 
-When we try to understand a team, we usually begin by observing what is easiest to measure: velocity, lead time, cycle time, KPIs, dashboards, incidents and defects.
+When we try to understand a team, we usually begin with what is easiest to measure: velocity, lead time, cycle time, KPIs, incidents or defects. These indicators are useful, but they mostly describe the **visible behaviour** of the system.
 
-All of these indicators are useful, but they only describe the **visible behaviour** of the system.
-
-Beneath them lies another reality—one that is considerably harder to observe.
+Beneath them lies another reality that is much harder to observe:
 
 - Trust
 - Motivation
@@ -62,13 +50,13 @@ Beneath them lies another reality—one that is considerably harder to observe.
 - Confidence
 - Experience
 
-These variables rarely appear on a dashboard, yet they have a greater influence on the future of the system than almost anything else. They shape how people collaborate, how knowledge is shared, how decisions are made, how technology evolves and how processes mature. Ultimately, they determine how much value the team is capable of creating over time.
+These variables rarely appear on a dashboard, yet they strongly influence how people collaborate, share knowledge, make decisions and adapt to change. Ultimately, they shape how the system evolves and how much value it can create over time.
 
-Perhaps the most important of these variables is **motivation**. Not understood as a temporary emotional state, but as the **energy that keeps a human system moving through time**. A motivated system learns faster, shares knowledge more naturally, absorbs uncertainty with greater resilience and becomes progressively more capable of adapting to change.
+Among them, **motivation** plays a particularly important role—not simply as an emotional state, but as the **energy that keeps a human system moving through time**. A motivated system learns faster, shares knowledge more naturally and responds to uncertainty with greater resilience.
 
-When these variables deteriorate, organisations often respond by introducing new methodologies, tools or processes. Sometimes those changes help; sometimes they simply treat the symptoms rather than the underlying cause.
+When these variables deteriorate, organisations often respond with new methodologies, tools or processes. Sometimes they help; other times they simply address the symptoms rather than the underlying cause.
 
-**Understanding** what cannot easily be measured is often far more important than optimising what can.
+**Understanding what cannot easily be measured is often more important than optimising what can.**
 
 ---
 

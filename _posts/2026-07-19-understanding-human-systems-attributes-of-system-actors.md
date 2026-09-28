@@ -101,7 +101,7 @@ Rather than inventing new concepts, SAMM integrates perspectives developed acros
 
 Knowledge strongly influences how people interpret situations, recognize patterns and make decisions.
 
-This indicator draws primarily from the **Dreyfus Model of Skill Acquisition**, the work of **Nonaka & Takeuchi** on organizational knowledge creation, and **Argyris & Schön** on organizational learning.
+This indicator draws primarily from the [**Dreyfus Model of Skill Acquisition**](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition), the work of **Nonaka & Takeuchi** on organizational knowledge creation, and **[Argyris](https://en.wikipedia.org/wiki/Chris_Argyris) & [Schön](https://en.wikipedia.org/wiki/Donald_Sch%C3%B6n)** on organizational learning.
 
 Within SAMM, Knowledge Level does not describe how much a person knows.
 
@@ -115,7 +115,7 @@ Two people with similar knowledge can react very differently to exactly the same
 
 Often the difference lies in their willingness to learn, adapt and experiment.
 
-This indicator is inspired by **Carol Dweck's** work on **Growth Mindset** and **Fixed Mindset**.
+This indicator is inspired by [**Carol Dweck's**](https://es.wikipedia.org/wiki/Carol_Dweck) work on **Growth Mindset** and **Fixed Mindset**.
 
 Within SAMM, Mindset is not considered a permanent characteristic.
 
@@ -127,7 +127,7 @@ It represents how the current situation influences a person's openness to learni
 
 Modern organizations require both specialization and collaboration across disciplines.
 
-The concept of **T-Shaped Professionals**, introduced by **IDEO** and popularized by **Tim Brown**, represents this balance between deep expertise and broad collaboration.
+The concept of [**T-Shaped Professionals**](https://en.wikipedia.org/wiki/T-shaped_skills), introduced by [**IDEO**](https://en.wikipedia.org/wiki/IDEO) and popularized by **Tim Brown**, represents this balance between deep expertise and broad collaboration.
 
 SAMM uses this indicator to observe how a person expands knowledge beyond a primary specialization and contributes across domains when the situation requires it.
 
@@ -137,7 +137,7 @@ SAMM uses this indicator to observe how a person expands knowledge beyond a prim
 
 Every complex system generates uncertainty, pressure, unexpected change, and a continuous need for adaptation. Understanding how people respond to these conditions, and how they affect their ability to continue contributing effectively, is essential for interpreting how a situation may evolve.
 
-This indicator draws on research into resilience and emotional regulation, particularly the work of **Albert Ellis** and **Richard Lazarus & Susan Folkman**.
+This indicator draws on research into resilience and emotional regulation, particularly the work of [**Albert Ellis**](https://es.wikipedia.org/wiki/Albert_Ellis) and **[Richard Lazarus](https://en.wikipedia.org/wiki/Richard_Lazarus) & [Susan Folkman](https://en.wikipedia.org/wiki/Susan_Folkman)**.
 
 Within SAMM, Frustration Tolerance is not intended to measure emotions or define an individual's personality. Instead, it represents **how the conditions of the current situation may affect a person's ability to continue contributing effectively within the system**.
 
@@ -145,7 +145,7 @@ Within SAMM, Frustration Tolerance is not intended to measure emotions or define
 
 ## Current Role
 
-Every observation requires context, as the same situation can be experienced very differently depending on a person's responsibilities within the system. SAMM therefore incorporates the current organizational role as contextual information, drawing inspiration from organizational design approaches such as **Team Topologies**, where responsibilities influence both the information available to individuals and their ability to influence the system.
+Every observation requires context, as the same situation can be experienced very differently depending on a person's responsibilities and technical skills within the system. SAMM therefore incorporates the current organizational role as contextual information.
 
 Within SAMM, the role is not intended to describe or define the individual. Instead, it provides context about **the position from which a person experiences and interacts with a particular situation**.
 
@@ -157,11 +157,9 @@ Only when interpreted together do these indicators provide the **contextual repr
 
 ## A Common Representation
 
-A representation becomes truly valuable when it can be shared. Much of what organizations know remains implicit, distributed across conversations, individual experiences, contextual knowledge, and intuition. As a result, different observers may develop very different mental models of the same situation.
-
 SAMM provides a way to bring these individual observations together into a common representation, making it easier to share perspectives, identify differences in perception, and develop a collective understanding of what is happening within the system.
 
-The objective is not to classify or evaluate individuals, but to **communicate how a specific situation is experienced and reflected through the people involved**.
+The objective is **not to classify or evaluate individuals**, but to **communicate how a specific situation is experienced and reflected through the people involved**.
 
 Each representation is simply a snapshot of a person within a particular situation at a particular moment. It provides a shared starting point for understanding the present, while recognizing that both people and situations continuously evolve.
 
@@ -181,9 +179,10 @@ The notation itself is not the model; it is simply **a shared language for makin
 
 Representation also has practical limits. As organizations grow, complexity increases much faster than our ability to understand it, which is one of the reasons many modern organizational approaches encourage small, autonomous teams.
 
-Frameworks and concepts such as **Team Topologies**, **LeSS**, Amazon's **Two-Pizza Teams**, and **Dunbar's Number** approach this challenge from different perspectives, but they share an important principle: keeping human systems at a scale where relationships and interactions remain observable.
+Frameworks and concepts such as Amazon's [**Two-Pizza Teams**](https://martinfowler.com/bliki/TwoPizzaTeam.html), or [**Dunbar's Number**](https://es.wikipedia.org/wiki/N%C3%BAmero_de_Dunbar) approach this challenge from different perspectives, but they share an important principle: **keeping human systems at a scale where relationships and interactions remain observable**.
 
-SAMM follows the same philosophy. Smaller teams do not eliminate complexity, because complexity is an inherent property of human systems. They simply help keep that complexity within human observational limits.
+> SAMM follows the same philosophy. Smaller teams do not eliminate complexity, because complexity is > an inherent property of human systems. They simply help keep that complexity within human 
+> observational limits.
 
 This principle also explains how SAMM scales. Rather than attempting to observe an increasing number of people simultaneously, **SAMM changes the scale of observation**: from the individual to the team, from the team to the department, and eventually to the organization.
 
