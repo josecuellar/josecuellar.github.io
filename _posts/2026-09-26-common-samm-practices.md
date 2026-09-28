@@ -301,21 +301,23 @@ The lead participates **as another member of the system**, helping create an env
 
 ---
 
-## 6. SAMM Product Space
+## 6. SAMM Alignment 1:1
 
-> _**Who:** Lead + Product + Design + Business._<br>
-> _**When:** Weekly._<br>
-> _**How long:** 30 minutes._
+> ***Who:*** Lead + Product Owner.  
+> ***When:*** Weekly.  
+> ***How long:*** 30 minutes.
 
-Product Space is the recurring **alignment space between product and technology**, where those responsible for the product align its short-, medium-, and long-term direction.
+SAMM Alignment 1:1 is a weekly **catch-up between the Lead and Product Owner** to keep product direction, technical reality and the human system aligned. The Product Owner acts as the main connection point with product, business and design, bringing the relevant context into the conversation.
 
-The conversation brings together **product vision, technical state, priorities and value delivery**, making visible anything that could affect the team as a whole or influence the **energy and direction of the system**.
+The conversation brings together **product direction, technical state, priorities, value delivery and operational concerns**, making visible anything that could affect the team or influence the **energy and direction of the system**.
 
-It is also a space to discuss team dynamics, objectives, individual or collective signals, and possible conflicts. Based on these observations, Product and Tech can agree on the interventions needed to support the team while protecting both the product and the business.
+It is also a space to discuss **team dynamics, individual or collective signals, possible conflicts and potential interventions**. Lead and Product Owner can use these observations to coordinate actions that support the team while protecting both product and business needs.
+
+Beyond day-to-day alignment, the 1:1 creates room for **continuous improvement**. Processes, ways of working and collaboration can be questioned and adjusted when necessary. Lead and Product Owner also exchange feedback about their own collaboration, identifying what is working, what could improve and how they can better support the team together.
 
 This requires a **close and trusted partnership between Product and Tech**. Decisions and interventions should consider not only what the product needs, but also their potential impact on the people and the system that make its evolution possible.
 
-> **Product Space is where product direction and system reality meet.**
+> **SAMM Alignment 1:1 is where product direction, system reality and leadership alignment meet.**
 
 ---
 
