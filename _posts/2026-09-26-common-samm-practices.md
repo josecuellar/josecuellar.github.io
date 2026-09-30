@@ -7,28 +7,25 @@ categories:
   - Situational Awareness Management Model
 tags:
   - situational-awareness
-  - technical-debt
-  - refactoring
+  - technical-leadership
+  - human-systems
   - software-engineering
   - continuous-improvement
-  - lean
   - systems-thinking
   - SAMM
 ---
 
-> *Start moving. Observe. Learn. Evolve.*
+> ***Start moving. Observe. Learn. Evolve.***
 
-SAMM was born as a **situational and adaptive model**. Its purpose is not to define a leadership style or tell a lead exactly how to act in every situation.
+SAMM is a **situational and adaptive model**. It does not define a leadership style or tell a Lead exactly how to act in every situation.
 
-Two leaders may observe the same situation and respond differently depending on the context, the people involved, their experience, and their own leadership style.
-
-SAMM provides something that comes before that decision: **a structured way to understand the situation we are leading**.
+Two leaders may observe the same situation and respond differently depending on the context, the people involved, their experience, and their leadership style. SAMM provides **a common foundation for understanding that context before deciding how to act**, considering the system, the people within it, its trajectory, and the different perceptions of those involved.
 
 > **SAMM provides situational awareness, not leadership recipes.**
 
-The model goes back to the essence that makes any value delivery possible: **people**, their motivation, their growth, and their ability to perform at their best.
+Adopting SAMM does not mean replacing the team's delivery framework or adding a new collection of ceremonies. It means **incorporating situational awareness into existing leadership, communication, and delivery dynamics**.
 
-The following practices represent the **recommended starting point for SAMM**, not a collection of mandatory ceremonies.
+SAMM requires only two specific spaces: an initial **SAMM Onboarding** and a weekly **SAMM Tech Space**. The rest of the model is integrated into existing 1:1s, retrospectives, Product–Tech alignment, and everyday leadership.
 
 ---
 
@@ -42,13 +39,13 @@ The following practices represent the **recommended starting point for SAMM**, n
 
 ## 1. SAMM Foundations
 
-SAMM assumes a system where **iterative value delivery** and established dynamics of collaboration, communication, and feedback already exist.
+SAMM assumes a system where **iterative value delivery**, collaboration, communication, feedback, and continuous improvement already exist.
 
-It does not require a specific framework and can coexist with Scrum, Kanban, Crystal, or other approaches.
+It does not require a specific framework and can coexist with Scrum, Kanban, Crystal, or other approaches. SAMM recommends following [**Agile principles**](https://leadingdepth.com/agile-origins/), with particular attention to [**Extreme Programming (XP)**](https://leadingdepth.com/extreme-programming-values/) because of its focus on technical excellence, continuous feedback, shared knowledge, and collective ownership.
 
-SAMM recommends following [**Agile principles**](https://leadingdepth.com/agile-origins/), with particular attention to [**Extreme Programming (XP)**](https://leadingdepth.com/extreme-programming-values/) because of its focus on technical excellence, continuous feedback, shared knowledge, and collective ownership.
+SAMM does not replace the way a Lead supports the team or follows the evolution of its members. **It adds a situational perspective**, considering how people, capabilities, motivation, challenge, relationships, context, and previous situations influence the evolution of the system.
 
-SAMM does not aim to replace these delivery mechanisms. It focuses on observing and helping evolve **the human system that makes them possible**.
+Regular **1:1s between the Lead and each team member** and recurring **Product–Tech alignment**, preferably once per iteration, are highly recommended regardless of SAMM. The model incorporates its situational perspective into these existing dynamics.
 
 > **SAMM begins where the delivery framework ends: in the human system that makes value delivery possible.**
 
@@ -56,85 +53,73 @@ SAMM does not aim to replace these delivery mechanisms. It focuses on observing 
 
 ## 2. SAMM Onboarding
 
-Before observing a system, we need a shared language about **what we are going to observe and why**.
+The **SAMM Onboarding** is the entry point to the model.
 
-Onboarding establishes that language and generates the first self-observations that will later be used to build the initial representation of the system.
+> ***Who:*** The whole team or new members.  
+> ***When:*** When adopting SAMM and whenever a new member joins.
 
-### 2.1. SAMM Workshop
+Its purpose is to establish a **common situational language**.
 
-> _**Who:** The whole team or new members._<br>
-> _**When:** once per team, and whenever a new member joins._<br>
-> _**How long:** 1-5 hours._
+The session introduces the essential concepts:
 
-SAMM adoption begins with a workshop where the team is introduced to the essential concepts required to work with the model:
+- [**SAMM & Situational Map**](https://leadingdepth.com/the-situational-map/): situations and Situational Memory.
+- [**Human Systems & Observer Theory**](https://leadingdepth.com/complexity-at-the-heart-of-human-systems/): the team as a human system and the role of different perceptions.
+- [**Motivation & Psychological Foundations**](https://leadingdepth.com/the-energy-behind-every-human-system/): motivation, challenge, learning, frustration, growth, and performance.
+- [**Human Representation**](https://leadingdepth.com/understanding-human-systems-attributes-of-system-actors/): System Actor Attributes.
+- [**System Capabilities**](https://leadingdepth.com/understanding-human-systems-technical-and-evolutionary-system-capabilities/): Evolutionary and Technical Capabilities.
+- [**Situational Process**](https://leadingdepth.com/the-situational-process/): moving from observation to intervention.
+- [**Situational Tech Debt Behaviour**](https://leadingdepth.com/no-silver-bullet-for-technical-debt/): technical debt according to the system situation.
+- [**SAMM Intervention Roadmap**](https://leadingdepth.com/attention-is-all-you-need-from-situation-to-intervention/): possible intervention directions.
 
-- [**SAMM & Situational Map:**](https://leadingdepth.com/the-situational-map/) the purpose of the model and its proposed situations.
-- [**Human Systems & Observer Theory:**](https://leadingdepth.com/complexity-at-the-heart-of-human-systems/) understanding the team as a human system and how different observers may perceive the same reality differently.
-- [**Motivation & Psychological Foundations:**](https://leadingdepth.com/the-energy-behind-every-human-system/) concepts related to motivation, challenge, learning, frustration, growth, and performance.
-- [**Human Representation:**](https://leadingdepth.com/understanding-human-systems-attributes-of-system-actors/) Actor Attributes and their purpose.
-- [**System Capabilities:**](https://leadingdepth.com/understanding-human-systems-technical-and-evolutionary-system-capabilities/) Evolutionary and Technical Capabilities.
-- [**Situational Process:**](https://leadingdepth.com/the-situational-process/) recommended foundations for moving from observation to intervention, including concepts such as OODA Loop, Push/Pull, feedback loops, continuous improvement, and Six Sigma.
-- [**Situational Tech Debt Behaviour:**](https://leadingdepth.com/no-silver-bullet-for-technical-debt/) technical debt management and continuous technical improvement.
-- [**SAMM Intervention Roadmap (from situation to intervention):**](https://leadingdepth.com/attention-is-all-you-need-from-situation-to-intervention/) technical debt management and continuous technical improvement.
-- **Common SAMM Practices:** how the evolution of the system will be observed over time.
+SAMM proposes the common **Evolutionary Capabilities**, while **Technical Capabilities** are defined together with the team according to its product, technology, responsibilities, and context.
 
-The workshop does not aim to explain each theory in depth. Each concept can be explored through its corresponding SAMM content.
+After onboarding, each member receives a **private self-observation questionnaire** to complete individually and in their own time.
 
-Its purpose is to establish **a shared language and common principles before we begin observing ourselves as a system**.
+### 2.1. Personal Self-Observation
 
----
-
-### 2.2. Personal Self-Observation
-
-Personal **self-observation questionnaire** where each member describes how they currently perceive themselves through the [system actor attributes](https://leadingdepth.com/understanding-human-systems-attributes-of-system-actors/):
+Each person observes themselves through the main System Actor Attributes:
 
 - **Role & Knowledge Level:** Low / Medium / High
 - **Mindset:** Fixed / Growth
 - **Frustration Tolerance:** Low / Medium / High
 - **Learning Shape:** I-Shape / T-Shape
 
-At this point, we are not looking for consensus or a definitive observation.
-We are looking for **self-perception**: how each person currently observes themselves within the system.
+We are not looking for a definitive description of the person, but for **their current self-perception within the system**.
 
-### 2.3. Capabilities Self-Observation
+### 2.2. Capabilities Self-Observation
 
-In the same questionnaire each person performs an initial [**observation of capabilities**](https://leadingdepth.com/understanding-human-systems-technical-and-evolutionary-system-capabilities/), using a scale from 1 to 5 to represent their current perception.
+The same questionnaire includes an initial observation of **Technical and Evolutionary Capabilities**, using a **1-to-5 scale**.
 
-Two groups are observed:
+The value is not an absolute score. It represents **the perception of an observer at a particular moment and within a particular context**.
 
-**Evolutionary Capabilities**, proposed by SAMM as common dimensions related to a person's ability to learn, collaborate, and evolve.
+A difference between observations is therefore useful information to explore rather than something that needs to be corrected.
 
-**Technical Capabilities**, previously defined and agreed by the team according to the product, technology, responsibilities, and context.
+> **The numerical value is a starting point for the conversation, not its conclusion.**
 
 ---
 
-### 3. SAMM System Mapping 1:1s
+## 3. Individual Evolution Through 1:1s
 
-> _**Who:** Lead + Team member._<br>
-> _**When:** once per team member after SAMM Onboarding, and for each new member joining the team._<br>
-> _**How long:** 1 hour._
+SAMM recommends regular **1:1 conversations between the Lead and each team member**, avoiding more than **two months** between them.
 
-Once the self-observations have been collected, the **System Mapping** begins.
-
-Before each conversation, the lead gathers available observations about each person, incorporating perspectives from other **relevant observers within the system**: Product Owners, Product Managers, other leads, or peer feedback when appropriate.
-
-The lead contextualizes this information and adds their own observation, building the **Lead Perception**.
-
-An **Initial Personal Mapping 1:1** is then held:
+The first 1:1 after onboarding contrasts:
 
 **Self-perception ↔ Lead perception**
 
-**[System Actor Attributes](https://leadingdepth.com/understanding-human-systems-attributes-of-system-actors/) and [Technical & Evolutionary Capabilities](https://leadingdepth.com/understanding-human-systems-technical-and-evolutionary-system-capabilities/) are contrasted**, paying particular attention to differences between perspectives.
+The Lead can incorporate their own observation together with perspectives from other relevant observers — Product, other Leads, or peers when appropriate.
 
-The goal is not to determine who is right, but to understand **why different observers may be perceiving something differently**.
+System Actor Attributes and **Technical & Evolutionary Capabilities** are contrasted, paying particular attention to differences in perception.
+
+The goal is not to determine who is right, but to understand **what each observer is seeing and why their perspectives may differ**.
 
 > **SAMM should generate conversations, not scores.**
 
-The result is the first agreed **Human Representation** of the system: a starting point that will evolve together with the people and their context.
+This creates the initial **Human Representation**, which evolves together with the person and the system.
 
 ---
 
 Personal Representation Example
+
 <br>
 <center>
 <img src="/wp-content/uploads/samm-common-practices-02-human-representation.png" width="600"/>
@@ -142,6 +127,7 @@ Personal Representation Example
 <br>
 
 Team Representation Example
+
 <br>
 <center>
 <img src="/wp-content/uploads/samm-common-practices-03-human-representation.png" width="800"/>
@@ -150,19 +136,42 @@ Team Representation Example
 
 ---
 
-## 4. SAMM Situational Pulse
+Future 1:1s revisit this evolution, professional goals, changes in context, and **the person's perception of their own situation and the wider system**.
 
-> _**Who:** The whole team._<br>
-> _**When:** every two iterations, avoiding more than two months between sessions._<br>
-> _**How long:** 1 hour._
+The conversation adapts to each person's profile, context, situation, and stage of evolution. It is also **bidirectional**: the Lead observes how the person can evolve, but also whether the leadership and the system are creating the conditions they need to develop their potential.
 
-The **SAMM Situational Pulse is the model's main collective observation practice**.
+> **The Lead observes the person within the system while remaining part of that same system.**
 
-Its purpose is to periodically stop and understand how people perceive the system, how it is evolving, and which signals may require attention.
+---
 
-The ideal moment is **immediately after closing one iteration and starting the next**: value has just been delivered, we can observe what happened, and a new cycle is about to begin. For example, the session could take place **the day after the planning meeting**.
+## 4. SAMM Tech Space
 
-The session uses a **shared interactive dashboard** where each member is represented by an icon and can position themselves across the different SAMM observation areas.
+The **SAMM Tech Space** is, together with Onboarding, one of the specific spaces required by SAMM.
+
+> ***Who:*** Lead + Tech team.  
+> ***When:*** Weekly.
+
+Tech Space provides a **recurring and safe space for technical and human communication**.
+
+Through an open round, team members can raise anything they consider relevant: technical debt, decisions, concerns, knowledge they need or want to share, technical or product areas they do not fully understand, difficulties, frustrations, or **how they are experiencing their current situation within the team**.
+
+The Lead should actively [**manage and prioritise technical debt**](https://leadingdepth.com/no-silver-bullet-for-technical-debt/), while encouraging the team to continuously surface new concerns.
+
+But Tech Space goes beyond technology. Its value also comes from allowing **signals to emerge that no dashboard would ever detect**.
+
+The Lead participates as another member of the system, helping create an environment where asking questions, disagreeing, admitting uncertainty, requesting help, or raising concerns feels safe.
+
+> **Tech Space is where the system talks and trust is built.**
+
+---
+
+## 5. Integrating the Situational Pulse into Retrospectives
+
+A retrospective — or an equivalent space focused on **processes, collaboration, and ways of working** — provides a natural place for SAMM's collective situational self-observation.
+
+SAMM recommends performing a **Situational Pulse at least once every three retrospectives**. This leaves enough time for the system to evolve and for previous decisions or interventions to produce observable effects.
+
+If the team already uses a shared digital board, it can be adapted with three SAMM observation areas.
 
 ---
 
@@ -174,49 +183,31 @@ The session uses a **shared interactive dashboard** where each member is represe
 
 ---
 
-#### Challenge / Skills — Flow Theory
+### Challenge / Skills — Flow Theory
 
-Each member positions themselves according to the **challenge they are experiencing** and the **skills they perceive as available to face it**.
+Each person positions themselves according to the **challenge they are experiencing** and the **skills they perceive as available to face it**.
 
-Based on **Flow Theory**, the relationship between Challenge and Skills helps visualize states such as:
+The purpose is not to calculate an average, but to **make different perceptions visible**. If six people are in Flow and one is in Anxiety, that difference may be one of the most relevant signals in the observation.
 
-**Flow · Arousal · Control · Relaxation · Boredom · Apathy · Worry · Anxiety**
+### Arousal / Performance — Yerkes-Dodson
 
-We are not trying to calculate a team average. We are trying to **make different perceptions visible**.
-
-If six people are in Flow and one is in Anxiety, the conclusion should not simply be *"the team is in Flow."*
-
-That difference may be one of the most relevant signals in the session.
-
-#### Arousal / Performance — Yerkes-Dodson
-
-The second observation uses the relationship between **arousal and performance**, taking the **Yerkes-Dodson Law** as a reference.
-
-Each person indicates where they perceive themselves between:
+The second perspective observes perceived activation and performance:
 
 **Under-arousal → Optimal Arousal → Over-arousal**
 
-This helps initiate conversations about insufficient activation or challenge, optimal performance conditions, or excessive levels of pressure and activation.
+SAMM does not use Flow Theory or Yerkes-Dodson as psychological diagnostic tools, but as **shared structures for observation and conversation**.
 
-SAMM does not use these models as psychological diagnostic tools. It uses them as **shared structures for observation and conversation**.
+### SAMM Situation
 
-#### SAMM Situation
-
-Finally, each member indicates which SAMM Situation best represents their perception of the **current professional state of the system**:
+Finally, each person indicates which situation best represents their perception of the system:
 
 **Cruising Speed · Fluctuation · Indirection · Pressure · Stabilize**
 
-The situations provide a **shared language** for expressing and contrasting how different actors perceive the state of the system.
+Different observations are information in themselves. The team makes those perceptions visible, discusses what lies behind them, and builds a **shared understanding of the situation experienced during that period**.
 
-Significant differences between selected situations are information in themselves, as different actors may be experiencing very different realities within the same system.
+### Situational Memory
 
-The objective is to discuss these different perceptions and reach a **shared understanding of the situation the team has experienced since the previous SAMM Situational Pulse**. This may require comfortable or uncomfortable conversations, especially when perceptions differ significantly. 
-
-The goal is not to avoid those differences, but to make them visible, understand what lies behind them and, through conversation, **agree on the SAMM Situation** that best represents the team's experience during that period.
-
-#### Observing the trajectory
-
-SAMM does not observe only the present. The dashboard should visually preserve approximately the **last 10 situations**.
+The board preserves the **last five SAMM Situations**, making the recent trajectory of the system visible and progressively building its [**Situational Memory**](https://leadingdepth.com/the-situational-map/#situational-memory).
 
 ---
 
@@ -228,130 +219,74 @@ SAMM does not observe only the present. The dashboard should visually preserve a
 
 ---
 
-The trajectory provides context and builds what SAMM calls [**Situational Memory**](https://leadingdepth.com/the-situational-map/#situational-memory).
-
-An isolated observation tells us where we believe we are. Situational Memory helps us understand **where we came from, how long we remained in certain situations, which transitions occurred, and how the system responded to previous decisions and interventions**.
-
-Instead of interpreting each new situation in isolation, we can use the accumulated experience of the system as part of future decisions.
-
-During the Situational Pulse, we try to answer:
+An isolated situation tells us where we believe we are. Situational Memory helps us understand **how we arrived there and how the system responded to previous decisions and interventions**.
 
 > **Where did we come from? → Where are we now? → Where do we seem to be heading?**
 
-**Why?**
-
-What changed? 
-What are we perceiving differently? 
-Is motivation changing? 
-Are we increasing challenge too much? 
-Is there enough challenge? 
-Are there individual signals that differ significantly from the rest?
-
-The dashboard also provides **SAMM recommendations regarding the expected duration of situations and possible next situations**.
-
-These recommendations are **guardrails or guideline, not transition rules**.
-
-**Context always comes first.**
+The distance between Pulses matters because **the system needs time to respond**.
 
 > **The dashboard provides signals. The conversation provides understanding.**
 
-#### From Observation to Intervention
+### From Observation to Intervention
 
-The Situational Pulse does not end when a situation is identified.
+Observations can lead to **specific actions agreed by the team**, with clear ownership for follow-up.
 
-Once the team has **agreed on the SAMM Situation**, the conversation naturally moves towards what could be done next. Team members can suggest changes, experiments or interventions based on what has emerged during the Pulse.
+Each SAMM Situation provides a [**situational intervention roadmap**](https://leadingdepth.com/attention-is-all-you-need-from-situation-to-intervention/) with possible directions to explore, not prescribed actions.
 
-Each SAMM Situation provides a [**situational intervention roadmap**](https://leadingdepth.com/attention-is-all-you-need-from-situation-to-intervention/) with possible directions to explore, not prescribed actions. From there, the Lead decides [**whether to intervene, what to do, and how to do it**](https://leadingdepth.com/the-situational-process/), considering the team's suggestions, the people involved, the context and the **Situational Memory**.
+The team contributes observations and possible ways forward. The Lead uses those inputs together with the people involved, the context, **Situational Memory**, and their own experience to decide [**whether to intervene, what to do, and how to do it**](https://leadingdepth.com/the-situational-process/).
 
-This is where the Lead's **experience and situational judgement** matter. Sometimes this means reducing pressure or giving the system time to stabilize; at other times, it may mean creating a learning opportunity, restoring direction or challenging an existing dynamic. The [**SAMM Situational Process**](https://leadingdepth.com/the-situational-process/), supported by mechanisms such as OODA Loop, Push/Pull, feedback loops or Six Sigma, provides a simple structure to follow.
+Sometimes this means reducing pressure or allowing the system to stabilise; at other times, creating a learning opportunity, restoring direction, or challenging an existing dynamic.
 
 > **SAMM suggests where to look and what to consider. The team contributes possible ways forward, while the Lead uses experience and situational judgement to decide when and how to influence the system.**
 
 ---
 
-## 5. SAMM Tech Space
+## 6. Situational Awareness in Everyday Leadership
 
-> _**Who:** Lead + Tech team._<br>
-> _**When:** weekly._<br>
-> _**How long:** 1 hour._
+The Situational Pulse provides periodic collective observation and Tech Space maintains a weekly communication channel, but SAMM becomes deeper when **situational awareness becomes part of the Lead's everyday judgement**.
 
-Tech Space is the team's recurring **safe communication space**.
+Signals emerge through 1:1s, Tech Space, retrospectives, technical discussions, planning, feedback, value delivery, and everyday interaction with the system.
 
-Each member takes part in an **open round** where they can share how their week went and raise anything they consider relevant: technical debt, decisions, concerns, knowledge they need or want to share, technical or product areas they do not fully understand, difficulties, frustrations, or simply **how they feel within the team context**.
+Continuous evaluation already exists in many organisations through objectives, professional development, feedback, and capability assessment. SAMM does not replace these processes. It provides **a framework for consultation and contrast around variables that are difficult to observe objectively**, such as capabilities, motivation, challenge, and personal evolution.
 
-The lead should actively [manage, prioritise and refine technical debt](https://leadingdepth.com/no-silver-bullet-for-technical-debt/), while encouraging the team to continuously surface new concerns and add them to the shared dashboard.
+By making different perspectives visible and looking for **points of balance and shared understanding**, SAMM can enrich existing evaluation processes with context while keeping the focus on **people, their evolution, and the conditions they need to develop their potential**.
 
-It is not just a technical meeting. It is where signals can emerge that no dashboard would ever detect.
-
-The lead participates **as another member of the system**, helping create an environment where asking questions, disagreeing, admitting uncertainty, requesting help, or raising concerns feels safe.
-
-> **Tech Space is where the system talks and trust is built.**
+> **SAMM does not aim to make evaluation more absolute, but more aware of context, people, and the different perspectives from which we observe.**
 
 ---
 
-## 6. SAMM Alignment 1:1
+## 7. Product and Technology Alignment
 
-> ***Who:*** Lead + Product Owner.  
-> ***When:*** Weekly.  
-> ***How long:*** 30 minutes.
+SAMM recommends recurring **alignment between the Lead and Product**, preferably once per iteration.
 
-SAMM Alignment 1:1 is a weekly **catch-up between the Lead and Product Owner** to keep product direction, technical reality and the human system aligned. The Product Owner acts as the main connection point with product, business and design, bringing the relevant context into the conversation.
+This is not a SAMM-specific ceremony. It is an existing Product–Tech practice where the model introduces a situational perspective.
 
-The conversation brings together **product direction, technical state, priorities, value delivery and operational concerns**, making visible anything that could affect the team or influence the **energy and direction of the system**.
+Alongside product direction, priorities, technical reality, and value delivery, the conversation can include **the team's situation, needs, capabilities, dependencies, conflicts, and possible interventions**.
 
-It is also a space to discuss **team dynamics, individual or collective signals, possible conflicts and potential interventions**. Lead and Product Owner can use these observations to coordinate actions that support the team while protecting both product and business needs.
+This becomes especially relevant when priorities, pressure, responsibilities, or technical challenges change.
 
-Beyond day-to-day alignment, the 1:1 creates room for **continuous improvement**. Processes, ways of working and collaboration can be questioned and adjusted when necessary. Lead and Product Owner also exchange feedback about their own collaboration, identifying what is working, what could improve and how they can better support the team together.
+The conversation is also bidirectional: Product and Tech can observe their own collaboration and how they can jointly create better conditions for the system.
 
-This requires a **close and trusted partnership between Product and Tech**. Decisions and interventions should consider not only what the product needs, but also their potential impact on the people and the system that make its evolution possible.
-
-> **SAMM Alignment 1:1 is where product direction, system reality and leadership alignment meet.**
+> **Product direction, technical reality, and the human system should not be observed independently.**
 
 ---
 
-## 7. SAMM Growth 1:1s
+## 8. A Starting Point, Not a Prescription
 
-> _**Who:** Lead + Team member._<br>
-> _**When:** monthly._<br>
-> _**How long:** 1 hour._
+SAMM generates information that evolves with the system: people, capabilities, observations, situations, interventions, and **Situational Memory**.
 
-Growth 1:1s are the private space where the evolution and [energy](https://leadingdepth.com/the-situational-map/#situational-energy) of each person can be observed over time: **System Actor Attributes, Technical & Evolutionary Capabilities, professional goals, and possible limitations or blockers**.
+Digital support can help preserve this information while maintaining a clear separation between **collective system information and individual private information**. In the future, **SAMM Suite** can use this evolving memory to retrieve previous observations and interventions, detect patterns, and support decision-making.
 
-The initial observations from System Mapping **should evolve together with the person**. During these conversations, System Actor Attributes and Technical & Evolutionary Capabilities are observed again, allowing previous perceptions to be revisited and updated as the person and their context evolve.
+But the tool is secondary.
 
-These observations should be discussed together rather than updated unilaterally. Through conversation and consensus, the person and the lead can build a shared understanding of what has changed, where development is taking place and where additional support may be useful. **Professional goals can then be reviewed and adapted to reflect this evolving representation.**
+The initial adoption of SAMM can be summarised simply:
 
-SAMM Situations can also provide a **shared language for individual conversations** when someone considers their personal context relevant.
+**SAMM Onboarding → Private Self-Observation → Situational 1:1s → Weekly Tech Space → Situational Pulse in Retrospectives → Product–Tech Alignment → Everyday Situational Leadership**
 
-For example:
+Among these, **SAMM Onboarding and Tech Space are the two specific spaces required by SAMM**. The others integrate situational awareness into leadership and team dynamics that already exist or are recommended independently of the model.
 
-**Professional → Cruising Speed**  
-***Personal → Pressure*** *(Optional)*
+The objective is not to introduce another layer of process.
 
-This is not about observing or intervening in someone's private life. **The person always decides what they want to share and how far they want to go.**
+It is to **incorporate situational awareness into the way we observe, communicate, evaluate, and lead the system**, keeping people and their evolution at the centre.
 
-The purpose is to better understand their context and create space for a simple question:
-
-> **How can I help you?**
-
-Growth 1:1s also include bidirectional feedback: what the person should maintain or improve, and what the lead should maintain or improve.
-
-> **The lead observes the system while remaining part of the system.**
-
----
-
-## 8. A starting point, not a prescription
-
-SAMM practices generate information that evolves with the system: actors, capabilities, observations, situations, interventions, and **Situational Memory**.
-
-SAMM recommends preserving this information through **digital support**, with a clear separation between **collective system information** and **individual private information**.
-
-In the near future, **SAMM Suite** will provide specific support for these practices, their history, and detailed information retrieval. Built on top of this memory, **AI capabilities** will progressively help **detect patterns, explore possible system evolutions, and support decision-making and organizational strategy**.
-
-These practices are a **starting point, not a prescription**.
-
-Every team, organization, and lead can adapt and evolve them according to their context while preserving the principles behind them.
-
-SAMM itself should evolve in the same way: through a community of leads experimenting with the model, challenging it, and sharing what they learn across different contexts and leadership styles.
-
-> **Adapt it. Challenge it. Share what you learn.**
+> **Observe. Contrast perceptions. Build Situational Memory. Intervene with context.**
