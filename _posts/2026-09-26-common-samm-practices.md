@@ -203,21 +203,10 @@ Finally, each person indicates which situation best represents their perception 
 
 **Cruising Speed · Fluctuation · Indirection · Pressure · Stabilize**
 
-Different observations are information in themselves. The team makes those perceptions visible, discusses what lies behind them, and builds a **shared understanding of the situation experienced during that period**.
-
-### Situational Memory
+> Different observations are information in themselves. The team makes those perceptions visible, 
+> discusses what lies behind them, and builds a **shared understanding of the situation experienced > during that period**.
 
 The board preserves the **last five SAMM Situations**, making the recent trajectory of the system visible and progressively building its [**Situational Memory**](https://leadingdepth.com/the-situational-map/#situational-memory).
-
----
-
-<br>
-<center>
-<img src="/wp-content/uploads/samm-common-practices-06-situations-in-time.png" width="800"/>
-</center>
-<br>
-
----
 
 An isolated situation tells us where we believe we are. Situational Memory helps us understand **how we arrived there and how the system responded to previous decisions and interventions**.
 
@@ -226,8 +215,6 @@ An isolated situation tells us where we believe we are. Situational Memory helps
 The distance between Pulses matters because **the system needs time to respond**.
 
 > **The dashboard provides signals. The conversation provides understanding.**
-
-### From Observation to Intervention
 
 Observations can lead to **specific actions agreed by the team**, with clear ownership for follow-up.
 
