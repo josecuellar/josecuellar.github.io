@@ -120,7 +120,6 @@ This creates the initial **Human Representation**, which evolves together with t
 
 Personal Representation Example
 
-<br>
 <center>
 <img src="/wp-content/uploads/samm-common-practices-02-human-representation.png" width="600"/>
 </center>
@@ -128,7 +127,6 @@ Personal Representation Example
 
 Team Representation Example
 
-<br>
 <center>
 <img src="/wp-content/uploads/samm-common-practices-03-human-representation.png" width="800"/>
 </center>
@@ -174,13 +172,9 @@ SAMM recommends performing a **Situational Pulse at least once every three retro
 If the team already uses a shared digital board, it can be adapted with three SAMM observation areas.
 
 ---
-
-<br>
 <center>
 <img src="/wp-content/uploads/samm-common-practices-03-situational-pulse-dashboard.png" width="800"/>
 </center>
-<br>
-
 ---
 
 ### Challenge / Skills — Flow Theory
@@ -204,7 +198,8 @@ Finally, each person indicates which situation best represents their perception 
 **Cruising Speed · Fluctuation · Indirection · Pressure · Stabilize**
 
 > Different observations are information in themselves. The team makes those perceptions visible, 
-> discusses what lies behind them, and builds a **shared understanding of the situation experienced > during that period**.
+> discusses what lies behind them, and builds a **shared understanding of the situation** 
+> experienced during that period.
 
 The board preserves the **last five SAMM Situations**, making the recent trajectory of the system visible and progressively building its [**Situational Memory**](https://leadingdepth.com/the-situational-map/#situational-memory).
 
@@ -228,21 +223,7 @@ Sometimes this means reducing pressure or allowing the system to stabilise; at o
 
 ---
 
-## 6. Situational Awareness in Everyday Leadership
-
-The Situational Pulse provides periodic collective observation and Tech Space maintains a weekly communication channel, but SAMM becomes deeper when **situational awareness becomes part of the Lead's everyday judgement**.
-
-Signals emerge through 1:1s, Tech Space, retrospectives, technical discussions, planning, feedback, value delivery, and everyday interaction with the system.
-
-Continuous evaluation already exists in many organisations through objectives, professional development, feedback, and capability assessment. SAMM does not replace these processes. It provides **a framework for consultation and contrast around variables that are difficult to observe objectively**, such as capabilities, motivation, challenge, and personal evolution.
-
-By making different perspectives visible and looking for **points of balance and shared understanding**, SAMM can enrich existing evaluation processes with context while keeping the focus on **people, their evolution, and the conditions they need to develop their potential**.
-
-> **SAMM does not aim to make evaluation more absolute, but more aware of context, people, and the different perspectives from which we observe.**
-
----
-
-## 7. Product and Technology Alignment
+## 6. Product and Technology Alignment
 
 SAMM recommends recurring **alignment between the Lead and Product**, preferably once per iteration.
 
@@ -258,7 +239,7 @@ The conversation is also bidirectional: Product and Tech can observe their own c
 
 ---
 
-## 8. A Starting Point, Not a Prescription
+## A Starting Point, Not a Prescription
 
 SAMM generates information that evolves with the system: people, capabilities, observations, situations, interventions, and **Situational Memory**.
 
