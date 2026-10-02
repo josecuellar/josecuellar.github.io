@@ -1,5 +1,5 @@
 ---
-title: SAMM
+title: Situational Awareness Management Model
 icon: fas fa-project-diagram
 order: 2
 ---
@@ -192,8 +192,6 @@ order: 2
 
 
 <div class="samm-hero">
-
-  <h1>Situational Awareness Management Model</h1>
 
   <p class="samm-tagline">
     A human-centered management model for understanding people, systems and situations in technical organizations.
