@@ -214,19 +214,10 @@ order: 2
   Rather than changing how you lead, SAMM adds the situational awareness to
   <strong>lead with greater understanding — knowing when to act, how to act, and when not to act at all.</strong>
 </p>
-
+</div>
 <div class="samm-hero-image">
     <img src="/wp-content/uploads/samm_intro.png" />
 </div>
-
-  {% if samm_intro %}
-    <a class="samm-primary-link" href="{{ samm_intro.url | relative_url }}">
-      Start with SAMM →
-    </a>
-  {% endif %}
-
-</div>
-
 <div class="samm-grid">
 
   <div class="samm-card">
