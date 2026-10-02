@@ -181,6 +181,16 @@ order: 2
       padding: 1.3rem .8rem;
     }
   }
+  .samm-hero-image {
+  margin: 2rem 0 3.5rem;
+}
+
+.samm-hero-image img {
+  width: 100%;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid var(--main-border-color);
+}
 </style>
 
 {% assign samm_intro = site.posts | where_exp: "post", "post.title contains 'Situational Awareness Management Model'" | last %}
@@ -194,13 +204,12 @@ order: 2
 <div class="samm-hero">
 
   <p class="samm-tagline">
-    A human-centered management model for understanding people, systems and situations in technical organizations.
+     > A human-centered management model born from experience, built to understand before acting.
   </p>
 
   <p class="samm-lead">
-    SAMM helps technical leaders understand what is happening around them before deciding how to act.
-    It brings together people, systems, context and observation to build a richer situational picture
-    and support better-informed interventions.
+        SAMM reflects a way of leading shaped by years of working with people, teams and complex technical systems: observe before judging, understand before intervening, and adapt leadership to the reality of each situation.
+        It brings together people, relationships, capabilities, systems and context to build a living picture of what is really happening — not to prescribe how leaders should act, but to give them the situational awareness to know when to act, how to act, and when not to act at all.
   </p>
 
   {% if samm_intro %}
@@ -211,31 +220,9 @@ order: 2
 
 </div>
 
-
-<div class="samm-flow">
-
-  <div class="samm-flow-sources">
-    <span class="samm-flow-source">PEOPLE</span>
-    <span class="samm-flow-source">SYSTEMS</span>
-    <span class="samm-flow-source">SITUATIONS</span>
-  </div>
-
-  <div class="samm-flow-arrow">↓</div>
-
-  <div class="samm-awareness">
-    SITUATIONAL AWARENESS
-  </div>
-
-  <div class="samm-flow-arrow">↓</div>
-
-  <div class="samm-intervention">
-    INFORMED INTERVENTION
-  </div>
-
+<div class="samm-hero-image">
+    <img src="/wp-content/uploads/samm_intro.png" />
 </div>
-
-
-<h2 class="samm-section-title">Explore SAMM</h2>
 
 <div class="samm-grid">
 
@@ -414,7 +401,7 @@ order: 2
 
   <h2>Latest from SAMM</h2>
 
-  {% assign samm_posts = site.posts | where_exp: "post", "post.categories contains 'SAMM'" %}
+  {% assign samm_posts = site.posts | where_exp: "post", "post.categories contains 'Situational Awareness Management Model'" %}
 
   {% if samm_posts.size > 0 %}
 
