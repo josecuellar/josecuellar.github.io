@@ -203,14 +203,21 @@ order: 2
 
 <div class="samm-hero">
 
-  <p class="samm-tagline">
-     > A human-centered management model born from experience, built to understand before acting.
-  </p>
+<p class="samm-lead">
+  SAMM reflects a way of leading shaped by years of working with people, teams and complex technical systems:
+  <strong>observe before judging and understand before intervening.</strong>
+</p>
 
-  <p class="samm-lead">
-        SAMM reflects a way of leading shaped by years of working with people, teams and complex technical systems: observe before judging, understand before intervening, and adapt leadership to the reality of each situation.
-        It brings together people, relationships, capabilities, systems and context to build a living picture of what is really happening — not to prescribe how leaders should act, but to give them the situational awareness to know when to act, how to act, and when not to act at all.
-  </p>
+<p class="samm-lead">
+  It connects people, relationships, capabilities, motivation, systems and context to understand what is really happening,
+  recognizing <strong>motivation as a key driver of individual and team performance</strong>.
+  Rather than changing how you lead, SAMM adds the situational awareness to
+  <strong>lead with greater understanding — knowing when to act, how to act, and when not to act at all.</strong>
+</p>
+
+<div class="samm-hero-image">
+    <img src="/wp-content/uploads/samm_intro.png" />
+</div>
 
   {% if samm_intro %}
     <a class="samm-primary-link" href="{{ samm_intro.url | relative_url }}">
@@ -218,10 +225,6 @@ order: 2
     </a>
   {% endif %}
 
-</div>
-
-<div class="samm-hero-image">
-    <img src="/wp-content/uploads/samm_intro.png" />
 </div>
 
 <div class="samm-grid">
