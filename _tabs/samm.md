@@ -1,5 +1,5 @@
 ---
-title: Situational Awareness Management Model
+title: SAMM
 icon: fas fa-project-diagram
 order: 2
 ---
@@ -191,6 +191,10 @@ order: 2
   border-radius: 14px;
   border: 1px solid var(--main-border-color);
 }
+.dynamic-title {
+  display: none;
+}
+
 </style>
 
 {% assign samm_intro = site.posts | where_exp: "post", "post.title contains 'Situational Awareness Management Model'" | last %}
@@ -200,9 +204,8 @@ order: 2
 {% assign attention = site.posts | where_exp: "post", "post.title contains 'Attention Is All You Need'" | first %}
 {% assign practices_post = site.posts | where_exp: "post", "post.title contains 'Common SAMM Practices'" | first %}
 
-
 <div class="samm-hero">
-
+<h1>Situational Awareness Management Model</h1>
 <p class="samm-lead">
   SAMM reflects a way of leading shaped by years of working with people, teams and complex technical systems:
   <strong>observe before judging and understand before intervening.</strong>
