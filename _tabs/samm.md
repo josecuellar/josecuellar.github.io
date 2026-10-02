@@ -206,6 +206,7 @@ order: 2
 
 <div class="samm-hero">
 <h1>Situational Awareness Management Model</h1>
+<br>
 <p class="samm-lead">
   SAMM reflects a way of leading shaped by years of working with people, teams and complex technical systems:
   <strong>observe before judging and understand before intervening.</strong>
