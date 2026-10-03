@@ -1,7 +1,7 @@
 ---
 title: SAMM
 icon: fas fa-project-diagram
-order: 2
+order: 5
 ---
 
 <style>
@@ -206,18 +206,47 @@ order: 2
 
 <div class="samm-hero">
 <h1>Situational Awareness Management Model</h1>
+
 <br>
-<p class="samm-lead">
-  SAMM reflects a way of leading shaped by years of working with people, teams and complex technical systems:
-  <strong>observe before judging and understand before intervening.</strong>
+
+<p class="lead">
+  SAMM emerged from years of experiencing software teams from different perspectives —
+  <strong>as a backend engineer working within the system and as a technical leader responsible for guiding it.</strong>
+  Across different organisations, leadership styles, personalities and ways of working, one observation became increasingly clear:
+  <strong>the same people, processes and technology can require very different leadership depending on the situation the system is experiencing.</strong>
 </p>
 
-<p class="samm-lead">
-  It connects people, relationships, capabilities, motivation, systems and context to understand what is really happening,
-  recognizing <strong>motivation as a key driver of individual and team performance</strong>.
-  Rather than changing how you lead, SAMM adds the situational awareness to
-  <strong>lead with greater understanding — knowing when to act, how to act, and when not to act at all.</strong>
+<p>
+  Experience provides patterns and possible responses, but effective leadership requires understanding
+  <strong>what the system needs at a particular moment</strong> — its context, its people, their motivation,
+  and the conditions influencing how they work and evolve.
+  This is where the
+  <a href="https://leadingdepth.com/learning-experience-situational-awareness-journey-begins/">
+    Situational Awareness journey begins
+  </a>.
 </p>
+
+<p>
+  SAMM starts from the relationship between <strong>People, Process and Technology</strong> — the
+  <a href="https://leadingdepth.com/golden-triangle-of-human-system/">
+    Golden Triangle of Human Systems
+  </a>.
+  These dimensions continuously influence one another, while people experience their combined effects
+  through motivation, challenge, learning, relationships and the way they perform their work.
+</p>
+
+<p>
+  SAMM does not replace existing methodologies, redefine processes or technologies, or attempt to change people.
+  It introduces an additional layer of <strong>organisational situational awareness</strong>: observing how the
+  system and its current conditions affect people and their motivation, understanding how those conditions evolve
+  over time, and using that awareness to create the environment in which the system can achieve
+  <strong>its best sustainable performance at each moment.</strong>
+</p>
+
+<blockquote>
+  <strong>Observe the system. Understand the situation. Lead with context.</strong>
+</blockquote>
+
 </div>
 <div class="samm-hero-image">
     <img src="/wp-content/uploads/samm_intro.png" />
@@ -225,165 +254,58 @@ order: 2
 <div class="samm-grid">
 
   <div class="samm-card">
-    <span class="samm-card-number">01 — FOUNDATIONS</span>
-    <h3>Understand the model</h3>
+    <span class="samm-card-number">01 — PEOPLE</span>
     <p>
-      Start with the principles behind SAMM and why situational awareness matters
-      in technical leadership.
+    SAMM understands teams as <strong>living human systems that continuously learn, adapt and evolve</strong>.
+    Explore their <a href="https://leadingdepth.com/complexity-at-the-heart-of-human-systems/">underlying complexity</a>,
+    <a href="https://leadingdepth.com/understanding-human-systems-attributes-of-system-actors/">observable human attributes</a>,
+    <a href="https://leadingdepth.com/understanding-human-systems-technical-and-evolutionary-system-capabilities/">Technical and Evolutionary Capabilities</a>,
+    and <a href="https://leadingdepth.com/the-energy-behind-every-human-system/">motivation as the energy that fuels productivity</a> and drives the system forward.
     </p>
-
-    {% if samm_intro %}
-      <a href="{{ samm_intro.url | relative_url }}">Explore the foundations →</a>
-    {% endif %}
   </div>
 
 
   <div class="samm-card">
-    <span class="samm-card-number">02 — PEOPLE &amp; ACTORS</span>
-    <h3>Understand the people</h3>
+    <span class="samm-card-number">02 — PROCESS</span>
     <p>
-      Explore actors, capabilities, relationships, perception and the human
-      context surrounding a technical system.
+      SAMM <a href="https://leadingdepth.com/the-situational-map/">observes the situation experienced by the human system</a>
+      and how its processes and context are affecting people.
+      Through <a href="https://leadingdepth.com/the-situational-process/">continuous observation and learning</a>,
+      the <a href="https://leadingdepth.com/attention-is-all-you-need-from-situation-to-intervention/">Intervention Roadmap</a>
+      provides <strong>recommended processes and areas of attention according to the situation, enabling a more contextual and adaptive intervention</strong>.
     </p>
-
-    {% if people_post %}
-      <a href="{{ people_post.url | relative_url }}">Explore People &amp; Actors →</a>
-    {% endif %}
   </div>
 
 
   <div class="samm-card">
-    <span class="samm-card-number">03 — SITUATIONAL AWARENESS</span>
-    <h3>Understand the situation</h3>
+    <span class="samm-card-number">03 — TECHNOLOGY</span>
     <p>
-      Move from isolated observations to a broader understanding of context,
-      signals, perception and change.
+      Technical debt is not an isolated technical problem with a universal solution.
+      <a href="https://leadingdepth.com/no-silver-bullet-for-technical-debt/">SAMM observes technical debt within the situation of the human system</a>,
+      considering its impact on <strong>people, motivation, knowledge, delivery and the system’s ability to evolve</strong>,
+      so that technical decisions and interventions can be adapted to the context rather than applying the same response in every situation.
     </p>
-
-    {% if situational_map %}
-      <a href="{{ situational_map.url | relative_url }}">Explore the Situational Map →</a>
-    {% endif %}
   </div>
 
 
   <div class="samm-card">
-    <span class="samm-card-number">04 — PRACTICES</span>
-    <h3>Put SAMM into practice</h3>
+    <span class="samm-card-number">04 — TAKE FIRST STEP</span>
     <p>
-      Apply the model through Actor Mapping, Situational Pulse, Tech Spaces,
-      1:1s and other recurring practices.
+      SAMM becomes actionable through <a href="https://leadingdepth.com/common-samm-practices/">a set of practices integrated into everyday leadership</a>,
+      making the human system, its capabilities, motivation and current situation progressively observable.
+      Practices such as <strong>Onboarding, 1:1s, Tech Space and Situational Pulse</strong> help contrast perceptions, build Situational Memory
+      and turn situational awareness into <strong>shared understanding and context-aware action</strong>.
     </p>
-
-    {% if practices_post %}
-      <a href="{{ practices_post.url | relative_url }}">Explore SAMM Practices →</a>
-    {% endif %}
   </div>
 
 </div>
-
-
-<h2 class="samm-section-title">How SAMM thinks about situations</h2>
-
-<div class="samm-thinking">
-
-  <p>
-    SAMM is not intended to prescribe a fixed response. It provides a way to
-    continuously <strong>observe, interpret and understand</strong> a changing
-    technical and human system before intervening.
-  </p>
-
-  {% if situational_process %}
-    <p>
-      <a href="{{ situational_process.url | relative_url }}">
-        Read: The Situational Process →
-      </a>
-    </p>
-  {% endif %}
-
-  {% if attention %}
-    <p>
-      <a href="{{ attention.url | relative_url }}">
-        Read: Attention Is All You Need →
-      </a>
-    </p>
-  {% endif %}
-
-</div>
-
-
-<h2 class="samm-section-title">Start here</h2>
-
-<p>
-  If this is your first time exploring SAMM, follow the model through these
-  core articles:
-</p>
-
-<ol class="samm-reading">
-
-  {% if samm_intro %}
-    <li>
-      <a href="{{ samm_intro.url | relative_url }}">
-        <strong>Situational Awareness Management Model</strong>
-      </a>
-      — an introduction to the model and its purpose.
-    </li>
-  {% endif %}
-
-  {% if people_post %}
-    <li>
-      <a href="{{ people_post.url | relative_url }}">
-        <strong>Representing People Within Situations</strong>
-      </a>
-      — bringing the human dimension into the situational picture.
-    </li>
-  {% endif %}
-
-  {% if situational_map %}
-    <li>
-      <a href="{{ situational_map.url | relative_url }}">
-        <strong>The Situational Map</strong>
-      </a>
-      — representing the system and its context.
-    </li>
-  {% endif %}
-
-  {% if situational_process %}
-    <li>
-      <a href="{{ situational_process.url | relative_url }}">
-        <strong>The Situational Process</strong>
-      </a>
-      — moving from observation towards intervention.
-    </li>
-  {% endif %}
-
-  {% if attention %}
-    <li>
-      <a href="{{ attention.url | relative_url }}">
-        <strong>Attention Is All You Need</strong>
-      </a>
-      — exploring attention, perception and situational awareness.
-    </li>
-  {% endif %}
-
-  {% if practices_post %}
-    <li>
-      <a href="{{ practices_post.url | relative_url }}">
-        <strong>Common SAMM Practices</strong>
-      </a>
-      — bringing the model into everyday technical leadership.
-    </li>
-  {% endif %}
-
-</ol>
-
 
 <div class="samm-community">
 
   <h2>Join the SAMM Community</h2>
 
   <p class="samm-community-intro">
-    New insights on technical leadership, software engineering, and SAMM
-    community news — straight to your inbox.
+New insights on technical leadership, software engineering, and SAMM community news — straight to your inbox. Join the conversation and share your experience.
   </p>
 
   <script
